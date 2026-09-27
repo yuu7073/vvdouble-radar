@@ -143,6 +143,21 @@ input,select,textarea{font-family:inherit;font-size:13px}
 .lb .meta .sub{font-size:12px;color:var(--mute);width:100%}
 .lb .x{position:absolute;top:16px;right:20px;width:40px;height:40px;border-radius:50%;border:0;background:#fff;font-size:20px;line-height:40px;text-align:center}
 .pside select{width:calc(100% - 36px);margin:0 18px 12px;padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:#fff;font-size:13px}
+.ctab{width:100%;border-collapse:collapse;background:#fff;border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.ctab th{font-size:11px;font-weight:500;color:var(--mute);text-align:left;padding:10px 12px;border-bottom:1px solid var(--line);letter-spacing:.5px}
+.ctab td{padding:10px 12px;border-bottom:1px solid var(--soft);font-size:13px;vertical-align:top}
+.ctab tr:last-child td{border-bottom:0}
+.ctab tr.row{cursor:pointer}
+.ctab tr.row:hover td{background:#FAF9F6}
+.ctab .bn{font-weight:700;white-space:nowrap}
+.ctab .dt{color:var(--mute);font-size:12px;white-space:nowrap}
+.ctab .cp{font-weight:700}
+.ctab .sm{font-size:12px;color:var(--mute);line-height:1.5}
+.ctab .pend{color:var(--orange);font-size:11px}
+.cstat{display:flex;flex-wrap:wrap;gap:8px}
+.cstat button{padding:6px 12px;border-radius:999px;border:1px solid var(--line);background:#fff;font-size:12px;display:flex;gap:6px;align-items:center}
+.cstat button.on{background:var(--blue);border-color:var(--blue);color:#fff}
+.cstat button b{font-weight:700}
 .toast{position:fixed;bottom:20px;left:50%;transform:translateX(-50%);background:var(--ink);color:#fff;padding:10px 18px;border-radius:8px;font-size:13px;opacity:0;transition:.2s;pointer-events:none}
 .toast.on{opacity:1}
 @media (max-width:900px){.vvr-side{display:none}.det{flex-direction:column}.det .panel{width:auto}.det .shotbox .frame{height:60vh}}
@@ -155,6 +170,7 @@ input,select,textarea{font-family:inherit;font-size:13px}
   <div class="vvr-nav" id="nav">
     <button data-v="timeline" class="on">品牌時間軸</button>
     <button data-v="compare">橫向比較</button>
+    <button data-v="campaigns">活動案型</button>
     <button data-v="banners">Banner 牆</button>
     <button data-v="products">新品款式庫</button>
     <button data-v="calendar">更新日曆</button>
@@ -191,7 +207,7 @@ var CATS = [
 /* ============================================================
    狀態
    ============================================================ */
-var S = { view: 'timeline', brand: null, index: null, notes: {}, cache: {}, weekEnd: null, device: 'm', onlyChanged: true, detail: null,
+var S = { view: 'timeline', cTag: '', cBrand: '', cRange: '30', brand: null, index: null, notes: {}, cache: {}, weekEnd: null, device: 'm', onlyChanged: true, detail: null,
           bannerDevice: 'pc', bannerOnlyNew: true, pTime: 'week', pBrand: '', pPriceSel: '', pCatSel: '', pSort: 'date' };
 var db = null;
 
@@ -359,6 +375,48 @@ function renderDetail(body) {
 }
 
 /* ============================================================
+   畫面 7：活動案型總覽
+   ============================================================ */
+function renderCampaigns(body) {
+  var today = todayStr();
+  var from = S.cRange === '7' ? addDays(today, -7) : S.cRange === '30' ? addDays(today, -30) : S.cRange === '90' ? addDays(today, -90) : '0000';
+  var rows = [];
+  brands().forEach(function (b) {
+    caps(b.id, true).forEach(function (c) {
+      if (c.date < from) return;
+      var t = tagsOf(b.id, c), n = S.notes[noteKey(b.id, c.date)] || {};
+      var tags = t.user.length ? t.user : t.ai;
+      rows.push({ b: b, c: c, tags: tags, userTagged: t.user.length > 0, campaign: t.campaign, memo: n.memo || '' });
+    });
+  });
+  var tagCount = {}, brandTag = {};
+  rows.forEach(function (r) { r.tags.forEach(function (x) { tagCount[x] = (tagCount[x] || 0) + 1; brandTag[r.b.id] = brandTag[r.b.id] || {}; brandTag[r.b.id][x] = (brandTag[r.b.id][x] || 0) + 1; }); });
+  var shown = rows.filter(function (r) { return (!S.cTag || r.tags.indexOf(S.cTag) >= 0) && (!S.cBrand || r.b.id === S.cBrand); }).sort(function (a, c) { return c.c.date.localeCompare(a.c.date) || a.b.name.localeCompare(c.b.name); });
+  var pending = rows.filter(function (r) { return !r.userTagged; }).length;
+
+  var h = '<div class="vvr-row"><div><h1 class="h1" style="font-size:20px">活動案型總覽</h1><div class="muted">每一列是一家某天換了首頁的紀錄。標籤：<span class="chip user">綠色＝你標的</span><span class="chip">藍色＝AI 初判</span>；點任一列進去修正或補標。</div></div><div class="sp"></div>' +
+    '<div class="seg" id="cRange">' + [['7', '最近 7 天'], ['30', '最近 30 天'], ['90', '最近 90 天'], ['all', '全部']].map(function (x) { return '<button data-v="' + x[0] + '"' + (S.cRange === x[0] ? ' class="on"' : '') + '>' + x[1] + '</button>'; }).join('') + '</div>' +
+    '<select id="cBrand" style="padding:7px 10px;border:1px solid var(--line);border-radius:8px;background:#fff"><option value="">全部品牌</option>' + brands().map(function (b) { return '<option value="' + b.id + '"' + (S.cBrand === b.id ? ' selected' : '') + '>' + esc(b.name) + '</option>'; }).join('') + '</select></div>';
+  h += '<div class="box" style="margin-bottom:16px"><h5>案型出現次數 <span class="muted" style="font-weight:400">點一下篩選</span><span class="sp"></span>' + (pending ? '<span class="pend">' + pending + ' 筆還沒人工標註</span>' : '<span class="muted">全部標註完成</span>') + '</h5><div class="cstat" id="cstat"><button data-v=""' + (!S.cTag ? ' class="on"' : '') + '>全部 <b>' + rows.length + '</b></button>' +
+    TAGS.filter(function (t) { return tagCount[t]; }).sort(function (a, c) { return tagCount[c] - tagCount[a]; }).map(function (t) { return '<button data-v="' + t + '"' + (S.cTag === t ? ' class="on"' : '') + '>' + t + ' <b>' + tagCount[t] + '</b></button>'; }).join('') + '</div></div>';
+  h += '<table class="ctab"><tr><th>品牌</th><th>日期</th><th>檔期</th><th>案型</th><th>AI 摘要 / 備註</th><th></th></tr>';
+  if (!shown.length) h += '<tr><td colspan="6" class="empty">這個範圍沒有紀錄</td></tr>';
+  shown.forEach(function (r, i) {
+    h += '<tr class="row" data-i="' + i + '"><td class="bn">' + esc(r.b.name) + '</td><td class="dt">' + fmtD(r.c.date) + '（' + dow(r.c.date) + '）</td><td class="cp">' + (r.campaign ? esc(r.campaign) : '<span class="muted">—</span>') + '</td><td>' + (r.tags.length ? r.tags.map(function (x) { return '<span class="chip' + (r.userTagged ? ' user' : '') + '">' + esc(x) + '</span>'; }).join('') : '<span class="pend">待標註</span>') + '</td><td class="sm" id="csum_' + i + '">' + (r.memo ? '<b>備註：</b>' + esc(r.memo) : '<span class="muted">載入中…</span>') + '</td><td class="dt">' + (r.c.newProducts ? '新品 ' + r.c.newProducts : '') + '</td></tr>';
+  });
+  h += '</table>';
+  body.innerHTML = h;
+  seg('#cRange', function (v) { S.cRange = v; render(); });
+  $('#cBrand').addEventListener('change', function () { S.cBrand = this.value; render(); });
+  $('#cstat').querySelectorAll('button').forEach(function (b) { b.addEventListener('click', function () { S.cTag = b.dataset.v; render(); }); });
+  body.querySelectorAll('tr.row').forEach(function (tr) { tr.addEventListener('click', function () { var r = shown[+tr.dataset.i]; S.detail = { brand: r.b.id, cap: r.c }; render(); }); });
+  shown.forEach(function (r, i) {
+    if (r.memo) return;
+    loadJson(r.c.dir + '/ai.json').then(function (ai) { var el = $('#csum_' + i); if (!el) return; el.innerHTML = ai ? esc(ai.summary || '') + (ai.discount && ai.discount !== '無折扣資訊' ? '<br><b>' + esc(ai.discount) + '</b>' : '') : '<span class="muted">無 AI 摘要（未設 API Key 時抓的）</span>'; });
+  });
+}
+
+/* ============================================================
    畫面 4：更新日曆
    ============================================================ */
 function renderCalendar(body) {
@@ -511,7 +569,7 @@ function render() {
   var body = $('#body'); body.scrollTop = 0;
   $('#nav').querySelectorAll('button').forEach(function (b) { b.classList.toggle('on', b.dataset.v === S.view); });
   if (S.detail) return renderDetail(body);
-  ({ timeline: renderTimeline, compare: renderCompare, banners: renderBanners, products: renderProducts, calendar: renderCalendar })[S.view](body);
+  ({ timeline: renderTimeline, compare: renderCompare, campaigns: renderCampaigns, banners: renderBanners, products: renderProducts, calendar: renderCalendar })[S.view](body);
 }
 $('#nav').querySelectorAll('button').forEach(function (b) { b.addEventListener('click', function () { S.view = b.dataset.v; S.detail = null; render(); }); });
 
