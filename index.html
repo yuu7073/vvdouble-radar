@@ -210,6 +210,7 @@ function caps(id, changedOnly) { var c = (S.index.brands[id] || {}).captures || 
 function lastChanged(id, before) { var c = caps(id, true).filter(function (x) { return !before || x.date <= before; }); return c[c.length - 1] || null; }
 function tagsOf(brand, cap) { var n = S.notes[noteKey(brand, cap.date)] || {}; var ai = (cap.ai && cap.ai.tags) || []; return { user: n.tags || [], ai: ai, campaign: n.campaign || (cap.ai && cap.ai.campaign) || '' }; }
 function shotUrl(cap, dev) { return cap.dir ? DATA + '/' + cap.dir + '/home-' + (dev === 'pc' ? 'pc' : 'm') + '.png' : ''; }
+function thumbUrl(cap, dev) { return cap.dir ? DATA + '/' + cap.dir + '/home-' + (dev === 'pc' ? 'pc' : 'm') + '-thumb.jpg' : ''; }
 function catOf(name) { for (var i = 0; i < CATS.length; i++) if (CATS[i][1].test(name || '')) return CATS[i][0]; return '其他'; }
 
 /* ============================================================
@@ -258,7 +259,7 @@ function renderTimeline(body) {
     var t = tagsOf(S.brand, c);
     var card = el('div', { class: 'card' });
     card.innerHTML = '<div class="info" style="padding-bottom:4px"><div class="ttl">' + fmtD(c.date) + ' <span class="muted" style="font-weight:400">' + dow(c.date) + ' · ' + weekNo(c.date) + '</span><span class="sp"></span>' + (c.error ? '<span class="chip gray">失敗</span>' : c.changed ? '<span class="chip hot">有變動</span>' : '<span class="chip gray">無變動</span>') + '</div></div>' +
-      '<div class="shot">' + (c.dir ? '<img loading="lazy" src="' + shotUrl(c, S.device) + '" alt="">' : '<div class="ph">' + (c.error ? esc(c.error.slice(0, 60)) : '與前一版相同') + '</div>') + '</div>' +
+      '<div class="shot">' + (c.dir ? '<img loading="lazy" src="' + thumbUrl(c, S.device) + '" data-full="' + shotUrl(c, S.device) + '" onerror="if(this.dataset.full){this.src=this.dataset.full;delete this.dataset.full}" alt="">' : '<div class="ph">' + (c.error ? esc(c.error.slice(0, 60)) : '與前一版相同') + '</div>') + '</div>' +
       '<div class="info"><div>' + (t.campaign ? '<b style="font-size:13px">' + esc(t.campaign) + '</b><br>' : '') + t.user.map(function (x) { return '<span class="chip user">' + esc(x) + '</span>'; }).join('') + (t.user.length ? '' : t.ai.map(function (x) { return '<span class="chip">' + esc(x) + '</span>'; }).join('')) + '</div>' +
       (c.newProducts ? '<div class="sum">新品 ' + c.newProducts + ' 款 · banner ' + (c.bannerCount || 0) + ' 張</div>' : '') + '</div>';
     if (c.dir) card.addEventListener('click', function () { S.detail = { brand: S.brand, cap: c }; render(); });
@@ -299,7 +300,7 @@ function renderCompare(body) {
     var c = it.cap, t = c ? tagsOf(it.b.id, c) : { user: [], ai: [], campaign: '' };
     var card = el('div', { class: 'card' });
     card.innerHTML = '<div class="info" style="padding-bottom:4px"><div class="ttl">' + esc(it.b.name) + '<span class="sp"></span>' + (it.inWeek ? '<span class="chip hot">本週有變動</span>' : c ? '<span class="chip gray">沿用 ' + fmtD(c.date) + '</span>' : '<span class="chip gray">無資料</span>') + '</div></div>' +
-      '<div class="shot">' + (c ? '<img loading="lazy" src="' + shotUrl(c, S.device) + '" alt="">' : '<div class="ph">尚無截圖</div>') + '</div>' +
+      '<div class="shot">' + (c ? '<img loading="lazy" src="' + thumbUrl(c, S.device) + '" data-full="' + shotUrl(c, S.device) + '" onerror="if(this.dataset.full){this.src=this.dataset.full;delete this.dataset.full}" alt="">' : '<div class="ph">尚無截圖</div>') + '</div>' +
       '<div class="info"><div>' + (t.campaign ? '<b style="font-size:13px">' + esc(t.campaign) + '</b><br>' : '') + (t.user.length ? t.user : t.ai).map(function (x) { return '<span class="chip' + (t.user.length ? ' user' : '') + '">' + esc(x) + '</span>'; }).join('') + '</div></div>';
     if (c) card.addEventListener('click', function () { S.detail = { brand: it.b.id, cap: c }; render(); });
     g.appendChild(card);
