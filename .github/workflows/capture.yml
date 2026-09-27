@@ -10,6 +10,10 @@ on:
         description: '只抓指定品牌（空白隔開，留空＝全部）'
         required: false
         default: ''
+      force:
+        description: '強制重存今天的截圖（忽略「沒變動」判斷）'
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -37,6 +41,7 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           SCALE: '2'
+          FORCE: ${{ github.event.inputs.force == 'true' && '1' || '0' }}
         run: node scraper/capture.js ${{ github.event.inputs.brands }}
 
       - name: Commit 結果
