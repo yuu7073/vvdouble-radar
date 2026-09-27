@@ -20,7 +20,8 @@ window.__vv = {
   // 通用商品擷取：找符合 linkPattern 的 <a>，往上找到含價格的卡片
   products(linkPattern, opts = {}) {
     const seen = new Map();
-    const links = [...document.querySelectorAll('a[href]')].filter(a => linkPattern.test(a.getAttribute('href') || ''));
+    // 用解析後的完整網址比對，相對路徑（Product?SaleID=…）也抓得到
+    const links = [...document.querySelectorAll('a[href]')].filter(a => linkPattern.test(this.abs(a.getAttribute('href') || '')));
     for (const a of links) {
       let card = a;
       for (let k = 0; k < 7 && card; k++) {
