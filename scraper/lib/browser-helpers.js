@@ -88,9 +88,37 @@ window.__vv = {
     }
     window.scrollTo(0, 0); await new Promise(r => setTimeout(r, 400));
   },
+  // 等所有可見圖片載入（lazy 圖片要先捲過才會開始載）
+  async waitImages(maxMs = 15000) {
+    const t0 = Date.now();
+    const pending = () => [...document.images].filter(i => {
+      const r = i.getBoundingClientRect();
+      if (r.width < 20 || r.height < 20) return false;
+      if (!i.currentSrc && !i.src) return false;
+      return !(i.complete && i.naturalWidth > 0);
+    });
+    while (Date.now() - t0 < maxMs) {
+      // 把 lazy 屬性拿掉，逼瀏覽器現在就載
+      document.querySelectorAll('img[loading=lazy]').forEach(i => i.loading = 'eager');
+      document.querySelectorAll('img[data-src]:not([src]), img[data-original]:not([src])').forEach(i => { i.src = i.dataset.src || i.dataset.original; });
+      const p = pending();
+      if (!p.length) return 0;
+      await new Promise(r => setTimeout(r, 400));
+    }
+    return pending().length;
+  },
   // 關掉常見彈窗、cookie 橫幅、客服浮動視窗
   dismiss() {
     const kill = (sel) => document.querySelectorAll(sel).forEach(e => e.remove());
+    // LINE 加好友 / 歡迎光臨 / 訂閱 這類文字的浮動區塊
+    document.querySelectorAll('div, section, aside').forEach(e => {
+      if (e.children.length > 30) return;
+      const cs = getComputedStyle(e);
+      if (cs.position !== 'fixed' && cs.position !== 'sticky') return;
+      const t = this.clean(e.innerText);
+      if (t.length > 400) return;
+      if (/歡迎光臨|加入好友|追蹤官方|LINE\\s*好友|官方帳號|訂閱電子報|領取優惠|加入會員享/.test(t) || (/LINE/i.test(t) && e.offsetHeight > 80 && e.offsetHeight < 600)) e.remove();
+    });
     // 有「知道了 / 同意 / 關閉」的按鈕先按一下
     for (const b of document.querySelectorAll('button, a, div[role=button]')) {
       const t = this.clean(b.innerText);
@@ -99,7 +127,7 @@ window.__vv = {
     kill('#onetrust-consent-sdk, .onetrust-pc-dark-filter, [id*=cookie-banner], [class*=cookie-banner], [class*=cookieConsent], [class*=cookie-consent]');
     kill('iframe[src*=omnichat], [id*=omnichat], [class*=omnichat], iframe[src*=crisp], iframe[src*=tawk], iframe[src*=intercom], [id*=chatwoot]');
     kill('[class*=optimonk], [id*=optimonk], .om-holder');
-    kill('[class*=popup-overlay], [class*=modal-backdrop]');
+    kill('[class*=popup-overlay], [class*=modal-backdrop], .mfp-bg, .mfp-wrap, .fancybox-overlay, .fancybox-container, .swal2-container, .remodal-overlay, .remodal-wrapper');
     document.querySelectorAll('[role=dialog], [class*=popup], [class*=modal], [class*=lightbox]').forEach(e => {
       const cs = getComputedStyle(e);
       if ((cs.position === 'fixed') && e.offsetHeight > 150 && e.offsetWidth > 150) e.remove();
