@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>VV 競品首頁收集器</title>
+<title>競品首頁收集器</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&display=swap">
 <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
 <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-database-compat.js"></script>
@@ -133,6 +133,16 @@ input,select,textarea{font-family:inherit;font-size:13px}
 .pside .chips button{padding:4px 10px;border-radius:999px;border:1px solid var(--line);background:#fff;font-size:12px}
 .pside .chips button.on{background:var(--blue);border-color:var(--blue);color:#fff}
 .empty{padding:60px 20px;text-align:center;color:var(--mute)}
+.lb{position:fixed;inset:0;background:rgba(20,24,32,.82);display:none;align-items:center;justify-content:center;z-index:50;padding:24px}
+.lb.on{display:flex}
+.lb .box{background:#fff;border-radius:14px;max-width:min(1100px,96vw);max-height:92vh;display:flex;flex-direction:column;overflow:hidden;box-shadow:0 20px 60px rgba(0,0,0,.35)}
+.lb .pic{flex:1;min-height:0;background:var(--soft);display:flex;align-items:center;justify-content:center;overflow:auto}
+.lb .pic img{max-width:100%;max-height:70vh;display:block;object-fit:contain}
+.lb .meta{padding:14px 18px;display:flex;align-items:center;gap:14px;border-top:1px solid var(--line);flex-wrap:wrap}
+.lb .meta .ttl{font-weight:700;font-size:15px;flex:1;min-width:200px}
+.lb .meta .sub{font-size:12px;color:var(--mute);width:100%}
+.lb .x{position:absolute;top:16px;right:20px;width:40px;height:40px;border-radius:50%;border:0;background:#fff;font-size:20px;line-height:40px;text-align:center}
+.pside select{width:calc(100% - 36px);margin:0 18px 12px;padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:#fff;font-size:13px}
 .toast{position:fixed;bottom:20px;left:50%;transform:translateX(-50%);background:var(--ink);color:#fff;padding:10px 18px;border-radius:8px;font-size:13px;opacity:0;transition:.2s;pointer-events:none}
 .toast.on{opacity:1}
 @media (max-width:900px){.vvr-side{display:none}.det{flex-direction:column}.det .panel{width:auto}.det .shotbox .frame{height:60vh}}
@@ -141,7 +151,7 @@ input,select,textarea{font-family:inherit;font-size:13px}
 <body>
 
 <div class="vvr-top">
-  <div class="vvr-logo">VV 競品首頁收集器</div>
+  <div class="vvr-logo">競品首頁收集器</div>
   <div class="vvr-nav" id="nav">
     <button data-v="timeline" class="on">品牌時間軸</button>
     <button data-v="compare">橫向比較</button>
@@ -158,6 +168,7 @@ input,select,textarea{font-family:inherit;font-size:13px}
   <main class="vvr-body" id="body"><div class="empty">載入中…</div></main>
 </div>
 <div class="toast" id="toast"></div>
+<div class="lb" id="lb"><button class="x" id="lbX" aria-label="關閉">✕</button><div class="box"><div class="pic"><img id="lbImg" alt=""></div><div class="meta"><div class="ttl" id="lbTtl"></div><a class="btn" id="lbLink" target="_blank" rel="noopener">開啟商品頁 ↗</a><a class="btn ghost" id="lbDl" download>下載圖片</a><div class="sub" id="lbSub"></div></div></div></div>
 
 <script>
 /* ============================================================
@@ -181,7 +192,7 @@ var CATS = [
    狀態
    ============================================================ */
 var S = { view: 'timeline', brand: null, index: null, notes: {}, cache: {}, weekEnd: null, device: 'm', onlyChanged: true, detail: null,
-          bannerDevice: 'pc', bannerOnlyNew: true, pTime: 'week', pBrands: {}, pPrice: {}, pCat: {}, pSort: 'date' };
+          bannerDevice: 'pc', bannerOnlyNew: true, pTime: 'week', pBrand: '', pPriceSel: '', pCatSel: '', pSort: 'date' };
 var db = null;
 
 function $(s, r) { return (r || document).querySelector(s); }
@@ -409,7 +420,9 @@ function renderBanners(body) {
       show.forEach(function (i) {
         var f = S.bannerDevice === 'm' ? (i.x.mobile || i.x.pc) : (i.x.pc || i.x.mobile);
         var d = el('div', { class: 'bi' + (S.bannerDevice === 'm' ? ' mob' : '') });
-        d.innerHTML = '<a href="' + esc(i.x.link || '#') + '" target="_blank" rel="noopener"><img loading="lazy" src="' + DATA + '/' + i.cap.dir + '/' + f + '" alt=""></a>' + (i.isNew ? '<div class="new">NEW</div>' : '') + '<div class="t">' + fmtD(i.cap.date) + ' · 第 ' + i.x.n + ' 張' + (i.x.text ? '<br>' + esc(i.x.text.slice(0, 50)) : '') + (i.x.link ? '<br>→ ' + esc(i.x.link.replace(/^https?:\/\/[^/]+/, '').slice(0, 45)) : '') + '</div>';
+        var bimg = DATA + '/' + i.cap.dir + '/' + f; d.style.cursor = 'zoom-in';
+        d.addEventListener('click', function () { lightbox({ img: bimg, title: b.name + ' · ' + fmtD(i.cap.date) + ' 第 ' + i.x.n + ' 張 banner', link: i.x.link, linkText: '開啟 banner 連結 ↗', sub: (i.x.text ? esc(i.x.text) + '<br>' : '') + (i.x.link ? '→ ' + esc(i.x.link) : '無連結') }); });
+        d.innerHTML = '<img loading="lazy" src="' + bimg + '" alt="">' + (i.isNew ? '<div class="new">NEW</div>' : '') + '<div class="t">' + fmtD(i.cap.date) + ' · 第 ' + i.x.n + ' 張' + (i.x.text ? '<br>' + esc(i.x.text.slice(0, 50)) : '') + (i.x.link ? '<br>→ ' + esc(i.x.link.replace(/^https?:\/\/[^/]+/, '').slice(0, 45)) : '') + '</div>';
         bs.appendChild(d);
       });
       r.appendChild(bs); wall.appendChild(r);
@@ -422,15 +435,18 @@ function renderBanners(body) {
    ============================================================ */
 var PRICE_BANDS = [['< 500', 0, 499], ['500–999', 500, 999], ['1,000–1,499', 1000, 1499], ['1,500+', 1500, 1e9]];
 function renderProductSide(side) {
-  var h = '<h4>時間</h4><div class="chips" id="pTime">' + [['week', '本週新上架'], ['lastweek', '上週'], ['30', '最近 30 天'], ['all', '全部']].map(function (x) { return '<button data-v="' + x[0] + '"' + (S.pTime === x[0] ? ' class="on"' : '') + '>' + x[1] + '</button>'; }).join('') + '</div>';
-  h += '<h4>品牌</h4><div id="pBrands">' + brands().map(function (b) { return '<label><input type="checkbox" data-id="' + b.id + '"' + (S.pBrands[b.id] !== false ? ' checked' : '') + '><span>' + esc(b.name) + '</span><small id="pc_' + b.id + '"></small></label>'; }).join('') + '</div>';
-  h += '<h4 style="margin-top:14px">價格帶</h4><div class="chips" id="pPrice">' + PRICE_BANDS.map(function (x, i) { return '<button data-v="' + i + '"' + (S.pPrice[i] ? ' class="on"' : '') + '>' + x[0] + '</button>'; }).join('') + '</div>';
-  h += '<h4>品類（依品名推測）</h4><div class="chips" id="pCat">' + CATS.map(function (x) { return x[0]; }).concat(['其他']).map(function (c) { return '<button data-v="' + c + '"' + (S.pCat[c] ? ' class="on"' : '') + '>' + c + '</button>'; }).join('') + '</div>';
+  var h = '<h4>時間</h4><select id="pTime">' + [['week', '本週新上架'], ['lastweek', '上週'], ['30', '最近 30 天'], ['all', '全部']].map(function (x) { return '<option value="' + x[0] + '"' + (S.pTime === x[0] ? ' selected' : '') + '>' + x[1] + '</option>'; }).join('') + '</select>';
+  h += '<h4>品牌</h4><select id="pBrand"><option value="">全部品牌</option>' + brands().map(function (b) { return '<option value="' + b.id + '"' + (S.pBrand === b.id ? ' selected' : '') + '>' + esc(b.name) + '</option>'; }).join('') + '</select>';
+  h += '<h4>價格帶</h4><select id="pPriceSel"><option value="">全部價格</option>' + PRICE_BANDS.map(function (x, i) { return '<option value="' + i + '"' + (S.pPriceSel === String(i) ? ' selected' : '') + '>' + x[0] + '</option>'; }).join('') + '</select>';
+  h += '<h4>品類（依品名推測）</h4><select id="pCatSel"><option value="">全部品類</option>' + CATS.map(function (x) { return x[0]; }).concat(['其他']).map(function (c) { return '<option value="' + c + '"' + (S.pCatSel === c ? ' selected' : '') + '>' + c + '</option>'; }).join('') + '</select>';
+  h += '<div style="padding:4px 18px"><button class="btn ghost sm" id="pReset" style="width:100%">清除篩選</button></div>';
+  h += '<h4 style="margin-top:16px">各品牌款數</h4><div id="pCounts" style="padding:0 18px;font-size:12px;color:var(--mute);line-height:1.9"></div>';
   side.className = 'vvr-side pside'; side.innerHTML = h;
-  side.querySelectorAll('#pTime button').forEach(function (b) { b.addEventListener('click', function () { S.pTime = b.dataset.v; render(); }); });
-  side.querySelectorAll('#pBrands input').forEach(function (i) { i.addEventListener('change', function () { S.pBrands[i.dataset.id] = i.checked; renderProducts($('#body')); }); });
-  side.querySelectorAll('#pPrice button').forEach(function (b) { b.addEventListener('click', function () { S.pPrice[b.dataset.v] = !S.pPrice[b.dataset.v]; render(); }); });
-  side.querySelectorAll('#pCat button').forEach(function (b) { b.addEventListener('click', function () { S.pCat[b.dataset.v] = !S.pCat[b.dataset.v]; render(); }); });
+  $('#pTime').addEventListener('change', function () { S.pTime = this.value; renderProducts($('#body')); });
+  $('#pBrand').addEventListener('change', function () { S.pBrand = this.value; renderProducts($('#body')); });
+  $('#pPriceSel').addEventListener('change', function () { S.pPriceSel = this.value; renderProducts($('#body')); });
+  $('#pCatSel').addEventListener('change', function () { S.pCatSel = this.value; renderProducts($('#body')); });
+  $('#pReset').addEventListener('click', function () { S.pTime = 'week'; S.pBrand = ''; S.pPriceSel = ''; S.pCatSel = ''; render(); });
 }
 function renderProducts(body) {
   body.innerHTML = '<div class="empty">載入商品資料…</div>';
@@ -438,9 +454,11 @@ function renderProducts(body) {
   var from = S.pTime === 'week' ? ws : S.pTime === 'lastweek' ? lws : S.pTime === '30' ? addDays(today, -30) : '0000', to = S.pTime === 'lastweek' ? addDays(ws, -1) : '9999';
   Promise.all(brands().map(function (b) { return loadJson('products/' + b.id + '.json').then(function (j) { return { b: b, items: j ? Object.keys(j.items).map(function (k) { return Object.assign({ brand: b.name, brandId: b.id }, j.items[k]); }) : [] }; }); })).then(function (rs) {
     var all = [];
-    rs.forEach(function (r) { var f = r.items.filter(function (p) { return p.firstSeen >= from && p.firstSeen <= to; }); var c = $('#pc_' + r.b.id); if (c) c.textContent = f.length + ' 款'; if (S.pBrands[r.b.id] !== false) all = all.concat(f); });
-    var bands = Object.keys(S.pPrice).filter(function (k) { return S.pPrice[k]; }).map(function (k) { return PRICE_BANDS[k]; });
-    var cats = Object.keys(S.pCat).filter(function (k) { return S.pCat[k]; });
+    var counts = [];
+    rs.forEach(function (r) { var f = r.items.filter(function (p) { return p.firstSeen >= from && p.firstSeen <= to; }); counts.push(esc(r.b.name) + ' <b>' + f.length + '</b>'); if (!S.pBrand || S.pBrand === r.b.id) all = all.concat(f); });
+    var pc = $('#pCounts'); if (pc) pc.innerHTML = counts.join('<br>');
+    var bands = S.pPriceSel ? [PRICE_BANDS[S.pPriceSel]] : [];
+    var cats = S.pCatSel ? [S.pCatSel] : [];
     all.forEach(function (p) { p.cat = catOf(p.name); });
     var list = all.filter(function (p) { return (!bands.length || bands.some(function (b) { return p.price >= b[1] && p.price <= b[2]; })) && (!cats.length || cats.indexOf(p.cat) >= 0); });
     if (S.pSort === 'price') list.sort(function (a, c) { return a.price - c.price; }); else if (S.pSort === 'sold') list.sort(function (a, c) { return (+String(c.sold || 0).replace(/,/g, '')) - (+String(a.sold || 0).replace(/,/g, '')); }); else list.sort(function (a, c) { return c.firstSeen.localeCompare(a.firstSeen); });
@@ -457,7 +475,9 @@ function renderProducts(body) {
     list.slice(0, 300).forEach(function (p) {
       var img = p.thumb ? DATA + '/products/' + p.thumb : p.img;
       var d = el('div', { class: 'card' });
-      d.innerHTML = '<a class="shot" href="' + esc(p.url) + '" target="_blank" rel="noopener"><img loading="lazy" src="' + esc(img) + '" alt=""><span class="bd">' + esc(p.brand) + '</span></a><div class="info"><div class="nm" title="' + esc(p.name) + '">' + esc(p.name) + '</div><div class="pr' + (p.origPrice ? ' sale' : '') + '">NT$ ' + (p.price || '?').toLocaleString() + (p.origPrice ? '<s>NT$ ' + p.origPrice.toLocaleString() + '</s>' : '') + '</div><div><span class="chip gray">' + p.cat + '</span><span class="muted">' + fmtD(p.firstSeen) + ' 上架' + (p.sold ? ' · 售 ' + p.sold : '') + '</span></div></div>';
+      d.style.cursor = 'zoom-in';
+      d.addEventListener('click', function () { lightbox({ img: img, title: p.name, link: p.url, linkText: '開啟商品頁 ↗', sub: esc(p.brand) + ' · NT$ ' + (p.price || '?').toLocaleString() + (p.origPrice ? '（原價 NT$ ' + p.origPrice.toLocaleString() + '）' : '') + ' · ' + fmtD(p.firstSeen) + ' 首次出現' + (p.sold ? ' · 已售 ' + p.sold : '') + '<br><span style="word-break:break-all">' + esc(p.url) + '</span><br><i>商品下架後連結會失效，圖片與資料仍保留在這裡</i>' }); });
+      d.innerHTML = '<div class="shot"><img loading="lazy" src="' + esc(img) + '" alt=""><span class="bd">' + esc(p.brand) + '</span></div><div class="info"><div class="nm" title="' + esc(p.name) + '">' + esc(p.name) + '</div><div class="pr' + (p.origPrice ? ' sale' : '') + '">NT$ ' + (p.price || '?').toLocaleString() + (p.origPrice ? '<s>NT$ ' + p.origPrice.toLocaleString() + '</s>' : '') + '</div><div><span class="chip gray">' + p.cat + '</span><span class="muted">' + fmtD(p.firstSeen) + ' 上架' + (p.sold ? ' · 售 ' + p.sold : '') + '</span></div></div>';
       g.appendChild(d);
     });
     body.appendChild(g);
@@ -467,6 +487,15 @@ function renderProducts(body) {
 /* ============================================================
    共用：切換、標註儲存、啟動
    ============================================================ */
+function lightbox(o) {
+  $('#lbImg').src = o.img || ''; $('#lbTtl').textContent = o.title || ''; $('#lbSub').innerHTML = o.sub || '';
+  var l = $('#lbLink'); if (o.link) { l.href = o.link; l.style.display = ''; l.textContent = o.linkText || '開啟原站 ↗'; } else l.style.display = 'none';
+  var d = $('#lbDl'); if (o.img) { d.href = o.img; d.style.display = ''; } else d.style.display = 'none';
+  $('#lb').classList.add('on');
+}
+$('#lbX').addEventListener('click', function () { $('#lb').classList.remove('on'); });
+$('#lb').addEventListener('click', function (e) { if (e.target === this) this.classList.remove('on'); });
+document.addEventListener('keydown', function (e) { if (e.key === 'Escape') $('#lb').classList.remove('on'); });
 function seg(sel, fn) { var s = $(sel); if (!s) return; s.querySelectorAll('button').forEach(function (b) { b.addEventListener('click', function () { fn(b.dataset.v); }); }); }
 function saveNote(key, note) {
   try { localStorage.setItem('vvr_' + key, JSON.stringify(note)); } catch (e) {}
