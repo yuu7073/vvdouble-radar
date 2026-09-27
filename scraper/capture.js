@@ -19,6 +19,7 @@ const ai = require('./ai');
 const SCALE = Number(process.env.SCALE || 2);
 const ONLY = process.argv.slice(2);
 const DATE = process.env.CAPTURE_DATE || todayTW();
+const FORCE = process.env.FORCE === '1'; // 手動重跑時強制重存截圖（忽略指紋比對）
 
 const DESKTOP = { viewport: { width: 1440, height: 900 }, deviceScaleFactor: SCALE, locale: 'zh-TW', timezoneId: 'Asia/Taipei',
   userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36' };
@@ -134,7 +135,7 @@ async function captureBrand(browser, brand, index) {
   // ---- 指紋比對 ----
   const fp = sha1(JSON.stringify({ b: banners.map(b => b.pc || b.mobile).sort(), t: banners.map(b => b.text).sort(), p: products.slice(0, 40).map(p => p.id).sort() }));
   const prev = (index.brands[brand.id]?.captures || []).slice().reverse().find(c => c.fingerprint);
-  const changed = !prev || prev.fingerprint !== fp || fresh.length > 0;
+  const changed = FORCE || !prev || prev.fingerprint !== fp || fresh.length > 0;
   entry.fingerprint = fp;
   entry.changed = changed;
   entry.newProducts = fresh.length;
