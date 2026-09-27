@@ -1,17 +1,407 @@
 {
   "url": "https://www.polylulu.com.tw/productlist?KeyWord=pim:2609210002&actno=26092101",
-  "count": 1,
+  "count": 40,
   "fresh": [
-    "https://www.polylulu.com.tw/product"
+    "9130036901",
+    "9130036902",
+    "9130036903",
+    "9130036904",
+    "9130037001",
+    "9130037002",
+    "9130037003",
+    "9130037004",
+    "9131011301",
+    "9131011302",
+    "9131011303",
+    "9131011304",
+    "9623071101",
+    "9623071102",
+    "9623071901",
+    "9623071902",
+    "9623071903",
+    "9104078401",
+    "9104078402",
+    "9104078403",
+    "9104078801",
+    "9104078802",
+    "9104078803",
+    "9106028001",
+    "9106028002",
+    "9106028003",
+    "9131011401",
+    "9131011402",
+    "9526056801",
+    "9526056802",
+    "9526056803",
+    "9623071501",
+    "9623071502",
+    "9104079001",
+    "9104079002",
+    "9104079101",
+    "9104079102",
+    "9128018501",
+    "9128018502",
+    "9130036701"
   ],
   "items": [
     {
-      "id": "https://www.polylulu.com.tw/product",
+      "id": "9130036901",
       "name": "仙女皺皺微高領透膚上衣 MISS",
       "url": "https://www.polylulu.com.tw/product?saleid=9130036901&color=A18",
       "price": 519,
       "origPrice": 590,
       "img": "https://app-resource.polylulu.com.tw/app_img/91300369/f212b970-c84d-436d-aec6-8afe63687736.jpg",
+      "sold": null
+    },
+    {
+      "id": "9130036902",
+      "name": "仙女皺皺微高領透膚上衣 MISS",
+      "url": "https://www.polylulu.com.tw/product?saleid=9130036902&color=A33",
+      "price": 519,
+      "origPrice": 590,
+      "img": "https://app-resource.polylulu.com.tw/app_img/91300369/a7d69626-41ec-4eef-a1c8-a65f864222f0.jpg",
+      "sold": null
+    },
+    {
+      "id": "9130036903",
+      "name": "仙女皺皺微高領透膚上衣 MISS",
+      "url": "https://www.polylulu.com.tw/product?saleid=9130036903&color=A63",
+      "price": 519,
+      "origPrice": 590,
+      "img": "https://app-resource.polylulu.com.tw/app_img/91300369/0ac1d122-ba52-47ad-b86e-bd730227be46.jpg",
+      "sold": null
+    },
+    {
+      "id": "9130036904",
+      "name": "仙女皺皺微高領透膚上衣 MISS",
+      "url": "https://www.polylulu.com.tw/product?saleid=9130036904&color=D01",
+      "price": 519,
+      "origPrice": 590,
+      "img": "https://app-resource.polylulu.com.tw/app_img/91300369/fa9634da-dfac-4ff9-bfb1-a59dc9548c3c.jpg",
+      "sold": null
+    },
+    {
+      "id": "9130037001",
+      "name": "親膚寬坑條木耳邊長袖上衣",
+      "url": "https://www.polylulu.com.tw/product?saleid=9130037001&color=A04",
+      "price": 572,
+      "origPrice": 650,
+      "img": "https://app-resource.polylulu.com.tw/app_img/91300370/45b60cfe-6dd9-4a0c-b747-cc18ef632307.jpg",
+      "sold": null
+    },
+    {
+      "id": "9130037002",
+      "name": "親膚寬坑條木耳邊長袖上衣",
+      "url": "https://www.polylulu.com.tw/product?saleid=9130037002&color=A05",
+      "price": 572,
+      "origPrice": 650,
+      "img": "https://app-resource.polylulu.com.tw/app_img/91300370/77f4ac5b-46cd-449f-9789-e7c02d4194d7.jpg",
+      "sold": null
+    },
+    {
+      "id": "9130037003",
+      "name": "親膚寬坑條木耳邊長袖上衣",
+      "url": "https://www.polylulu.com.tw/product?saleid=9130037003&color=A10",
+      "price": 572,
+      "origPrice": 650,
+      "img": "https://app-resource.polylulu.com.tw/app_img/91300370/8fca3f62-7fb7-4c6b-b409-5f3d98058c0d.jpg",
+      "sold": null
+    },
+    {
+      "id": "9130037004",
+      "name": "親膚寬坑條木耳邊長袖上衣",
+      "url": "https://www.polylulu.com.tw/product?saleid=9130037004&color=A33",
+      "price": 572,
+      "origPrice": 650,
+      "img": "https://app-resource.polylulu.com.tw/app_img/91300370/7444e130-e397-44b8-9f55-6bf0000cada6.jpg",
+      "sold": null
+    },
+    {
+      "id": "9131011301",
+      "name": "日系鉤針方格外搭背心",
+      "url": "https://www.polylulu.com.tw/product?saleid=9131011301&color=A62",
+      "price": 607,
+      "origPrice": 690,
+      "img": "https://app-resource.polylulu.com.tw/app_img/91310113/091ff608-1c53-4286-8969-fc3534817abf.jpg",
+      "sold": null
+    },
+    {
+      "id": "9131011302",
+      "name": "日系鉤針方格外搭背心",
+      "url": "https://www.polylulu.com.tw/product?saleid=9131011302&color=A68",
+      "price": 607,
+      "origPrice": 690,
+      "img": "https://app-resource.polylulu.com.tw/app_img/91310113/5dede220-cc93-4fcc-9c23-013805842967.jpg",
+      "sold": null
+    },
+    {
+      "id": "9131011303",
+      "name": "日系鉤針方格外搭背心",
+      "url": "https://www.polylulu.com.tw/product?saleid=9131011303&color=C71",
+      "price": 607,
+      "origPrice": 690,
+      "img": "https://app-resource.polylulu.com.tw/app_img/91310113/beb3a8c6-cb5f-410a-9f9c-b0ad55bb014c.jpg",
+      "sold": null
+    },
+    {
+      "id": "9131011304",
+      "name": "日系鉤針方格外搭背心",
+      "url": "https://www.polylulu.com.tw/product?saleid=9131011304&color=C87",
+      "price": 607,
+      "origPrice": 690,
+      "img": "https://app-resource.polylulu.com.tw/app_img/91310113/9e9822fc-bba5-4e71-b0c3-85d69b41c6e7.jpg",
+      "sold": null
+    },
+    {
+      "id": "9623071101",
+      "name": "率性抗皺西裝寬褲(附腰帶) MISS",
+      "url": "https://www.polylulu.com.tw/product?saleid=9623071101&color=A06",
+      "price": 871,
+      "origPrice": 990,
+      "img": "https://app-resource.polylulu.com.tw/app_img/96230711/80df79b0-aaa5-4d96-89e8-e1d06060578d.jpg",
+      "sold": null
+    },
+    {
+      "id": "9623071102",
+      "name": "率性抗皺西裝寬褲(附腰帶) MISS",
+      "url": "https://www.polylulu.com.tw/product?saleid=9623071102&color=A33",
+      "price": 871,
+      "origPrice": 990,
+      "img": "https://app-resource.polylulu.com.tw/app_img/96230711/5b739031-d22b-44c6-93ea-71f2e45f92ae.jpg",
+      "sold": null
+    },
+    {
+      "id": "9623071901",
+      "name": "瞬涼冰肌雪紡打褶大寬褲",
+      "url": "https://www.polylulu.com.tw/product?saleid=9623071901&color=A08",
+      "price": 836,
+      "origPrice": 950,
+      "img": "https://app-resource.polylulu.com.tw/app_img/96230719/6e3e5e01-9aa5-4e6d-a47d-949767dde4d6.jpg",
+      "sold": null
+    },
+    {
+      "id": "9623071902",
+      "name": "瞬涼冰肌雪紡打褶大寬褲",
+      "url": "https://www.polylulu.com.tw/product?saleid=9623071902&color=A33",
+      "price": 836,
+      "origPrice": 950,
+      "img": "https://app-resource.polylulu.com.tw/app_img/96230719/2181a14c-5b99-4c9f-84c1-04b4b8c8f91d.jpg",
+      "sold": null
+    },
+    {
+      "id": "9623071903",
+      "name": "瞬涼冰肌雪紡打褶大寬褲",
+      "url": "https://www.polylulu.com.tw/product?saleid=9623071903&color=D07",
+      "price": 836,
+      "origPrice": 950,
+      "img": "https://app-resource.polylulu.com.tw/app_img/96230719/d38e3877-b166-4964-9619-66fcc24f0559.gif",
+      "sold": null
+    },
+    {
+      "id": "9104078401",
+      "name": "日系緹花蕾絲微透膚襯衫 MISS",
+      "url": "https://www.polylulu.com.tw/product?saleid=9104078401&color=A05",
+      "price": 695,
+      "origPrice": 790,
+      "img": "https://app-resource.polylulu.com.tw/app_img/91040784/558b3383-5ff7-4617-bde7-d9a9379d2851.jpg",
+      "sold": null
+    },
+    {
+      "id": "9104078402",
+      "name": "日系緹花蕾絲微透膚襯衫 MISS",
+      "url": "https://www.polylulu.com.tw/product?saleid=9104078402&color=A23",
+      "price": 695,
+      "origPrice": 790,
+      "img": "https://app-resource.polylulu.com.tw/app_img/91040784/0fd434d0-a71b-42ea-af5b-d9e1877342ad.jpg",
+      "sold": null
+    },
+    {
+      "id": "9104078403",
+      "name": "日系緹花蕾絲微透膚襯衫 MISS",
+      "url": "https://www.polylulu.com.tw/product?saleid=9104078403&color=A33",
+      "price": 695,
+      "origPrice": 790,
+      "img": "https://app-resource.polylulu.com.tw/app_img/91040784/bc50b9e8-a2b3-45e5-a389-132807a99e9e.jpg",
+      "sold": null
+    },
+    {
+      "id": "9104078801",
+      "name": "日系仙女透紗層次襯衫 MISS",
+      "url": "https://www.polylulu.com.tw/product?saleid=9104078801&color=A33",
+      "price": 695,
+      "origPrice": 790,
+      "img": "https://app-resource.polylulu.com.tw/app_img/91040788/b5b97df4-c552-41ee-ae0a-87f8ed41f958.gif",
+      "sold": null
+    },
+    {
+      "id": "9104078802",
+      "name": "日系仙女透紗層次襯衫 MISS",
+      "url": "https://www.polylulu.com.tw/product?saleid=9104078802&color=A60",
+      "price": 695,
+      "origPrice": 790,
+      "img": "https://app-resource.polylulu.com.tw/app_img/91040788/e9296bba-ef80-4098-b582-45449aabf066.jpg",
+      "sold": null
+    },
+    {
+      "id": "9104078803",
+      "name": "日系仙女透紗層次襯衫 MISS",
+      "url": "https://www.polylulu.com.tw/product?saleid=9104078803&color=C98",
+      "price": 695,
+      "origPrice": 790,
+      "img": "https://app-resource.polylulu.com.tw/app_img/91040788/820622a9-41a2-4478-ac9f-e2d13b4afcf7.jpg",
+      "sold": null
+    },
+    {
+      "id": "9106028001",
+      "name": "POLO翻領坑條針織上衣 MISS",
+      "url": "https://www.polylulu.com.tw/product?saleid=9106028001&color=A05",
+      "price": 695,
+      "origPrice": 790,
+      "img": "https://app-resource.polylulu.com.tw/app_img/91060280/a075631b-a1da-4d00-a1fd-c642abb662e1.jpg",
+      "sold": null
+    },
+    {
+      "id": "9106028002",
+      "name": "POLO翻領坑條針織上衣 MISS",
+      "url": "https://www.polylulu.com.tw/product?saleid=9106028002&color=A60",
+      "price": 695,
+      "origPrice": 790,
+      "img": "https://app-resource.polylulu.com.tw/app_img/91060280/48973970-bb48-44df-b939-8288fddf01e9.jpg",
+      "sold": null
+    },
+    {
+      "id": "9106028003",
+      "name": "POLO翻領坑條針織上衣 MISS",
+      "url": "https://www.polylulu.com.tw/product?saleid=9106028003&color=C71",
+      "price": 695,
+      "origPrice": 790,
+      "img": "https://app-resource.polylulu.com.tw/app_img/91060280/d722dba3-54ec-40f5-a81b-058e96ed58fb.jpg",
+      "sold": null
+    },
+    {
+      "id": "9131011401",
+      "name": "蕾絲刺繡側綁帶外搭背心 MISS",
+      "url": "https://www.polylulu.com.tw/product?saleid=9131011401&color=A05",
+      "price": 748,
+      "origPrice": 850,
+      "img": "https://app-resource.polylulu.com.tw/app_img/91310114/a472c7c9-0e01-43dc-ab8b-f570ac74ec2c.jpg",
+      "sold": null
+    },
+    {
+      "id": "9131011402",
+      "name": "蕾絲刺繡側綁帶外搭背心 MISS",
+      "url": "https://www.polylulu.com.tw/product?saleid=9131011402&color=A33",
+      "price": 748,
+      "origPrice": 850,
+      "img": "https://app-resource.polylulu.com.tw/app_img/91310114/b03182fa-8e32-413a-b2fa-05d65f19bdc6.jpg",
+      "sold": null
+    },
+    {
+      "id": "9526056801",
+      "name": "優雅傘擺修身層次紗裙 MISS",
+      "url": "https://www.polylulu.com.tw/product?saleid=9526056801&color=A05",
+      "price": 836,
+      "origPrice": 950,
+      "img": "https://app-resource.polylulu.com.tw/app_img/95260568/33e91398-2bb9-4c56-95a7-fa7c829d4277.jpg",
+      "sold": null
+    },
+    {
+      "id": "9526056802",
+      "name": "優雅傘擺修身層次紗裙 MISS",
+      "url": "https://www.polylulu.com.tw/product?saleid=9526056802&color=A33",
+      "price": 836,
+      "origPrice": 950,
+      "img": "https://app-resource.polylulu.com.tw/app_img/95260568/f147de0e-aa9b-4f08-bc35-270e907b2af2.jpg",
+      "sold": null
+    },
+    {
+      "id": "9526056803",
+      "name": "優雅傘擺修身層次紗裙 MISS",
+      "url": "https://www.polylulu.com.tw/product?saleid=9526056803&color=C98",
+      "price": 836,
+      "origPrice": 950,
+      "img": "https://app-resource.polylulu.com.tw/app_img/95260568/8a00b1e5-fb95-4874-93b5-ff4d9305e3d0.jpg",
+      "sold": null
+    },
+    {
+      "id": "9623071501",
+      "name": "萊賽爾斜紋棉車線長褲 MISS",
+      "url": "https://www.polylulu.com.tw/product?saleid=9623071501&color=C98",
+      "price": 871,
+      "origPrice": 990,
+      "img": "https://app-resource.polylulu.com.tw/app_img/96230715/06fff1d3-75c5-4268-a186-c1e54c02d9d3.jpg",
+      "sold": null
+    },
+    {
+      "id": "9623071502",
+      "name": "萊賽爾斜紋棉車線長褲 MISS",
+      "url": "https://www.polylulu.com.tw/product?saleid=9623071502&color=C99",
+      "price": 871,
+      "origPrice": 990,
+      "img": "https://app-resource.polylulu.com.tw/app_img/96230715/34f3e5c4-61e1-4c48-b868-0f6ff705da6c.jpg",
+      "sold": null
+    },
+    {
+      "id": "9104079001",
+      "name": "皺皺肌理感條紋襯衫",
+      "url": "https://www.polylulu.com.tw/product?saleid=9104079001&color=A23",
+      "price": 695,
+      "origPrice": 790,
+      "img": "https://app-resource.polylulu.com.tw/app_img/91040790/e280b57d-8a88-440d-8dca-0d997b256ee0.jpg",
+      "sold": null
+    },
+    {
+      "id": "9104079002",
+      "name": "皺皺肌理感條紋襯衫",
+      "url": "https://www.polylulu.com.tw/product?saleid=9104079002&color=A63",
+      "price": 695,
+      "origPrice": 790,
+      "img": "https://app-resource.polylulu.com.tw/app_img/91040790/8ab90437-2778-4f61-9572-6bcb43cc40f8.jpg",
+      "sold": null
+    },
+    {
+      "id": "9104079101",
+      "name": "翻領收腰小清新碎花襯衫",
+      "url": "https://www.polylulu.com.tw/product?saleid=9104079101&color=A23",
+      "price": 660,
+      "origPrice": 750,
+      "img": "https://app-resource.polylulu.com.tw/app_img/91040791/76329b35-d34f-4a39-890e-364bace6cbb0.jpg",
+      "sold": null
+    },
+    {
+      "id": "9104079102",
+      "name": "翻領收腰小清新碎花襯衫",
+      "url": "https://www.polylulu.com.tw/product?saleid=9104079102&color=D32",
+      "price": 660,
+      "origPrice": 750,
+      "img": "https://app-resource.polylulu.com.tw/app_img/91040791/b9d3ef5c-f3b3-4db1-a623-61fc7c758346.jpg",
+      "sold": null
+    },
+    {
+      "id": "9128018501",
+      "name": "日系花花蕾絲兩件式洋裝套裝",
+      "url": "https://www.polylulu.com.tw/product?saleid=9128018501&color=A63",
+      "price": 1100,
+      "origPrice": 1250,
+      "img": "https://app-resource.polylulu.com.tw/app_img/91280185/1f3fcf20-9e62-48db-89b1-b26f0276a5cf.jpg",
+      "sold": null
+    },
+    {
+      "id": "9128018502",
+      "name": "日系花花蕾絲兩件式洋裝套裝",
+      "url": "https://www.polylulu.com.tw/product?saleid=9128018502&color=D15",
+      "price": 1100,
+      "origPrice": 1250,
+      "img": "https://app-resource.polylulu.com.tw/app_img/91280185/4d0a8b0d-6436-493a-8ae1-afa3b1478097.jpg",
+      "sold": null
+    },
+    {
+      "id": "9130036701",
+      "name": "撞色泡泡印小花長袖TEE",
+      "url": "https://www.polylulu.com.tw/product?saleid=9130036701&color=A05",
+      "price": 695,
+      "origPrice": 790,
+      "img": "https://app-resource.polylulu.com.tw/app_img/91300367/0701bd5d-f277-4407-b510-d33c022cff3f.jpg",
       "sold": null
     }
   ]
