@@ -49,6 +49,9 @@ async function fullShot(page, dest) {
     if (sc) { sc.style.height = sc.scrollHeight + 'px'; sc.style.overflow = 'visible'; }
   }).catch(() => {});
   await page.screenshot({ path: dest, fullPage: true, type: 'png' });
+  // 列表卡片用的縮圖：只截最上面一段、JPEG 壓縮，約 100–200 KB
+  const vw = page.viewportSize().width;
+  await page.screenshot({ path: dest.replace(/\.png$/, '-thumb.jpg'), type: 'jpeg', quality: 62, clip: { x: 0, y: 0, width: vw, height: Math.round(vw * 1.9) }, fullPage: true }).catch(() => {});
 }
 
 async function resolveNewPage(page, brand, rule) {
