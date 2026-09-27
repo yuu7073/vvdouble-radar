@@ -1,4 +1,181 @@
 {
-  "items": {},
+  "items": {
+    "2608060016": {
+      "id": "2608060016",
+      "name": "小花邊百摺背心",
+      "url": "https://www.minimatters.com.tw/Product?SaleID=2608060016&ColorID=004",
+      "price": 1080,
+      "origPrice": 1180,
+      "img": "https://photo.minimatters.com.tw/Photo/01010064/01010064-004-01-1.jpg",
+      "sold": null,
+      "firstSeen": "2026-09-28",
+      "thumb": "img/minimatters/2608060016.jpg"
+    },
+    "2608060017": {
+      "id": "2608060017",
+      "name": "簍空小花短袖背心組",
+      "url": "https://www.minimatters.com.tw/Product?SaleID=2608060017&ColorID=060",
+      "price": 1280,
+      "origPrice": 1380,
+      "img": "https://photo.minimatters.com.tw/Photo/01030094/01030094-060-01-1.jpg",
+      "sold": null,
+      "firstSeen": "2026-09-28",
+      "thumb": "img/minimatters/2608060017.jpg"
+    },
+    "2608060018": {
+      "id": "2608060018",
+      "name": "花花透膚上衣",
+      "url": "https://www.minimatters.com.tw/Product?SaleID=2608060018&ColorID=004",
+      "price": 880,
+      "origPrice": 980,
+      "img": "https://photo.minimatters.com.tw/Photo/01030095/01030095-004-01-1.jpg",
+      "sold": null,
+      "firstSeen": "2026-09-28",
+      "thumb": "img/minimatters/2608060018.jpg"
+    },
+    "2608060019": {
+      "id": "2608060019",
+      "name": "Happy小碎花合身Ｔ",
+      "url": "https://www.minimatters.com.tw/Product?SaleID=2608060019&ColorID=002",
+      "price": 1080,
+      "origPrice": 1180,
+      "img": "https://photo.minimatters.com.tw/Photo/01100071/01100071-002-01-1.jpg",
+      "sold": null,
+      "firstSeen": "2026-09-28",
+      "thumb": "img/minimatters/2608060019.jpg"
+    },
+    "2608060020": {
+      "id": "2608060020",
+      "name": "Happy小花寬鬆印花Ｔ",
+      "url": "https://www.minimatters.com.tw/Product?SaleID=2608060020&ColorID=002",
+      "price": 980,
+      "origPrice": 1080,
+      "img": "https://photo.minimatters.com.tw/Photo/01100072/01100072-002-01-1.jpg",
+      "sold": null,
+      "firstSeen": "2026-09-28",
+      "thumb": "img/minimatters/2608060020.jpg"
+    },
+    "2608060021": {
+      "id": "2608060021",
+      "name": "Happy星星寬鬆印花Ｔ",
+      "url": "https://www.minimatters.com.tw/Product?SaleID=2608060021&ColorID=002",
+      "price": 980,
+      "origPrice": 1080,
+      "img": "https://photo.minimatters.com.tw/Photo/01100073/01100073-002-01-1.jpg",
+      "sold": null,
+      "firstSeen": "2026-09-28",
+      "thumb": "img/minimatters/2608060021.jpg"
+    },
+    "2608060022": {
+      "id": "2608060022",
+      "name": "伸縮自如條紋襯衫",
+      "url": "https://www.minimatters.com.tw/Product?SaleID=2608060022&ColorID=002",
+      "price": 1280,
+      "origPrice": 1380,
+      "img": "https://photo.minimatters.com.tw/Photo/01080067/01080067-002-01-1.jpg",
+      "sold": null,
+      "firstSeen": "2026-09-28",
+      "thumb": "img/minimatters/2608060022.jpg"
+    },
+    "2608060023": {
+      "id": "2608060023",
+      "name": "鬆鬆軟軟蛋糕裙",
+      "url": "https://www.minimatters.com.tw/Product?SaleID=2608060023&ColorID=149",
+      "price": 1480,
+      "origPrice": 1580,
+      "img": "https://photo.minimatters.com.tw/Photo/04020060/04020060-149-01-1.jpg",
+      "sold": null,
+      "firstSeen": "2026-09-28",
+      "thumb": "img/minimatters/2608060023.jpg"
+    },
+    "2608060024": {
+      "id": "2608060024",
+      "name": "漂亮出門格紋長裙",
+      "url": "https://www.minimatters.com.tw/Product?SaleID=2608060024&ColorID=012",
+      "price": 1480,
+      "origPrice": 1580,
+      "img": "https://photo.minimatters.com.tw/Photo/04020059/04020059-012-01-1.jpg",
+      "sold": null,
+      "firstSeen": "2026-09-28",
+      "thumb": "img/minimatters/2608060024.jpg"
+    },
+    "2608060025": {
+      "id": "2608060025",
+      "name": "撞色腰頭拼接七分褲",
+      "url": "https://www.minimatters.com.tw/Product?SaleID=2608060025&ColorID=043",
+      "price": 1380,
+      "origPrice": 1480,
+      "img": "https://photo.minimatters.com.tw/Photo/03070011/03070011-043-01-1.jpg",
+      "sold": null,
+      "firstSeen": "2026-09-28",
+      "thumb": "img/minimatters/2608060025.jpg"
+    },
+    "2608060026": {
+      "id": "2608060026",
+      "name": "小花邊彎刀棉褲",
+      "url": "https://www.minimatters.com.tw/Product?SaleID=2608060026&ColorID=009",
+      "price": 1480,
+      "origPrice": 1580,
+      "img": "https://photo.minimatters.com.tw/Photo/03060016/03060016-009-01-1.jpg",
+      "sold": null,
+      "firstSeen": "2026-09-28",
+      "thumb": "img/minimatters/2608060026.jpg"
+    },
+    "2608060027": {
+      "id": "2608060027",
+      "name": "Happy點點棒球帽",
+      "url": "https://www.minimatters.com.tw/Product?SaleID=2608060027&ColorID=FFF",
+      "price": 680,
+      "origPrice": 780,
+      "img": "https://photo.minimatters.com.tw/Photo/07080024/07080024-FFF-01-1.jpg",
+      "sold": null,
+      "firstSeen": "2026-09-28",
+      "thumb": "img/minimatters/2608060027.jpg"
+    },
+    "2608060028": {
+      "id": "2608060028",
+      "name": "Happy碎花棒球帽",
+      "url": "https://www.minimatters.com.tw/Product?SaleID=2608060028&ColorID=FFF",
+      "price": 680,
+      "origPrice": 780,
+      "img": "https://photo.minimatters.com.tw/Photo/07080025/07080025-FFF-01-1.jpg",
+      "sold": null,
+      "firstSeen": "2026-09-28",
+      "thumb": "img/minimatters/2608060028.jpg"
+    },
+    "2608060029": {
+      "id": "2608060029",
+      "name": "Bestie 零錢包",
+      "url": "https://www.minimatters.com.tw/Product?SaleID=2608060029&ColorID=FFF",
+      "price": 480,
+      "origPrice": null,
+      "img": "https://photo.minimatters.com.tw/Photo/07030044/07030044-FFF-01-1.jpg",
+      "sold": null,
+      "firstSeen": "2026-09-28",
+      "thumb": "img/minimatters/2608060029.jpg"
+    },
+    "2608060030": {
+      "id": "2608060030",
+      "name": "Happy 零錢包",
+      "url": "https://www.minimatters.com.tw/Product?SaleID=2608060030&ColorID=FFF",
+      "price": 480,
+      "origPrice": null,
+      "img": "https://photo.minimatters.com.tw/Photo/07030043/07030043-FFF-01-1.jpg",
+      "sold": null,
+      "firstSeen": "2026-09-28",
+      "thumb": "img/minimatters/2608060030.jpg"
+    },
+    "2608060031": {
+      "id": "2608060031",
+      "name": "Happy托特包",
+      "url": "https://www.minimatters.com.tw/Product?SaleID=2608060031&ColorID=047",
+      "price": 1280,
+      "origPrice": 1380,
+      "img": "https://photo.minimatters.com.tw/Photo/07030046/07030046-047-0-1.jpg",
+      "sold": null,
+      "firstSeen": "2026-09-28",
+      "thumb": "img/minimatters/2608060031.jpg"
+    }
+  },
   "updatedAt": "2026-09-28"
 }
