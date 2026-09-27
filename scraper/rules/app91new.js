@@ -3,6 +3,17 @@
 // 有 cookie 橫幅 + omnichat LINE 客服視窗，靠 dismiss() 清掉
 // 商品連結：/SalePage/{id}；商品卡 .product-card__vertical
 module.exports = {
+  // 新品週次連結（• 09/21 新品）藏在「最新商品 → ɴᴇᴡ 最新商品」的第三層選單，要先點開才會出現在 DOM
+  async beforeFindNewPage(page) {
+    await page.evaluate(async () => {
+      const clean = s => (s || '').replace(/\s+/g, ' ').trim();
+      const fire = el => { el.dispatchEvent(new MouseEvent('mouseover', { bubbles: true })); el.dispatchEvent(new MouseEvent('mouseenter', { bubbles: true })); el.click(); };
+      const top = [...document.querySelectorAll('header a, nav a')].find(a => clean(a.textContent) === '最新商品');
+      if (top) { fire(top); await new Promise(r => setTimeout(r, 700)); }
+      const sub = [...document.querySelectorAll('header a, nav a')].find(a => /最新商品/.test(clean(a.textContent)) && a !== top && !a.getAttribute('href'));
+      if (sub) { fire(sub); await new Promise(r => setTimeout(r, 700)); }
+    }).catch(() => {});
+  },
   async banners(page) {
     return page.evaluate(() => {
       const out = [];

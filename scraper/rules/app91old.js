@@ -13,8 +13,10 @@ module.exports = {
   },
   async products(page) {
     return page.evaluate(() => window.__vv.products(/\/product(\?|\/)/i, {
-      idFrom: u => { const m = u.match(/[?&](?:pid|id|productid|salepageid|itemid)=([^&]+)/i); if (m) return m[1]; const m2 = u.match(/\/product\/([^/?]+)/); return m2 ? m2[1] : null; },
+      // 91APP 舊版商品連結是 /product?xxx=...，query 參數名每家不同；
+      // 直接用完整網址（含 query）當 id，再從縮圖路徑 app_img/{商品編號}/ 補抓編號
+      idFrom: u => { const m = u.match(/[?&]SaleID=(\d+)/i); return m ? m[1] : u.replace(/#.*$/, ''); },
       limit: 60,
-    }));
+    }).map(p => { const m = (p.img || '').match(/(?:app_img|Photo)\/(\d{6,})\//); if (m && !/^\d+$/.test(p.id)) p.id = m[1]; return p; }));
   },
 };
