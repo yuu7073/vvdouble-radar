@@ -35,7 +35,11 @@ async function openPage(ctx, url, retries = 1) {
   await page.addScriptTag({ content: helpers });
   await page.evaluate(() => window.__vv.dismiss());
   await page.waitForTimeout(800);
+  // 捲兩輪：第一輪觸發 lazy，第二輪讓後補進來的區塊也載到
   await page.evaluate(() => window.__vv.scrollAll());
+  await page.evaluate(() => window.__vv.dismiss());
+  await page.evaluate(() => window.__vv.scrollAll(900, 150, 60));
+  page.__pendingImgs = await page.evaluate(() => window.__vv.waitImages(15000)).catch(() => -1);
   await page.evaluate(() => window.__vv.dismiss());
   await page.waitForTimeout(600);
   return page;
@@ -48,10 +52,18 @@ async function fullShot(page, dest) {
     const sc = [...document.querySelectorAll('*')].find(e => e.scrollHeight > 3000 && e.clientHeight < e.scrollHeight - 500 && /auto|scroll/.test(getComputedStyle(e).overflowY));
     if (sc) { sc.style.height = sc.scrollHeight + 'px'; sc.style.overflow = 'visible'; }
   }).catch(() => {});
+  // 截圖前最後一次：關彈窗、確認圖片載完；還有沒載完的就再給一次機會
+  let pending = await page.evaluate(() => { window.__vv.dismiss(); return window.__vv.waitImages(8000); }).catch(() => -1);
+  if (pending > 3) {
+    log('  仍有', pending, '張圖未載入，捲一次再等');
+    await page.evaluate(() => window.__vv.scrollAll(700, 250, 80));
+    pending = await page.evaluate(() => { window.__vv.dismiss(); return window.__vv.waitImages(12000); }).catch(() => -1);
+  }
   await page.screenshot({ path: dest, fullPage: true, type: 'png' });
   // 列表卡片用的縮圖：只截最上面一段、JPEG 壓縮，約 100–200 KB
   const vw = page.viewportSize().width;
   await page.screenshot({ path: dest.replace(/\.png$/, '-thumb.jpg'), type: 'jpeg', quality: 62, clip: { x: 0, y: 0, width: vw, height: Math.round(vw * 1.9) }, fullPage: true }).catch(() => {});
+  return { pendingImages: Math.max(0, pending) };
 }
 
 async function resolveNewPage(page, brand, rule) {
@@ -76,7 +88,7 @@ async function captureBrand(browser, brand, index) {
   const dpage = await openPage(dctx, brand.home, brand.retries || 1);
   const banners = await rule.banners(dpage).catch(e => { log(brand.id, 'banners error', e.message); return []; });
   const pageTitle = await dpage.title();
-  await fullShot(dpage, path.join(tmp, 'home-pc.png'));
+  const qPc = await fullShot(dpage, path.join(tmp, 'home-pc.png'));
   const newPageUrl = await resolveNewPage(dpage, brand, rule).catch(() => '');
   log(brand.id, 'banners', banners.length, '| new page', newPageUrl || '(none)');
 
@@ -100,7 +112,7 @@ async function captureBrand(browser, brand, index) {
   const mctx = await browser.newContext(MOBILE);
   try {
     const mpage = await openPage(mctx, brand.home, brand.retries || 1);
-    await fullShot(mpage, path.join(tmp, 'home-m.png'));
+    entry.qM = (await fullShot(mpage, path.join(tmp, 'home-m.png'))).pendingImages;
     // 手機版有自己的 banner 圖的站（Queen Shop、OB），補抓
     if (banners.length && !banners.some(b => b.mobile)) {
       const mb = await rule.banners(mpage).catch(() => []);
@@ -108,6 +120,8 @@ async function captureBrand(browser, brand, index) {
     }
   } catch (e) { log(brand.id, 'mobile error', e.message); }
   await mctx.close();
+
+  if (entry.qPc > 3 || entry.qM > 3) { entry.incomplete = true; log(brand.id, '⚠ 截圖可能不完整 pc:' + entry.qPc + ' m:' + entry.qM); }
 
   // ---- 新品去重 ----
   const masterPath = path.join(DATA, 'products', brand.id + '.json');
@@ -127,6 +141,7 @@ async function captureBrand(browser, brand, index) {
   entry.bannerCount = banners.length;
   entry.title = pageTitle;
   entry.newPageUrl = newPageUrl;
+  entry.qPc = qPc.pendingImages;
 
   if (!changed) {
     // 沒變動，但上一版缺縮圖（舊版程式抓的）→ 把這次的縮圖補進去
@@ -168,7 +183,7 @@ async function captureBrand(browser, brand, index) {
   master.updatedAt = DATE;
   writeJson(masterPath, master);
 
-  writeJson(path.join(dir, 'meta.json'), { brand: brand.id, name: brand.name, date: DATE, home: brand.home, newPageUrl, title: pageTitle, scale: SCALE, capturedAt: new Date().toISOString() });
+  writeJson(path.join(dir, 'meta.json'), { brand: brand.id, name: brand.name, date: DATE, home: brand.home, newPageUrl, title: pageTitle, scale: SCALE, pendingImages: { pc: entry.qPc, m: entry.qM }, capturedAt: new Date().toISOString() });
   entry.dir = `${brand.id}/${DATE}`;
   log(brand.id, `已存：banner ${bannerMeta.filter(b => b.pc).length} 張，新品 ${fresh.length} 款`);
 
