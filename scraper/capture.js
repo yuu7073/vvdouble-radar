@@ -24,10 +24,13 @@ const DESKTOP = { viewport: { width: 1440, height: 900 }, deviceScaleFactor: SCA
   userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36' };
 const MOBILE = { ...devices['iPhone 13'], deviceScaleFactor: SCALE, locale: 'zh-TW', timezoneId: 'Asia/Taipei' };
 
-async function openPage(ctx, url) {
+async function openPage(ctx, url, retries = 1) {
   const page = await ctx.newPage();
   page.setDefaultTimeout(45000);
-  await page.goto(url, { waitUntil: 'domcontentloaded' });
+  for (let i = 0; ; i++) {
+    try { await page.goto(url, { waitUntil: 'domcontentloaded' }); break; }
+    catch (e) { if (i >= retries) throw e; log('retry', url, e.message.split('\n')[0]); await page.waitForTimeout(3000); }
+  }
   await page.waitForLoadState('networkidle', { timeout: 20000 }).catch(() => {});
   await page.addScriptTag({ content: helpers });
   await page.evaluate(() => window.__vv.dismiss());
@@ -48,9 +51,11 @@ async function fullShot(page, dest) {
   await page.screenshot({ path: dest, fullPage: true, type: 'png' });
 }
 
-async function resolveNewPage(page, brand) {
+async function resolveNewPage(page, brand, rule) {
   if (brand.newPage) return brand.newPage;
   const f = brand.findNewPage;
+  if (!f) return '';
+  if (rule.beforeFindNewPage) await rule.beforeFindNewPage(page);
   const href = await page.evaluate(([t, p, latest]) => window.__vv.findLink(new RegExp(t.source, t.flags), p ? new RegExp(p.source, p.flags) : null, latest),
     [{ source: f.text.source, flags: f.text.flags }, f.prefer ? { source: f.prefer.source, flags: f.prefer.flags } : null, !!f.pickLatestDate]);
   return href || '';
@@ -65,11 +70,11 @@ async function captureBrand(browser, brand, index) {
 
   // ---- 電腦版首頁 ----
   const dctx = await browser.newContext(DESKTOP);
-  const dpage = await openPage(dctx, brand.home);
+  const dpage = await openPage(dctx, brand.home, brand.retries || 1);
   const banners = await rule.banners(dpage).catch(e => { log(brand.id, 'banners error', e.message); return []; });
   const pageTitle = await dpage.title();
   await fullShot(dpage, path.join(tmp, 'home-pc.png'));
-  const newPageUrl = await resolveNewPage(dpage, brand).catch(() => '');
+  const newPageUrl = await resolveNewPage(dpage, brand, rule).catch(() => '');
   log(brand.id, 'banners', banners.length, '| new page', newPageUrl || '(none)');
 
   // ---- 新品頁 ----
@@ -91,7 +96,7 @@ async function captureBrand(browser, brand, index) {
   // ---- 手機版首頁 ----
   const mctx = await browser.newContext(MOBILE);
   try {
-    const mpage = await openPage(mctx, brand.home);
+    const mpage = await openPage(mctx, brand.home, brand.retries || 1);
     await fullShot(mpage, path.join(tmp, 'home-m.png'));
     // 手機版有自己的 banner 圖的站（Queen Shop、OB），補抓
     if (banners.length && !banners.some(b => b.mobile)) {
@@ -167,7 +172,7 @@ async function captureBrand(browser, brand, index) {
   const indexPath = path.join(DATA, 'index.json');
   const index = readJson(indexPath, { brands: {} });
   const list = brands.filter(b => !ONLY.length || ONLY.includes(b.id));
-  const browser = await chromium.launch({ args: ['--disable-blink-features=AutomationControlled', '--lang=zh-TW'], executablePath: process.env.CHROMIUM_PATH || undefined });
+  const browser = await chromium.launch({ args: ['--disable-blink-features=AutomationControlled', '--lang=zh-TW', '--disable-http2'], executablePath: process.env.CHROMIUM_PATH || undefined });
   for (const brand of list) {
     log('==== ', brand.name);
     let entry;

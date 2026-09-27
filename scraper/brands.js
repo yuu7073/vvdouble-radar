@@ -31,7 +31,7 @@ module.exports = [
   {
     id: 'minimatters', name: 'minimatters', rule: 'app91old',
     home: 'https://www.minimatters.com.tw/',
-    findNewPage: { text: /新品|NEW/i, prefer: /productlist/ },
+    newPage: 'https://www.minimatters.com.tw/productlist?other=newarrival',
   },
   {
     id: 'obdesign', name: 'OB嚴選', rule: 'app91new',
@@ -46,13 +46,14 @@ module.exports = [
   },
   {
     id: 'uniqlo', name: 'UNIQLO', rule: 'uniqlo',
+    // 全球站，新品頁是動態選單、沒有固定網址；第一版只收首頁截圖＋banner
     home: 'https://www.uniqlo.com/tw/zh_TW/women.html',
-    newPage: 'https://www.uniqlo.com/tw/zh_TW/women/new.html',
-    fallbackNewPage: 'https://www.uniqlo.com/tw/zh_TW/feature-women-new.html',
+    newPage: '',
   },
   {
     id: 'gu', name: 'GU', rule: 'uniqlo',
     home: 'https://www.gu-global.com/tw/zh_TW/',
     newPage: 'https://www.gu-global.com/tw/zh_TW/women_new.html',
+    retries: 2,
   },
 ];
