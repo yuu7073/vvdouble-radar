@@ -129,6 +129,13 @@ async function captureBrand(browser, brand, index) {
   entry.newPageUrl = newPageUrl;
 
   if (!changed) {
+    // 沒變動，但上一版缺縮圖（舊版程式抓的）→ 把這次的縮圖補進去
+    if (prev && prev.dir) {
+      for (const f of ['home-pc-thumb.jpg', 'home-m-thumb.jpg']) {
+        const src = path.join(tmp, f), dst = path.join(DATA, prev.dir, f);
+        if (fs.existsSync(src) && !fs.existsSync(dst)) fs.copyFileSync(src, dst);
+      }
+    }
     fs.rmSync(tmp, { recursive: true, force: true });
     log(brand.id, '沒變動，不存截圖');
     return entry;
