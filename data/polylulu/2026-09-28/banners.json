@@ -1,0 +1,62 @@
+[
+  {
+    "n": 1,
+    "pc": "banners/01-pc.jpg",
+    "mobile": "banners/01-m.jpg",
+    "pcUrl": "https://photo.polylulu.com.tw/photo/act/20260923/indexbn-20260923-pc-01.jpg?v=20260923",
+    "mobileUrl": "https://photo.polylulu.com.tw/photo/act/20260923/indexbn-20260923-m-01.jpg?v=20260923",
+    "link": "https://www.polylulu.com.tw/productlist?KeyWord=pi:609926092101&actno=26092103&onsale=1",
+    "text": "",
+    "alt": "加1元多1件"
+  },
+  {
+    "n": 2,
+    "pc": "banners/02-pc.jpg",
+    "mobile": "banners/02-m.jpg",
+    "pcUrl": "https://photo.polylulu.com.tw/photo/act/20260923/indexbn-20260923-pc-02.jpg?v=20260923",
+    "mobileUrl": "https://photo.polylulu.com.tw/photo/act/20260923/indexbn-20260923-m-02.jpg?v=20260923",
+    "link": "https://www.polylulu.com.tw/productlist?KeyWord=pim:2609210002&actno=26092101",
+    "text": "",
+    "alt": "新品上市"
+  },
+  {
+    "n": 3,
+    "pc": "banners/03-pc.jpg",
+    "mobile": "banners/03-m.jpg",
+    "pcUrl": "https://photo.polylulu.com.tw/photo/act/20260923/indexbn-20260923-pc-03.jpg?v=20260923",
+    "mobileUrl": "https://photo.polylulu.com.tw/photo/act/20260923/indexbn-20260923-m-03.jpg?v=20260923",
+    "link": "https://www.polylulu.com.tw/productstylePage?KeyWord=26091401",
+    "text": "",
+    "alt": "新莊宏匯開幕"
+  },
+  {
+    "n": 4,
+    "pc": "banners/04-pc.jpg",
+    "mobile": "banners/04-m.jpg",
+    "pcUrl": "https://photo.polylulu.com.tw/photo/act/20260923/indexbn-20260923-pc-04.jpg?v=20260923",
+    "mobileUrl": "https://photo.polylulu.com.tw/photo/act/20260923/indexbn-20260923-m-04.jpg?v=20260923",
+    "link": "https://www.polylulu.com.tw/ponyo",
+    "text": "",
+    "alt": "PONYO"
+  },
+  {
+    "n": 5,
+    "pc": "banners/05-pc.jpg",
+    "mobile": "banners/05-m.jpg",
+    "pcUrl": "https://photo.polylulu.com.tw/photo/act/20260923/indexbn-20260923-pc-05.jpg?v=20260923",
+    "mobileUrl": "https://photo.polylulu.com.tw/photo/act/20260923/indexbn-20260923-m-05.jpg?v=20260923",
+    "link": "https://www.polylulu.com.tw/miss",
+    "text": "",
+    "alt": "MISS"
+  },
+  {
+    "n": 6,
+    "pc": "banners/06-pc.jpg",
+    "mobile": "banners/06-m.jpg",
+    "pcUrl": "https://photo.polylulu.com.tw/photo/act/20260923/indexbn-20260923-pc-06.jpg?v=20260923",
+    "mobileUrl": "https://photo.polylulu.com.tw/photo/act/20260923/indexbn-20260923-m-06.jpg?v=20260923",
+    "link": "https://www.polylulu.com.tw/productlist?KeyWord=pim:2609210002&actno=26092101",
+    "text": "",
+    "alt": "新品上市"
+  }
+]

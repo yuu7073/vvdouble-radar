@@ -1,0 +1,42 @@
+[
+  {
+    "n": 1,
+    "pc": "banners/01-pc.jpg",
+    "mobile": "banners/01-m.jpg",
+    "pcUrl": "https://www.uniqlo.com/tw/public/uqtw/l1/2026/0925/0_14_pc.jpg",
+    "mobileUrl": "https://www.uniqlo.com/tw/public/uqtw/l1/2026/0925/0_01_pc.jpg",
+    "link": "https://www.uniqlo.com/tw/zh_TW/c/all_women-heattech.html",
+    "text": "HEATTECH 吸濕發熱衣系列 為降溫做準備 輕盈保暖、觸感柔滑親膚 UNIQLO : C 2026 秋冬系列新登場 精緻鬆柔 都會廓形 短版外套 期待已久的優惠！ 有挺度的材質搭配拼接設計亮點 NT$1,290 截至 10/1 限定價格",
+    "alt": "HEATTECH吸濕發熱衣系列"
+  },
+  {
+    "n": 2,
+    "pc": "banners/02-pc.jpg",
+    "mobile": "",
+    "pcUrl": "https://www.uniqlo.com/tw/public/uqtw/l1/2026/0925/0_01_pc.jpg",
+    "mobileUrl": "",
+    "link": "https://www.uniqlo.com/tw/zh_TW/feature-digital-flyer.html",
+    "text": "",
+    "alt": "HAPPY MOON FESTIVAL"
+  },
+  {
+    "n": 3,
+    "pc": "banners/03-pc.jpg",
+    "mobile": "",
+    "pcUrl": "https://www.uniqlo.com/tw/public/uqtw/l1/2026/0925/1_02_pc.jpg",
+    "mobileUrl": "",
+    "link": "https://www.uniqlo.com/tw/zh_TW/c/all_men-collaboration-fw-uniqlo-u.html",
+    "text": "Uniqlo U 2026 秋冬系列 10 週年紀念系列 匠心經典 嶄新鉅獻 UNIQLO : C 2026 秋冬系列新登場 精緻鬆柔 都會廓形 LifeWear magazine​ Issue 15​ Modern City Feelin",
+    "alt": "HAPPY MOON FESTIVAL"
+  },
+  {
+    "n": 4,
+    "pc": "banners/04-pc.jpg",
+    "mobile": "",
+    "pcUrl": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjUiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNSAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEyLjUgMUM2LjQzMTg3IDEgMS41IDUuOTMxODcgMS41IDEyQzEuNSAxOC4wNjgxIDYuNDMxODcgMjMgMTIuNSAyM0MxOC41NjgxIDIzIDIzLjUgMTguMDY4MSAyMy41IDEyQzIzLjUgNS45MzE4NyAxOC41NjgxIDEgMTIuNSAxWk0xMi41IDIxLjU0OTRDNy4yMjk2NyAyMS41NDk0IDIuOTUwNTUgMTcuMjcwMyAyLjk1MDU1IDEyQzIuOTUwNTUgNi43Mjk2NyA3LjIyOTY3IDIuNDUwNTUgMTIuNSAyLjQ1MDU1QzE3Ljc3MDMgMi40NTA1NSAyMi4wNDk0IDYuNzI5NjcgMjIuMDQ5NCAxMkMyMi4wNDk0IDE3LjI3MDMgMTcuNzcwMyAyMS41NDk0IDEyLjUgMjEuNTQ5NFoiIGZpbGw9IndoaXRlIi8+CjxwYXRoIGQ9Ik05LjIgNy41SDEwLjczNDlWMTYuNDUzNUg5LjJWNy41WiIgZmlsbD0id2hpdGUiLz4KPHBhdGggZD0iTTE0LjMxNjMgNy41SDE1Ljg1MTJWMTYuNDUzNUgxNC4zMTYzVjcuNVoiIGZpbGw9IndoaXRlIi8+Cjwvc3ZnPgo=",
+    "mobileUrl": "",
+    "link": "https://www.uniqlo.com/tw/zh_TW/c/all_women-heattech.html",
+    "text": "HEATTECH 吸濕發熱衣系列 為降溫做準備 輕盈保暖、觸感柔滑親膚 UNIQLO : C 2026 秋冬系列新登場 精緻鬆柔 都會廓形 短版外套 期待已久的優惠！ 有挺度的材質搭配拼接設計亮點 NT$1,290 截至 10/1 限定價格",
+    "alt": ""
+  }
+]

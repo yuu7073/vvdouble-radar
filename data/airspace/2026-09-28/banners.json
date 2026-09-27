@@ -1,0 +1,72 @@
+[
+  {
+    "n": 1,
+    "pc": "banners/01-pc.gif",
+    "mobile": "banners/01-m.gif",
+    "pcUrl": "https://images.airspaceonline.com/photo/H/21874dd5-20d4-4d2b-83e1-4ecf145b5b8e.gif",
+    "mobileUrl": "https://images.airspaceonline.com/photo/H/21874dd5-20d4-4d2b-83e1-4ecf145b5b8e.gif",
+    "link": "https://www.airspaceonline.com/tw/zh-hant/productlist?promotionid=all88_2609",
+    "text": "",
+    "alt": ""
+  },
+  {
+    "n": 2,
+    "pc": "banners/02-pc.gif",
+    "mobile": "banners/02-m.gif",
+    "pcUrl": "https://images.airspaceonline.com/photo/H/cfa280cf-f57a-4541-b01e-b3c69090d694.gif",
+    "mobileUrl": "https://images.airspaceonline.com/photo/H/cfa280cf-f57a-4541-b01e-b3c69090d694.gif",
+    "link": "https://www.airspaceonline.com/tw/zh-hant/productlist?chooseid=2609170001",
+    "text": "",
+    "alt": ""
+  },
+  {
+    "n": 3,
+    "pc": "banners/03-pc.webp",
+    "mobile": "banners/03-m.webp",
+    "pcUrl": "https://images.airspaceonline.com/photo/H/8cefdd47-bbb5-467e-bd2b-a3bb55f3b3bd.webp",
+    "mobileUrl": "https://images.airspaceonline.com/photo/H/8cefdd47-bbb5-467e-bd2b-a3bb55f3b3bd.webp",
+    "link": "https://www.airspaceonline.com/tw/zh-hant/productlist/air-space",
+    "text": "",
+    "alt": ""
+  },
+  {
+    "n": 4,
+    "pc": "banners/04-pc.webp",
+    "mobile": "banners/04-m.webp",
+    "pcUrl": "https://images.airspaceonline.com/photo/H/fa4323a7-261f-4d7c-9581-37d9b06cffae.webp",
+    "mobileUrl": "https://images.airspaceonline.com/photo/H/9bc2cf80-82e7-4fba-b077-989dd6b6d272.webp",
+    "link": "https://www.airspaceonline.com/tw/zh-hant/productlist/air-space/collab/occasion/aircotton",
+    "text": "",
+    "alt": ""
+  },
+  {
+    "n": 5,
+    "pc": "banners/05-pc.webp",
+    "mobile": "banners/05-m.gif",
+    "pcUrl": "https://images.airspaceonline.com/photo/H/a5efa05b-a926-46a8-b08f-e42bf1b1654e.webp",
+    "mobileUrl": "https://images.airspaceonline.com/photo/H/c6461c2e-1415-4512-a7f9-aa8f3ebbd33a.gif",
+    "link": "https://www.airspaceonline.com/tw/zh-hant/productlist/air-space/wear/upper/bratop",
+    "text": "",
+    "alt": ""
+  },
+  {
+    "n": 6,
+    "pc": "banners/06-pc.webp",
+    "mobile": "banners/06-m.webp",
+    "pcUrl": "https://images.airspaceonline.com/photo/H/50512ced-7114-4cc7-87cf-25e16296ff3c.webp",
+    "mobileUrl": "https://images.airspaceonline.com/photo/H/e46bc7b6-761e-4bfb-b94d-7036326de6c4.webp",
+    "link": "https://www.airspaceonline.com/tw/zh-hant/productlist/r-fav",
+    "text": "",
+    "alt": ""
+  },
+  {
+    "n": 7,
+    "pc": "banners/07-pc.webp",
+    "mobile": "banners/07-m.webp",
+    "pcUrl": "https://images.airspaceonline.com/photo/H/68f58abb-2f71-4ddd-b35b-3f1a0e812326.webp",
+    "mobileUrl": "https://images.airspaceonline.com/photo/H/cba43256-966f-408d-8eb9-5f8a9f836275.webp",
+    "link": "https://www.airspaceonline.com/tw/zh-hant/static?key=2025042200002",
+    "text": "",
+    "alt": ""
+  }
+]

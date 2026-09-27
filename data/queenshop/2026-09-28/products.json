@@ -1,0 +1,108 @@
+{
+  "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/ProductList?item1=00",
+  "count": 10,
+  "fresh": [
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01025863",
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01099787",
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01200118",
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01190445",
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=03030270",
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=03021784",
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01200147",
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01200084",
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01087363",
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01087359"
+  ],
+  "items": [
+    {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01025863",
+      "name": "格紋荷葉剪接造型寬版襯衫 三色售",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01025863",
+      "price": 690,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/01025863/01025863-h.jpg",
+      "sold": null
+    },
+    {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01099787",
+      "name": "光澤紋理荷葉下擺細肩罩衫背心 四色售",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01099787",
+      "price": 490,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/01099787/01099787-h.jpg",
+      "sold": null
+    },
+    {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01200118",
+      "name": "JOGUMAN 假兩件條紋印圖上衣 兩色售",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01200118",
+      "price": 790,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/01200118/01200118-h.jpg",
+      "sold": null
+    },
+    {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01190445",
+      "name": "JOGUMAN 條紋TEE 兩色售",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01190445",
+      "price": 590,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/01190445/01190445-h.jpg",
+      "sold": null
+    },
+    {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=03030270",
+      "name": "點點緹花綁帶設計荷葉蛋糕五分裙 三色售",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=03030270",
+      "price": 690,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/03030270/03030270-h.jpg",
+      "sold": null
+    },
+    {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=03021784",
+      "name": "多層荷葉花邊網紗蛋糕長裙-杏",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=03021784",
+      "price": 790,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/03021784/03021784-h.jpg",
+      "sold": null
+    },
+    {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01200147",
+      "name": "荷葉綁帶排釦澎袖設計長袖上衣-咖",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01200147",
+      "price": 550,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/01200147/01200147-h.jpg",
+      "sold": null
+    },
+    {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01200084",
+      "name": "條紋坑條木耳邊合身上衣-杏",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01200084",
+      "price": 490,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/01200084/01200084-h.jpg",
+      "sold": null
+    },
+    {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01087363",
+      "name": "多層荷葉剪接設計蛋糕長洋裝 兩色售",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01087363",
+      "price": 850,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/01087363/01087363-h.jpg",
+      "sold": null
+    },
+    {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01087359",
+      "name": "條紋荷葉綁帶傘襬長袖短洋裝 兩色售",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01087359",
+      "price": 750,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/01087359/01087359-h.jpg",
+      "sold": null
+    }
+  ]
+}
