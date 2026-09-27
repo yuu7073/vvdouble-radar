@@ -137,6 +137,9 @@ async function captureBrand(browser, brand, index) {
       }
     }
     fs.rmSync(tmp, { recursive: true, force: true });
+    // 同一天重跑：今天稍早已存過截圖的話，保留那筆（不能把 dir 蓋掉）
+    const sameDay = (index.brands[brand.id]?.captures || []).find(c => c.date === DATE && c.dir);
+    if (sameDay) { log(brand.id, '沒變動（今天已有截圖，沿用）'); return { ...sameDay, fingerprint: fp }; }
     log(brand.id, '沒變動，不存截圖');
     return entry;
   }
