@@ -30,8 +30,9 @@ module.exports = {
     });
   },
   async products(page) {
-    return page.evaluate(() => window.__vv.products(/\/SalePage\/\d+/, {
-      idFrom: u => (u.match(/\/SalePage\/(\d+)/) || [])[1],
+    // 商品卡本身就是 <a href="/SalePage/Index/12171292">
+    return page.evaluate(() => window.__vv.products(/\/SalePage\/(Index\/)?\d+/, {
+      idFrom: u => (u.match(/\/SalePage\/(?:Index\/)?(\d+)/) || [])[1],
       nameSel: '[class*=product-card__title],[class*=name]',
       limit: 60,
     }));
