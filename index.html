@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VV 競品首頁收集器</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&display=swap">
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-database-compat.js"></script>
+<style>
+:root{--bg:#F4F2EE;--card:#FFFFFF;--line:#E3E0D9;--ink:#1E2430;--mute:#5B6472;--blue:#2B5C8A;--blue-d:#1F4468;--blue-l:#E4EDF5;--orange:#8A4B08;--orange-l:#FDF1E3;--chip:#EEECE6;--soft:#F1EFEA;--red:#B33A3A}
+*{box-sizing:border-box}
+html,body{margin:0;height:100%}
+body{font-family:'Noto Sans TC',system-ui,sans-serif;background:var(--bg);color:var(--ink);font-size:14px;display:flex;flex-direction:column}
+a{color:var(--blue);text-decoration:none}
+button{font-family:inherit;cursor:pointer}
+input,select,textarea{font-family:inherit;font-size:13px}
+.vvr-top{height:56px;flex-shrink:0;background:var(--card);border-bottom:1px solid var(--line);display:flex;align-items:center;gap:20px;padding:0 20px}
+.vvr-logo{font-weight:700;font-size:16px;letter-spacing:.5px;white-space:nowrap}
+.vvr-nav{display:flex;gap:4px;flex-wrap:wrap}
+.vvr-nav button{border:0;background:transparent;padding:8px 13px;border-radius:8px;font-size:14px;font-weight:500;color:var(--ink)}
+.vvr-nav button.on{background:var(--ink);color:#fff}
+.vvr-top .sp{flex:1}
+.vvr-status{font-size:12px;color:var(--mute);white-space:nowrap}
+.vvr-main{flex:1;min-height:0;display:flex}
+.vvr-side{width:220px;flex-shrink:0;background:var(--card);border-right:1px solid var(--line);overflow:auto;padding:16px 0}
+.vvr-side h4{margin:0 0 8px;padding:0 18px;font-size:11px;font-weight:500;color:var(--mute);letter-spacing:1px}
+.vvr-brand{display:flex;align-items:center;gap:10px;padding:9px 18px;cursor:pointer;border-right:3px solid transparent}
+.vvr-brand:hover{background:var(--soft)}
+.vvr-brand.on{background:var(--bg);border-right-color:var(--blue)}
+.vvr-brand .dot{width:8px;height:8px;border-radius:50%;background:#C9C5BC;flex-shrink:0}
+.vvr-brand .dot.hot{background:#B45309}
+.vvr-brand .nm{font-weight:500;font-size:13px}
+.vvr-brand .sub{font-size:11px;color:var(--mute)}
+.vvr-body{flex:1;min-width:0;overflow:auto;padding:20px 24px}
+.vvr-row{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:16px}
+.vvr-row .sp{flex:1}
+.seg{display:flex;background:#E9E6DF;border-radius:8px;padding:3px}
+.seg button{border:0;background:transparent;padding:6px 13px;border-radius:6px;font-size:13px;color:var(--mute)}
+.seg button.on{background:#fff;color:var(--ink);font-weight:500}
+.wk{display:flex;align-items:center;gap:2px;background:#fff;border:1px solid var(--line);border-radius:10px;padding:3px}
+.wk button{border:0;background:transparent;width:32px;height:32px;border-radius:8px;font-size:16px}
+.wk button:hover{background:var(--soft)}
+.wk .lbl{padding:0 10px;text-align:center;line-height:1.2}
+.wk .lbl b{display:block;font-size:14px}
+.wk .lbl span{font-size:11px;color:var(--mute)}
+.stat{padding:10px 16px;background:var(--card);border:1px solid var(--line);border-radius:10px;min-width:120px}
+.stat small{display:block;font-size:11px;color:var(--mute)}
+.stat b{font-size:20px}
+.chip{display:inline-block;padding:2px 9px;border-radius:999px;font-size:11px;font-weight:500;background:var(--blue-l);color:var(--blue-d);margin:0 4px 4px 0}
+.chip.gray{background:var(--chip);color:var(--mute)}
+.chip.hot{background:var(--orange-l);color:var(--orange)}
+.chip.user{background:#E6F0E4;color:#2E5A2A}
+.h1{font-size:22px;font-weight:700;margin:0}
+.muted{color:var(--mute);font-size:12px}
+.grid{display:grid;gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden;cursor:pointer;display:flex;flex-direction:column}
+.card:hover{box-shadow:0 2px 12px rgba(30,36,48,.08)}
+.card .shot{background:var(--soft);position:relative;overflow:hidden}
+.card .shot img{width:100%;display:block;object-fit:cover;object-position:top}
+.card .shot .ph{display:flex;align-items:center;justify-content:center;height:100%;color:var(--mute);font-size:12px}
+.card .info{padding:10px 12px;display:flex;flex-direction:column;gap:5px}
+.card .ttl{display:flex;align-items:center;gap:8px;font-weight:700}
+.card .ttl .sp{flex:1}
+.card .sum{font-size:12px;color:var(--mute);line-height:1.5}
+.tl{display:flex;gap:14px;overflow-x:auto;padding-bottom:10px}
+.tl .card{width:210px;flex-shrink:0}
+.tl .card .shot{height:380px}
+.cmp{grid-template-columns:repeat(auto-fill,minmax(210px,1fr))}
+.cmp .card .shot{height:250px}
+.det{display:flex;gap:20px;min-height:0}
+.det .shots{flex:1;display:flex;gap:14px;min-width:0}
+.det .shotbox{flex:1;min-width:0;display:flex;flex-direction:column;gap:6px}
+.det .shotbox .frame{background:#fff;border:1px solid var(--line);border-radius:12px;overflow:auto;height:calc(100vh - 200px)}
+.det .shotbox .frame img{width:100%;display:block}
+.det .shotbox.m{flex:0 0 300px}
+.det .panel{width:380px;flex-shrink:0;display:flex;flex-direction:column;gap:14px}
+.box{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px}
+.box h5{margin:0 0 10px;font-size:13px;display:flex;align-items:center;gap:8px}
+.box h5 .sp{flex:1}
+.kv{display:grid;grid-template-columns:80px 1fr;gap:6px 10px;font-size:13px;line-height:1.5}
+.kv div:nth-child(odd){color:var(--mute)}
+.tagbtns{display:flex;flex-wrap:wrap;gap:6px}
+.tagbtns button{padding:6px 12px;border-radius:999px;border:1px solid var(--line);background:#fff;font-size:12px;color:var(--ink)}
+.tagbtns button.on{background:var(--blue);border-color:var(--blue);color:#fff}
+.field{display:flex;flex-direction:column;gap:4px;margin-top:10px}
+.field label{font-size:12px;font-weight:700}
+.field input,.field textarea{padding:8px 10px;border:1px solid var(--line);border-radius:8px;width:100%}
+.field textarea{min-height:80px;resize:vertical}
+.btn{padding:8px 16px;border-radius:8px;border:0;background:var(--blue);color:#fff;font-size:13px;font-weight:500}
+.btn.ghost{background:#fff;border:1px solid var(--line);color:var(--ink)}
+.btn.sm{padding:5px 10px;font-size:12px}
+.bstrip{display:flex;gap:10px;overflow-x:auto;padding-bottom:6px}
+.bstrip .b{flex:0 0 220px;background:#fff;border:1px solid var(--line);border-radius:10px;overflow:hidden}
+.bstrip .b img{width:100%;height:100px;object-fit:cover;display:block;background:var(--soft)}
+.bstrip .b .t{padding:6px 8px;font-size:11px;color:var(--mute);line-height:1.4;max-height:52px;overflow:hidden}
+.bwall .brow{display:flex;gap:14px;margin-bottom:12px}
+.bwall .bname{width:110px;flex-shrink:0;padding-top:4px}
+.bwall .bname b{display:block}
+.bwall .bname span{font-size:11px;color:var(--mute)}
+.bwall .bs{flex:1;display:flex;gap:10px;overflow-x:auto;padding-bottom:6px}
+.bwall .bi{flex:0 0 300px;background:#fff;border:1px solid var(--line);border-radius:10px;overflow:hidden;position:relative}
+.bwall .bi img{width:100%;height:120px;object-fit:cover;display:block;background:var(--soft)}
+.bwall .bi.mob img{height:200px;object-fit:contain;background:#faf9f6}
+.bwall .bi .t{padding:7px 10px;font-size:11px;color:var(--mute);line-height:1.4}
+.bwall .bi .new{position:absolute;top:8px;left:8px;padding:2px 7px;border-radius:999px;background:var(--orange-l);color:var(--orange);font-size:10px;font-weight:700}
+.cal{background:#fff;border:1px solid var(--line);border-radius:12px;padding:18px}
+.cal .r{display:flex;align-items:center;gap:12px;margin-bottom:8px}
+.cal .n{width:120px;flex-shrink:0;font-weight:500}
+.cal .cells{flex:1;display:grid;gap:3px}
+.cal .c{height:20px;border-radius:3px;background:#E9E6DF}
+.cal .c.on{background:var(--blue)}
+.cal .c.fail{background:#fff;border:1px dashed #C9C5BC}
+.cal .c.none{background:transparent}
+.cal .pk{width:90px;flex-shrink:0;text-align:right;font-size:12px;color:var(--mute)}
+.cal .hd{display:flex;gap:12px;margin-bottom:6px}
+.cal .hd .n{width:120px}
+.cal .hd .cells{flex:1;display:grid;gap:3px;font-size:10px;color:var(--mute);text-align:center}
+.legend{display:flex;gap:12px;font-size:12px;color:var(--mute);align-items:center}
+.legend i{display:inline-block;width:12px;height:12px;border-radius:3px;margin-right:5px;vertical-align:-1px}
+.pgrid{grid-template-columns:repeat(auto-fill,minmax(170px,1fr))}
+.pgrid .card{cursor:default}
+.pgrid .card .shot{height:210px}
+.pgrid .card .shot .bd{position:absolute;top:8px;left:8px;padding:2px 7px;border-radius:999px;background:#fff;font-size:10px;font-weight:700}
+.pgrid .nm{font-size:12px;font-weight:500;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.pgrid .pr{font-size:14px;font-weight:700}
+.pgrid .pr.sale{color:var(--red)}
+.pgrid .pr s{font-size:11px;color:var(--mute);font-weight:400;margin-left:6px}
+.pside label{display:flex;align-items:center;gap:8px;font-size:13px;padding:3px 18px}
+.pside label span{flex:1}
+.pside label small{color:var(--mute)}
+.pside .chips{padding:0 18px 12px;display:flex;flex-wrap:wrap;gap:6px}
+.pside .chips button{padding:4px 10px;border-radius:999px;border:1px solid var(--line);background:#fff;font-size:12px}
+.pside .chips button.on{background:var(--blue);border-color:var(--blue);color:#fff}
+.empty{padding:60px 20px;text-align:center;color:var(--mute)}
+.toast{position:fixed;bottom:20px;left:50%;transform:translateX(-50%);background:var(--ink);color:#fff;padding:10px 18px;border-radius:8px;font-size:13px;opacity:0;transition:.2s;pointer-events:none}
+.toast.on{opacity:1}
+@media (max-width:900px){.vvr-side{display:none}.det{flex-direction:column}.det .panel{width:auto}.det .shotbox .frame{height:60vh}}
+</style>
+</head>
+<body>
+
+<div class="vvr-top">
+  <div class="vvr-logo">VV 競品首頁收集器</div>
+  <div class="vvr-nav" id="nav">
+    <button data-v="timeline" class="on">品牌時間軸</button>
+    <button data-v="compare">橫向比較</button>
+    <button data-v="banners">Banner 牆</button>
+    <button data-v="products">新品款式庫</button>
+    <button data-v="calendar">更新日曆</button>
+  </div>
+  <div class="sp"></div>
+  <div class="vvr-status" id="status">載入中…</div>
+</div>
+
+<div class="vvr-main">
+  <aside class="vvr-side" id="side"></aside>
+  <main class="vvr-body" id="body"><div class="empty">載入中…</div></main>
+</div>
+<div class="toast" id="toast"></div>
+
+<script>
+/* ============================================================
+   設定
+   ============================================================ */
+// Firebase：填入專案設定後，案型標註就會同步到雲端；留空則只存在這台瀏覽器
+var FIREBASE_CONFIG = null; // 例如 { apiKey:'…', databaseURL:'https://xxx.firebaseio.com', projectId:'xxx' }
+var FB_PATH = '/radar/notes';
+var DATA = 'data';
+var TAGS = ['新品上市','滿額折扣','件數折扣','免運','限時','會員日','週年慶','節慶檔期','換季出清','聯名','滿額贈','抽獎','主題專區','會員招募'];
+var CATS = [
+  ['外套', /外套|大衣|夾克|風衣|罩衫|開襟/],
+  ['洋裝', /洋裝|連身|裙裝|長裙裝/],
+  ['針織', /針織|毛衣|毛織|開襟衫|背心/],
+  ['褲裙', /褲|裙/],
+  ['上衣', /上衣|襯衫|T恤|TEE|背心|衛衣|帽T|長袖|短袖|POLO/i],
+  ['配件', /帽|包|鞋|襪|圍巾|飾|耳環|項鍊/],
+];
+
+/* ============================================================
+   狀態
+   ============================================================ */
+var S = { view: 'timeline', brand: null, index: null, notes: {}, cache: {}, weekEnd: null, device: 'm', onlyChanged: true, detail: null,
+          bannerDevice: 'pc', bannerOnlyNew: true, pTime: 'week', pBrands: {}, pPrice: {}, pCat: {}, pSort: 'date' };
+var db = null;
+
+function $(s, r) { return (r || document).querySelector(s); }
+function el(tag, attrs, html) { var e = document.createElement(tag); if (attrs) for (var k in attrs) { if (k === 'class') e.className = attrs[k]; else if (k === 'style') e.style.cssText = attrs[k]; else e.setAttribute(k, attrs[k]); } if (html != null) e.innerHTML = html; return e; }
+function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
+function toast(m) { var t = $('#toast'); t.textContent = m; t.classList.add('on'); setTimeout(function () { t.classList.remove('on'); }, 1800); }
+function fmtD(d) { return d ? d.slice(5).replace('-', '/') : ''; }
+function dow(d) { return '日一二三四五六'[new Date(d + 'T00:00:00').getDay()]; }
+function ymd(x) { return x.getFullYear() + '-' + String(x.getMonth() + 1).padStart(2, '0') + '-' + String(x.getDate()).padStart(2, '0'); }
+function addDays(d, n) { var x = new Date(d + 'T00:00:00'); x.setDate(x.getDate() + n); return ymd(x); }
+function todayStr() { return ymd(new Date()); }
+function weekStart(d) { var x = new Date(d + 'T00:00:00'); var w = (x.getDay() + 6) % 7; x.setDate(x.getDate() - w); return ymd(x); }
+function weekNo(d) { var x = new Date(d + 'T00:00:00'); var y = new Date(x.getFullYear(), 0, 1); return 'W' + Math.ceil(((x - y) / 864e5 + y.getDay() + 1) / 7); }
+function noteKey(brand, date) { return brand + '_' + date; }
+
+function loadJson(p) {
+  if (S.cache[p]) return Promise.resolve(S.cache[p]);
+  return fetch(DATA + '/' + p + '?_=' + Date.now()).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }).then(function (j) { S.cache[p] = j; return j; }).catch(function () { return null; });
+}
+
+/* ============================================================
+   資料查詢
+   ============================================================ */
+function brands() { var b = S.index.brands; return Object.keys(b).map(function (id) { return Object.assign({ id: id }, b[id]); }); }
+function caps(id, changedOnly) { var c = (S.index.brands[id] || {}).captures || []; return changedOnly ? c.filter(function (x) { return x.changed && x.dir; }) : c; }
+function lastChanged(id, before) { var c = caps(id, true).filter(function (x) { return !before || x.date <= before; }); return c[c.length - 1] || null; }
+function tagsOf(brand, cap) { var n = S.notes[noteKey(brand, cap.date)] || {}; var ai = (cap.ai && cap.ai.tags) || []; return { user: n.tags || [], ai: ai, campaign: n.campaign || (cap.ai && cap.ai.campaign) || '' }; }
+function shotUrl(cap, dev) { return cap.dir ? DATA + '/' + cap.dir + '/home-' + (dev === 'pc' ? 'pc' : 'm') + '.png' : ''; }
+function catOf(name) { for (var i = 0; i < CATS.length; i++) if (CATS[i][1].test(name || '')) return CATS[i][0]; return '其他'; }
+
+/* ============================================================
+   側欄
+   ============================================================ */
+function renderSide() {
+  var side = $('#side'); side.innerHTML = '';
+  if (S.view === 'products') { renderProductSide(side); return; }
+  if (S.view !== 'timeline') { side.innerHTML = '<h4>競品清單 · ' + brands().length + '</h4>' + brands().map(function (b) { var l = lastChanged(b.id); return '<div class="vvr-brand"><div class="dot' + (l && l.date >= addDays(todayStr(), -7) ? ' hot' : '') + '"></div><div><div class="nm">' + esc(b.name) + '</div><div class="sub">' + (l ? '最近變動 ' + fmtD(l.date) : '尚無資料') + '</div></div></div>'; }).join(''); return; }
+  side.innerHTML = '<h4>競品清單 · ' + brands().length + '</h4>';
+  brands().forEach(function (b) {
+    var l = lastChanged(b.id);
+    var d = el('div', { class: 'vvr-brand' + (S.brand === b.id ? ' on' : '') });
+    d.innerHTML = '<div class="dot' + (l && l.date >= addDays(todayStr(), -7) ? ' hot' : '') + '"></div><div><div class="nm">' + esc(b.name) + '</div><div class="sub">' + (l ? fmtD(l.date) + ' 有變動' : '尚無資料') + '</div></div>';
+    d.addEventListener('click', function () { S.brand = b.id; S.detail = null; render(); });
+    side.appendChild(d);
+  });
+}
+
+/* ============================================================
+   畫面 1：品牌時間軸
+   ============================================================ */
+function renderTimeline(body) {
+  var b = S.index.brands[S.brand]; if (!b) { body.innerHTML = '<div class="empty">還沒有任何資料。等 GitHub Actions 跑過第一次就會出現。</div>'; return; }
+  var all = caps(S.brand, false), ch = caps(S.brand, true);
+  var month = todayStr().slice(0, 7);
+  var mCount = ch.filter(function (c) { return c.date.slice(0, 7) === month; }).length;
+  var gaps = []; for (var i = 1; i < ch.length; i++) gaps.push((new Date(ch[i].date) - new Date(ch[i - 1].date)) / 864e5);
+  var avg = gaps.length ? (gaps.reduce(function (a, x) { return a + x; }, 0) / gaps.length).toFixed(1) + ' 天' : '—';
+  var tagCount = {}; ch.forEach(function (c) { var t = tagsOf(S.brand, c); (t.user.length ? t.user : t.ai).forEach(function (x) { tagCount[x] = (tagCount[x] || 0) + 1; }); });
+  var topTag = Object.keys(tagCount).sort(function (a, c) { return tagCount[c] - tagCount[a]; })[0] || '—';
+  var last = ch[ch.length - 1];
+
+  var h = '<div class="vvr-row"><div><h1 class="h1">' + esc(b.name) + '</h1><div class="muted">' + esc(b.home.replace(/^https?:\/\//, '')) + ' · 每日檢查 · 上次變動 ' + (last ? fmtD(last.date) + '（' + dow(last.date) + '）' : '—') + '</div></div><div class="sp"></div>' +
+    '<div class="stat"><small>本月變動次數</small><b>' + mCount + '</b></div><div class="stat"><small>平均換檔間隔</small><b>' + avg + '</b></div><div class="stat"><small>最常出現案型</small><b>' + esc(topTag) + '</b></div></div>' +
+    '<div class="vvr-row"><div class="seg" id="segDev"><button data-v="m"' + (S.device === 'm' ? ' class="on"' : '') + '>手機版</button><button data-v="pc"' + (S.device === 'pc' ? ' class="on"' : '') + '>電腦版</button></div>' +
+    '<div class="seg" id="segCh"><button data-v="1"' + (S.onlyChanged ? ' class="on"' : '') + '>只看有變動</button><button data-v="0"' + (!S.onlyChanged ? ' class="on"' : '') + '>全部日期</button></div><div class="sp"></div><div class="muted">共 ' + ch.length + ' 版 · 檢查 ' + all.length + ' 次</div></div>';
+  body.innerHTML = h;
+  seg('#segDev', function (v) { S.device = v; render(); });
+  seg('#segCh', function (v) { S.onlyChanged = v === '1'; render(); });
+
+  var list = (S.onlyChanged ? ch : all).slice().reverse();
+  var tl = el('div', { class: 'tl' });
+  if (!list.length) tl.innerHTML = '<div class="empty">還沒有截圖。</div>';
+  list.forEach(function (c) {
+    var t = tagsOf(S.brand, c);
+    var card = el('div', { class: 'card' });
+    card.innerHTML = '<div class="info" style="padding-bottom:4px"><div class="ttl">' + fmtD(c.date) + ' <span class="muted" style="font-weight:400">' + dow(c.date) + ' · ' + weekNo(c.date) + '</span><span class="sp"></span>' + (c.error ? '<span class="chip gray">失敗</span>' : c.changed ? '<span class="chip hot">有變動</span>' : '<span class="chip gray">無變動</span>') + '</div></div>' +
+      '<div class="shot">' + (c.dir ? '<img loading="lazy" src="' + shotUrl(c, S.device) + '" alt="">' : '<div class="ph">' + (c.error ? esc(c.error.slice(0, 60)) : '與前一版相同') + '</div>') + '</div>' +
+      '<div class="info"><div>' + (t.campaign ? '<b style="font-size:13px">' + esc(t.campaign) + '</b><br>' : '') + t.user.map(function (x) { return '<span class="chip user">' + esc(x) + '</span>'; }).join('') + (t.user.length ? '' : t.ai.map(function (x) { return '<span class="chip">' + esc(x) + '</span>'; }).join('')) + '</div>' +
+      (c.newProducts ? '<div class="sum">新品 ' + c.newProducts + ' 款 · banner ' + (c.bannerCount || 0) + ' 張</div>' : '') + '</div>';
+    if (c.dir) card.addEventListener('click', function () { S.detail = { brand: S.brand, cap: c }; render(); });
+    tl.appendChild(card);
+  });
+  body.appendChild(tl);
+}
+
+/* ============================================================
+   畫面 2：橫向比較
+   ============================================================ */
+function weekPicker(onChange) {
+  var ws = weekStart(S.weekEnd), we = addDays(ws, 6);
+  var w = el('div', { class: 'wk' });
+  w.innerHTML = '<button data-d="-7">‹</button><div class="lbl"><b>' + ws.slice(0, 4) + ' ' + weekNo(ws) + '</b><span>' + fmtD(ws) + '（一）– ' + fmtD(we) + '（日）</span></div><button data-d="7">›</button>';
+  w.querySelectorAll('button').forEach(function (b) { b.addEventListener('click', function () { S.weekEnd = addDays(S.weekEnd, +b.dataset.d); onChange(); }); });
+  return w;
+}
+function renderCompare(body) {
+  var ws = weekStart(S.weekEnd), we = addDays(ws, 6);
+  var row = el('div', { class: 'vvr-row' });
+  row.appendChild(weekPicker(render));
+  var segD = el('div', { class: 'seg', id: 'segDev' }); segD.innerHTML = '<button data-v="m"' + (S.device === 'm' ? ' class="on"' : '') + '>手機版</button><button data-v="pc"' + (S.device === 'pc' ? ' class="on"' : '') + '>電腦版</button>';
+  row.appendChild(segD);
+  var changedN = 0, items = [];
+  brands().forEach(function (b) {
+    var inWeek = caps(b.id, true).filter(function (c) { return c.date >= ws && c.date <= we; });
+    var cap = inWeek[inWeek.length - 1] || lastChanged(b.id, we);
+    if (inWeek.length) changedN++;
+    items.push({ b: b, cap: cap, inWeek: inWeek.length > 0 });
+  });
+  row.appendChild(el('div', { class: 'sp' }));
+  row.appendChild(el('div', { class: 'muted' }, '本週 ' + brands().length + ' 家中有 <b style="color:var(--orange)">' + changedN + ' 家</b> 換了首頁'));
+  body.innerHTML = ''; body.appendChild(row);
+  seg('#segDev', function (v) { S.device = v; render(); });
+  var g = el('div', { class: 'grid cmp' });
+  items.forEach(function (it) {
+    var c = it.cap, t = c ? tagsOf(it.b.id, c) : { user: [], ai: [], campaign: '' };
+    var card = el('div', { class: 'card' });
+    card.innerHTML = '<div class="info" style="padding-bottom:4px"><div class="ttl">' + esc(it.b.name) + '<span class="sp"></span>' + (it.inWeek ? '<span class="chip hot">本週有變動</span>' : c ? '<span class="chip gray">沿用 ' + fmtD(c.date) + '</span>' : '<span class="chip gray">無資料</span>') + '</div></div>' +
+      '<div class="shot">' + (c ? '<img loading="lazy" src="' + shotUrl(c, S.device) + '" alt="">' : '<div class="ph">尚無截圖</div>') + '</div>' +
+      '<div class="info"><div>' + (t.campaign ? '<b style="font-size:13px">' + esc(t.campaign) + '</b><br>' : '') + (t.user.length ? t.user : t.ai).map(function (x) { return '<span class="chip' + (t.user.length ? ' user' : '') + '">' + esc(x) + '</span>'; }).join('') + '</div></div>';
+    if (c) card.addEventListener('click', function () { S.detail = { brand: it.b.id, cap: c }; render(); });
+    g.appendChild(card);
+  });
+  body.appendChild(g);
+}
+
+/* ============================================================
+   畫面 3：案型標註（單張詳細）
+   ============================================================ */
+function renderDetail(body) {
+  var brand = S.detail.brand, cap = S.detail.cap, b = S.index.brands[brand];
+  var key = noteKey(brand, cap.date), note = S.notes[key] || { tags: [], campaign: '', memo: '' };
+  var draft = { tags: note.tags.slice(), campaign: note.campaign || '', memo: note.memo || '' };
+  body.innerHTML = '<div class="vvr-row"><button class="btn ghost sm" id="back">‹ 返回</button><h1 class="h1" style="font-size:18px">' + esc(b.name) + ' · ' + cap.date.replace(/-/g, '/') + '（' + dow(cap.date) + '）</h1><span class="chip hot">有變動</span><div class="sp"></div><a href="' + esc(b.home) + '" target="_blank" rel="noopener">開啟原站 ↗</a><a class="btn ghost sm" href="' + shotUrl(cap, 'pc') + '" download>下載電腦版截圖</a><a class="btn ghost sm" href="' + shotUrl(cap, 'm') + '" download>下載手機版截圖</a></div>';
+  $('#back').addEventListener('click', function () { S.detail = null; render(); });
+
+  var wrap = el('div', { class: 'det' });
+  wrap.innerHTML = '<div class="shots"><div class="shotbox m"><div class="muted">手機版</div><div class="frame"><img src="' + shotUrl(cap, 'm') + '" alt=""></div></div><div class="shotbox"><div class="muted">電腦版</div><div class="frame"><img src="' + shotUrl(cap, 'pc') + '" alt=""></div></div></div>' +
+    '<div class="panel"><div class="box" id="bannersBox"><h5>本次 Banner <span class="muted" style="font-weight:400" id="bCount"></span></h5><div class="bstrip" id="bstrip">載入中…</div></div>' +
+    '<div class="box" id="aiBox"><h5>AI 初判 <span class="muted" style="font-weight:400">抓取時自動產生 · 僅供參考</span><span class="sp"></span><button class="btn ghost sm" id="adoptAi">全部採用</button></h5><div class="kv" id="aikv">載入中…</div></div>' +
+    '<div class="box"><h5>案型分類（可複選）</h5><div class="tagbtns" id="tagbtns"></div><div class="field"><label>檔期名稱（手動修正）</label><input id="fCampaign" placeholder="留空則沿用 AI 初判"></div><div class="field"><label>備註</label><textarea id="fMemo" placeholder="給自己看的觀察，例如「門檻比我們高但折扣少」"></textarea></div><div class="vvr-row" style="margin:12px 0 0"><span class="muted" id="savedAt">' + (note.updatedAt ? '上次儲存 ' + new Date(note.updatedAt).toLocaleString('zh-TW', { hour12: false }) : '尚未標註') + '</span><div class="sp"></div><button class="btn" id="save">儲存標註</button></div></div></div>';
+  body.appendChild(wrap);
+
+  var tb = $('#tagbtns');
+  function drawTags() { tb.innerHTML = ''; TAGS.forEach(function (t) { var x = el('button', { class: draft.tags.indexOf(t) >= 0 ? 'on' : '' }, esc(t)); x.addEventListener('click', function () { var i = draft.tags.indexOf(t); if (i >= 0) draft.tags.splice(i, 1); else draft.tags.push(t); drawTags(); }); tb.appendChild(x); }); }
+  drawTags();
+  $('#fCampaign').value = draft.campaign; $('#fMemo').value = draft.memo;
+  $('#save').addEventListener('click', function () {
+    draft.campaign = $('#fCampaign').value.trim(); draft.memo = $('#fMemo').value.trim(); draft.updatedAt = Date.now();
+    S.notes[key] = draft; saveNote(key, draft); $('#savedAt').textContent = '上次儲存 ' + new Date().toLocaleString('zh-TW', { hour12: false }); toast('已儲存');
+  });
+
+  loadJson(cap.dir + '/banners.json').then(function (bs) {
+    var s = $('#bstrip'); s.innerHTML = ''; bs = bs || []; $('#bCount').textContent = bs.length + ' 張';
+    if (!bs.length) s.innerHTML = '<div class="muted">沒抓到 banner</div>';
+    bs.forEach(function (x) { var f = x.pc || x.mobile; var d = el('div', { class: 'b' }); d.innerHTML = (f ? '<a href="' + esc(x.link || '#') + '" target="_blank" rel="noopener"><img loading="lazy" src="' + DATA + '/' + cap.dir + '/' + f + '" alt=""></a>' : '') + '<div class="t">' + (x.text ? esc(x.text) : '<i>無文字</i>') + (x.link ? '<br>→ ' + esc(x.link.replace(/^https?:\/\/[^/]+/, '').slice(0, 50)) : '') + '</div>'; s.appendChild(d); });
+  });
+  loadJson(cap.dir + '/ai.json').then(function (ai) {
+    var k = $('#aikv');
+    if (!ai) { k.innerHTML = '<div style="grid-column:1/-1" class="muted">這次沒有 AI 初判（可能未設定 API Key）</div>'; $('#adoptAi').style.display = 'none'; return; }
+    k.innerHTML = '<div>檔期名稱</div><div>' + esc(ai.campaign) + '</div><div>折扣結構</div><div>' + esc(ai.discount) + '</div><div>是否聯名</div><div>' + esc(ai.collab || '否') + '</div><div>新品主題</div><div>' + esc(ai.theme) + '</div><div>一句總結</div><div>' + esc(ai.summary) + '</div><div>建議案型</div><div>' + (ai.tags || []).map(function (t) { return '<span class="chip">' + esc(t) + '</span>'; }).join('') + '</div>';
+    $('#adoptAi').addEventListener('click', function () { draft.tags = (ai.tags || []).slice(); if (!$('#fCampaign').value) $('#fCampaign').value = ai.campaign || ''; drawTags(); toast('已套用 AI 初判'); });
+  });
+}
+
+/* ============================================================
+   畫面 4：更新日曆
+   ============================================================ */
+function renderCalendar(body) {
+  var days = 56, end = todayStr(), start = addDays(weekStart(end), -49);
+  var dates = []; for (var i = 0; i < days; i++) dates.push(addDays(start, i));
+  var weeks = []; dates.forEach(function (d, i) { if (i % 7 === 0) weeks.push(weekNo(d)); });
+  body.innerHTML = '<div class="vvr-row"><div><h1 class="h1" style="font-size:20px">各品牌換檔節奏 · 最近 8 週</h1><div class="muted">每一格代表一天，深色代表當天首頁與前一天不同。累積幾個月後可看出每家固定在星期幾換檔。</div></div><div class="sp"></div><div class="legend"><span><i style="background:var(--blue)"></i>有變動</span><span><i style="background:#E9E6DF"></i>無變動</span><span><i style="background:#fff;border:1px dashed #C9C5BC"></i>抓取失敗</span></div></div>';
+  var cal = el('div', { class: 'cal' });
+  cal.innerHTML = '<div class="hd"><div class="n"></div><div class="cells" style="grid-template-columns:repeat(8,1fr)">' + weeks.map(function (w) { return '<div>' + w + '</div>'; }).join('') + '</div><div class="pk">最常換檔日</div></div>';
+  var allDow = {};
+  brands().forEach(function (b) {
+    var map = {}; caps(b.id, false).forEach(function (c) { map[c.date] = c; });
+    var dcount = {};
+    var cells = dates.map(function (d) { var c = map[d]; var cls = !c ? 'none' : c.error ? 'fail' : c.changed ? 'on' : ''; if (c && c.changed) { var w = dow(d); dcount[w] = (dcount[w] || 0) + 1; allDow[w] = (allDow[w] || 0) + 1; } return '<div class="c ' + cls + '" title="' + d + (c ? (c.error ? ' 失敗' : c.changed ? ' 有變動' : ' 無變動') : '') + '"></div>'; }).join('');
+    var pk = Object.keys(dcount).sort(function (a, c) { return dcount[c] - dcount[a]; })[0];
+    cal.innerHTML += '<div class="r"><div class="n">' + esc(b.name) + '</div><div class="cells" style="grid-template-columns:repeat(' + days + ',1fr)">' + cells + '</div><div class="pk">' + (pk ? '星期' + pk : '—') + '</div></div>';
+  });
+  body.appendChild(cal);
+  var total = Object.keys(allDow).reduce(function (a, k) { return a + allDow[k]; }, 0);
+  var top = Object.keys(allDow).sort(function (a, c) { return allDow[c] - allDow[a]; })[0];
+  var gapsAll = brands().map(function (b) { var ch = caps(b.id, true); var g = []; for (var i = 1; i < ch.length; i++) g.push((new Date(ch[i].date) - new Date(ch[i - 1].date)) / 864e5); return { n: b.name, avg: g.length ? g.reduce(function (a, x) { return a + x; }, 0) / g.length : null }; }).filter(function (x) { return x.avg; }).sort(function (a, c) { return a.avg - c.avg; })[0];
+  var pending = 0; brands().forEach(function (b) { caps(b.id, true).forEach(function (c) { if (c.date >= addDays(end, -6) && !(S.notes[noteKey(b.id, c.date)] || {}).tags) pending++; }); });
+  var row = el('div', { class: 'grid', style: 'grid-template-columns:repeat(3,1fr);margin-top:16px' });
+  row.innerHTML = '<div class="stat"><small>最勤換的品牌</small><b>' + (gapsAll ? esc(gapsAll.n) + ' · 平均 ' + gapsAll.avg.toFixed(1) + ' 天' : '—') + '</b></div><div class="stat"><small>全體最常換檔日</small><b>' + (top ? '星期' + top + '（' + Math.round(allDow[top] / total * 100) + '%）' : '—') + '</b></div><div class="stat"><small>本週待標註</small><b style="color:var(--orange)">' + pending + ' 張</b></div>';
+  body.appendChild(row);
+}
+
+/* ============================================================
+   畫面 5：Banner 牆
+   ============================================================ */
+function renderBanners(body) {
+  var ws = weekStart(S.weekEnd), we = addDays(ws, 6);
+  var row = el('div', { class: 'vvr-row' });
+  row.appendChild(weekPicker(render));
+  var segD = el('div', { class: 'seg', id: 'segBD' }); segD.innerHTML = '<button data-v="pc"' + (S.bannerDevice === 'pc' ? ' class="on"' : '') + '>電腦版 banner</button><button data-v="m"' + (S.bannerDevice === 'm' ? ' class="on"' : '') + '>手機版 banner</button>';
+  var segN = el('div', { class: 'seg', id: 'segBN' }); segN.innerHTML = '<button data-v="1"' + (S.bannerOnlyNew ? ' class="on"' : '') + '>只看本週新出現</button><button data-v="0"' + (!S.bannerOnlyNew ? ' class="on"' : '') + '>全部</button>';
+  row.appendChild(segD); row.appendChild(segN); row.appendChild(el('div', { class: 'sp' }));
+  var stat = el('div', { class: 'muted' }, '統計中…'); row.appendChild(stat);
+  body.innerHTML = ''; body.appendChild(row);
+  seg('#segBD', function (v) { S.bannerDevice = v; render(); });
+  seg('#segBN', function (v) { S.bannerOnlyNew = v === '1'; render(); });
+  var wall = el('div', { class: 'bwall' }); body.appendChild(wall);
+
+  var total = 0, fresh = 0, done = 0, list = brands();
+  list.forEach(function (b) {
+    var inWeek = caps(b.id, true).filter(function (c) { return c.date >= ws && c.date <= we; });
+    var prev = caps(b.id, true).filter(function (c) { return c.date < ws; }).slice(-4);
+    Promise.all(inWeek.concat(prev).map(function (c) { return loadJson(c.dir + '/banners.json').then(function (j) { return { cap: c, list: j || [] }; }); })).then(function (rs) {
+      var seenBefore = {}; rs.filter(function (r) { return r.cap.date < ws; }).forEach(function (r) { r.list.forEach(function (x) { seenBefore[x.pcUrl || x.mobileUrl] = 1; }); });
+      var seen = {}, items = [];
+      rs.filter(function (r) { return r.cap.date >= ws; }).forEach(function (r) { r.list.forEach(function (x) { var k = x.pcUrl || x.mobileUrl; if (!k || seen[k]) return; seen[k] = 1; items.push({ cap: r.cap, x: x, isNew: !seenBefore[k] }); }); });
+      total += items.length; fresh += items.filter(function (i) { return i.isNew; }).length; done++;
+      if (done === list.length) { stat.innerHTML = '本週 ' + list.length + ' 家共 <b>' + total + ' 張</b> banner，其中 <b style="color:var(--orange)">' + fresh + ' 張</b> 是新出現'; if (!wall.children.length) wall.innerHTML = '<div class="empty">' + (S.bannerOnlyNew && total ? '本週沒有新出現的 banner，切到「全部」可以看沿用的' : '這一週沒有抓到 banner') + '</div>'; }
+      var show = S.bannerOnlyNew ? items.filter(function (i) { return i.isNew; }) : items;
+      if (!show.length) return;
+      var r = el('div', { class: 'brow' });
+      r.innerHTML = '<div class="bname"><b>' + esc(b.name) + '</b><span>' + items.length + ' 張 · ' + items.filter(function (i) { return i.isNew; }).length + ' 張新</span></div>';
+      var bs = el('div', { class: 'bs' });
+      show.forEach(function (i) {
+        var f = S.bannerDevice === 'm' ? (i.x.mobile || i.x.pc) : (i.x.pc || i.x.mobile);
+        var d = el('div', { class: 'bi' + (S.bannerDevice === 'm' ? ' mob' : '') });
+        d.innerHTML = '<a href="' + esc(i.x.link || '#') + '" target="_blank" rel="noopener"><img loading="lazy" src="' + DATA + '/' + i.cap.dir + '/' + f + '" alt=""></a>' + (i.isNew ? '<div class="new">NEW</div>' : '') + '<div class="t">' + fmtD(i.cap.date) + ' · 第 ' + i.x.n + ' 張' + (i.x.text ? '<br>' + esc(i.x.text.slice(0, 50)) : '') + (i.x.link ? '<br>→ ' + esc(i.x.link.replace(/^https?:\/\/[^/]+/, '').slice(0, 45)) : '') + '</div>';
+        bs.appendChild(d);
+      });
+      r.appendChild(bs); wall.appendChild(r);
+    });
+  });
+}
+
+/* ============================================================
+   畫面 6：新品款式庫
+   ============================================================ */
+var PRICE_BANDS = [['< 500', 0, 499], ['500–999', 500, 999], ['1,000–1,499', 1000, 1499], ['1,500+', 1500, 1e9]];
+function renderProductSide(side) {
+  var h = '<h4>時間</h4><div class="chips" id="pTime">' + [['week', '本週新上架'], ['lastweek', '上週'], ['30', '最近 30 天'], ['all', '全部']].map(function (x) { return '<button data-v="' + x[0] + '"' + (S.pTime === x[0] ? ' class="on"' : '') + '>' + x[1] + '</button>'; }).join('') + '</div>';
+  h += '<h4>品牌</h4><div id="pBrands">' + brands().map(function (b) { return '<label><input type="checkbox" data-id="' + b.id + '"' + (S.pBrands[b.id] !== false ? ' checked' : '') + '><span>' + esc(b.name) + '</span><small id="pc_' + b.id + '"></small></label>'; }).join('') + '</div>';
+  h += '<h4 style="margin-top:14px">價格帶</h4><div class="chips" id="pPrice">' + PRICE_BANDS.map(function (x, i) { return '<button data-v="' + i + '"' + (S.pPrice[i] ? ' class="on"' : '') + '>' + x[0] + '</button>'; }).join('') + '</div>';
+  h += '<h4>品類（依品名推測）</h4><div class="chips" id="pCat">' + CATS.map(function (x) { return x[0]; }).concat(['其他']).map(function (c) { return '<button data-v="' + c + '"' + (S.pCat[c] ? ' class="on"' : '') + '>' + c + '</button>'; }).join('') + '</div>';
+  side.className = 'vvr-side pside'; side.innerHTML = h;
+  side.querySelectorAll('#pTime button').forEach(function (b) { b.addEventListener('click', function () { S.pTime = b.dataset.v; render(); }); });
+  side.querySelectorAll('#pBrands input').forEach(function (i) { i.addEventListener('change', function () { S.pBrands[i.dataset.id] = i.checked; renderProducts($('#body')); }); });
+  side.querySelectorAll('#pPrice button').forEach(function (b) { b.addEventListener('click', function () { S.pPrice[b.dataset.v] = !S.pPrice[b.dataset.v]; render(); }); });
+  side.querySelectorAll('#pCat button').forEach(function (b) { b.addEventListener('click', function () { S.pCat[b.dataset.v] = !S.pCat[b.dataset.v]; render(); }); });
+}
+function renderProducts(body) {
+  body.innerHTML = '<div class="empty">載入商品資料…</div>';
+  var today = todayStr(), ws = weekStart(today), lws = addDays(ws, -7);
+  var from = S.pTime === 'week' ? ws : S.pTime === 'lastweek' ? lws : S.pTime === '30' ? addDays(today, -30) : '0000', to = S.pTime === 'lastweek' ? addDays(ws, -1) : '9999';
+  Promise.all(brands().map(function (b) { return loadJson('products/' + b.id + '.json').then(function (j) { return { b: b, items: j ? Object.keys(j.items).map(function (k) { return Object.assign({ brand: b.name, brandId: b.id }, j.items[k]); }) : [] }; }); })).then(function (rs) {
+    var all = [];
+    rs.forEach(function (r) { var f = r.items.filter(function (p) { return p.firstSeen >= from && p.firstSeen <= to; }); var c = $('#pc_' + r.b.id); if (c) c.textContent = f.length + ' 款'; if (S.pBrands[r.b.id] !== false) all = all.concat(f); });
+    var bands = Object.keys(S.pPrice).filter(function (k) { return S.pPrice[k]; }).map(function (k) { return PRICE_BANDS[k]; });
+    var cats = Object.keys(S.pCat).filter(function (k) { return S.pCat[k]; });
+    all.forEach(function (p) { p.cat = catOf(p.name); });
+    var list = all.filter(function (p) { return (!bands.length || bands.some(function (b) { return p.price >= b[1] && p.price <= b[2]; })) && (!cats.length || cats.indexOf(p.cat) >= 0); });
+    if (S.pSort === 'price') list.sort(function (a, c) { return a.price - c.price; }); else if (S.pSort === 'sold') list.sort(function (a, c) { return (+String(c.sold || 0).replace(/,/g, '')) - (+String(a.sold || 0).replace(/,/g, '')); }); else list.sort(function (a, c) { return c.firstSeen.localeCompare(a.firstSeen); });
+    var byBrand = {}; all.forEach(function (p) { byBrand[p.brand] = (byBrand[p.brand] || 0) + 1; });
+    var topB = Object.keys(byBrand).sort(function (a, c) { return byBrand[c] - byBrand[a]; })[0];
+    var prices = all.map(function (p) { return p.price; }).filter(Boolean).sort(function (a, c) { return a - c; });
+    var med = prices.length ? prices[Math.floor(prices.length / 2)] : null;
+    var byCat = {}; all.forEach(function (p) { byCat[p.cat] = (byCat[p.cat] || 0) + 1; });
+    var topC = Object.keys(byCat).sort(function (a, c) { return byCat[c] - byCat[a]; })[0];
+    body.innerHTML = '<div class="vvr-row"><div class="stat"><small>' + ({ week: '本週新上架', lastweek: '上週新上架', 30: '30 天新上架', all: '全部' })[S.pTime] + '</small><b>' + all.length + ' 款</b></div><div class="stat"><small>上最多的品牌</small><b>' + (topB ? esc(topB) + ' · ' + byBrand[topB] : '—') + '</b></div><div class="stat"><small>新品價格中位數</small><b>' + (med ? 'NT$ ' + med.toLocaleString() : '—') + '</b></div><div class="stat"><small>最多的品類</small><b>' + (topC ? topC + ' · ' + Math.round(byCat[topC] / all.length * 100) + '%' : '—') + '</b></div><div class="sp"></div><label class="muted">排序 <select id="pSort"><option value="date">上架日 新到舊</option><option value="price">價格 低到高</option><option value="sold">已銷售 多到少</option></select></label></div>';
+    $('#pSort').value = S.pSort; $('#pSort').addEventListener('change', function () { S.pSort = this.value; renderProducts(body); });
+    var g = el('div', { class: 'grid pgrid' });
+    if (!list.length) g.innerHTML = '<div class="empty" style="grid-column:1/-1">這個範圍沒有商品</div>';
+    list.slice(0, 300).forEach(function (p) {
+      var img = p.thumb ? DATA + '/products/' + p.thumb : p.img;
+      var d = el('div', { class: 'card' });
+      d.innerHTML = '<a class="shot" href="' + esc(p.url) + '" target="_blank" rel="noopener"><img loading="lazy" src="' + esc(img) + '" alt=""><span class="bd">' + esc(p.brand) + '</span></a><div class="info"><div class="nm" title="' + esc(p.name) + '">' + esc(p.name) + '</div><div class="pr' + (p.origPrice ? ' sale' : '') + '">NT$ ' + (p.price || '?').toLocaleString() + (p.origPrice ? '<s>NT$ ' + p.origPrice.toLocaleString() + '</s>' : '') + '</div><div><span class="chip gray">' + p.cat + '</span><span class="muted">' + fmtD(p.firstSeen) + ' 上架' + (p.sold ? ' · 售 ' + p.sold : '') + '</span></div></div>';
+      g.appendChild(d);
+    });
+    body.appendChild(g);
+  });
+}
+
+/* ============================================================
+   共用：切換、標註儲存、啟動
+   ============================================================ */
+function seg(sel, fn) { var s = $(sel); if (!s) return; s.querySelectorAll('button').forEach(function (b) { b.addEventListener('click', function () { fn(b.dataset.v); }); }); }
+function saveNote(key, note) {
+  try { localStorage.setItem('vvr_' + key, JSON.stringify(note)); } catch (e) {}
+  if (db) db.ref(FB_PATH + '/' + key).set(note).catch(function () { toast('雲端儲存失敗，已存在本機'); });
+}
+function loadNotes() {
+  try { Object.keys(localStorage).forEach(function (k) { if (k.indexOf('vvr_') === 0) S.notes[k.slice(4)] = JSON.parse(localStorage.getItem(k)); }); } catch (e) {}
+  if (db) db.ref(FB_PATH).on('value', function (snap) { var v = snap.val() || {}; Object.keys(v).forEach(function (k) { S.notes[k] = v[k]; }); render(); });
+}
+function render() {
+  $('#side').className = 'vvr-side';
+  renderSide();
+  var body = $('#body'); body.scrollTop = 0;
+  $('#nav').querySelectorAll('button').forEach(function (b) { b.classList.toggle('on', b.dataset.v === S.view); });
+  if (S.detail) return renderDetail(body);
+  ({ timeline: renderTimeline, compare: renderCompare, banners: renderBanners, products: renderProducts, calendar: renderCalendar })[S.view](body);
+}
+$('#nav').querySelectorAll('button').forEach(function (b) { b.addEventListener('click', function () { S.view = b.dataset.v; S.detail = null; render(); }); });
+
+(function init() {
+  if (FIREBASE_CONFIG) { try { firebase.initializeApp(FIREBASE_CONFIG); db = firebase.database(); } catch (e) { console.warn('Firebase 初始化失敗', e); } }
+  loadNotes();
+  S.weekEnd = todayStr();
+  loadJson('index.json').then(function (idx) {
+    S.index = idx || { brands: {} };
+    var ids = Object.keys(S.index.brands);
+    S.brand = ids[0] || null;
+    $('#status').textContent = idx && idx.updatedAt ? '資料更新 ' + new Date(idx.updatedAt).toLocaleString('zh-TW', { hour12: false }) + (db ? ' · 雲端標註' : ' · 本機標註') : '尚無資料';
+    render();
+  });
+})();
+</script>
+</body>
+</html>
