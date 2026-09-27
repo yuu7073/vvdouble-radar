@@ -285,7 +285,7 @@ function renderTimeline(body) {
   list.forEach(function (c) {
     var t = tagsOf(S.brand, c);
     var card = el('div', { class: 'card' });
-    card.innerHTML = '<div class="info" style="padding-bottom:4px"><div class="ttl">' + fmtD(c.date) + ' <span class="muted" style="font-weight:400">' + dow(c.date) + ' · ' + weekNo(c.date) + '</span><span class="sp"></span>' + (c.error ? '<span class="chip gray">失敗</span>' : c.changed ? '<span class="chip hot">有變動</span>' : '<span class="chip gray">無變動</span>') + '</div></div>' +
+    card.innerHTML = '<div class="info" style="padding-bottom:4px"><div class="ttl">' + fmtD(c.date) + ' <span class="muted" style="font-weight:400">' + dow(c.date) + ' · ' + weekNo(c.date) + '</span><span class="sp"></span>' + (c.error ? '<span class="chip gray">失敗</span>' : c.changed ? '<span class="chip hot">有變動</span>' : '<span class="chip gray">無變動</span>') + (c.incomplete ? '<span class="chip" style="background:#FBE9E9;color:#8A2E2E">可能不完整</span>' : '') + '</div></div>' +
       '<div class="shot">' + (c.dir ? '<img loading="lazy" src="' + thumbUrl(c, S.device) + '" data-full="' + shotUrl(c, S.device) + '" onerror="if(this.dataset.full){this.src=this.dataset.full;delete this.dataset.full}" alt="">' : '<div class="ph">' + (c.error ? esc(c.error.slice(0, 60)) : '與前一版相同') + '</div>') + '</div>' +
       '<div class="info"><div>' + (t.campaign ? '<b style="font-size:13px">' + esc(t.campaign) + '</b><br>' : '') + t.user.map(function (x) { return '<span class="chip user">' + esc(x) + '</span>'; }).join('') + (t.user.length ? '' : t.ai.map(function (x) { return '<span class="chip">' + esc(x) + '</span>'; }).join('')) + '</div>' +
       (c.newProducts ? '<div class="sum">新品 ' + c.newProducts + ' 款 · banner ' + (c.bannerCount || 0) + ' 張</div>' : '') + '</div>';
@@ -342,7 +342,7 @@ function renderDetail(body) {
   var brand = S.detail.brand, cap = S.detail.cap, b = S.index.brands[brand];
   var key = noteKey(brand, cap.date), note = S.notes[key] || { tags: [], campaign: '', memo: '' };
   var draft = { tags: note.tags.slice(), campaign: note.campaign || '', memo: note.memo || '' };
-  body.innerHTML = '<div class="vvr-row"><button class="btn ghost sm" id="back">‹ 返回</button><h1 class="h1" style="font-size:18px">' + esc(b.name) + ' · ' + cap.date.replace(/-/g, '/') + '（' + dow(cap.date) + '）</h1><span class="chip hot">有變動</span><div class="sp"></div><a href="' + esc(b.home) + '" target="_blank" rel="noopener">開啟原站 ↗</a><a class="btn ghost sm" href="' + shotUrl(cap, 'pc') + '" download>下載電腦版截圖</a><a class="btn ghost sm" href="' + shotUrl(cap, 'm') + '" download>下載手機版截圖</a></div>';
+  body.innerHTML = '<div class="vvr-row"><button class="btn ghost sm" id="back">‹ 返回</button><h1 class="h1" style="font-size:18px">' + esc(b.name) + ' · ' + cap.date.replace(/-/g, '/') + '（' + dow(cap.date) + '）</h1><span class="chip hot">有變動</span>' + (cap.incomplete ? '<span class="chip" style="background:#FBE9E9;color:#8A2E2E" title="截圖時仍有圖片未載入完">可能不完整</span>' : '') + '<div class="sp"></div><a href="' + esc(b.home) + '" target="_blank" rel="noopener">開啟原站 ↗</a><a class="btn ghost sm" href="' + shotUrl(cap, 'pc') + '" download>下載電腦版截圖</a><a class="btn ghost sm" href="' + shotUrl(cap, 'm') + '" download>下載手機版截圖</a></div>';
   $('#back').addEventListener('click', function () { S.detail = null; render(); });
 
   var wrap = el('div', { class: 'det' });
