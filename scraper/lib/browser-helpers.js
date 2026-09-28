@@ -107,6 +107,20 @@ window.__vv = {
     }
     return pending().length;
   },
+  // 截圖前：關閉所有動畫／轉場，讓輪播、淡入區塊立刻到最終狀態；並叫輪播重算尺寸
+  freeze() {
+    if (!document.getElementById('__vv_freeze')) {
+      const st = document.createElement('style'); st.id = '__vv_freeze';
+      st.textContent = '*, *::before, *::after { transition: none !important; animation: none !important; animation-delay: 0s !important; transition-delay: 0s !important; } [data-aos], .aos-init, .wow, .reveal, .fade-in, .lazyload, .lazyloaded { opacity: 1 !important; transform: none !important; visibility: visible !important; }';
+      document.head.appendChild(st);
+    }
+    // 常見輪播套件：觸發重算（slick 監聽 resize；swiper 有 update）
+    try { window.dispatchEvent(new Event('resize')); } catch {}
+    try { if (window.jQuery) window.jQuery('.slick-initialized').each(function () { try { window.jQuery(this).slick('setPosition'); } catch {} }); } catch {}
+    try { document.querySelectorAll('.swiper').forEach(el => { if (el.swiper && el.swiper.update) el.swiper.update(); }); } catch {}
+    // 圖片載入後高度可能改變的區塊：再觸發一次 resize
+    setTimeout(() => { try { window.dispatchEvent(new Event('resize')); } catch {} }, 300);
+  },
   // 關掉常見彈窗、cookie 橫幅、客服浮動視窗
   dismiss() {
     const kill = (sel) => document.querySelectorAll(sel).forEach(e => e.remove());
