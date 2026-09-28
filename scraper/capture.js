@@ -48,6 +48,7 @@ async function openPage(ctx, url, retries = 1) {
 
 async function fullShot(page, dest) {
   fs.mkdirSync(path.dirname(dest), { recursive: true });
+  const vp = page.viewportSize();
   // 有些站（UNIQLO）整頁是內層捲動容器，fullPage 抓不到；先試 fullPage，太矮就把容器撐開
   await page.evaluate(() => {
     const sc = [...document.querySelectorAll('*')].find(e => e.scrollHeight > 3000 && e.clientHeight < e.scrollHeight - 500 && /auto|scroll/.test(getComputedStyle(e).overflowY));
@@ -62,10 +63,25 @@ async function fullShot(page, dest) {
     await page.evaluate(() => window.__vv.scrollAll(700, 250, 80));
     pending = await page.evaluate(() => { window.__vv.dismiss(); return window.__vv.waitImages(12000); }).catch(() => -1);
   }
-  await page.screenshot({ path: dest, fullPage: true, type: 'png' });
+  // 不用 Playwright 的 fullPage（它會把視窗撐成整頁高，min-height:100vh 的站會一直長高、輪播也會重排）。
+  // 改成：先在正常視窗量出頁高並鎖住 vh 類的高度，再把視窗設成剛好那個高度，穩定後一般截圖。
+  const pageH = await page.evaluate(() => {
+    window.scrollTo(0, 0);
+    const h = Math.max(document.documentElement.scrollHeight, document.body.scrollHeight);
+    window.__vv.pinLayout();
+    return h;
+  }).catch(() => 0);
+  const targetH = Math.min(Math.max(pageH, vp.height), 20000);
+  await page.setViewportSize({ width: vp.width, height: targetH });
+  await page.waitForTimeout(900);
+  await page.evaluate(() => { window.scrollTo(0, 0); window.__vv.dismiss(); window.__vv.freeze(true); }).catch(() => {});
+  await page.waitForTimeout(900);
+  // 用「正常視窗時量到的頁高」裁切；視窗變高後頁面若再長高，那是 vh／輪播跟著視窗長的假象，不採用
+  await page.screenshot({ path: dest, fullPage: false, type: 'png', clip: { x: 0, y: 0, width: vp.width, height: targetH } });
   // 列表卡片用的縮圖：只截最上面一段、JPEG 壓縮，約 100–200 KB
-  const vw = page.viewportSize().width;
-  await page.screenshot({ path: dest.replace(/\.png$/, '-thumb.jpg'), type: 'jpeg', quality: 62, clip: { x: 0, y: 0, width: vw, height: Math.round(vw * 1.9) }, fullPage: true }).catch(() => {});
+  await page.screenshot({ path: dest.replace(/\.png$/, '-thumb.jpg'), type: 'jpeg', quality: 62, clip: { x: 0, y: 0, width: vp.width, height: Math.round(vp.width * 1.9) } }).catch(() => {});
+  // 視窗還原，後面的抓取不受影響
+  await page.setViewportSize(vp).catch(() => {});
   return { pendingImages: Math.max(0, pending) };
 }
 
