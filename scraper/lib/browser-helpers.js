@@ -108,18 +108,28 @@ window.__vv = {
     return pending().length;
   },
   // 截圖前：關閉所有動畫／轉場，讓輪播、淡入區塊立刻到最終狀態；並叫輪播重算尺寸
-  freeze() {
+  freeze(noResize) {
     if (!document.getElementById('__vv_freeze')) {
       const st = document.createElement('style'); st.id = '__vv_freeze';
       st.textContent = '*, *::before, *::after { transition: none !important; animation: none !important; animation-delay: 0s !important; transition-delay: 0s !important; } [data-aos], .aos-init, .wow, .reveal, .fade-in, .lazyload, .lazyloaded { opacity: 1 !important; transform: none !important; visibility: visible !important; }';
       document.head.appendChild(st);
     }
-    // 常見輪播套件：觸發重算（slick 監聽 resize；swiper 有 update）
+    if (noResize) return;
+    // 常見輪播套件：觸發重算（slick 監聽 resize；swiper 有 update）。只在視窗還是正常大小時做
     try { window.dispatchEvent(new Event('resize')); } catch {}
     try { if (window.jQuery) window.jQuery('.slick-initialized').each(function () { try { window.jQuery(this).slick('setPosition'); } catch {} }); } catch {}
     try { document.querySelectorAll('.swiper').forEach(el => { if (el.swiper && el.swiper.update) el.swiper.update(); }); } catch {}
-    // 圖片載入後高度可能改變的區塊：再觸發一次 resize
-    setTimeout(() => { try { window.dispatchEvent(new Event('resize')); } catch {} }, 300);
+  },
+  // 把目前排版「釘住」：每個區塊的高度改成現在算出的固定 px，之後視窗放大也不會跟著長
+  pinLayout() {
+    const sel = '.slick-list, .slick-track, .slick-slide, .swiper, .swiper-wrapper, .swiper-slide, .owl-stage-outer, .owl-stage, [class*=carousel], [class*=slider], [class*=banner], section, main, header, footer, .contentWrap, [class*=wrap], [class*=container]';
+    document.querySelectorAll(sel).forEach(el => {
+      const h = el.getBoundingClientRect().height;
+      if (h > 0 && h < 20000) { el.style.setProperty('height', h + 'px', 'important'); el.style.setProperty('min-height', '0', 'important'); el.style.setProperty('max-height', h + 'px', 'important'); }
+    });
+    const st = document.createElement('style'); st.id = '__vv_pin';
+    st.textContent = 'html, body { height: auto !important; min-height: 0 !important; overflow: visible !important; }';
+    document.head.appendChild(st);
   },
   // 關掉常見彈窗、cookie 橫幅、客服浮動視窗
   dismiss() {
