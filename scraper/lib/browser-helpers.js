@@ -110,14 +110,18 @@ window.__vv = {
   // 關掉常見彈窗、cookie 橫幅、客服浮動視窗
   dismiss() {
     const kill = (sel) => document.querySelectorAll(sel).forEach(e => e.remove());
-    // LINE 加好友 / 歡迎光臨 / 訂閱 這類文字的浮動區塊
-    document.querySelectorAll('div, section, aside').forEach(e => {
-      if (e.children.length > 30) return;
-      const cs = getComputedStyle(e);
-      if (cs.position !== 'fixed' && cs.position !== 'sticky') return;
+    // LINE 加好友 / 歡迎光臨 / 訂閱 這類文字：從文字往上找最近的 fixed 祖先，整塊移除
+    const promoRe = /歡迎光臨|加入好友|追蹤官方|LINE\\s*好友|官方帳號|訂閱電子報|領取優惠|加入會員享|專屬優惠不定期/;
+    document.querySelectorAll('div, section, aside, span, p').forEach(e => {
+      if (e.children.length > 8) return;
       const t = this.clean(e.innerText);
-      if (t.length > 400) return;
-      if (/歡迎光臨|加入好友|追蹤官方|LINE\\s*好友|官方帳號|訂閱電子報|領取優惠|加入會員享/.test(t) || (/LINE/i.test(t) && e.offsetHeight > 80 && e.offsetHeight < 600)) e.remove();
+      if (!t || t.length > 300 || !promoRe.test(t)) return;
+      let p = e;
+      for (let k = 0; k < 12 && p && p !== document.body; k++) {
+        const pos = getComputedStyle(p).position;
+        if (pos === 'fixed' || pos === 'sticky') { p.remove(); return; }
+        p = p.parentElement;
+      }
     });
     // 有「知道了 / 同意 / 關閉」的按鈕先按一下
     for (const b of document.querySelectorAll('button, a, div[role=button]')) {
@@ -126,6 +130,8 @@ window.__vv = {
     }
     kill('#onetrust-consent-sdk, .onetrust-pc-dark-filter, [id*=cookie-banner], [class*=cookie-banner], [class*=cookieConsent], [class*=cookie-consent]');
     kill('iframe[src*=omnichat], [id*=omnichat], [class*=omnichat], iframe[src*=crisp], iframe[src*=tawk], iframe[src*=intercom], [id*=chatwoot]');
+    // 台灣電商常見客服／加 LINE 外掛：EasyChat、Omnichat、SUPER 8、91APP 客服、Shopline 對話
+    kill('[class*=easychat], [id*=easychat], [class*=super8], [id*=super8], [class*=crescendo], [id*=crescendo], [class*=sl-chat], [id*=sl-chat], [class*=line-float], [id*=line-float], [class*=lineat], [id*=lineat], [class*=chat-widget], [id*=chat-widget], [class*=chatbot], [id*=chatbot]');
     kill('[class*=optimonk], [id*=optimonk], .om-holder');
     kill('[class*=popup-overlay], [class*=modal-backdrop], .mfp-bg, .mfp-wrap, .fancybox-overlay, .fancybox-container, .swal2-container, .remodal-overlay, .remodal-wrapper');
     document.querySelectorAll('[role=dialog], [class*=popup], [class*=modal], [class*=lightbox]').forEach(e => {
