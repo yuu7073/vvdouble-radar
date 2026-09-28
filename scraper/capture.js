@@ -53,7 +53,9 @@ async function fullShot(page, dest) {
     const sc = [...document.querySelectorAll('*')].find(e => e.scrollHeight > 3000 && e.clientHeight < e.scrollHeight - 500 && /auto|scroll/.test(getComputedStyle(e).overflowY));
     if (sc) { sc.style.height = sc.scrollHeight + 'px'; sc.style.overflow = 'visible'; }
   }).catch(() => {});
-  // 截圖前最後一次：關彈窗、確認圖片載完；還有沒載完的就再給一次機會
+  // 截圖前最後一次：關彈窗、凍結動畫讓輪播到最終狀態、確認圖片載完；還有沒載完的就再給一次機會
+  await page.evaluate(() => { window.__vv.dismiss(); window.__vv.freeze(); }).catch(() => {});
+  await page.waitForTimeout(1200);
   let pending = await page.evaluate(() => { window.__vv.dismiss(); return window.__vv.waitImages(8000); }).catch(() => -1);
   if (pending > 3) {
     log('  仍有', pending, '張圖未載入，捲一次再等');
