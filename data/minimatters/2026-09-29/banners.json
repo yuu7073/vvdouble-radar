@@ -1,0 +1,22 @@
+[
+  {
+    "n": 1,
+    "pc": "banners/01-pc.gif",
+    "mobile": "banners/01-m.gif",
+    "pcUrl": "https://photo.minimatters.com.tw/Photo/H/f8daa579-4a85-4ca8-9930-6e2ee2b38bb3.gif",
+    "mobileUrl": "https://photo.minimatters.com.tw/Photo/H/cb32c766-96a7-41d7-9123-805e85fa4d50.gif",
+    "link": "",
+    "text": "",
+    "alt": ""
+  },
+  {
+    "n": 2,
+    "pc": "banners/02-pc.gif",
+    "mobile": "banners/02-m.gif",
+    "pcUrl": "https://photo.minimatters.com.tw/Photo/H/3d48058f-420d-4128-9447-c92d9211ee32.gif",
+    "mobileUrl": "https://photo.minimatters.com.tw/Photo/H/9659c8a7-ab2d-4e9c-a032-0bdfbb86a469.gif",
+    "link": "",
+    "text": "",
+    "alt": ""
+  }
+]

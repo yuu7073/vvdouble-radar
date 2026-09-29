@@ -1,5 +1,27 @@
 {
   "items": {
+    "19695": {
+      "id": "19695",
+      "name": "品牌LOGO加厚款洗衣袋(不單售)",
+      "url": "https://www.pazzo.com.tw/en-us/market/n/19695?c=44161",
+      "price": 490,
+      "origPrice": null,
+      "img": "https://pics.pzcdn.tw/pazzo/ProductCovers/512515a7-0845-42bb-b34e-0db2913cadbe_w886_h1128.jpg",
+      "sold": null,
+      "firstSeen": "2026-09-29",
+      "thumb": "img/pazzo/19695.jpg"
+    },
+    "24554": {
+      "id": "24554",
+      "name": "蕾絲假兩件細肩帶BRA TOP",
+      "url": "https://www.pazzo.com.tw/en-us/market/n/24554?c=55865",
+      "price": 590,
+      "origPrice": 790,
+      "img": "https://pics.pzcdn.tw/pazzo/ProductCovers/1c272830-e1de-4f48-9a81-9f4a5091d352_w886_h1128.jpg",
+      "sold": null,
+      "firstSeen": "2026-09-29",
+      "thumb": "img/pazzo/24554.jpg"
+    },
     "25702": {
       "id": "25702",
       "name": "繞脖蕾絲排釦馬甲",
@@ -44,6 +66,39 @@
       "firstSeen": "2026-09-28",
       "thumb": "img/pazzo/25751.jpg"
     },
+    "25755": {
+      "id": "25755",
+      "name": "光澤紋理蕾絲細肩帶洋裝",
+      "url": "https://www.pazzo.com.tw/en-us/market/n/25755?c=57886",
+      "price": 790,
+      "origPrice": null,
+      "img": "https://pics.pzcdn.tw/pazzo/ProductCovers/fc843f8a-cfa1-4614-ac5e-1730cc345a5c_w886_h1128.jpg",
+      "sold": null,
+      "firstSeen": "2026-09-29",
+      "thumb": "img/pazzo/25755.jpg"
+    },
+    "25766": {
+      "id": "25766",
+      "name": "細褶抽繩長褲裙",
+      "url": "https://www.pazzo.com.tw/en-us/market/n/25766?c=57915",
+      "price": 890,
+      "origPrice": null,
+      "img": "https://pics.pzcdn.tw/pazzo/ProductCovers/e9108a47-8238-477b-8b0d-e65152fd48c3_w886_h1128.jpg",
+      "sold": null,
+      "firstSeen": "2026-09-29",
+      "thumb": "img/pazzo/25766.jpg"
+    },
+    "25772": {
+      "id": "25772",
+      "name": "及膝休閒半身裙",
+      "url": "https://www.pazzo.com.tw/en-us/market/n/25772?c=57934",
+      "price": 590,
+      "origPrice": null,
+      "img": "https://pics.pzcdn.tw/pazzo/ProductCovers/73360c1f-7b3b-47de-a54a-ef60dee8cdaa_w886_h1128.jpg",
+      "sold": null,
+      "firstSeen": "2026-09-29",
+      "thumb": "img/pazzo/25772.jpg"
+    },
     "25778": {
       "id": "25778",
       "name": "MIT輕雲朵魚尾長裙",
@@ -54,6 +109,17 @@
       "sold": null,
       "firstSeen": "2026-09-28",
       "thumb": "img/pazzo/25778.jpg"
+    },
+    "25791": {
+      "id": "25791",
+      "name": "條紋落肩收腰襯衫",
+      "url": "https://www.pazzo.com.tw/en-us/market/n/25791?c=57993",
+      "price": 790,
+      "origPrice": null,
+      "img": "https://pics.pzcdn.tw/pazzo/ProductCovers/16f53eb3-7bd2-4a22-8700-81b0dc409e1c_w886_h1128.jpg",
+      "sold": null,
+      "firstSeen": "2026-09-29",
+      "thumb": "img/pazzo/25791.jpg"
     },
     "25794": {
       "id": "25794",
@@ -77,6 +143,39 @@
       "firstSeen": "2026-09-28",
       "thumb": "img/pazzo/25795.jpg"
     },
+    "25799": {
+      "id": "25799",
+      "name": "氣球垂墜感下縮口西裝長褲",
+      "url": "https://www.pazzo.com.tw/en-us/market/n/25799?c=58014",
+      "price": 890,
+      "origPrice": null,
+      "img": "https://pics.pzcdn.tw/pazzo/ProductCovers/325bbc11-af05-4fed-852e-f3bdef8a7afa_w886_h1128.jpg",
+      "sold": null,
+      "firstSeen": "2026-09-29",
+      "thumb": "img/pazzo/25799.jpg"
+    },
+    "25802": {
+      "id": "25802",
+      "name": "打褶縮口翻領夾克外套",
+      "url": "https://www.pazzo.com.tw/en-us/market/n/25802?c=58022",
+      "price": 1390,
+      "origPrice": null,
+      "img": "https://pics.pzcdn.tw/pazzo/ProductCovers/aa7cec16-7be8-4df8-b680-7f3235bfd32e_w886_h1128.jpg",
+      "sold": null,
+      "firstSeen": "2026-09-29",
+      "thumb": "img/pazzo/25802.jpg"
+    },
+    "25803": {
+      "id": "25803",
+      "name": "細緻針織斜肩側抓皺上衣",
+      "url": "https://www.pazzo.com.tw/en-us/market/n/25803?c=58024",
+      "price": 590,
+      "origPrice": null,
+      "img": "https://pics.pzcdn.tw/pazzo/ProductCovers/e99a3da3-b46c-476c-bf99-3857f4ae3f83_w886_h1128.jpg",
+      "sold": null,
+      "firstSeen": "2026-09-29",
+      "thumb": "img/pazzo/25803.jpg"
+    },
     "25807": {
       "id": "25807",
       "name": "無腰結繭型牛仔褲",
@@ -98,6 +197,17 @@
       "sold": null,
       "firstSeen": "2026-09-28",
       "thumb": "img/pazzo/25813.jpg"
+    },
+    "25815": {
+      "id": "25815",
+      "name": "低領兩件式薄針織毛衣(上衣＋背心)",
+      "url": "https://www.pazzo.com.tw/en-us/market/n/25815?c=58047",
+      "price": 990,
+      "origPrice": null,
+      "img": "https://pics.pzcdn.tw/pazzo/ProductCovers/9f3eef85-52f9-4289-8f97-94392b188f36_w886_h1128.jpg",
+      "sold": null,
+      "firstSeen": "2026-09-29",
+      "thumb": "img/pazzo/25815.jpg"
     },
     "25817": {
       "id": "25817",
@@ -143,6 +253,17 @@
       "firstSeen": "2026-09-28",
       "thumb": "img/pazzo/25832.jpg"
     },
+    "25835": {
+      "id": "25835",
+      "name": "天絲寬領兩件式長袖上衣(上衣+圍巾)",
+      "url": "https://www.pazzo.com.tw/en-us/market/n/25835?c=58105",
+      "price": 499,
+      "origPrice": 690,
+      "img": "https://pics.pzcdn.tw/pazzo/ProductCovers/32293105-9e64-4e6c-af48-f499ae656acb_w886_h1128.jpg",
+      "sold": null,
+      "firstSeen": "2026-09-29",
+      "thumb": "img/pazzo/25835.jpg"
+    },
     "25844": {
       "id": "25844",
       "name": "MIT & IN THING印花短袖上衣",
@@ -153,7 +274,29 @@
       "sold": null,
       "firstSeen": "2026-09-28",
       "thumb": "img/pazzo/25844.jpg"
+    },
+    "25846": {
+      "id": "25846",
+      "name": "低腰無腰結直筒長褲",
+      "url": "https://www.pazzo.com.tw/en-us/market/n/25846?c=58136",
+      "price": 990,
+      "origPrice": null,
+      "img": "https://pics.pzcdn.tw/pazzo/ProductCovers/87aa6322-8cca-4032-9c85-5e4308be4371_w886_h1128.jpg",
+      "sold": null,
+      "firstSeen": "2026-09-29",
+      "thumb": "img/pazzo/25846.jpg"
+    },
+    "25861": {
+      "id": "25861",
+      "name": "立體美胸抓皺細肩帶背心",
+      "url": "https://www.pazzo.com.tw/en-us/market/n/25861?c=58159",
+      "price": 499,
+      "origPrice": 590,
+      "img": "https://pics.pzcdn.tw/pazzo/ProductCovers/0a1de3c4-faaf-4993-8cd2-1a8061a6ddd9_w886_h1128.jpg",
+      "sold": null,
+      "firstSeen": "2026-09-29",
+      "thumb": "img/pazzo/25861.jpg"
     }
   },
-  "updatedAt": "2026-09-28"
+  "updatedAt": "2026-09-29"
 }

@@ -461,7 +461,29 @@
       "sold": "438",
       "firstSeen": "2026-09-28",
       "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_item1_11_item2_00_item3_QS_SaleID_04011884_Page_1.jpg"
+    },
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01041958&Page=1": {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01041958&Page=1",
+      "name": "後抽繩抓皺設計Bra Top背心 四色售 S/M",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01041958&Page=1",
+      "price": 145,
+      "origPrice": 290,
+      "img": "https://photo.queenshop.com.tw/01041958/01041958.jpg",
+      "sold": "456",
+      "firstSeen": "2026-09-29",
+      "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_item1_11_item2_00_item3_QS_SaleID_01041958_Page_1.jpg"
+    },
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=04030506&Page=1": {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=04030506&Page=1",
+      "name": "素面打褶西裝七分短褲 兩色售 S/M/L",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=04030506&Page=1",
+      "price": 295,
+      "origPrice": 590,
+      "img": "https://photo.queenshop.com.tw/04030506/04030506.jpg",
+      "sold": "454",
+      "firstSeen": "2026-09-29",
+      "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_item1_11_item2_00_item3_QS_SaleID_04030506_Page_1.jpg"
     }
   },
-  "updatedAt": "2026-09-28"
+  "updatedAt": "2026-09-29"
 }

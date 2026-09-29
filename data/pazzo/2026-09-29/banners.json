@@ -1,0 +1,52 @@
+[
+  {
+    "n": 1,
+    "pc": "banners/01-pc.jpg",
+    "mobile": "banners/01-m.jpg",
+    "pcUrl": "https://pics.pzcdn.tw/pazzo/System/8cc595cd-75f1-48be-8681-7edb7bb90a69.jpg",
+    "mobileUrl": "https://pics.pzcdn.tw/pazzo/System/5213dbbe-93cd-4748-bb09-c1cf92e93302.jpg",
+    "link": "https://www.pazzo.com.tw/tag/20260929new",
+    "text": "",
+    "alt": ""
+  },
+  {
+    "n": 2,
+    "pc": "banners/02-pc.jpg",
+    "mobile": "banners/02-m.jpg",
+    "pcUrl": "https://pics.pzcdn.tw/pazzo/IndexWidget/be39559d-8a67-4646-9dbd-d42d262125f6.jpg",
+    "mobileUrl": "https://pics.pzcdn.tw/pazzo/IndexWidget/58632b20-417d-43d8-abab-03719b4a32b3.jpg",
+    "link": "https://www.pazzo.com.tw/match?barcode=PA1B0050603,PA1B0050605,PA1B0050612",
+    "text": "",
+    "alt": ""
+  },
+  {
+    "n": 3,
+    "pc": "banners/03-pc.jpg",
+    "mobile": "banners/03-m.jpg",
+    "pcUrl": "https://pics.pzcdn.tw/pazzo/IndexWidget/d5fe944d-67cd-4999-bba6-5ef5e079c994.jpg",
+    "mobileUrl": "https://pics.pzcdn.tw/pazzo/IndexWidget/396424dd-7ee1-4009-a89a-1f38cd701add.jpg",
+    "link": "https://www.pazzo.com.tw/match?barcode=PA1A0155501,PA1A0155501,PA1A0155501,PA1A0155503,PA1A0155503,PA1A0155503,PA1A0155510,PA1A0155510,PA1A0155510,PA1A0155515,PA1A0155515,PA1A0155515,PA1A0155523,PA1A0155523,PA1A0155523",
+    "text": "",
+    "alt": ""
+  },
+  {
+    "n": 4,
+    "pc": "banners/04-pc.jpg",
+    "mobile": "banners/04-m.jpg",
+    "pcUrl": "https://pics.pzcdn.tw/pazzo/IndexWidget/a2ed320b-37ca-405e-afb4-f456ef5f0946.jpg",
+    "mobileUrl": "https://pics.pzcdn.tw/pazzo/IndexWidget/63b8a65b-8241-41fa-836d-5e6d7983ce4a.jpg",
+    "link": "https://www.pazzo.com.tw/tag/2026lace",
+    "text": "",
+    "alt": ""
+  },
+  {
+    "n": 5,
+    "pc": "banners/05-pc.gif",
+    "mobile": "banners/05-m.gif",
+    "pcUrl": "https://pics.pzcdn.tw/pazzo/System/51e2d546-2d98-420f-af92-41aadef73981.gif",
+    "mobileUrl": "https://pics.pzcdn.tw/pazzo/System/6d71164f-bdcc-4b1d-9b09-d7d56f891fdb.gif",
+    "link": "https://www.pazzo.com.tw/tag/20260929new",
+    "text": "",
+    "alt": ""
+  }
+]
