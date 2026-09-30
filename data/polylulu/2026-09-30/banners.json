@@ -1,0 +1,52 @@
+[
+  {
+    "n": 1,
+    "pc": "banners/01-pc.jpg",
+    "mobile": "banners/01-m.jpg",
+    "pcUrl": "https://photo.polylulu.com.tw/photo/act/20260930/indexbn-20260930-pc-01.jpg?v=20260930",
+    "mobileUrl": "https://photo.polylulu.com.tw/photo/act/20260930/indexbn-20260930-m-01.jpg?v=20260930",
+    "link": "https://www.polylulu.com.tw/productlist?KeyWord=pim:2609280002&actno=26092801",
+    "text": "",
+    "alt": "新品上市"
+  },
+  {
+    "n": 2,
+    "pc": "banners/02-pc.jpg",
+    "mobile": "banners/02-m.jpg",
+    "pcUrl": "https://photo.polylulu.com.tw/photo/act/20260930/indexbn-20260930-pc-02.jpg?v=20260930",
+    "mobileUrl": "https://photo.polylulu.com.tw/photo/act/20260930/indexbn-20260930-m-02.jpg?v=20260930",
+    "link": "https://www.polylulu.com.tw/productlist?KeyWord=pi:609926092801&actno=26092803&onsale=1",
+    "text": "",
+    "alt": "兩件折400"
+  },
+  {
+    "n": 3,
+    "pc": "banners/03-pc.jpg",
+    "mobile": "banners/03-m.jpg",
+    "pcUrl": "https://photo.polylulu.com.tw/photo/act/20260930/indexbn-20260930-pc-03.jpg?v=20260930",
+    "mobileUrl": "https://photo.polylulu.com.tw/photo/act/20260930/indexbn-20260930-m-03.jpg?v=20260930",
+    "link": "https://www.polylulu.com.tw/productstylePage?KeyWord=26091501",
+    "text": "",
+    "alt": "蛋頭先生"
+  },
+  {
+    "n": 4,
+    "pc": "banners/04-pc.jpg",
+    "mobile": "banners/04-m.jpg",
+    "pcUrl": "https://photo.polylulu.com.tw/photo/act/20260930/indexbn-20260930-pc-04.jpg?v=20260930",
+    "mobileUrl": "https://photo.polylulu.com.tw/photo/act/20260930/indexbn-20260930-m-04.jpg?v=20260930",
+    "link": "https://www.polylulu.com.tw/ponyo",
+    "text": "",
+    "alt": "PONYO"
+  },
+  {
+    "n": 5,
+    "pc": "banners/05-pc.jpg",
+    "mobile": "banners/05-m.jpg",
+    "pcUrl": "https://photo.polylulu.com.tw/photo/act/20260930/indexbn-20260930-pc-05.jpg?v=20260930",
+    "mobileUrl": "https://photo.polylulu.com.tw/photo/act/20260930/indexbn-20260930-m-05.jpg?v=20260930",
+    "link": "https://www.polylulu.com.tw/productlist?KeyWord=pim:2609280002&actno=26092801",
+    "text": "",
+    "alt": "新品上市"
+  }
+]

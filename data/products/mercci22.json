@@ -1,5 +1,16 @@
 {
   "items": {
+    "6537": {
+      "id": "6537",
+      "name": "Bobby&Bella熊印刷oversized TEE(Unisex)",
+      "url": "https://www.mercci22.com/en-us/market/n/6537?c=12426",
+      "price": 680,
+      "origPrice": null,
+      "img": "https://pics.mercci22.tw/mercci22/ProductCovers/f1f4c819-40c1-41df-8d63-9dd1c4401037.gif",
+      "sold": null,
+      "firstSeen": "2026-09-30",
+      "thumb": "img/mercci22/6537.gif"
+    },
     "8594": {
       "id": "8594",
       "name": "斜紋彈力capri七分長褲",
@@ -11,6 +22,17 @@
       "firstSeen": "2026-09-28",
       "thumb": "img/mercci22/8594.jpg"
     },
+    "9009": {
+      "id": "9009",
+      "name": "蕾絲V領長袖上衣",
+      "url": "https://www.mercci22.com/en-us/market/n/9009?c=17229",
+      "price": 580,
+      "origPrice": null,
+      "img": "https://pics.mercci22.tw/mercci22/ProductCovers/7d6c47ed-e0bc-4d60-9723-7f759e8bbc25_w800_h1000.jpg",
+      "sold": null,
+      "firstSeen": "2026-09-30",
+      "thumb": "img/mercci22/9009.jpg"
+    },
     "9072": {
       "id": "9072",
       "name": "SHOP ALL",
@@ -20,7 +42,7 @@
       "img": "",
       "sold": null,
       "firstSeen": "2026-09-28",
-      "priceChanged": "2026-09-29"
+      "priceChanged": "2026-09-30"
     },
     "9158": {
       "id": "9158",
@@ -397,5 +419,5 @@
       "thumb": "img/mercci22/9502.jpg"
     }
   },
-  "updatedAt": "2026-09-29"
+  "updatedAt": "2026-09-30"
 }

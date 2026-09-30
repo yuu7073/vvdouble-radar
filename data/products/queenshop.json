@@ -483,7 +483,29 @@
       "sold": "454",
       "firstSeen": "2026-09-29",
       "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_item1_11_item2_00_item3_QS_SaleID_04030506_Page_1.jpg"
+    },
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=04011891&Page=1": {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=04011891&Page=1",
+      "name": "立體不收邊花朵彎刀牛仔褲 兩色售 S/M/L",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=04011891&Page=1",
+      "price": 540,
+      "origPrice": 1080,
+      "img": "https://photo.queenshop.com.tw/04011891/04011891.jpg",
+      "sold": "440",
+      "firstSeen": "2026-09-30",
+      "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_item1_11_item2_00_item3_QS_SaleID_04011891_Page_1.jpg"
+    },
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01099553&Page=1": {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01099553&Page=1",
+      "name": "花紗坑條紋理側抓皺短袖上衣 四色售",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01099553&Page=1",
+      "price": 195,
+      "origPrice": 390,
+      "img": "https://photo.queenshop.com.tw/01099553/01099553.jpg",
+      "sold": "439",
+      "firstSeen": "2026-09-30",
+      "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_item1_11_item2_00_item3_QS_SaleID_01099553_Page_1.jpg"
     }
   },
-  "updatedAt": "2026-09-29"
+  "updatedAt": "2026-09-30"
 }
