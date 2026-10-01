@@ -505,7 +505,106 @@
       "sold": "439",
       "firstSeen": "2026-09-30",
       "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_item1_11_item2_00_item3_QS_SaleID_01099553_Page_1.jpg"
+    },
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=07110609&Page=1": {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=07110609&Page=1",
+      "name": "基本多色素面坑條中筒襪 七色售",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=07110609&Page=1",
+      "price": 99,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/07110609/07110609.jpg",
+      "sold": "442",
+      "firstSeen": "2026-10-01",
+      "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_item1_11_item2_00_item3_QS_SaleID_07110609_Page_1.jpg"
+    },
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01190444": {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01190444",
+      "name": "JOGUMAN 快樂舞蹈TEE",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01190444",
+      "price": 590,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/01190444/01190444-h.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-01",
+      "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_SaleID_01190444.jpg"
+    },
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01200168": {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01200168",
+      "name": "不對稱剪接綁帶荷葉平領上衣 兩色售",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01200168",
+      "price": 790,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/01200168/01200168-h.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-01",
+      "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_SaleID_01200168.jpg"
+    },
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01099927": {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01099927",
+      "name": "休閒愛心緹花合身上衣 三色售",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01099927",
+      "price": 390,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/01099927/01099927-h.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-01",
+      "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_SaleID_01099927.jpg"
+    },
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01111042": {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01111042",
+      "name": "JOGUMAN 開車中連帽上衣",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01111042",
+      "price": 980,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/01111042/01111042-h.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-01",
+      "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_SaleID_01111042.jpg"
+    },
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01013563": {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01013563",
+      "name": "立體橫紋緹花針織上衣 兩色售",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01013563",
+      "price": 490,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/01013563/01013563-h.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-01",
+      "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_SaleID_01013563.jpg"
+    },
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01025900": {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01025900",
+      "name": "JOGUMAN格紋襯衫",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01025900",
+      "price": 890,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/01025900/01025900-h.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-01",
+      "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_SaleID_01025900.jpg"
+    },
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01087391": {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01087391",
+      "name": "網紗皮革拼接短洋裝附絲巾 兩色售",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01087391",
+      "price": 890,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/01087391/01087391-h.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-01",
+      "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_SaleID_01087391.jpg"
+    },
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=03021794": {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=03021794",
+      "name": "不規則剪裁波點雪紡長裙 三色售",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=03021794",
+      "price": 690,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/03021794/03021794-h.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-01",
+      "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_SaleID_03021794.jpg"
     }
   },
-  "updatedAt": "2026-09-30"
+  "updatedAt": "2026-10-01"
 }

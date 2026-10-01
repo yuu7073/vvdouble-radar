@@ -1242,7 +1242,29 @@
       "sold": null,
       "firstSeen": "2026-09-29",
       "thumb": "img/obdesign/12186896.jpg"
+    },
+    "12186946": {
+      "id": "12186946",
+      "name": "productBadgeImage_//img.91app.com/webapi/imagesV3/Cropped/Pr",
+      "url": "https://www.obdesign.com.tw/SalePage/Index/12186946",
+      "price": 699,
+      "origPrice": null,
+      "img": "https://img.91app.com/webapi/imagesV3/Cropped/ProductBadge/97789/ratioOneToOne/639262741105230470?v=1",
+      "sold": null,
+      "firstSeen": "2026-10-01",
+      "thumb": "img/obdesign/12186946.jpg"
+    },
+    "12186947": {
+      "id": "12186947",
+      "name": "productBadgeImage_//img.91app.com/webapi/imagesV3/Cropped/Pr",
+      "url": "https://www.obdesign.com.tw/SalePage/Index/12186947",
+      "price": 699,
+      "origPrice": null,
+      "img": "https://img.91app.com/webapi/imagesV3/Cropped/ProductBadge/97784/ratioOneToOne/639262733606801960?v=1",
+      "sold": null,
+      "firstSeen": "2026-10-01",
+      "thumb": "img/obdesign/12186947.jpg"
     }
   },
-  "updatedAt": "2026-09-30"
+  "updatedAt": "2026-10-01"
 }
