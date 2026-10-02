@@ -890,7 +890,40 @@
       "sold": null,
       "firstSeen": "2026-09-30",
       "thumb": "img/polylulu/9526056601.jpg"
+    },
+    "9526056602": {
+      "id": "9526056602",
+      "name": "高腰藏肉百搭傘擺牛仔長裙",
+      "url": "https://www.polylulu.com.tw/product?saleid=9526056602&color=A79",
+      "price": 924,
+      "origPrice": 1050,
+      "img": "https://app-resource.polylulu.com.tw/app_img/95260566/67830489-d5c4-438c-b174-a224a549e3f5.gif",
+      "sold": null,
+      "firstSeen": "2026-10-02",
+      "thumb": "img/polylulu/9526056602.gif"
+    },
+    "9623072601": {
+      "id": "9623072601",
+      "name": "星星繡花設計款牛仔寬褲",
+      "url": "https://www.polylulu.com.tw/product?saleid=9623072601&color=A23",
+      "price": 1012,
+      "origPrice": 1150,
+      "img": "https://app-resource.polylulu.com.tw/app_img/96230726/6e965301-9779-4301-9358-45ae3549da71.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-02",
+      "thumb": "img/polylulu/9623072601.jpg"
+    },
+    "9623072602": {
+      "id": "9623072602",
+      "name": "星星繡花設計款牛仔寬褲",
+      "url": "https://www.polylulu.com.tw/product?saleid=9623072602&color=A79",
+      "price": 1012,
+      "origPrice": 1150,
+      "img": "https://app-resource.polylulu.com.tw/app_img/96230726/537b8d47-af05-4079-a5d1-06a56f9f8d01.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-02",
+      "thumb": "img/polylulu/9623072602.jpg"
     }
   },
-  "updatedAt": "2026-09-30"
+  "updatedAt": "2026-10-02"
 }

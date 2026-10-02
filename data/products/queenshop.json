@@ -604,7 +604,29 @@
       "sold": null,
       "firstSeen": "2026-10-01",
       "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_SaleID_03021794.jpg"
+    },
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=ls&SaleID=01099654&Page=1": {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=ls&SaleID=01099654&Page=1",
+      "name": "配色條紋短版短袖上衣 三色售",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=ls&SaleID=01099654&Page=1",
+      "price": 195,
+      "origPrice": 390,
+      "img": "https://photo.queenshop.com.tw/01099654/01099654.jpg",
+      "sold": "438",
+      "firstSeen": "2026-10-02",
+      "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_item1_11_item2_00_item3_ls_SaleID_01099654_Page_1.jpg"
+    },
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=03010974": {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=03010974",
+      "name": "簡約洗水造型牛仔短裙 兩色售 S/M/L",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=03010974",
+      "price": 690,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/03010974/03010974-h.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-02",
+      "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_SaleID_03010974.jpg"
     }
   },
-  "updatedAt": "2026-10-01"
+  "updatedAt": "2026-10-02"
 }
