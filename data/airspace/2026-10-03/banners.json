@@ -1,0 +1,52 @@
+[
+  {
+    "n": 1,
+    "pc": "banners/01-pc.webp",
+    "mobile": "banners/01-m.webp",
+    "pcUrl": "https://images.airspaceonline.com/photo/H/8cefdd47-bbb5-467e-bd2b-a3bb55f3b3bd.webp",
+    "mobileUrl": "https://images.airspaceonline.com/photo/H/8cefdd47-bbb5-467e-bd2b-a3bb55f3b3bd.webp",
+    "link": "https://www.airspaceonline.com/tw/zh-hant/productlist/air-space",
+    "text": "",
+    "alt": ""
+  },
+  {
+    "n": 2,
+    "pc": "banners/02-pc.webp",
+    "mobile": "banners/02-m.webp",
+    "pcUrl": "https://images.airspaceonline.com/photo/H/fa4323a7-261f-4d7c-9581-37d9b06cffae.webp",
+    "mobileUrl": "https://images.airspaceonline.com/photo/H/fa4323a7-261f-4d7c-9581-37d9b06cffae.webp",
+    "link": "https://www.airspaceonline.com/tw/zh-hant/productlist/air-space/collab/occasion/aircotton",
+    "text": "",
+    "alt": ""
+  },
+  {
+    "n": 3,
+    "pc": "banners/03-pc.webp",
+    "mobile": "banners/03-m.webp",
+    "pcUrl": "https://images.airspaceonline.com/photo/H/50512ced-7114-4cc7-87cf-25e16296ff3c.webp",
+    "mobileUrl": "https://images.airspaceonline.com/photo/H/50512ced-7114-4cc7-87cf-25e16296ff3c.webp",
+    "link": "https://www.airspaceonline.com/tw/zh-hant/productlist/r-fav",
+    "text": "",
+    "alt": ""
+  },
+  {
+    "n": 4,
+    "pc": "banners/04-pc.webp",
+    "mobile": "banners/04-m.webp",
+    "pcUrl": "https://images.airspaceonline.com/photo/H/68f58abb-2f71-4ddd-b35b-3f1a0e812326.webp",
+    "mobileUrl": "https://images.airspaceonline.com/photo/H/68f58abb-2f71-4ddd-b35b-3f1a0e812326.webp",
+    "link": "https://www.airspaceonline.com/tw/zh-hant/static?key=2025042200002",
+    "text": "",
+    "alt": ""
+  },
+  {
+    "n": 5,
+    "pc": "banners/05-pc.webp",
+    "mobile": "banners/05-m.webp",
+    "pcUrl": "https://images.airspaceonline.com/photo/H/1b8eb579-34f9-4088-844d-4c2ed647103f.webp",
+    "mobileUrl": "https://images.airspaceonline.com/photo/H/e235a52f-3279-4afc-9bad-7bee632fa31d.webp",
+    "link": "https://www.airspaceonline.com/tw/zh-hant/store",
+    "text": "",
+    "alt": ""
+  }
+]
