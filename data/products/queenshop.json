@@ -670,7 +670,51 @@
       "sold": null,
       "firstSeen": "2026-10-03",
       "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_SaleID_01200021.jpg"
+    },
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=04102034&Page=1": {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=04102034&Page=1",
+      "name": "簡約素面設計斜紋五分褲附皮帶 三色售 S-L",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=04102034&Page=1",
+      "price": 295,
+      "origPrice": 590,
+      "img": "https://photo.queenshop.com.tw/04102034/04102034.jpg",
+      "sold": "435",
+      "firstSeen": "2026-10-04",
+      "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_item1_11_item2_00_item3_QS_SaleID_04102034_Page_1.jpg"
+    },
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01099136&Page=1": {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01099136&Page=1",
+      "name": "皺皺木耳邊透膚高領長袖上衣 七色售 S/M",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01099136&Page=1",
+      "price": 390,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/01099136/01099136.jpg",
+      "sold": "432",
+      "firstSeen": "2026-10-04",
+      "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_item1_11_item2_00_item3_QS_SaleID_01099136_Page_1.jpg"
+    },
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01150496": {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01150496",
+      "name": "側抓皺削肩後露腰附Bra高領背心 三色售",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01150496",
+      "price": 390,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/01150496/01150496-h.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-04",
+      "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_SaleID_01150496.jpg"
+    },
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01025848": {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01025848",
+      "name": "休閒配色條紋寬版襯衫 三色售",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01025848",
+      "price": 590,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/01025848/01025848-h.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-04",
+      "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_SaleID_01025848.jpg"
     }
   },
-  "updatedAt": "2026-10-03"
+  "updatedAt": "2026-10-04"
 }
