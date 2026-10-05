@@ -1,0 +1,32 @@
+[
+  {
+    "n": 1,
+    "pc": "banners/01-pc.webp",
+    "mobile": "banners/01-m.webp",
+    "pcUrl": "https://images.airspaceonline.com/photo/H/2a6435e6-05cb-45cf-bda3-962be63a2b9f.webp",
+    "mobileUrl": "https://images.airspaceonline.com/photo/H/2a6435e6-05cb-45cf-bda3-962be63a2b9f.webp",
+    "link": "https://www.airspaceonline.com/tw/zh-hant/productlist?chooseid=2610020006",
+    "text": "",
+    "alt": ""
+  },
+  {
+    "n": 2,
+    "pc": "banners/02-pc.gif",
+    "mobile": "banners/02-m.gif",
+    "pcUrl": "https://images.airspaceonline.com/photo/H/ce080204-b395-4321-bb07-86ed2745db86.gif",
+    "mobileUrl": "https://images.airspaceonline.com/photo/H/ce080204-b395-4321-bb07-86ed2745db86.gif",
+    "link": "https://www.airspaceonline.com/tw/zh-hant/productlist/air-space",
+    "text": "",
+    "alt": ""
+  },
+  {
+    "n": 3,
+    "pc": "banners/03-pc.webp",
+    "mobile": "banners/03-m.webp",
+    "pcUrl": "https://images.airspaceonline.com/photo/H/68f58abb-2f71-4ddd-b35b-3f1a0e812326.webp",
+    "mobileUrl": "https://images.airspaceonline.com/photo/H/68f58abb-2f71-4ddd-b35b-3f1a0e812326.webp",
+    "link": "https://www.airspaceonline.com/tw/zh-hant/static?key=2025042200002",
+    "text": "",
+    "alt": ""
+  }
+]

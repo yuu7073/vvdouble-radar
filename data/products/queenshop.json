@@ -714,7 +714,40 @@
       "sold": null,
       "firstSeen": "2026-10-04",
       "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_SaleID_01025848.jpg"
+    },
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01087249&Page=1": {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01087249&Page=1",
+      "name": "多層蛋糕細肩長洋裝 兩色售",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01087249&Page=1",
+      "price": 345,
+      "origPrice": 690,
+      "img": "https://photo.queenshop.com.tw/01087249/01087249.jpg",
+      "sold": "430",
+      "firstSeen": "2026-10-05",
+      "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_item1_11_item2_00_item3_QS_SaleID_01087249_Page_1.jpg"
+    },
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01025908": {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01025908",
+      "name": "簡約條紋長袖襯衫附針織披肩-白",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01025908",
+      "price": 650,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/01025908/01025908-h.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-05",
+      "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_SaleID_01025908.jpg"
+    },
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=03021783": {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=03021783",
+      "name": "洗水毛邊剪接設計低腰牛仔裙 S/M/L",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=03021783",
+      "price": 890,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/03021783/03021783-h.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-05",
+      "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_SaleID_03021783.jpg"
     }
   },
-  "updatedAt": "2026-10-04"
+  "updatedAt": "2026-10-05"
 }

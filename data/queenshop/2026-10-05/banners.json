@@ -1,0 +1,62 @@
+[
+  {
+    "n": 1,
+    "pc": "banners/01-pc.jpg",
+    "mobile": "banners/01-m.jpg",
+    "pcUrl": "https://photo.queenshop.com.tw/qs/333/260921-KV.jpg",
+    "mobileUrl": "https://photo.queenshop.com.tw/qs/333/m260921-KV.jpg",
+    "link": "https://www.queenshop.com.tw/zh-TW/QueenShop/ProductList?item1=03&item2=17",
+    "text": "",
+    "alt": "kv"
+  },
+  {
+    "n": 2,
+    "pc": "",
+    "mobile": "",
+    "pcUrl": "https://photo.queenshop.com.tw/qs/333/linegift-KV.jpg",
+    "mobileUrl": "https://photo.queenshop.com.tw/qs/333/mlinegift-KV.jpg",
+    "link": "https://www.queenshop.com.tw/zh-TW/News?ID=b261bb92-18d6-4b21-b90c-4ee8a4ecff96&IDType=3",
+    "text": "",
+    "alt": "kv"
+  },
+  {
+    "n": 3,
+    "pc": "banners/03-pc.jpg",
+    "mobile": "banners/03-m.jpg",
+    "pcUrl": "https://photo.queenshop.com.tw/qs/333/KV_2026530.jpg",
+    "mobileUrl": "https://photo.queenshop.com.tw/qs/333/mKV_2026530.jpg",
+    "link": "https://www.queenshop.com.tw/zh-TW/News?ID=c5497c24-7b8d-49d5-b0b4-4cb78c9c0244&IDType=3",
+    "text": "",
+    "alt": "kv"
+  },
+  {
+    "n": 4,
+    "pc": "",
+    "mobile": "banners/04-m.jpg",
+    "pcUrl": "https://photo.queenshop.com.tw/qs/333/26QSAU07KV.jpg",
+    "mobileUrl": "https://photo.queenshop.com.tw/qs/333/m26QSAU07KV.jpg",
+    "link": "https://www.queenshop.com.tw/zh-TW/QueenShop/ProductList?item1=00&item2=qs&item3=86",
+    "text": "",
+    "alt": "kv"
+  },
+  {
+    "n": 5,
+    "pc": "",
+    "mobile": "banners/05-m.jpg",
+    "pcUrl": "https://photo.queenshop.com.tw/qs/333/260921saleKV.jpg",
+    "mobileUrl": "https://photo.queenshop.com.tw/qs/333/m260921saleKV.jpg",
+    "link": "https://maac.io/8hMoZ",
+    "text": "",
+    "alt": "kv"
+  },
+  {
+    "n": 6,
+    "pc": "banners/06-pc.jpg",
+    "mobile": "banners/06-m.jpg",
+    "pcUrl": "https://photo.queenshop.com.tw/qs/333/20260918-KV.jpg",
+    "mobileUrl": "https://photo.queenshop.com.tw/qs/333/m20260918-KV.jpg",
+    "link": "https://www.queenshop.com.tw/zh-TW/News?ID=1312e3fd-fb7f-4d28-9199-060b0edd5326&IDType=3",
+    "text": "",
+    "alt": "kv"
+  }
+]
