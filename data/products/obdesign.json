@@ -466,12 +466,13 @@
       "id": "11255323",
       "name": "日系針織小V領落肩洋裝",
       "url": "https://www.obdesign.com.tw/SalePage/Index/11255323",
-      "price": 799,
+      "price": 499,
       "origPrice": null,
       "img": "https://img.91app.com/webapi/imagesV3/Cropped/SalePage/11255323/0/639238286268400000?v=1",
       "sold": null,
       "firstSeen": "2026-10-05",
-      "thumb": "img/obdesign/11255323.jpg"
+      "thumb": "img/obdesign/11255323.jpg",
+      "priceChanged": "2026-10-06"
     },
     "11282450": {
       "id": "11282450",
@@ -528,6 +529,17 @@
       "firstSeen": "2026-10-05",
       "thumb": "img/obdesign/11326993.jpg"
     },
+    "11401079": {
+      "id": "11401079",
+      "name": "productBadgeImage_//img.91app.com/webapi/imagesV3/Cropped/Pr",
+      "url": "https://www.obdesign.com.tw/SalePage/Index/11401079",
+      "price": 399,
+      "origPrice": null,
+      "img": "https://img.91app.com/webapi/imagesV3/Cropped/ProductBadge/98627/ratioOneToOne/639267930182583480?v=1",
+      "sold": null,
+      "firstSeen": "2026-10-06",
+      "thumb": "img/obdesign/11401079.jpg"
+    },
     "11402897": {
       "id": "11402897",
       "name": "productBadgeImage_//img.91app.com/webapi/imagesV3/Cropped/Pr",
@@ -538,6 +550,17 @@
       "sold": null,
       "firstSeen": "2026-10-05",
       "thumb": "img/obdesign/11402897.jpg"
+    },
+    "11434207": {
+      "id": "11434207",
+      "name": "productBadgeImage_//img.91app.com/webapi/imagesV3/Cropped/Pr",
+      "url": "https://www.obdesign.com.tw/SalePage/Index/11434207",
+      "price": 699,
+      "origPrice": null,
+      "img": "https://img.91app.com/webapi/imagesV3/Cropped/ProductBadge/98627/ratioOneToOne/639267930182583480?v=1",
+      "sold": null,
+      "firstSeen": "2026-10-06",
+      "thumb": "img/obdesign/11434207.jpg"
     },
     "11581324": {
       "id": "11581324",
@@ -583,6 +606,17 @@
       "firstSeen": "2026-09-29",
       "thumb": "img/obdesign/11599166.jpg"
     },
+    "11677919": {
+      "id": "11677919",
+      "name": "productBadgeImage_//img.91app.com/webapi/imagesV3/Cropped/Pr",
+      "url": "https://www.obdesign.com.tw/SalePage/Index/11677919",
+      "price": 499,
+      "origPrice": 699,
+      "img": "https://img.91app.com/webapi/imagesV3/Cropped/ProductBadge/98702/ratioOneToOne/639268172898381900?v=1",
+      "sold": null,
+      "firstSeen": "2026-10-06",
+      "thumb": "img/obdesign/11677919.jpg"
+    },
     "11699949": {
       "id": "11699949",
       "name": "productBadgeImage_//img.91app.com/webapi/imagesV3/Cropped/Pr",
@@ -616,6 +650,17 @@
       "firstSeen": "2026-09-29",
       "thumb": "img/obdesign/11699951.jpg"
     },
+    "11715331": {
+      "id": "11715331",
+      "name": "productBadgeImage_//img.91app.com/webapi/imagesV3/Cropped/Pr",
+      "url": "https://www.obdesign.com.tw/SalePage/Index/11715331",
+      "price": 680,
+      "origPrice": null,
+      "img": "https://img.91app.com/webapi/imagesV3/Cropped/ProductBadge/98627/ratioOneToOne/639267930182583480?v=1",
+      "sold": null,
+      "firstSeen": "2026-10-06",
+      "thumb": "img/obdesign/11715331.jpg"
+    },
     "11719053": {
       "id": "11719053",
       "name": "productBadgeImage_//img.91app.com/webapi/imagesV3/Cropped/Pr",
@@ -626,6 +671,28 @@
       "sold": null,
       "firstSeen": "2026-10-05",
       "thumb": "img/obdesign/11719053.jpg"
+    },
+    "11738334": {
+      "id": "11738334",
+      "name": "productBadgeImage_//img.91app.com/webapi/imagesV3/Cropped/Pr",
+      "url": "https://www.obdesign.com.tw/SalePage/Index/11738334",
+      "price": 699,
+      "origPrice": null,
+      "img": "https://img.91app.com/webapi/imagesV3/Cropped/ProductBadge/98627/ratioOneToOne/639267930182583480?v=1",
+      "sold": null,
+      "firstSeen": "2026-10-06",
+      "thumb": "img/obdesign/11738334.jpg"
+    },
+    "11795111": {
+      "id": "11795111",
+      "name": "productBadgeImage_//img.91app.com/webapi/imagesV3/Cropped/Pr",
+      "url": "https://www.obdesign.com.tw/SalePage/Index/11795111",
+      "price": 540,
+      "origPrice": 1080,
+      "img": "https://img.91app.com/webapi/imagesV3/Cropped/ProductBadge/98746/ratioOneToOne/639268831941475750?v=1",
+      "sold": null,
+      "firstSeen": "2026-10-06",
+      "thumb": "img/obdesign/11795111.jpg"
     },
     "12114942": {
       "id": "12114942",
@@ -1924,7 +1991,51 @@
       "sold": null,
       "firstSeen": "2026-10-05",
       "thumb": "img/obdesign/12209032.jpg"
+    },
+    "12209113": {
+      "id": "12209113",
+      "name": "productBadgeImage_//img.91app.com/webapi/imagesV3/Cropped/Pr",
+      "url": "https://www.obdesign.com.tw/SalePage/Index/12209113",
+      "price": 799,
+      "origPrice": null,
+      "img": "https://img.91app.com/webapi/imagesV3/Cropped/ProductBadge/98627/ratioOneToOne/639267930182583480?v=1",
+      "sold": null,
+      "firstSeen": "2026-10-06",
+      "thumb": "img/obdesign/12209113.jpg"
+    },
+    "12209114": {
+      "id": "12209114",
+      "name": "productBadgeImage_//img.91app.com/webapi/imagesV3/Cropped/Pr",
+      "url": "https://www.obdesign.com.tw/SalePage/Index/12209114",
+      "price": 799,
+      "origPrice": null,
+      "img": "https://img.91app.com/webapi/imagesV3/Cropped/ProductBadge/98627/ratioOneToOne/639267930182583480?v=1",
+      "sold": null,
+      "firstSeen": "2026-10-06",
+      "thumb": "img/obdesign/12209114.jpg"
+    },
+    "12209115": {
+      "id": "12209115",
+      "name": "productBadgeImage_//img.91app.com/webapi/imagesV3/Cropped/Pr",
+      "url": "https://www.obdesign.com.tw/SalePage/Index/12209115",
+      "price": 1280,
+      "origPrice": null,
+      "img": "https://img.91app.com/webapi/imagesV3/Cropped/ProductBadge/98629/ratioOneToOne/639267939371047340?v=1",
+      "sold": null,
+      "firstSeen": "2026-10-06",
+      "thumb": "img/obdesign/12209115.jpg"
+    },
+    "12209116": {
+      "id": "12209116",
+      "name": "productBadgeImage_//img.91app.com/webapi/imagesV3/Cropped/Pr",
+      "url": "https://www.obdesign.com.tw/SalePage/Index/12209116",
+      "price": 799,
+      "origPrice": null,
+      "img": "https://img.91app.com/webapi/imagesV3/Cropped/ProductBadge/98628/ratioOneToOne/639267935417047850?v=1",
+      "sold": null,
+      "firstSeen": "2026-10-06",
+      "thumb": "img/obdesign/12209116.jpg"
     }
   },
-  "updatedAt": "2026-10-05"
+  "updatedAt": "2026-10-06"
 }

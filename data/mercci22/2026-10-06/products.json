@@ -1,0 +1,219 @@
+{
+  "url": "https://www.mercci22.com/recent",
+  "count": 22,
+  "fresh": [
+    "9437",
+    "9405",
+    "9387",
+    "9431",
+    "9483",
+    "9391",
+    "9394",
+    "9397",
+    "9418",
+    "9430",
+    "9445",
+    "9416",
+    "9291"
+  ],
+  "items": [
+    {
+      "id": "9072",
+      "name": "SHOP ALL",
+      "url": "https://www.mercci22.com/zh-tw/market/n/9072?c=17320",
+      "price": null,
+      "origPrice": null,
+      "img": "",
+      "sold": null
+    },
+    {
+      "id": "9437",
+      "name": "側抓皺船領長袖上衣SALE",
+      "url": "https://www.mercci22.com/en-us/market/n/9437?c=18037",
+      "price": 399,
+      "origPrice": 580,
+      "img": "https://pics.mercci22.tw/mercci22/ProductCovers/59f00315-583d-4e7e-bc6b-b81425ffcbfd_w800_h1000.jpg",
+      "sold": null
+    },
+    {
+      "id": "9405",
+      "name": "簡約橫紋排釦外套",
+      "url": "https://www.mercci22.com/en-us/market/n/9405?c=17976",
+      "price": 880,
+      "origPrice": null,
+      "img": "https://pics.mercci22.tw/mercci22/ProductCovers/9fb0f477-c451-40ff-96f9-ea74060c9313_w800_h1000.jpg",
+      "sold": null
+    },
+    {
+      "id": "9387",
+      "name": "彈性修身八分長褲",
+      "url": "https://www.mercci22.com/en-us/market/n/9387?c=17944",
+      "price": 780,
+      "origPrice": null,
+      "img": "https://pics.mercci22.tw/mercci22/ProductCovers/72d76b41-55ec-40f3-91c2-7cc0f10a3c45_w800_h1000.jpg",
+      "sold": null
+    },
+    {
+      "id": "9431",
+      "name": "荷葉長袖針織上衣",
+      "url": "https://www.mercci22.com/en-us/market/n/9431?c=18026",
+      "price": 780,
+      "origPrice": null,
+      "img": "https://pics.mercci22.tw/mercci22/ProductCovers/a54428f7-96e8-4c34-b708-783dda154f1b_w800_h1000.jpg",
+      "sold": null
+    },
+    {
+      "id": "9483",
+      "name": "哈靈頓皮革外套",
+      "url": "https://www.mercci22.com/en-us/market/n/9483?c=18130",
+      "price": 1780,
+      "origPrice": null,
+      "img": "https://pics.mercci22.tw/mercci22/ProductCovers/0ab7591d-f2d4-4574-852f-2fa4589c7af3_w800_h1000.jpg",
+      "sold": null
+    },
+    {
+      "id": "9391",
+      "name": "光澤柔軟緞面襯衫",
+      "url": "https://www.mercci22.com/en-us/market/n/9391?c=17951",
+      "price": 780,
+      "origPrice": null,
+      "img": "https://pics.mercci22.tw/mercci22/ProductCovers/9f710622-ba71-45cb-9efe-a6b4df8b6f43_w800_h1000.jpg",
+      "sold": null
+    },
+    {
+      "id": "9394",
+      "name": "針織連帽上衣",
+      "url": "https://www.mercci22.com/en-us/market/n/9394?c=17957",
+      "price": 880,
+      "origPrice": null,
+      "img": "https://pics.mercci22.tw/mercci22/ProductCovers/5d4cafed-d2b2-47c5-ad8a-17ec5029507e_w800_h1000.jpg",
+      "sold": null
+    },
+    {
+      "id": "9397",
+      "name": "柔膚針織長袖上衣",
+      "url": "https://www.mercci22.com/en-us/market/n/9397?c=17963",
+      "price": 780,
+      "origPrice": null,
+      "img": "https://pics.mercci22.tw/mercci22/ProductCovers/64344463-74db-4f6a-b69d-1d5f4ee977bb_w800_h1000.jpg",
+      "sold": null
+    },
+    {
+      "id": "9418",
+      "name": "挺肩寬版西裝外套",
+      "url": "https://www.mercci22.com/en-us/market/n/9418?c=18001",
+      "price": 1480,
+      "origPrice": null,
+      "img": "https://pics.mercci22.tw/mercci22/ProductCovers/75a0d3f6-a295-4c96-8c3f-430c3d4a0f10_w800_h1000.jpg",
+      "sold": null
+    },
+    {
+      "id": "9430",
+      "name": "羊毛混紡坑條針織上衣",
+      "url": "https://www.mercci22.com/en-us/market/n/9430?c=18024",
+      "price": 680,
+      "origPrice": null,
+      "img": "https://pics.mercci22.tw/mercci22/ProductCovers/7226fa6f-90dc-4615-bfc0-cbbde1caac4f_w800_h1000.jpg",
+      "sold": null
+    },
+    {
+      "id": "9445",
+      "name": "修身皮革直筒長裙",
+      "url": "https://www.mercci22.com/en-us/market/n/9445?c=18046",
+      "price": 1080,
+      "origPrice": null,
+      "img": "https://pics.mercci22.tw/mercci22/ProductCovers/35015e0e-3964-441b-95d8-df6b4441c45b_w800_h1000.jpg",
+      "sold": null
+    },
+    {
+      "id": "9416",
+      "name": "美背側開岔Bra長洋裝",
+      "url": "https://www.mercci22.com/en-us/market/n/9416?c=17996",
+      "price": 980,
+      "origPrice": null,
+      "img": "https://pics.mercci22.tw/mercci22/ProductCovers/56e407b2-d2de-4486-adad-7f0c072b5b58_w800_h1000.jpg",
+      "sold": null
+    },
+    {
+      "id": "9291",
+      "name": "直筒刷色牛仔褲",
+      "url": "https://www.mercci22.com/en-us/market/n/9291?c=17764",
+      "price": 1380,
+      "origPrice": null,
+      "img": "https://pics.mercci22.tw/mercci22/ProductCovers/40533027-48a3-4ce7-838b-0c454dc7cfe6_w800_h1000.jpg",
+      "sold": null
+    },
+    {
+      "id": "8594",
+      "name": "斜紋彈力capri七分長褲",
+      "url": "https://www.mercci22.com/en-us/market/n/8594?c=16506",
+      "price": 980,
+      "origPrice": null,
+      "img": "https://pics.mercci22.tw/mercci22/ProductCovers/7d8b1731-2a98-422f-8e67-8a9939b5d287_w800_h1000.jpg",
+      "sold": null
+    },
+    {
+      "id": "9411",
+      "name": "低領落肩針織長袖",
+      "url": "https://www.mercci22.com/en-us/market/n/9411?c=17989",
+      "price": 880,
+      "origPrice": null,
+      "img": "https://pics.mercci22.tw/mercci22/ProductCovers/b89e9aa9-ffe2-4135-a51a-ee48de0c8769_w800_h1000.jpg",
+      "sold": null
+    },
+    {
+      "id": "9368",
+      "name": "細肩帶緞面蕾絲BraTop",
+      "url": "https://www.mercci22.com/en-us/market/n/9368?c=17914",
+      "price": 680,
+      "origPrice": null,
+      "img": "https://pics.mercci22.tw/mercci22/ProductCovers/49f8fda8-2e16-4156-aa9b-ce481a5ea7c0_w800_h1000.jpg",
+      "sold": null
+    },
+    {
+      "id": "9384",
+      "name": "霧絨皮革修身短褲",
+      "url": "https://www.mercci22.com/en-us/market/n/9384?c=17940",
+      "price": 780,
+      "origPrice": null,
+      "img": "https://pics.mercci22.tw/mercci22/ProductCovers/78d7aa1b-f9fd-45ff-9915-75bd0db8c7f3_w800_h1000.jpg",
+      "sold": null
+    },
+    {
+      "id": "9395",
+      "name": "透肌感翻領排釦上衣",
+      "url": "https://www.mercci22.com/en-us/market/n/9395?c=17960",
+      "price": 780,
+      "origPrice": null,
+      "img": "https://pics.mercci22.tw/mercci22/ProductCovers/7da7820d-453e-4605-8d1a-ca703e96fa66_w800_h1000.jpg",
+      "sold": null
+    },
+    {
+      "id": "9371",
+      "name": "水洗漸層珍珠牛仔褲",
+      "url": "https://www.mercci22.com/en-us/market/n/9371?c=17921",
+      "price": 1480,
+      "origPrice": null,
+      "img": "https://pics.mercci22.tw/mercci22/ProductCovers/0f4a384d-4785-4b4a-8ea2-877e2236048a_w800_h1000.jpg",
+      "sold": null
+    },
+    {
+      "id": "9424",
+      "name": "針織拼接網紗短袖上衣",
+      "url": "https://www.mercci22.com/en-us/market/n/9424?c=18012",
+      "price": 980,
+      "origPrice": null,
+      "img": "https://pics.mercci22.tw/mercci22/ProductCovers/8ebccc27-5166-4515-8d69-d80154235106_w800_h1000.jpg",
+      "sold": null
+    },
+    {
+      "id": "9381",
+      "name": "蕾絲拼接長袖上衣",
+      "url": "https://www.mercci22.com/en-us/market/n/9381?c=17935",
+      "price": 580,
+      "origPrice": null,
+      "img": "https://pics.mercci22.tw/mercci22/ProductCovers/f25b5b60-c8bc-4751-86ad-f4a61621ccc1_w800_h1000.jpg",
+      "sold": null
+    }
+  ]
+}

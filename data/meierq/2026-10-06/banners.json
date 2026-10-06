@@ -1,0 +1,62 @@
+[
+  {
+    "n": 1,
+    "pc": "banners/01-pc.jpg",
+    "mobile": "banners/01-m.jpg",
+    "pcUrl": "https://pics.meierq.com/meierq/System/fa5f9f42-c59c-4d64-b0cf-ae78113f29fd.jpg",
+    "mobileUrl": "https://pics.meierq.com/meierq/System/fa5f9f42-c59c-4d64-b0cf-ae78113f29fd.jpg",
+    "link": "https://www.meierq.com/zh-tw/category/shop/project/FAIRY",
+    "text": "",
+    "alt": ""
+  },
+  {
+    "n": 2,
+    "pc": "banners/02-pc.jpg",
+    "mobile": "banners/02-m.jpg",
+    "pcUrl": "https://pics.meierq.com/meierq/System/140d1dcf-da32-4866-82fe-e0853fc6c584.jpg",
+    "mobileUrl": "https://pics.meierq.com/meierq/System/140d1dcf-da32-4866-82fe-e0853fc6c584.jpg",
+    "link": "https://www.meierq.com/zh-tw/category/shop/project/SOULMEIER",
+    "text": "",
+    "alt": ""
+  },
+  {
+    "n": 3,
+    "pc": "banners/03-pc.jpg",
+    "mobile": "banners/03-m.jpg",
+    "pcUrl": "https://pics.meierq.com/meierq/System/8bd4e30b-6400-47dd-b3c0-86fe02ccde7f.jpg",
+    "mobileUrl": "https://pics.meierq.com/meierq/System/8bd4e30b-6400-47dd-b3c0-86fe02ccde7f.jpg",
+    "link": "https://www.meierq.com/zh-tw/category/shop/styleessentials/suzyszoo",
+    "text": "",
+    "alt": ""
+  },
+  {
+    "n": 4,
+    "pc": "banners/04-pc.jpg",
+    "mobile": "banners/04-m.jpg",
+    "pcUrl": "https://pics.meierq.com/meierq/System/ffd0ef42-ef59-481d-8f7c-314f1cd7c61d.jpg",
+    "mobileUrl": "https://pics.meierq.com/meierq/System/ffd0ef42-ef59-481d-8f7c-314f1cd7c61d.jpg",
+    "link": "https://www.meierq.com/zh-tw/category/shop/modishly/breathecotton",
+    "text": "",
+    "alt": ""
+  },
+  {
+    "n": 5,
+    "pc": "banners/05-pc.jpg",
+    "mobile": "banners/05-m.jpg",
+    "pcUrl": "https://pics.meierq.com/meierq/System/290c3187-a39d-4dda-988c-f8c0de6f219f.jpg",
+    "mobileUrl": "https://pics.meierq.com/meierq/System/290c3187-a39d-4dda-988c-f8c0de6f219f.jpg",
+    "link": "https://www.meierq.com/zh-tw/category/shop/project/MMM",
+    "text": "",
+    "alt": ""
+  },
+  {
+    "n": 6,
+    "pc": "banners/06-pc.jpg",
+    "mobile": "banners/06-m.jpg",
+    "pcUrl": "https://pics.meierq.com/design/mainpage/26SS/082426/VT.jpg",
+    "mobileUrl": "https://pics.meierq.com/design/mainpage/26SS/082426/VT.jpg",
+    "link": "https://www.meierq.com/zh-tw/category/shop/project/VINTAGE",
+    "text": "",
+    "alt": ""
+  }
+]

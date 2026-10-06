@@ -747,7 +747,40 @@
       "sold": null,
       "firstSeen": "2026-10-05",
       "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_SaleID_03021783.jpg"
+    },
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01190360&Page=1": {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01190360&Page=1",
+      "name": "洗舊貼布文字洗水寬版上衣 三色售 M/L",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01190360&Page=1",
+      "price": 395,
+      "origPrice": 790,
+      "img": "https://photo.queenshop.com.tw/01190360/01190360.jpg",
+      "sold": "419",
+      "firstSeen": "2026-10-06",
+      "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_item1_11_item2_00_item3_QS_SaleID_01190360_Page_1.jpg"
+    },
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01099923": {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01099923",
+      "name": "V領鉚釘造型連帽合身上衣 兩色售",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01099923",
+      "price": 550,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/01099923/01099923-h.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-06",
+      "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_SaleID_01099923.jpg"
+    },
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01200026": {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01200026",
+      "name": "素面壓釦彈性長袖上衣-黑",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01200026",
+      "price": 590,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/01200026/01200026-h.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-06",
+      "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_SaleID_01200026.jpg"
     }
   },
-  "updatedAt": "2026-10-05"
+  "updatedAt": "2026-10-06"
 }
