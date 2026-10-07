@@ -1,5 +1,16 @@
 {
   "items": {
+    "2608060014": {
+      "id": "2608060014",
+      "name": "花花五金真皮細皮帶",
+      "url": "https://www.minimatters.com.tw/Product?SaleID=2608060014&ColorID=001",
+      "price": 980,
+      "origPrice": 1080,
+      "img": "https://photo.minimatters.com.tw/Photo/07110012/07110012-001-01-1.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-07",
+      "thumb": "img/minimatters/2608060014.jpg"
+    },
     "2608060016": {
       "id": "2608060016",
       "name": "小花邊百摺背心",
@@ -189,7 +200,150 @@
       "firstSeen": "2026-09-28",
       "thumb": "img/minimatters/2608060031.jpg",
       "priceChanged": "2026-09-29"
+    },
+    "2609290012": {
+      "id": "2609290012",
+      "name": "飄飄條紋2way背心",
+      "url": "https://www.minimatters.com.tw/Product?SaleID=2609290012&ColorID=113",
+      "price": 1080,
+      "origPrice": 1180,
+      "img": "https://photo.minimatters.com.tw/Photo/01010065/01010065-113-01-1.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-07",
+      "thumb": "img/minimatters/2609290012.jpg"
+    },
+    "2609290013": {
+      "id": "2609290013",
+      "name": "隨筆塗鴉小花合身T",
+      "url": "https://www.minimatters.com.tw/Product?SaleID=2609290013&ColorID=002",
+      "price": 1080,
+      "origPrice": 1180,
+      "img": "https://photo.minimatters.com.tw/Photo/01030096/01030096-002-01-1.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-07",
+      "thumb": "img/minimatters/2609290013.jpg"
+    },
+    "2609290014": {
+      "id": "2609290014",
+      "name": "小星星透膚上衣",
+      "url": "https://www.minimatters.com.tw/Product?SaleID=2609290014&ColorID=200",
+      "price": 880,
+      "origPrice": 980,
+      "img": "https://photo.minimatters.com.tw/Photo/01030097/01030097-200-01-1.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-07",
+      "thumb": "img/minimatters/2609290014.jpg"
+    },
+    "2609290015": {
+      "id": "2609290015",
+      "name": "皺皺畫面雙層透膚上衣",
+      "url": "https://www.minimatters.com.tw/Product?SaleID=2609290015&ColorID=055",
+      "price": 1380,
+      "origPrice": 1480,
+      "img": "https://photo.minimatters.com.tw/Photo/01040094/01040094-055-01-1.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-07",
+      "thumb": "img/minimatters/2609290015.jpg"
+    },
+    "2609290016": {
+      "id": "2609290016",
+      "name": "雀躍心情條紋外套",
+      "url": "https://www.minimatters.com.tw/Product?SaleID=2609290016&ColorID=047",
+      "price": 1480,
+      "origPrice": 1580,
+      "img": "https://photo.minimatters.com.tw/Photo/02130005/02130005-047-01-1.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-07",
+      "thumb": "img/minimatters/2609290016.jpg"
+    },
+    "2609290017": {
+      "id": "2609290017",
+      "name": "好心情百褶裙",
+      "url": "https://www.minimatters.com.tw/Product?SaleID=2609290017&ColorID=047",
+      "price": 1380,
+      "origPrice": 1480,
+      "img": "https://photo.minimatters.com.tw/Photo/04050019/04050019-047-01-1.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-07",
+      "thumb": "img/minimatters/2609290017.jpg"
+    },
+    "2609290018": {
+      "id": "2609290018",
+      "name": "格紋拼接牛仔裙",
+      "url": "https://www.minimatters.com.tw/Product?SaleID=2609290018&ColorID=050",
+      "price": 1580,
+      "origPrice": 1680,
+      "img": "https://photo.minimatters.com.tw/Photo/04040019/04040019-050-01-1.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-07",
+      "thumb": "img/minimatters/2609290018.jpg"
+    },
+    "2609290019": {
+      "id": "2609290019",
+      "name": "特調洗色牛仔七分褲",
+      "url": "https://www.minimatters.com.tw/Product?SaleID=2609290019&ColorID=053",
+      "price": 1480,
+      "origPrice": 1580,
+      "img": "https://photo.minimatters.com.tw/Photo/03020051/03020051-053-01-1.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-07",
+      "thumb": "img/minimatters/2609290019.jpg"
+    },
+    "2609290020": {
+      "id": "2609290020",
+      "name": "小格紋彎刀長褲",
+      "url": "https://www.minimatters.com.tw/Product?SaleID=2609290020&ColorID=047",
+      "price": 1580,
+      "origPrice": 1680,
+      "img": "https://photo.minimatters.com.tw/Photo/03060018/03060018-047-01-1.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-07",
+      "thumb": "img/minimatters/2609290020.jpg"
+    },
+    "2609290021": {
+      "id": "2609290021",
+      "name": "小花格紋棒球帽",
+      "url": "https://www.minimatters.com.tw/Product?SaleID=2609290021&ColorID=096",
+      "price": 580,
+      "origPrice": 680,
+      "img": "https://photo.minimatters.com.tw/Photo/07080026/07080026-096-01-1.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-07",
+      "thumb": "img/minimatters/2609290021.jpg"
+    },
+    "2609290022": {
+      "id": "2609290022",
+      "name": "小格紋拼接後背包",
+      "url": "https://www.minimatters.com.tw/Product?SaleID=2609290022&ColorID=042",
+      "price": 1880,
+      "origPrice": 2080,
+      "img": "https://photo.minimatters.com.tw/Photo/07030045/07030045-042-01-1.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-07",
+      "thumb": "img/minimatters/2609290022.jpg"
+    },
+    "2609290023": {
+      "id": "2609290023",
+      "name": "一朵小花耳環",
+      "url": "https://www.minimatters.com.tw/Product?SaleID=2609290023&ColorID=102",
+      "price": 380,
+      "origPrice": null,
+      "img": "https://photo.minimatters.com.tw/Photo/15010047/15010047-102-01-1.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-07",
+      "thumb": "img/minimatters/2609290023.jpg"
+    },
+    "2609290024": {
+      "id": "2609290024",
+      "name": "透明小花耳環",
+      "url": "https://www.minimatters.com.tw/Product?SaleID=2609290024&ColorID=112",
+      "price": 380,
+      "origPrice": null,
+      "img": "https://photo.minimatters.com.tw/Photo/15010048/15010048-112-01-1.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-07",
+      "thumb": "img/minimatters/2609290024.jpg"
     }
   },
-  "updatedAt": "2026-09-29"
+  "updatedAt": "2026-10-07"
 }

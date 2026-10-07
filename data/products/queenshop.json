@@ -780,7 +780,18 @@
       "sold": null,
       "firstSeen": "2026-10-06",
       "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_SaleID_01200026.jpg"
+    },
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01025909": {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01025909",
+      "name": "簡約條紋長袖襯衫附針織披肩-杏",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01025909",
+      "price": 650,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/01025909/01025909-h.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-07",
+      "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_SaleID_01025909.jpg"
     }
   },
-  "updatedAt": "2026-10-06"
+  "updatedAt": "2026-10-07"
 }

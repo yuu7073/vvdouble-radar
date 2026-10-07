@@ -1,0 +1,62 @@
+[
+  {
+    "n": 1,
+    "pc": "banners/01-pc.jpg",
+    "mobile": "banners/01-m.jpg",
+    "pcUrl": "https://photo.polylulu.com.tw/photo/act/20261007/indexbn-20261007-pc-01.jpg?v=20261007",
+    "mobileUrl": "https://photo.polylulu.com.tw/photo/act/20261007/indexbn-20261007-m-01.jpg?v=20261007",
+    "link": "https://www.polylulu.com.tw/productstylePage?KeyWord=26100701",
+    "text": "",
+    "alt": "10週年慶活動頁"
+  },
+  {
+    "n": 2,
+    "pc": "banners/02-pc.jpg",
+    "mobile": "banners/02-m.jpg",
+    "pcUrl": "https://photo.polylulu.com.tw/photo/act/20261007/indexbn-20261007-pc-02.jpg?v=20261007",
+    "mobileUrl": "https://photo.polylulu.com.tw/photo/act/20261007/indexbn-20261007-m-02.jpg?v=20261007",
+    "link": "https://www.polylulu.com.tw/productlist?KeyWord=pim:2610050002&actno=26100501",
+    "text": "",
+    "alt": "新品上市"
+  },
+  {
+    "n": 3,
+    "pc": "banners/03-pc.jpg",
+    "mobile": "banners/03-m.jpg",
+    "pcUrl": "https://photo.polylulu.com.tw/photo/act/20261007/indexbn-20261007-pc-03.jpg?v=20261007",
+    "mobileUrl": "https://photo.polylulu.com.tw/photo/act/20261007/indexbn-20261007-m-03.jpg?v=20261007",
+    "link": "https://www.polylulu.com.tw/productstylePage?KeyWord=26100501",
+    "text": "",
+    "alt": "桃園統領開幕"
+  },
+  {
+    "n": 4,
+    "pc": "banners/04-pc.jpg",
+    "mobile": "banners/04-m.jpg",
+    "pcUrl": "https://photo.polylulu.com.tw/photo/act/20261007/indexbn-20261007-pc-04.jpg?v=20261007",
+    "mobileUrl": "https://photo.polylulu.com.tw/photo/act/20261007/indexbn-20261007-m-04.jpg?v=20261007",
+    "link": "https://www.polylulu.com.tw/ponyo",
+    "text": "",
+    "alt": "PONYO"
+  },
+  {
+    "n": 5,
+    "pc": "banners/05-pc.jpg",
+    "mobile": "banners/05-m.jpg",
+    "pcUrl": "https://photo.polylulu.com.tw/photo/act/20261007/indexbn-20261007-pc-05.jpg?v=20261007",
+    "mobileUrl": "https://photo.polylulu.com.tw/photo/act/20261007/indexbn-20261007-m-05.jpg?v=20261007",
+    "link": "https://www.polylulu.com.tw/productlist?KeyWord=pim:2610050002&actno=26100501",
+    "text": "",
+    "alt": "新品上市"
+  },
+  {
+    "n": 6,
+    "pc": "banners/06-pc.jpg",
+    "mobile": "banners/06-m.jpg",
+    "pcUrl": "https://photo.polylulu.com.tw/photo/act/20261007/indexbn-20261007-pc-06.jpg?v=20261007",
+    "mobileUrl": "https://photo.polylulu.com.tw/photo/act/20261007/indexbn-20261007-m-06.jpg?v=20261007",
+    "link": "https://www.polylulu.com.tw/productstylePage?KeyWord=26091501",
+    "text": "",
+    "alt": "蛋頭先生"
+  }
+]
