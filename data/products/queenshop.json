@@ -791,7 +791,51 @@
       "sold": null,
       "firstSeen": "2026-10-07",
       "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_SaleID_01025909.jpg"
+    },
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01200177": {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01200177",
+      "name": "質感滿版豹紋圓領長袖上衣 兩色售",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01200177",
+      "price": 490,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/01200177/01200177-h.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-08",
+      "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_SaleID_01200177.jpg"
+    },
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01013542": {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01013542",
+      "name": "微透膚寬領設計針織上衣 三色售",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01013542",
+      "price": 590,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/01013542/01013542-h.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-08",
+      "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_SaleID_01013542.jpg"
+    },
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01200179": {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01200179",
+      "name": "配色條紋V領POLO長袖上衣 三色售",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01200179",
+      "price": 490,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/01200179/01200179-h.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-08",
+      "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_SaleID_01200179.jpg"
+    },
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=07100098": {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=07100098",
+      "name": "質感金屬雕花鉚釘造型皮帶",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=07100098",
+      "price": 290,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/07100098/07100098-h.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-08",
+      "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_SaleID_07100098.jpg"
     }
   },
-  "updatedAt": "2026-10-07"
+  "updatedAt": "2026-10-08"
 }

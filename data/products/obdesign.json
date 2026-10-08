@@ -511,12 +511,13 @@
       "id": "11326936",
       "name": "productBadgeImage_//img.91app.com/webapi/imagesV3/Cropped/Pr",
       "url": "https://www.obdesign.com.tw/SalePage/Index/11326936",
-      "price": 699,
+      "price": 559,
       "origPrice": null,
       "img": "https://img.91app.com/webapi/imagesV3/Cropped/ProductBadge/97714/ratioOneToOne/639258612241643010?v=1",
       "sold": null,
       "firstSeen": "2026-10-05",
-      "thumb": "img/obdesign/11326936.jpg"
+      "thumb": "img/obdesign/11326936.jpg",
+      "priceChanged": "2026-10-08"
     },
     "11326993": {
       "id": "11326993",
@@ -2037,5 +2038,5 @@
       "thumb": "img/obdesign/12209116.jpg"
     }
   },
-  "updatedAt": "2026-10-06"
+  "updatedAt": "2026-10-08"
 }

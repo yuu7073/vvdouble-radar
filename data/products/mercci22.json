@@ -22,6 +22,17 @@
       "firstSeen": "2026-09-28",
       "thumb": "img/mercci22/8594.jpg"
     },
+    "8910": {
+      "id": "8910",
+      "name": "緞面蕾絲細肩帶背心SALE",
+      "url": "https://www.mercci22.com/en-us/market/n/8910?c=17639",
+      "price": 399,
+      "origPrice": 680,
+      "img": "https://pics.mercci22.tw/mercci22/ProductCovers/36bb5d3f-76e6-4ca0-b009-a307e9c84669_w800_h1000.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-08",
+      "thumb": "img/mercci22/8910.jpg"
+    },
     "9009": {
       "id": "9009",
       "name": "蕾絲V領長袖上衣",
@@ -42,7 +53,7 @@
       "img": "",
       "sold": null,
       "firstSeen": "2026-09-28",
-      "priceChanged": "2026-10-06"
+      "priceChanged": "2026-10-08"
     },
     "9158": {
       "id": "9158",
@@ -55,6 +66,28 @@
       "firstSeen": "2026-09-28",
       "thumb": "img/mercci22/9158.jpg"
     },
+    "9234": {
+      "id": "9234",
+      "name": "MIT空氣棉花抽繩長褲",
+      "url": "https://www.mercci22.com/en-us/market/n/9234?c=17650",
+      "price": 799,
+      "origPrice": null,
+      "img": "https://pics.mercci22.tw/mercci22/ProductCovers/a928f6a8-fc70-48f9-95e0-e59b78f09959_w800_h1000.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-08",
+      "thumb": "img/mercci22/9234.jpg"
+    },
+    "9238": {
+      "id": "9238",
+      "name": "MIT空氣棉花抽繩短裙",
+      "url": "https://www.mercci22.com/en-us/market/n/9238?c=17662",
+      "price": 599,
+      "origPrice": null,
+      "img": "https://pics.mercci22.tw/mercci22/ProductCovers/4749a6f5-6510-4ac0-ae79-7faed5b7cf37_w800_h1000.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-08",
+      "thumb": "img/mercci22/9238.jpg"
+    },
     "9276": {
       "id": "9276",
       "name": "配色排釦針織背心",
@@ -66,6 +99,17 @@
       "firstSeen": "2026-09-28",
       "thumb": "img/mercci22/9276.jpg"
     },
+    "9286": {
+      "id": "9286",
+      "name": "蕾絲細肩帶上衣",
+      "url": "https://www.mercci22.com/en-us/market/n/9286?c=17753",
+      "price": 580,
+      "origPrice": null,
+      "img": "https://pics.mercci22.tw/mercci22/ProductCovers/e7f57e98-1d9c-421f-9472-43ae8efb8a80_w800_h1000.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-08",
+      "thumb": "img/mercci22/9286.jpg"
+    },
     "9291": {
       "id": "9291",
       "name": "直筒刷色牛仔褲",
@@ -76,6 +120,17 @@
       "sold": null,
       "firstSeen": "2026-10-06",
       "thumb": "img/mercci22/9291.jpg"
+    },
+    "9317": {
+      "id": "9317",
+      "name": "蕾絲領針織外套(ME.)",
+      "url": "https://www.mercci22.com/en-us/market/n/9317?c=17812",
+      "price": 980,
+      "origPrice": null,
+      "img": "https://pics.mercci22.tw/mercci22/ProductCovers/60dc4558-6d75-4a47-952e-95d1147c252c_w800_h1000.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-08",
+      "thumb": "img/mercci22/9317.jpg"
     },
     "9347": {
       "id": "9347",
@@ -562,5 +617,5 @@
       "thumb": "img/mercci22/9502.jpg"
     }
   },
-  "updatedAt": "2026-10-06"
+  "updatedAt": "2026-10-08"
 }
