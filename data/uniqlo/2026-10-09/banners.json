@@ -1,0 +1,52 @@
+[
+  {
+    "n": 1,
+    "pc": "banners/01-pc.jpg",
+    "mobile": "banners/01-m.jpg",
+    "pcUrl": "https://www.uniqlo.com/tw/public/uqtw/l1/2026/1009/0_15_pc.jpg",
+    "mobileUrl": "https://www.uniqlo.com/tw/public/uqtw/l1/2026/1009/0_01_pc.jpg",
+    "link": "https://www.uniqlo.com/tw/zh_TW/c/all_women-collaboration-fw-uniqlo-c.html",
+    "text": "UNIQLO : C 2026 秋冬系列 精緻鬆柔 都會廓形 Fluffy Moments 多彩刷毛外套的暖意時光 繭型牛仔褲 超人氣修身神褲！ 舒適布料搭配柔和曲線輪廓 NT$990 APP 會員截至 10/15 限定價格 防潑水連帽外套",
+    "alt": "UNIQLO : C2026秋冬系列"
+  },
+  {
+    "n": 2,
+    "pc": "banners/02-pc.jpg",
+    "mobile": "",
+    "pcUrl": "https://www.uniqlo.com/tw/public/uqtw/l1/2026/1009/0_01_pc.jpg",
+    "mobileUrl": "",
+    "link": "https://www.uniqlo.com/tw/zh_TW/feature-digital-flyer.html",
+    "text": "",
+    "alt": ""
+  },
+  {
+    "n": 3,
+    "pc": "banners/03-pc.jpg",
+    "mobile": "banners/03-m.jpg",
+    "pcUrl": "https://www.uniqlo.com/tw/public/uqtw/l1/2026/1009/1_02_pc.jpg",
+    "mobileUrl": "https://www.uniqlo.com/tw/public/uqtw/l1/2026/1009/1_15_pc.jpg",
+    "link": "https://www.uniqlo.com/tw/zh_TW/c/all_men-collaboration-fw-uniqlo-and-jw-anderson.html",
+    "text": "UNIQLO and JW ANDERSON 2026 秋冬系列 學院風新章​ 部分商品先行販售中​ 全系列於 10/16(五) 開始販售​ Disney x Formula 1®​ Formula 1®、迪士尼​ 與 UNIQLO 首度攜",
+    "alt": "雙十節"
+  },
+  {
+    "n": 4,
+    "pc": "banners/04-pc.jpg",
+    "mobile": "",
+    "pcUrl": "https://www.uniqlo.com/tw/public/uqtw/l1/2026/1009/1_15_pc.jpg",
+    "mobileUrl": "",
+    "link": "https://www.uniqlo.com/tw/zh_TW/ut_disney-x-formula-1.html",
+    "text": "Disney x Formula 1®​ Formula 1®、迪士尼​ 與 UNIQLO 首度攜手合作​ NT$490​",
+    "alt": "Disney x Formula 1®​"
+  },
+  {
+    "n": 5,
+    "pc": "banners/05-pc.jpg",
+    "mobile": "",
+    "pcUrl": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjUiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNSAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEyLjUgMUM2LjQzMTg3IDEgMS41IDUuOTMxODcgMS41IDEyQzEuNSAxOC4wNjgxIDYuNDMxODcgMjMgMTIuNSAyM0MxOC41NjgxIDIzIDIzLjUgMTguMDY4MSAyMy41IDEyQzIzLjUgNS45MzE4NyAxOC41NjgxIDEgMTIuNSAxWk0xMi41IDIxLjU0OTRDNy4yMjk2NyAyMS41NDk0IDIuOTUwNTUgMTcuMjcwMyAyLjk1MDU1IDEyQzIuOTUwNTUgNi43Mjk2NyA3LjIyOTY3IDIuNDUwNTUgMTIuNSAyLjQ1MDU1QzE3Ljc3MDMgMi40NTA1NSAyMi4wNDk0IDYuNzI5NjcgMjIuMDQ5NCAxMkMyMi4wNDk0IDE3LjI3MDMgMTcuNzcwMyAyMS41NDk0IDEyLjUgMjEuNTQ5NFoiIGZpbGw9IndoaXRlIi8+CjxwYXRoIGQ9Ik05LjIgNy41SDEwLjczNDlWMTYuNDUzNUg5LjJWNy41WiIgZmlsbD0id2hpdGUiLz4KPHBhdGggZD0iTTE0LjMxNjMgNy41SDE1Ljg1MTJWMTYuNDUzNUgxNC4zMTYzVjcuNVoiIGZpbGw9IndoaXRlIi8+Cjwvc3ZnPgo=",
+    "mobileUrl": "",
+    "link": "https://www.uniqlo.com/tw/zh_TW/c/all_women-collaboration-fw-uniqlo-c.html",
+    "text": "UNIQLO : C 2026 秋冬系列 精緻鬆柔 都會廓形 Fluffy Moments 多彩刷毛外套的暖意時光 繭型牛仔褲 超人氣修身神褲！ 舒適布料搭配柔和曲線輪廓 NT$990 APP 會員截至 10/15 限定價格 防潑水連帽外套",
+    "alt": ""
+  }
+]
