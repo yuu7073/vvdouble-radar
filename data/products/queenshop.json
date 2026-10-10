@@ -880,7 +880,29 @@
       "sold": null,
       "firstSeen": "2026-10-09",
       "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_SaleID_01200178.jpg"
+    },
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01099620&Page=1": {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01099620&Page=1",
+      "name": "立體鏤空蕾絲緹花短袖上衣 四色售S/M",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01099620&Page=1",
+      "price": 195,
+      "origPrice": 390,
+      "img": "https://photo.queenshop.com.tw/01099620/01099620.jpg",
+      "sold": "415",
+      "firstSeen": "2026-10-10",
+      "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_item1_11_item2_00_item3_QS_SaleID_01099620_Page_1.jpg"
+    },
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=04011919": {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=04011919",
+      "name": "點點荷葉剪接綁帶牛仔長褲 兩色售",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=04011919",
+      "price": 607,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/04011919/04011919-h.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-10",
+      "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_SaleID_04011919.jpg"
     }
   },
-  "updatedAt": "2026-10-09"
+  "updatedAt": "2026-10-10"
 }
