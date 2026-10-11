@@ -902,7 +902,18 @@
       "sold": null,
       "firstSeen": "2026-10-10",
       "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_SaleID_04011919.jpg"
+    },
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01013571": {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01013571",
+      "name": "麻花翻領排釦針織寬版上衣 三色售",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01013571",
+      "price": 590,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/01013571/01013571-h.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-11",
+      "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_SaleID_01013571.jpg"
     }
   },
-  "updatedAt": "2026-10-10"
+  "updatedAt": "2026-10-11"
 }
