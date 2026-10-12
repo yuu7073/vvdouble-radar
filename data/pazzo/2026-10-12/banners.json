@@ -1,0 +1,32 @@
+[
+  {
+    "n": 1,
+    "pc": "banners/01-pc.gif",
+    "mobile": "banners/01-m.gif",
+    "pcUrl": "https://pics.pzcdn.tw/pazzo/IndexWidget/d1e816f0-c40a-4e42-a287-354cb71a6e84.gif",
+    "mobileUrl": "https://pics.pzcdn.tw/pazzo/IndexWidget/db96560d-acad-45bd-827b-d59fa99a959c.gif",
+    "link": "https://www.pazzo.com.tw/tag/20261012new",
+    "text": "",
+    "alt": ""
+  },
+  {
+    "n": 2,
+    "pc": "banners/02-pc.jpg",
+    "mobile": "banners/02-m.jpg",
+    "pcUrl": "https://pics.pzcdn.tw/pazzo/IndexWidget/a2ed320b-37ca-405e-afb4-f456ef5f0946.jpg",
+    "mobileUrl": "https://pics.pzcdn.tw/pazzo/IndexWidget/63b8a65b-8241-41fa-836d-5e6d7983ce4a.jpg",
+    "link": "https://www.pazzo.com.tw/tag/2026lace",
+    "text": "",
+    "alt": ""
+  },
+  {
+    "n": 3,
+    "pc": "banners/03-pc.gif",
+    "mobile": "banners/03-m.gif",
+    "pcUrl": "https://pics.pzcdn.tw/pazzo/IndexWidget/fe6f3843-8801-4b24-8232-701adf6d69ae.gif",
+    "mobileUrl": "https://pics.pzcdn.tw/pazzo/IndexWidget/8d515d24-5b69-4f1c-9824-28b0fdab9a25.gif",
+    "link": "https://www.pazzo.com.tw/tag/20261012new",
+    "text": "",
+    "alt": ""
+  }
+]

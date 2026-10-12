@@ -11,6 +11,17 @@
       "firstSeen": "2026-10-05",
       "thumb": "img/pazzo/15200.jpg"
     },
+    "15202": {
+      "id": "15202",
+      "name": "UCLA小熊系列造型貼紙(不單售)",
+      "url": "https://www.pazzo.com.tw/en-us/market/n/15202?c=33993",
+      "price": 390,
+      "origPrice": null,
+      "img": "https://pics.pzcdn.tw/pazzo/ProductCovers/7ddeed4b-0f4e-49e7-96c6-6be2d8741046_w886_h1128.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-12",
+      "thumb": "img/pazzo/15202.jpg"
+    },
     "15205": {
       "id": "15205",
       "name": "品牌LOGO晴雨兩用折疊(不單售)",
@@ -26,12 +37,13 @@
       "id": "19695",
       "name": "品牌LOGO加厚款洗衣袋(不單售)",
       "url": "https://www.pazzo.com.tw/en-us/market/n/19695?c=44161",
-      "price": 490,
+      "price": 590,
       "origPrice": null,
       "img": "https://pics.pzcdn.tw/pazzo/ProductCovers/512515a7-0845-42bb-b34e-0db2913cadbe_w886_h1128.jpg",
       "sold": null,
       "firstSeen": "2026-09-29",
-      "thumb": "img/pazzo/19695.jpg"
+      "thumb": "img/pazzo/19695.jpg",
+      "priceChanged": "2026-10-12"
     },
     "21990": {
       "id": "21990",
@@ -44,6 +56,28 @@
       "firstSeen": "2026-10-05",
       "thumb": "img/pazzo/21990.jpg"
     },
+    "24543": {
+      "id": "24543",
+      "name": "UCLA小熊刺繡棒球帽",
+      "url": "https://www.pazzo.com.tw/en-us/market/n/24543?c=55841",
+      "price": 690,
+      "origPrice": null,
+      "img": "https://pics.pzcdn.tw/pazzo/ProductCovers/e802da4e-bc81-46bc-bdad-2b4095b5e041_w886_h1128.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-12",
+      "thumb": "img/pazzo/24543.jpg"
+    },
+    "24545": {
+      "id": "24545",
+      "name": "UCLA刺繡坑條中筒襪",
+      "url": "https://www.pazzo.com.tw/en-us/market/n/24545?c=55845",
+      "price": 299,
+      "origPrice": 490,
+      "img": "https://pics.pzcdn.tw/pazzo/ProductCovers/74833a6e-6108-4bfc-999e-fa9b75028b7a_w886_h1128.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-12",
+      "thumb": "img/pazzo/24545.jpg"
+    },
     "24554": {
       "id": "24554",
       "name": "蕾絲假兩件細肩帶BRA TOP",
@@ -54,6 +88,17 @@
       "sold": null,
       "firstSeen": "2026-09-29",
       "thumb": "img/pazzo/24554.jpg"
+    },
+    "24635": {
+      "id": "24635",
+      "name": "UCLA小熊大容量托特包+UCLA小熊零錢包",
+      "url": "https://www.pazzo.com.tw/en-us/market/n/24635?c=56093",
+      "price": 990,
+      "origPrice": 1090,
+      "img": "https://pics.pzcdn.tw/pazzo/ProductCovers/f128b65c-5ebb-4c5d-824d-9958cc4663b3_w886_h1128.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-12",
+      "thumb": "img/pazzo/24635.jpg"
     },
     "25702": {
       "id": "25702",
@@ -88,6 +133,17 @@
       "firstSeen": "2026-09-28",
       "thumb": "img/pazzo/25732.jpg"
     },
+    "25746": {
+      "id": "25746",
+      "name": "UCLA破壞感標語TEE",
+      "url": "https://www.pazzo.com.tw/en-us/market/n/25746?c=57861",
+      "price": 399,
+      "origPrice": 590,
+      "img": "https://pics.pzcdn.tw/pazzo/ProductCovers/75cdb8d1-9b3c-46fb-9265-a5fb4fda32aa_w886_h1128.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-12",
+      "thumb": "img/pazzo/25746.jpg"
+    },
     "25751": {
       "id": "25751",
       "name": "蕾絲抓皺繞脖背心",
@@ -99,6 +155,17 @@
       "firstSeen": "2026-09-28",
       "thumb": "img/pazzo/25751.jpg"
     },
+    "25754": {
+      "id": "25754",
+      "name": "水洗繭型牛仔吊帶褲",
+      "url": "https://www.pazzo.com.tw/en-us/market/n/25754?c=57884",
+      "price": 1290,
+      "origPrice": null,
+      "img": "https://pics.pzcdn.tw/pazzo/ProductCovers/e7bf6bed-3f71-4167-953e-8f350daeb033_w886_h1128.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-12",
+      "thumb": "img/pazzo/25754.jpg"
+    },
     "25755": {
       "id": "25755",
       "name": "光澤紋理蕾絲細肩帶洋裝",
@@ -109,6 +176,17 @@
       "sold": null,
       "firstSeen": "2026-09-29",
       "thumb": "img/pazzo/25755.jpg"
+    },
+    "25762": {
+      "id": "25762",
+      "name": "UCLA小熊不銹鋼手持水杯(附吸管)",
+      "url": "https://www.pazzo.com.tw/en-us/market/n/25762?c=57910",
+      "price": 590,
+      "origPrice": null,
+      "img": "https://pics.pzcdn.tw/pazzo/ProductCovers/2a83e599-2adc-4dad-a484-6e95e3580aba_w886_h1128.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-12",
+      "thumb": "img/pazzo/25762.jpg"
     },
     "25766": {
       "id": "25766",
@@ -132,6 +210,17 @@
       "firstSeen": "2026-10-05",
       "thumb": "img/pazzo/25769.jpg"
     },
+    "25771": {
+      "id": "25771",
+      "name": "UCLA小熊刺繡條紋三角巾",
+      "url": "https://www.pazzo.com.tw/en-us/market/n/25771?c=57932",
+      "price": 399,
+      "origPrice": 490,
+      "img": "https://pics.pzcdn.tw/pazzo/ProductCovers/f12a6071-ff5d-466d-b258-d5d75e37959a_w886_h1128.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-12",
+      "thumb": "img/pazzo/25771.jpg"
+    },
     "25772": {
       "id": "25772",
       "name": "及膝休閒半身裙",
@@ -154,6 +243,17 @@
       "firstSeen": "2026-09-28",
       "thumb": "img/pazzo/25778.jpg"
     },
+    "25781": {
+      "id": "25781",
+      "name": "斜紋領釦澎袖夾克外套",
+      "url": "https://www.pazzo.com.tw/en-us/market/n/25781?c=57964",
+      "price": 1290,
+      "origPrice": null,
+      "img": "https://pics.pzcdn.tw/pazzo/ProductCovers/32455c58-594f-46d2-bc63-e42ad1768380_w886_h1128.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-12",
+      "thumb": "img/pazzo/25781.jpg"
+    },
     "25791": {
       "id": "25791",
       "name": "條紋落肩收腰襯衫",
@@ -164,6 +264,17 @@
       "sold": null,
       "firstSeen": "2026-09-29",
       "thumb": "img/pazzo/25791.jpg"
+    },
+    "25792": {
+      "id": "25792",
+      "name": "UCLA印花撞色插肩袖上衣",
+      "url": "https://www.pazzo.com.tw/en-us/market/n/25792?c=57996",
+      "price": 499,
+      "origPrice": 690,
+      "img": "https://pics.pzcdn.tw/pazzo/ProductCovers/ae0b6db4-bbfb-4dfe-94d7-342293bc7d15_w886_h1128.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-12",
+      "thumb": "img/pazzo/25792.jpg"
     },
     "25794": {
       "id": "25794",
@@ -230,6 +341,39 @@
       "sold": null,
       "firstSeen": "2026-09-29",
       "thumb": "img/pazzo/25803.jpg"
+    },
+    "25804": {
+      "id": "25804",
+      "name": "條紋領釦澎袖夾克外套",
+      "url": "https://www.pazzo.com.tw/en-us/market/n/25804?c=58028",
+      "price": 1290,
+      "origPrice": null,
+      "img": "https://pics.pzcdn.tw/pazzo/ProductCovers/174efad3-dd62-46da-86ec-29a9e5a98d5c_w886_h1128.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-12",
+      "thumb": "img/pazzo/25804.jpg"
+    },
+    "25805": {
+      "id": "25805",
+      "name": "UCLA小熊刺繡麻花針織外套",
+      "url": "https://www.pazzo.com.tw/en-us/market/n/25805?c=58029",
+      "price": 790,
+      "origPrice": null,
+      "img": "https://pics.pzcdn.tw/pazzo/ProductCovers/6af0c687-c844-4944-9f48-b2c8cc4cd142_w886_h1128.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-12",
+      "thumb": "img/pazzo/25805.jpg"
+    },
+    "25806": {
+      "id": "25806",
+      "name": "UCLA小熊刺繡麻花V領針織背心",
+      "url": "https://www.pazzo.com.tw/en-us/market/n/25806?c=58033",
+      "price": 790,
+      "origPrice": null,
+      "img": "https://pics.pzcdn.tw/pazzo/ProductCovers/404fd2bb-3ea8-4421-96d3-ab48e889d55d_w886_h1128.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-12",
+      "thumb": "img/pazzo/25806.jpg"
     },
     "25807": {
       "id": "25807",
@@ -385,6 +529,50 @@
       "firstSeen": "2026-10-05",
       "thumb": "img/pazzo/25854.jpg"
     },
+    "25855": {
+      "id": "25855",
+      "name": "UCLA寬條紋POLO領印花上衣",
+      "url": "https://www.pazzo.com.tw/en-us/market/n/25855?c=58144",
+      "price": 990,
+      "origPrice": null,
+      "img": "https://pics.pzcdn.tw/pazzo/ProductCovers/07837a25-c069-4145-9675-13e4ec408632_w886_h1128.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-12",
+      "thumb": "img/pazzo/25855.jpg"
+    },
+    "25856": {
+      "id": "25856",
+      "name": "UCLA貼布繡雙拉鍊連帽外套",
+      "url": "https://www.pazzo.com.tw/en-us/market/n/25856?c=58148",
+      "price": 1390,
+      "origPrice": null,
+      "img": "https://pics.pzcdn.tw/pazzo/ProductCovers/bd9271f5-1871-45f7-8661-23cae933eeac_w886_h1128.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-12",
+      "thumb": "img/pazzo/25856.jpg"
+    },
+    "25857": {
+      "id": "25857",
+      "name": "UCLA貼布繡圓領大學TEE",
+      "url": "https://www.pazzo.com.tw/en-us/market/n/25857?c=58149",
+      "price": 990,
+      "origPrice": 1090,
+      "img": "https://pics.pzcdn.tw/pazzo/ProductCovers/01b7ab1d-e002-4dbf-acfa-333464fd0739_w886_h1128.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-12",
+      "thumb": "img/pazzo/25857.jpg"
+    },
+    "25858": {
+      "id": "25858",
+      "name": "UCLA休閒刺繡鬆緊長褲",
+      "url": "https://www.pazzo.com.tw/en-us/market/n/25858?c=58152",
+      "price": 890,
+      "origPrice": null,
+      "img": "https://pics.pzcdn.tw/pazzo/ProductCovers/f7bfad81-e94f-4b13-952c-c87b0bd4aed1_w886_h1128.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-12",
+      "thumb": "img/pazzo/25858.jpg"
+    },
     "25861": {
       "id": "25861",
       "name": "立體美胸抓皺細肩帶背心",
@@ -408,5 +596,5 @@
       "thumb": "img/pazzo/25877.jpg"
     }
   },
-  "updatedAt": "2026-10-05"
+  "updatedAt": "2026-10-12"
 }
