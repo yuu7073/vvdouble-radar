@@ -952,7 +952,18 @@
       "sold": null,
       "firstSeen": "2026-10-12",
       "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_SaleID_01099956.jpg"
+    },
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=CH&SaleID=01025816&Page=1": {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=CH&SaleID=01025816&Page=1",
+      "name": "棉花糖 格紋微透膚短版短袖襯衫-白 S/M/L",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=CH&SaleID=01025816&Page=1",
+      "price": 295,
+      "origPrice": 590,
+      "img": "https://photo.queenshop.com.tw/01025816/01025816.jpg",
+      "sold": "407",
+      "firstSeen": "2026-10-13",
+      "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_item1_11_item2_00_item3_CH_SaleID_01025816_Page_1.jpg"
     }
   },
-  "updatedAt": "2026-10-12"
+  "updatedAt": "2026-10-13"
 }
