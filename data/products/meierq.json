@@ -33,6 +33,17 @@
       "firstSeen": "2026-09-28",
       "thumb": "img/meierq/13055.jpg"
     },
+    "13134": {
+      "id": "13134",
+      "name": "細光壓褶無袖背心",
+      "url": "https://www.meierq.com/zh-tw/market/n/13134?c=37591",
+      "price": 390,
+      "origPrice": 490,
+      "img": "https://pics.meierq.com/meierq/ProductCovers/151f05b9-c60e-453d-846d-60f02aca7981_w886_h1128.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-15",
+      "thumb": "img/meierq/13134.jpg"
+    },
     "13135": {
       "id": "13135",
       "name": "柔軟雪花勾織抽繩上衣",
@@ -606,5 +617,5 @@
       "thumb": "img/meierq/14380.jpg"
     }
   },
-  "updatedAt": "2026-10-13"
+  "updatedAt": "2026-10-15"
 }

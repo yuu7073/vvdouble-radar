@@ -963,7 +963,62 @@
       "sold": "407",
       "firstSeen": "2026-10-13",
       "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_item1_11_item2_00_item3_CH_SaleID_01025816_Page_1.jpg"
+    },
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=02071728": {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=02071728",
+      "name": "配色點點荷葉抽繩刷刷連帽外套-淺灰",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=02071728",
+      "price": 862,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/02071728/02071728-h.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-15",
+      "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_SaleID_02071728.jpg"
+    },
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01025861": {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01025861",
+      "name": "格紋造型剪接傘襬襯衫 兩色售",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01025861",
+      "price": 519,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/01025861/01025861-h.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-15",
+      "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_SaleID_01025861.jpg"
+    },
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01200009": {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01200009",
+      "name": "荷葉緹花透膚細肩罩衫背心 兩色售",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01200009",
+      "price": 519,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/01200009/01200009-h.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-15",
+      "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_SaleID_01200009.jpg"
+    },
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01087376": {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01087376",
+      "name": "緹花綁帶荷葉兩穿短洋裝 兩色售",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01087376",
+      "price": 695,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/01087376/01087376-h.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-15",
+      "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_SaleID_01087376.jpg"
+    },
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01140099": {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01140099",
+      "name": "兩件式繞脖削肩背心排釦外套上衣 三色售",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01140099",
+      "price": 607,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/01140099/01140099-h.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-15",
+      "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_SaleID_01140099.jpg"
     }
   },
-  "updatedAt": "2026-10-14"
+  "updatedAt": "2026-10-15"
 }
