@@ -1018,7 +1018,29 @@
       "sold": null,
       "firstSeen": "2026-10-15",
       "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_SaleID_01140099.jpg"
+    },
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=03021675&Page=1": {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=03021675&Page=1",
+      "name": "豹紋設計直筒長裙附皮帶 S/M/L",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=03021675&Page=1",
+      "price": 395,
+      "origPrice": 790,
+      "img": "https://photo.queenshop.com.tw/03021675/03021675.jpg",
+      "sold": "401",
+      "firstSeen": "2026-10-16",
+      "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_item1_11_item2_00_item3_QS_SaleID_03021675_Page_1.jpg"
+    },
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01087374": {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01087374",
+      "name": "蝴蝶結緹花肩綁帶短洋裝 三色售",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01087374",
+      "price": 519,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/01087374/01087374-h.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-16",
+      "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_SaleID_01087374.jpg"
     }
   },
-  "updatedAt": "2026-10-15"
+  "updatedAt": "2026-10-16"
 }

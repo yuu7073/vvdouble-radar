@@ -176,6 +176,17 @@
       "firstSeen": "2026-09-28",
       "thumb": "img/meierq/14233.jpg"
     },
+    "14239": {
+      "id": "14239",
+      "name": "滿額贈｜單筆消費滿$2,200贈【短絨地毯(價值$1,490)】乙個",
+      "url": "https://www.meierq.com/zh-tw/market/n/14239?c=37396",
+      "price": 1490,
+      "origPrice": 9999,
+      "img": "https://pics.meierq.com/meierq/ProductCovers/674626fd-7316-4494-8fd5-d1fbf3881438_w886_h1128.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-16",
+      "thumb": "img/meierq/14239.jpg"
+    },
     "14255": {
       "id": "14255",
       "name": "泡泡紋理直條打摺襯衫",
@@ -617,5 +628,5 @@
       "thumb": "img/meierq/14380.jpg"
     }
   },
-  "updatedAt": "2026-10-15"
+  "updatedAt": "2026-10-16"
 }

@@ -1,0 +1,62 @@
+[
+  {
+    "n": 1,
+    "pc": "banners/01-pc.gif",
+    "mobile": "banners/01-m.gif",
+    "pcUrl": "https://images.airspaceonline.com/photo/H/09865be3-08a8-4d3f-85ad-c122233688ec.gif",
+    "mobileUrl": "https://images.airspaceonline.com/photo/H/09865be3-08a8-4d3f-85ad-c122233688ec.gif",
+    "link": "https://www.airspaceonline.com/tw/zh-hant/productlist/air-space",
+    "text": "",
+    "alt": ""
+  },
+  {
+    "n": 2,
+    "pc": "banners/02-pc.webp",
+    "mobile": "banners/02-m.webp",
+    "pcUrl": "https://images.airspaceonline.com/photo/H/67233ca4-5e83-4d73-a0ea-2ac66b023b53.webp",
+    "mobileUrl": "https://images.airspaceonline.com/photo/H/67233ca4-5e83-4d73-a0ea-2ac66b023b53.webp",
+    "link": "https://www.airspaceonline.com/tw/zh-hant/static?key=2025110600003",
+    "text": "",
+    "alt": ""
+  },
+  {
+    "n": 3,
+    "pc": "banners/03-pc.webp",
+    "mobile": "banners/03-m.webp",
+    "pcUrl": "https://images.airspaceonline.com/photo/H/407772d7-8c92-4bae-8ffd-de5678215e36.webp",
+    "mobileUrl": "https://images.airspaceonline.com/photo/H/407772d7-8c92-4bae-8ffd-de5678215e36.webp",
+    "link": "https://www.airspaceonline.com/tw/zh-hant/productlist/air-space/collab/coedit/kitty",
+    "text": "",
+    "alt": ""
+  },
+  {
+    "n": 4,
+    "pc": "banners/04-pc.webp",
+    "mobile": "banners/04-m.webp",
+    "pcUrl": "https://images.airspaceonline.com/photo/H/0d12f07c-bca0-4b72-89c3-b7b365556d24.webp",
+    "mobileUrl": "https://images.airspaceonline.com/photo/H/43e81c0f-7ceb-4272-b98f-33cfcc599a9e.webp",
+    "link": "https://www.airspaceonline.com/tw/zh-hant/productlist/air-space/wear/upper",
+    "text": "",
+    "alt": ""
+  },
+  {
+    "n": 5,
+    "pc": "banners/05-pc.webp",
+    "mobile": "banners/05-m.webp",
+    "pcUrl": "https://images.airspaceonline.com/photo/H/19336e70-82a3-4e2e-8b61-5be16d98ce2e.webp",
+    "mobileUrl": "https://images.airspaceonline.com/photo/H/19336e70-82a3-4e2e-8b61-5be16d98ce2e.webp",
+    "link": "https://www.airspaceonline.com/tw/zh-hant/productlist/air-space/wear/upper/knit",
+    "text": "",
+    "alt": ""
+  },
+  {
+    "n": 6,
+    "pc": "banners/06-pc.webp",
+    "mobile": "banners/06-m.webp",
+    "pcUrl": "https://images.airspaceonline.com/photo/H/68f58abb-2f71-4ddd-b35b-3f1a0e812326.webp",
+    "mobileUrl": "https://images.airspaceonline.com/photo/H/68f58abb-2f71-4ddd-b35b-3f1a0e812326.webp",
+    "link": "https://www.airspaceonline.com/tw/zh-hant/static?key=2025042200002",
+    "text": "",
+    "alt": ""
+  }
+]

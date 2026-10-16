@@ -1,5 +1,170 @@
 {
   "items": {
+    "2131829004": {
+      "id": "2131829004",
+      "name": "慵懶微透寬鬆針織上衣",
+      "url": "https://www.airspaceonline.com/tw/zh-hant/product/2131829004/902",
+      "price": 490,
+      "origPrice": null,
+      "img": "https://images.airspaceonline.com/photo/2131829004/2131829004-902-01.webp",
+      "sold": null,
+      "firstSeen": "2026-10-16",
+      "thumb": "img/airspace/2131829004.webp"
+    },
+    "2211823007": {
+      "id": "2211823007",
+      "name": "長腿CEO不透光顯瘦直筒西裝褲",
+      "url": "https://www.airspaceonline.com/tw/zh-hant/product/2211823007/006",
+      "price": 790,
+      "origPrice": null,
+      "img": "https://images.airspaceonline.com/photo/2211823007/d4716312-3e45-49ed-b478-83a37586e65a.webp",
+      "sold": null,
+      "firstSeen": "2026-10-16",
+      "thumb": "img/airspace/2211823007.webp"
+    },
+    "2231823005": {
+      "id": "2231823005",
+      "name": "纖女級高腰剪裁小開衩褲裙",
+      "url": "https://www.airspaceonline.com/tw/zh-hant/product/2231823005/002",
+      "price": 590,
+      "origPrice": null,
+      "img": "https://images.airspaceonline.com/photo/2231823005/2231823005-002-01.webp",
+      "sold": null,
+      "firstSeen": "2026-10-16",
+      "thumb": "img/airspace/2231823005.webp"
+    },
+    "2311821006": {
+      "id": "2311821006",
+      "name": "不對稱斜肩領短袖短版上衣(附胸墊)",
+      "url": "https://www.airspaceonline.com/tw/zh-hant/product/2311821006/014",
+      "price": 490,
+      "origPrice": null,
+      "img": "https://images.airspaceonline.com/photo/2311821006/2311821006-014-01.webp",
+      "sold": null,
+      "firstSeen": "2026-10-16",
+      "thumb": "img/airspace/2311821006.webp"
+    },
+    "2320823015": {
+      "id": "2320823015",
+      "name": "完美腰線DNA舒適輕磅牛仔褲",
+      "url": "https://www.airspaceonline.com/tw/zh-hant/product/2320823015/996",
+      "price": 1080,
+      "origPrice": null,
+      "img": "https://images.airspaceonline.com/photo/2320823015/c2f560ec-2136-4a84-8408-abf11536c848.gif",
+      "sold": null,
+      "firstSeen": "2026-10-16",
+      "thumb": "img/airspace/2320823015.gif"
+    },
+    "2321823010": {
+      "id": "2321823010",
+      "name": "完美腰線DNA舒適輕磅牛仔褲",
+      "url": "https://www.airspaceonline.com/tw/zh-hant/product/2321823010/010",
+      "price": 990,
+      "origPrice": null,
+      "img": "https://images.airspaceonline.com/photo/2321823010/b7c277de-d16a-4a8a-a509-c1bcbabeca35.gif",
+      "sold": null,
+      "firstSeen": "2026-10-16",
+      "thumb": "img/airspace/2321823010.gif"
+    },
+    "2340729015": {
+      "id": "2340729015",
+      "name": "翻領開衩拉鍊針織外套",
+      "url": "https://www.airspaceonline.com/tw/zh-hant/product/2340729015/008",
+      "price": 1480,
+      "origPrice": null,
+      "img": "https://images.airspaceonline.com/photo/2340729015/effeaa6a-a6d1-4751-92e2-141609bafff0.webp",
+      "sold": null,
+      "firstSeen": "2026-10-16",
+      "thumb": "img/airspace/2340729015.webp"
+    },
+    "2441823015": {
+      "id": "2441823015",
+      "name": "完美腰線DNA舒適輕磅牛仔喇叭褲",
+      "url": "https://www.airspaceonline.com/tw/zh-hant/product/2441823015/010",
+      "price": 990,
+      "origPrice": null,
+      "img": "https://images.airspaceonline.com/photo/2441823015/eeb4287b-bf90-4b2a-89b7-63f06088d0e9.gif",
+      "sold": null,
+      "firstSeen": "2026-10-16",
+      "thumb": "img/airspace/2441823015.gif"
+    },
+    "2504210088": {
+      "id": "2504210088",
+      "name": "披肩綁結短袖針織上衣",
+      "url": "https://www.airspaceonline.com/tw/zh-hant/product/2504210088/002",
+      "price": 890,
+      "origPrice": null,
+      "img": "https://images.airspaceonline.com/photo/2520729003/0a0534ea-6b68-4c66-badc-a105eb8460a2.webp",
+      "sold": null,
+      "firstSeen": "2026-10-16",
+      "thumb": "img/airspace/2504210088.webp"
+    },
+    "2509100002": {
+      "id": "2509100002",
+      "name": "小香格紋細肩帶背心拼接雪紡長袖襯衫",
+      "url": "https://www.airspaceonline.com/tw/zh-hant/product/2509100002/002",
+      "price": 790,
+      "origPrice": null,
+      "img": "https://images.airspaceonline.com/photo/2530121067/c072fa1d-db47-4ab6-aa4a-73f0bd398d33.gif",
+      "sold": null,
+      "firstSeen": "2026-10-16",
+      "thumb": "img/airspace/2509100002.gif"
+    },
+    "2509170005": {
+      "id": "2509170005",
+      "name": "荷葉V領蕾絲七分袖鬆緊收腰透膚雪紡短洋裝",
+      "url": "https://www.airspaceonline.com/tw/zh-hant/product/2509170005/002",
+      "price": 1080,
+      "origPrice": null,
+      "img": "https://images.airspaceonline.com/photo/2530124009/823ab72a-3a0a-4261-9ec9-fcfddffa6a59.webp",
+      "sold": null,
+      "firstSeen": "2026-10-16",
+      "thumb": "img/airspace/2509170005.webp"
+    },
+    "2510010010": {
+      "id": "2510010010",
+      "name": "格紋襯衫袖綁帶短褲裙",
+      "url": "https://www.airspaceonline.com/tw/zh-hant/product/2510010010/025",
+      "price": 690,
+      "origPrice": null,
+      "img": "https://images.airspaceonline.com/photo/2530134002/eda7e3ee-9e98-4f0a-b16a-9b7496d6a53b.webp",
+      "sold": null,
+      "firstSeen": "2026-10-16",
+      "thumb": "img/airspace/2510010010.webp"
+    },
+    "2510010016": {
+      "id": "2510010016",
+      "name": "皮革A字短裙",
+      "url": "https://www.airspaceonline.com/tw/zh-hant/product/2510010016/001",
+      "price": 790,
+      "origPrice": null,
+      "img": "https://images.airspaceonline.com/photo/2531822012/6bf1a0fe-3ed5-4d2b-9fd0-a156813e978d.webp",
+      "sold": null,
+      "firstSeen": "2026-10-16",
+      "thumb": "img/airspace/2510010016.webp"
+    },
+    "2510010040": {
+      "id": "2510010040",
+      "name": "2WAY假兩件條紋翻領五分拼接袖拉鍊開襟針織衫",
+      "url": "https://www.airspaceonline.com/tw/zh-hant/product/2510010040/010",
+      "price": 990,
+      "origPrice": null,
+      "img": "https://images.airspaceonline.com/photo/2530729012/07927040-67cb-46e1-af2c-fb91c4aaf00e.webp",
+      "sold": null,
+      "firstSeen": "2026-10-16",
+      "thumb": "img/airspace/2510010040.webp"
+    },
+    "2511823017": {
+      "id": "2511823017",
+      "name": "BFF輕磅軟丹寧牛仔打褶直筒褲",
+      "url": "https://www.airspaceonline.com/tw/zh-hant/product/2511823017/010",
+      "price": 990,
+      "origPrice": null,
+      "img": "https://images.airspaceonline.com/photo/2511823017/bfe8ba00-de92-482f-9ec9-6bc12dfb2dbd.gif",
+      "sold": null,
+      "firstSeen": "2026-10-16",
+      "thumb": "img/airspace/2511823017.gif"
+    },
     "TW2631829010": {
       "id": "TW2631829010",
       "name": "圓領長袖後綁帶排扣開襟針織衫",
@@ -815,7 +980,40 @@
       "sold": null,
       "firstSeen": "2026-10-12",
       "thumb": "img/airspace/TW2630129006.webp"
+    },
+    "TW2541829055": {
+      "id": "TW2541829055",
+      "name": "【Ling Cheng聯名】水手領雙口袋寬版針織外套",
+      "url": "https://www.airspaceonline.com/tw/zh-hant/product/TW2541829055/035",
+      "price": 1080,
+      "origPrice": null,
+      "img": "https://images.airspaceonline.com/photo/2541829055/1d3a6921-c459-49bf-9e8b-82e76f962ea4.webp",
+      "sold": null,
+      "firstSeen": "2026-10-16",
+      "thumb": "img/airspace/TW2541829055.webp"
+    },
+    "TW2531826007": {
+      "id": "TW2531826007",
+      "name": "【Ling Cheng聯名】雙排扣寬版西裝外套",
+      "url": "https://www.airspaceonline.com/tw/zh-hant/product/TW2531826007/008",
+      "price": 1480,
+      "origPrice": null,
+      "img": "https://images.airspaceonline.com/photo/2531826007/9af5e0eb-5ab1-41fb-b4db-bdd218417e83.webp",
+      "sold": null,
+      "firstSeen": "2026-10-16",
+      "thumb": "img/airspace/TW2531826007.webp"
+    },
+    "TW2531822013": {
+      "id": "TW2531822013",
+      "name": "【Ling Cheng聯名】高腰拼接百褶A字短裙",
+      "url": "https://www.airspaceonline.com/tw/zh-hant/product/TW2531822013/035",
+      "price": 790,
+      "origPrice": null,
+      "img": "https://images.airspaceonline.com/photo/2531822013/c83f8c2c-09d8-4da8-973d-792b3f0c1281.webp",
+      "sold": null,
+      "firstSeen": "2026-10-16",
+      "thumb": "img/airspace/TW2531822013.webp"
     }
   },
-  "updatedAt": "2026-10-13"
+  "updatedAt": "2026-10-16"
 }
