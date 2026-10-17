@@ -1040,7 +1040,29 @@
       "sold": null,
       "firstSeen": "2026-10-16",
       "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_SaleID_01087374.jpg"
+    },
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=03021639&Page=1": {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=03021639&Page=1",
+      "name": "多層荷葉雪紡蛋糕長裙 三色售",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=03021639&Page=1",
+      "price": 586,
+      "origPrice": 690,
+      "img": "https://photo.queenshop.com.tw/03021639/03021639.jpg",
+      "sold": "402",
+      "firstSeen": "2026-10-17",
+      "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_item1_11_item2_00_item3_QS_SaleID_03021639_Page_1.jpg"
+    },
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=02071754": {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=02071754",
+      "name": "立領排釦設計短版長袖外套-深灰",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=02071754",
+      "price": 607,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/02071754/02071754-h.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-17",
+      "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_SaleID_02071754.jpg"
     }
   },
-  "updatedAt": "2026-10-16"
+  "updatedAt": "2026-10-17"
 }
