@@ -1062,7 +1062,29 @@
       "sold": null,
       "firstSeen": "2026-10-17",
       "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_SaleID_02071754.jpg"
+    },
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01025643&Page=1": {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01025643&Page=1",
+      "name": "側抽繩綁帶設計透膚短版襯衫 三色售",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01025643&Page=1",
+      "price": 416,
+      "origPrice": 490,
+      "img": "https://photo.queenshop.com.tw/01025643/01025643.jpg",
+      "sold": "398",
+      "firstSeen": "2026-10-18",
+      "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_item1_11_item2_00_item3_QS_SaleID_01025643_Page_1.jpg"
+    },
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01087384": {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01087384",
+      "name": "復古格紋網紗不規則剪接短洋裝-黑",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01087384",
+      "price": 695,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/01087384/01087384-h.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-18",
+      "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_SaleID_01087384.jpg"
     }
   },
-  "updatedAt": "2026-10-17"
+  "updatedAt": "2026-10-18"
 }
