@@ -1084,7 +1084,18 @@
       "sold": null,
       "firstSeen": "2026-10-18",
       "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_SaleID_01087384.jpg"
+    },
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01025865&Page=1": {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01025865&Page=1",
+      "name": "格紋荷葉拼接網紗澎袖娃娃領上衣 兩色售",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01025865&Page=1",
+      "price": 572,
+      "origPrice": 650,
+      "img": "https://photo.queenshop.com.tw/01025865/01025865.jpg",
+      "sold": "404",
+      "firstSeen": "2026-10-19",
+      "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_item1_11_item2_00_item3_QS_SaleID_01025865_Page_1.jpg"
     }
   },
-  "updatedAt": "2026-10-18"
+  "updatedAt": "2026-10-19"
 }

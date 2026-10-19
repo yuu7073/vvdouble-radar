@@ -155,6 +155,28 @@
       "firstSeen": "2026-09-28",
       "thumb": "img/pazzo/25751.jpg"
     },
+    "25752": {
+      "id": "25752",
+      "name": "刷色大口袋牛仔寬褲",
+      "url": "https://www.pazzo.com.tw/en-us/market/n/25752?c=57880",
+      "price": 1290,
+      "origPrice": null,
+      "img": "https://pics.pzcdn.tw/pazzo/ProductCovers/fe760038-3fd1-4d1d-b0a6-fb8ee554d69a_w886_h1128.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-19",
+      "thumb": "img/pazzo/25752.jpg"
+    },
+    "25753": {
+      "id": "25753",
+      "name": "簍空蕾絲光澤中長裙",
+      "url": "https://www.pazzo.com.tw/en-us/market/n/25753?c=57881",
+      "price": 690,
+      "origPrice": null,
+      "img": "https://pics.pzcdn.tw/pazzo/ProductCovers/3e523c2a-50f5-45f9-8d84-db4a1c24051b_w886_h1128.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-19",
+      "thumb": "img/pazzo/25753.jpg"
+    },
     "25754": {
       "id": "25754",
       "name": "水洗繭型牛仔吊帶褲",
@@ -176,6 +198,17 @@
       "sold": null,
       "firstSeen": "2026-09-29",
       "thumb": "img/pazzo/25755.jpg"
+    },
+    "25756": {
+      "id": "25756",
+      "name": "光澤美背蕾絲細肩帶洋裝",
+      "url": "https://www.pazzo.com.tw/en-us/market/n/25756?c=57890",
+      "price": 1090,
+      "origPrice": null,
+      "img": "https://pics.pzcdn.tw/pazzo/ProductCovers/a7ad8ff7-05ea-4e5e-a302-2ed98c1f067d_w886_h1128.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-19",
+      "thumb": "img/pazzo/25756.jpg"
     },
     "25762": {
       "id": "25762",
@@ -231,6 +264,17 @@
       "sold": null,
       "firstSeen": "2026-09-29",
       "thumb": "img/pazzo/25772.jpg"
+    },
+    "25775": {
+      "id": "25775",
+      "name": "紋理大翻領廓型皮革外套",
+      "url": "https://www.pazzo.com.tw/en-us/market/n/25775?c=57944",
+      "price": 1690,
+      "origPrice": null,
+      "img": "https://pics.pzcdn.tw/pazzo/ProductCovers/21b1350d-be85-4087-b08e-5f7993e1af94_w886_h1128.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-19",
+      "thumb": "img/pazzo/25775.jpg"
     },
     "25778": {
       "id": "25778",
@@ -485,6 +529,17 @@
       "firstSeen": "2026-09-28",
       "thumb": "img/pazzo/25832.jpg"
     },
+    "25833": {
+      "id": "25833",
+      "name": "V領蕾絲針織毛衣",
+      "url": "https://www.pazzo.com.tw/en-us/market/n/25833?c=58099",
+      "price": 690,
+      "origPrice": 890,
+      "img": "https://pics.pzcdn.tw/pazzo/ProductCovers/1da49f4d-7c6d-4ba4-a549-b5cf125082ef_w886_h1128.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-19",
+      "thumb": "img/pazzo/25833.jpg"
+    },
     "25835": {
       "id": "25835",
       "name": "天絲寬領兩件式長袖上衣(上衣+圍巾)",
@@ -495,6 +550,17 @@
       "sold": null,
       "firstSeen": "2026-09-29",
       "thumb": "img/pazzo/25835.jpg"
+    },
+    "25836": {
+      "id": "25836",
+      "name": "天絲羊毛蕾絲美背背心",
+      "url": "https://www.pazzo.com.tw/en-us/market/n/25836?c=58108",
+      "price": 499,
+      "origPrice": 590,
+      "img": "https://pics.pzcdn.tw/pazzo/ProductCovers/1d900dba-e18e-44ca-8ec6-01f6b41adfef_w886_h1128.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-19",
+      "thumb": "img/pazzo/25836.jpg"
     },
     "25844": {
       "id": "25844",
@@ -584,6 +650,61 @@
       "firstSeen": "2026-09-29",
       "thumb": "img/pazzo/25861.jpg"
     },
+    "25870": {
+      "id": "25870",
+      "name": "挺感太空棉連帽外套(短版)",
+      "url": "https://www.pazzo.com.tw/en-us/market/n/25870?c=58194",
+      "price": 1290,
+      "origPrice": null,
+      "img": "https://pics.pzcdn.tw/pazzo/ProductCovers/e68ab71b-a48c-4f1f-9590-39418d79fa1b_w886_h1128.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-19",
+      "thumb": "img/pazzo/25870.jpg"
+    },
+    "25871": {
+      "id": "25871",
+      "name": "挺感太空棉連帽外套(長版)",
+      "url": "https://www.pazzo.com.tw/en-us/market/n/25871?c=58196",
+      "price": 1390,
+      "origPrice": null,
+      "img": "https://pics.pzcdn.tw/pazzo/ProductCovers/1160cbb2-f626-4794-90a1-715026df6f54_w886_h1128.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-19",
+      "thumb": "img/pazzo/25871.jpg"
+    },
+    "25872": {
+      "id": "25872",
+      "name": "挺感太空棉羅紋拼接長褲",
+      "url": "https://www.pazzo.com.tw/en-us/market/n/25872?c=58198",
+      "price": 1090,
+      "origPrice": null,
+      "img": "https://pics.pzcdn.tw/pazzo/ProductCovers/05d7b026-c541-45b9-b776-fd210c050055_w886_h1128.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-19",
+      "thumb": "img/pazzo/25872.jpg"
+    },
+    "25873": {
+      "id": "25873",
+      "name": "柔霧寬領圓弧修身上衣",
+      "url": "https://www.pazzo.com.tw/en-us/market/n/25873?c=58200",
+      "price": 499,
+      "origPrice": 590,
+      "img": "https://pics.pzcdn.tw/pazzo/ProductCovers/4f9c69c9-9973-49a0-b059-de8fd205542f_w886_h1128.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-19",
+      "thumb": "img/pazzo/25873.jpg"
+    },
+    "25874": {
+      "id": "25874",
+      "name": "顯瘦七分紋理西裝褲",
+      "url": "https://www.pazzo.com.tw/en-us/market/n/25874?c=58204",
+      "price": 790,
+      "origPrice": null,
+      "img": "https://pics.pzcdn.tw/pazzo/ProductCovers/bccdb467-5cc0-40cf-8578-e41844c534cc_w886_h1128.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-19",
+      "thumb": "img/pazzo/25874.jpg"
+    },
     "25877": {
       "id": "25877",
       "name": "暈染花朵透肌網紗上衣",
@@ -594,7 +715,51 @@
       "sold": null,
       "firstSeen": "2026-10-05",
       "thumb": "img/pazzo/25877.jpg"
+    },
+    "25878": {
+      "id": "25878",
+      "name": "柔膚針織圓領削肩BRA TOP",
+      "url": "https://www.pazzo.com.tw/en-us/market/n/25878?c=58211",
+      "price": 499,
+      "origPrice": 690,
+      "img": "https://pics.pzcdn.tw/pazzo/ProductCovers/d83fa180-af43-4ec7-8e6a-f11d56230467_w886_h1128.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-19",
+      "thumb": "img/pazzo/25878.jpg"
+    },
+    "25880": {
+      "id": "25880",
+      "name": "簍空馬海毛針織長袖上衣",
+      "url": "https://www.pazzo.com.tw/en-us/market/n/25880?c=58219",
+      "price": 690,
+      "origPrice": null,
+      "img": "https://pics.pzcdn.tw/pazzo/ProductCovers/5d8be9f8-0138-42df-b14b-a16a293aa7d6_w886_h1128.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-19",
+      "thumb": "img/pazzo/25880.jpg"
+    },
+    "25883": {
+      "id": "25883",
+      "name": "挺感太空棉羅紋拼接短裙",
+      "url": "https://www.pazzo.com.tw/en-us/market/n/25883?c=58225",
+      "price": 690,
+      "origPrice": null,
+      "img": "https://pics.pzcdn.tw/pazzo/ProductCovers/27b27508-679c-4a6e-a1f6-9b8784470b77_w886_h1128.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-19",
+      "thumb": "img/pazzo/25883.jpg"
+    },
+    "25886": {
+      "id": "25886",
+      "name": "MIT 蕾絲無鋼圈背扣式內衣(一體成型)",
+      "url": "https://www.pazzo.com.tw/en-us/market/n/25886?c=58234",
+      "price": 499,
+      "origPrice": 690,
+      "img": "https://pics.pzcdn.tw/pazzo/ProductCovers/3e24d09c-5edc-477a-8c7b-f14d91f0cebb_w886_h1128.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-19",
+      "thumb": "img/pazzo/25886.jpg"
     }
   },
-  "updatedAt": "2026-10-15"
+  "updatedAt": "2026-10-19"
 }
