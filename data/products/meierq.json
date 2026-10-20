@@ -1,5 +1,16 @@
 {
   "items": {
+    "8543": {
+      "id": "8543",
+      "name": "滿額贈｜單筆滿$1,800且含新品乙件，贈【皺皺感橫條單肩背包(價值$490)】乙個(不累贈,贈完為止)",
+      "url": "https://www.meierq.com/zh-tw/market/n/8543?c=22122",
+      "price": 490,
+      "origPrice": 9999,
+      "img": "https://pics.meierq.com/meierq/ProductCovers/9efc9156-c856-4854-a899-85ef211ef6fe_w886_h1128.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-20",
+      "thumb": "img/meierq/8543.jpg"
+    },
     "12942": {
       "id": "12942",
       "name": "顆粒感V領針織外套",
@@ -32,6 +43,17 @@
       "sold": null,
       "firstSeen": "2026-09-28",
       "thumb": "img/meierq/13055.jpg"
+    },
+    "13129": {
+      "id": "13129",
+      "name": "澎澎花苞西裝長裙",
+      "url": "https://www.meierq.com/zh-tw/market/n/13129?c=35590",
+      "price": 990,
+      "origPrice": null,
+      "img": "https://pics.meierq.com/meierq/ProductCovers/7c6c3457-ab16-4816-b3d4-4e6c730c3131_w886_h1128.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-20",
+      "thumb": "img/meierq/13129.jpg"
     },
     "13134": {
       "id": "13134",
@@ -187,6 +209,17 @@
       "firstSeen": "2026-10-16",
       "thumb": "img/meierq/14239.jpg"
     },
+    "14243": {
+      "id": "14243",
+      "name": "簡約抓皺背心上衣",
+      "url": "https://www.meierq.com/zh-tw/market/n/14243?c=37406",
+      "price": 590,
+      "origPrice": null,
+      "img": "https://pics.meierq.com/meierq/ProductCovers/7b3a8d37-29d1-43ad-9bba-a367581b4f88_w886_h1128.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-20",
+      "thumb": "img/meierq/14243.jpg"
+    },
     "14255": {
       "id": "14255",
       "name": "泡泡紋理直條打摺襯衫",
@@ -197,6 +230,17 @@
       "sold": null,
       "firstSeen": "2026-09-30",
       "thumb": "img/meierq/14255.jpg"
+    },
+    "14262": {
+      "id": "14262",
+      "name": "鏤空感花花長袖上衣",
+      "url": "https://www.meierq.com/zh-tw/market/n/14262?c=37454",
+      "price": 690,
+      "origPrice": null,
+      "img": "https://pics.meierq.com/meierq/ProductCovers/924e9737-dc4c-4121-a0f7-858e7d3c8aec_w886_h1128.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-20",
+      "thumb": "img/meierq/14262.jpg"
     },
     "14265": {
       "id": "14265",
@@ -253,6 +297,17 @@
       "firstSeen": "2026-09-30",
       "thumb": "img/meierq/14274.jpg"
     },
+    "14282": {
+      "id": "14282",
+      "name": "雙抽繩抓皺細肩背心",
+      "url": "https://www.meierq.com/zh-tw/market/n/14282?c=37510",
+      "price": 690,
+      "origPrice": null,
+      "img": "https://pics.meierq.com/meierq/ProductCovers/94f74ca4-ef4e-4d2c-ba68-4215a7910717_w886_h1128.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-20",
+      "thumb": "img/meierq/14282.jpg"
+    },
     "14287": {
       "id": "14287",
       "name": "Suzy’s Zoo-角色刺繡拼紗短洋裝",
@@ -263,6 +318,28 @@
       "sold": null,
       "firstSeen": "2026-09-28",
       "thumb": "img/meierq/14287.jpg"
+    },
+    "14289": {
+      "id": "14289",
+      "name": "編織鏤空流蘇網洞背心",
+      "url": "https://www.meierq.com/zh-tw/market/n/14289?c=37528",
+      "price": 790,
+      "origPrice": null,
+      "img": "https://pics.meierq.com/meierq/ProductCovers/23cfa623-df36-426e-a184-1becf79113eb_w886_h1128.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-20",
+      "thumb": "img/meierq/14289.jpg"
+    },
+    "14290": {
+      "id": "14290",
+      "name": "透肌皺皺花朵長袖上衣",
+      "url": "https://www.meierq.com/zh-tw/market/n/14290?c=37530",
+      "price": 490,
+      "origPrice": 590,
+      "img": "https://pics.meierq.com/meierq/ProductCovers/eaf560be-5a94-43e8-adfc-6a856f26d2ea_w886_h1128.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-20",
+      "thumb": "img/meierq/14290.jpg"
     },
     "14294": {
       "id": "14294",
@@ -318,6 +395,17 @@
       "sold": null,
       "firstSeen": "2026-10-06",
       "thumb": "img/meierq/14307.jpg"
+    },
+    "14308": {
+      "id": "14308",
+      "name": "壓褶設計花苞袖洋裝",
+      "url": "https://www.meierq.com/zh-tw/market/n/14308?c=37581",
+      "price": 1090,
+      "origPrice": null,
+      "img": "https://pics.meierq.com/meierq/ProductCovers/578cc723-19e9-43a2-8fce-05d57f616430_w886_h1128.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-20",
+      "thumb": "img/meierq/14308.jpg"
     },
     "14309": {
       "id": "14309",
@@ -418,6 +506,17 @@
       "firstSeen": "2026-09-30",
       "thumb": "img/meierq/14331.jpg"
     },
+    "14332": {
+      "id": "14332",
+      "name": "蕾絲拼接牛仔長褲",
+      "url": "https://www.meierq.com/zh-tw/market/n/14332?c=37630",
+      "price": 1090,
+      "origPrice": null,
+      "img": "https://pics.meierq.com/meierq/ProductCovers/b6ce4142-10d0-4f97-91de-39e4e0c7c79d_w886_h1128.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-20",
+      "thumb": "img/meierq/14332.jpg"
+    },
     "14339": {
       "id": "14339",
       "name": "柔彈高領修身LOGO背心",
@@ -439,6 +538,17 @@
       "sold": null,
       "firstSeen": "2026-10-06",
       "thumb": "img/meierq/14341.jpg"
+    },
+    "14342": {
+      "id": "14342",
+      "name": "銀線亮亮透肌長袖上衣",
+      "url": "https://www.meierq.com/zh-tw/market/n/14342?c=37665",
+      "price": 490,
+      "origPrice": null,
+      "img": "https://pics.meierq.com/meierq/ProductCovers/4058f2aa-e23e-4bac-8ba6-f0743f7d85ed_w886_h1128.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-20",
+      "thumb": "img/meierq/14342.jpg"
     },
     "14348": {
       "id": "14348",
@@ -550,6 +660,28 @@
       "firstSeen": "2026-09-28",
       "thumb": "img/meierq/14361.jpg"
     },
+    "14362": {
+      "id": "14362",
+      "name": "皺皺感橫條單肩背包",
+      "url": "https://www.meierq.com/zh-tw/market/n/14362?c=37733",
+      "price": 490,
+      "origPrice": null,
+      "img": "https://pics.meierq.com/meierq/ProductCovers/2d75d106-0ed6-4181-8380-e98db029d418_w886_h1128.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-20",
+      "thumb": "img/meierq/14362.jpg"
+    },
+    "14364": {
+      "id": "14364",
+      "name": "柔彈坑條喇叭袖上衣",
+      "url": "https://www.meierq.com/zh-tw/market/n/14364?c=37742",
+      "price": 490,
+      "origPrice": 590,
+      "img": "https://pics.meierq.com/meierq/ProductCovers/20584015-3b84-448e-b54a-97b95d8ba2ac_w886_h1128.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-20",
+      "thumb": "img/meierq/14364.jpg"
+    },
     "14365": {
       "id": "14365",
       "name": "Suzy’s Zoo-平口刺繡蕾絲長洋裝",
@@ -626,7 +758,18 @@
       "sold": null,
       "firstSeen": "2026-10-13",
       "thumb": "img/meierq/14380.jpg"
+    },
+    "14398": {
+      "id": "14398",
+      "name": "MQ花影印花長襪 (預購 預計10/20到貨)",
+      "url": "https://www.meierq.com/zh-tw/market/n/14398?c=37822",
+      "price": 390,
+      "origPrice": null,
+      "img": "https://pics.meierq.com/meierq/ProductCovers/2a1ae366-420e-4ffe-b58c-e09069e23ad4_w886_h1128.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-20",
+      "thumb": "img/meierq/14398.jpg"
     }
   },
-  "updatedAt": "2026-10-16"
+  "updatedAt": "2026-10-20"
 }

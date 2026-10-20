@@ -1095,7 +1095,18 @@
       "sold": "404",
       "firstSeen": "2026-10-19",
       "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_item1_11_item2_00_item3_QS_SaleID_01025865_Page_1.jpg"
+    },
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=04011901": {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=04011901",
+      "name": "豹紋牛仔彎刀低腰長褲 兩色售 S/M/L",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=04011901",
+      "price": 783,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/04011901/04011901-h.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-20",
+      "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_SaleID_04011901.jpg"
     }
   },
-  "updatedAt": "2026-10-19"
+  "updatedAt": "2026-10-20"
 }
