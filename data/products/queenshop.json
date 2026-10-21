@@ -1106,7 +1106,29 @@
       "sold": null,
       "firstSeen": "2026-10-20",
       "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_SaleID_04011901.jpg"
+    },
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=02071753": {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=02071753",
+      "name": "立領排釦設計短版長袖外套-杏",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=02071753",
+      "price": 607,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/02071753/02071753-h.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-21",
+      "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_SaleID_02071753.jpg"
+    },
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01099991": {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01099991",
+      "name": "棉花糖 滿版蝴蝶結透膚木耳上衣 三色售 S-L",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01099991",
+      "price": 343,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/01099991/01099991-h.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-21",
+      "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_SaleID_01099991.jpg"
     }
   },
-  "updatedAt": "2026-10-20"
+  "updatedAt": "2026-10-21"
 }

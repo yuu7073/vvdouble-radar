@@ -44,6 +44,17 @@
       "firstSeen": "2026-09-28",
       "thumb": "img/meierq/13055.jpg"
     },
+    "13074": {
+      "id": "13074",
+      "name": "立體荷葉拼紗彈性平口背心",
+      "url": "https://www.meierq.com/zh-tw/market/n/13074?c=35443",
+      "price": 590,
+      "origPrice": null,
+      "img": "https://pics.meierq.com/meierq/ProductCovers/8820f18a-6bc7-4671-a96e-69222af7ba3a_w886_h1128.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-21",
+      "thumb": "img/meierq/13074.jpg"
+    },
     "13129": {
       "id": "13129",
       "name": "澎澎花苞西裝長裙",
@@ -771,5 +782,5 @@
       "thumb": "img/meierq/14398.jpg"
     }
   },
-  "updatedAt": "2026-10-20"
+  "updatedAt": "2026-10-21"
 }
