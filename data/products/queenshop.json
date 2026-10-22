@@ -1128,7 +1128,51 @@
       "sold": null,
       "firstSeen": "2026-10-21",
       "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_SaleID_01099991.jpg"
+    },
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01087392": {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01087392",
+      "name": "棉花糖 蕾絲緹花細肩蛋糕短洋裝 三色售 S-L",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01087392",
+      "price": 748,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/01087392/01087392-h.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-22",
+      "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_SaleID_01087392.jpg"
+    },
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=03021791": {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=03021791",
+      "name": "復古格紋蝴蝶結荷葉蛋糕長裙 三色售",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=03021791",
+      "price": 748,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/03021791/03021791-h.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-22",
+      "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_SaleID_03021791.jpg"
+    },
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01200169": {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01200169",
+      "name": "棉花糖 條紋澎袖荷葉剪接上衣 三色售S/M/L",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01200169",
+      "price": 572,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/01200169/01200169-h.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-22",
+      "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_SaleID_01200169.jpg"
+    },
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01025890": {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01025890",
+      "name": "格紋拼接雙層網紗短版長袖襯衫 三色售",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01025890",
+      "price": 695,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/01025890/01025890-h.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-22",
+      "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_SaleID_01025890.jpg"
     }
   },
-  "updatedAt": "2026-10-21"
+  "updatedAt": "2026-10-22"
 }

@@ -1266,7 +1266,271 @@
       "sold": null,
       "firstSeen": "2026-10-19",
       "thumb": "img/airspace/TW2630723012.webp"
+    },
+    "TW2640199003": {
+      "id": "TW2640199003",
+      "name": "圓頭交叉扣帶壓扣設計麂皮絨中跟短靴",
+      "url": "https://www.airspaceonline.com/tw/zh-hant/product/TW2640199003/008",
+      "price": 1580,
+      "origPrice": null,
+      "img": "https://images.airspaceonline.com/photo/2640199003/618c5e5f-b3b3-447a-b4a4-59cece910161.webp",
+      "sold": null,
+      "firstSeen": "2026-10-22",
+      "thumb": "img/airspace/TW2640199003.webp"
+    },
+    "TW2640199001": {
+      "id": "TW2640199001",
+      "name": "圓頭雙扣帶工程師長靴",
+      "url": "https://www.airspaceonline.com/tw/zh-hant/product/TW2640199001/099",
+      "price": 1380,
+      "origPrice": null,
+      "img": "https://images.airspaceonline.com/photo/2640199001/435e5d02-6e0a-48a8-85a4-2239e92e5b10.webp",
+      "sold": null,
+      "firstSeen": "2026-10-22",
+      "thumb": "img/airspace/TW2640199001.webp"
+    },
+    "TW2631834003": {
+      "id": "TW2631834003",
+      "name": "復古格紋百褶短褲裙(附腰帶)",
+      "url": "https://www.airspaceonline.com/tw/zh-hant/product/TW2631834003/010",
+      "price": 890,
+      "origPrice": null,
+      "img": "https://images.airspaceonline.com/photo/2631834003/1ead6681-eeaf-474a-a279-5af8ff22d8ba.webp",
+      "sold": null,
+      "firstSeen": "2026-10-22",
+      "thumb": "img/airspace/TW2631834003.webp"
+    },
+    "TW2631829016": {
+      "id": "TW2631829016",
+      "name": "立體蝴蝶結飾圓領長袖短版開襟針織衫",
+      "url": "https://www.airspaceonline.com/tw/zh-hant/product/TW2631829016/015",
+      "price": 790,
+      "origPrice": null,
+      "img": "https://images.airspaceonline.com/photo/2631829016/a778b523-0b09-4388-9a51-e4bd02231b13.webp",
+      "sold": null,
+      "firstSeen": "2026-10-22",
+      "thumb": "img/airspace/TW2631829016.webp"
+    },
+    "TW2631827008": {
+      "id": "TW2631827008",
+      "name": "撞色愛心緹花細肩帶背心長袖短版針織罩衫套裝",
+      "url": "https://www.airspaceonline.com/tw/zh-hant/product/TW2631827008/017",
+      "price": 990,
+      "origPrice": null,
+      "img": "https://images.airspaceonline.com/photo/2631827008/c50a2c30-977e-4919-b3b8-cbab1dd8503f.webp",
+      "sold": null,
+      "firstSeen": "2026-10-22",
+      "thumb": "img/airspace/TW2631827008.webp"
+    },
+    "TW2631827007": {
+      "id": "TW2631827007",
+      "name": "WARM↑UP薄感好身材 多WAY抽繩長袖發熱BRA長洋裝套裝",
+      "url": "https://www.airspaceonline.com/tw/zh-hant/product/TW2631827007/017",
+      "price": 1280,
+      "origPrice": null,
+      "img": "https://images.airspaceonline.com/photo/2631827007/f8f4d225-467e-4ccc-84d6-f74c814e13d8.webp",
+      "sold": null,
+      "firstSeen": "2026-10-22",
+      "thumb": "img/airspace/TW2631827007.webp"
+    },
+    "TW2631826006": {
+      "id": "TW2631826006",
+      "name": "撞色條紋圓領落肩長袖雙頭拉鍊絨毛針織外套",
+      "url": "https://www.airspaceonline.com/tw/zh-hant/product/TW2631826006/010",
+      "price": 1080,
+      "origPrice": null,
+      "img": "https://images.airspaceonline.com/photo/2631826006/d7059076-316d-4824-8d00-aa1a62ef3f28.webp",
+      "sold": null,
+      "firstSeen": "2026-10-22",
+      "thumb": "img/airspace/TW2631826006.webp"
+    },
+    "TW2631823024": {
+      "id": "TW2631823024",
+      "name": "撞色滾邊線條絨毛針織短褲",
+      "url": "https://www.airspaceonline.com/tw/zh-hant/product/TW2631823024/035",
+      "price": 790,
+      "origPrice": null,
+      "img": "https://images.airspaceonline.com/photo/2631823024/aed519b9-b788-4c8e-8642-c1c71e1af5ef.webp",
+      "sold": null,
+      "firstSeen": "2026-10-22",
+      "thumb": "img/airspace/TW2631823024.webp"
+    },
+    "TW2631822016": {
+      "id": "TW2631822016",
+      "name": "倒V剪裁波浪羅紋針織魚尾長裙",
+      "url": "https://www.airspaceonline.com/tw/zh-hant/product/TW2631822016/002",
+      "price": 790,
+      "origPrice": null,
+      "img": "https://images.airspaceonline.com/photo/2631822016/305b8c64-afe4-447f-9331-3091a6c22feb.webp",
+      "sold": null,
+      "firstSeen": "2026-10-22",
+      "thumb": "img/airspace/TW2631822016.webp"
+    },
+    "TW2631821057": {
+      "id": "TW2631821057",
+      "name": "WARM↑UP薄感好身材 下擺蕾絲拼接細肩帶發熱BRA TOP",
+      "url": "https://www.airspaceonline.com/tw/zh-hant/product/TW2631821057/001",
+      "price": 590,
+      "origPrice": null,
+      "img": "https://images.airspaceonline.com/photo/2631821057/105e0995-e81b-494f-8fcd-5ee0e486b469.webp",
+      "sold": null,
+      "firstSeen": "2026-10-22",
+      "thumb": "img/airspace/TW2631821057.webp"
+    },
+    "TW2631821056": {
+      "id": "TW2631821056",
+      "name": "復古格紋反摺口袋長袖長版襯衫",
+      "url": "https://www.airspaceonline.com/tw/zh-hant/product/TW2631821056/017",
+      "price": 890,
+      "origPrice": null,
+      "img": "https://images.airspaceonline.com/photo/2631821056/b74444ef-e482-40c2-aa70-08a1d4f97645.webp",
+      "sold": null,
+      "firstSeen": "2026-10-22",
+      "thumb": "img/airspace/TW2631821056.webp"
+    },
+    "TW2631821055": {
+      "id": "TW2631821055",
+      "name": "WARM↑UP薄感好身材 不對稱斜肩綁帶長袖發熱BRA TOP",
+      "url": "https://www.airspaceonline.com/tw/zh-hant/product/TW2631821055/002",
+      "price": 690,
+      "origPrice": null,
+      "img": "https://images.airspaceonline.com/photo/2631821055/7a51671c-81f6-40d8-879b-3b44752ec6f1.webp",
+      "sold": null,
+      "firstSeen": "2026-10-22",
+      "thumb": "img/airspace/TW2631821055.webp"
+    },
+    "TW2631821054": {
+      "id": "TW2631821054",
+      "name": "WARM↑UP薄感好身材 撞色滾邊大圓領長袖上衣",
+      "url": "https://www.airspaceonline.com/tw/zh-hant/product/TW2631821054/035",
+      "price": 590,
+      "origPrice": null,
+      "img": "https://images.airspaceonline.com/photo/2631821054/2d7523cc-309d-4d81-b70e-1ebc07ba628a.webp",
+      "sold": null,
+      "firstSeen": "2026-10-22",
+      "thumb": "img/airspace/TW2631821054.webp"
+    },
+    "TW2630729006": {
+      "id": "TW2630729006",
+      "name": "圓領落肩長袖直線編織寬版毛衣",
+      "url": "https://www.airspaceonline.com/tw/zh-hant/product/TW2630729006/015",
+      "price": 790,
+      "origPrice": null,
+      "img": "https://images.airspaceonline.com/photo/2630729006/71f5afb5-a96b-461b-844c-fe4a53d2e922.webp",
+      "sold": null,
+      "firstSeen": "2026-10-22",
+      "thumb": "img/airspace/TW2630729006.webp"
+    },
+    "TW2630727004": {
+      "id": "TW2630727004",
+      "name": "針織細肩帶短版背心長袖短版罩衫套裝",
+      "url": "https://www.airspaceonline.com/tw/zh-hant/product/TW2630727004/006",
+      "price": 1280,
+      "origPrice": null,
+      "img": "https://images.airspaceonline.com/photo/2630727004/961c14e2-73e0-4de1-93d7-5da0b00bd828.webp",
+      "sold": null,
+      "firstSeen": "2026-10-22",
+      "thumb": "img/airspace/TW2630727004.webp"
+    },
+    "TW2630726007": {
+      "id": "TW2630726007",
+      "name": "LOGO刺繡細絨長袖短版連帽拉鍊外套",
+      "url": "https://www.airspaceonline.com/tw/zh-hant/product/TW2630726007/015",
+      "price": 1080,
+      "origPrice": null,
+      "img": "https://images.airspaceonline.com/photo/2630726007/470ca959-8159-4e59-b000-00b35cff845b.webp",
+      "sold": null,
+      "firstSeen": "2026-10-22",
+      "thumb": "img/airspace/TW2630726007.webp"
+    },
+    "TW2630724008": {
+      "id": "TW2630724008",
+      "name": "WARM↑UP薄感好身材 假兩件繞頸長袖BRA短洋裝",
+      "url": "https://www.airspaceonline.com/tw/zh-hant/product/TW2630724008/001",
+      "price": 890,
+      "origPrice": null,
+      "img": "https://images.airspaceonline.com/photo/2630724008/ca103289-79b9-477c-b931-f8955d4e9b2e.webp",
+      "sold": null,
+      "firstSeen": "2026-10-22",
+      "thumb": "img/airspace/TW2630724008.webp"
+    },
+    "TW2630723016": {
+      "id": "TW2630723016",
+      "name": "中腰雙扣燈心絨短褲",
+      "url": "https://www.airspaceonline.com/tw/zh-hant/product/TW2630723016/210",
+      "price": 790,
+      "origPrice": null,
+      "img": "https://images.airspaceonline.com/photo/2630723016/fd78eb98-680f-4669-9020-cc6c6f581685.webp",
+      "sold": null,
+      "firstSeen": "2026-10-22",
+      "thumb": "img/airspace/TW2630723016.webp"
+    },
+    "TW2630723015": {
+      "id": "TW2630723015",
+      "name": "不對稱雙扣高腰小喇叭長褲",
+      "url": "https://www.airspaceonline.com/tw/zh-hant/product/TW2630723015/001",
+      "price": 890,
+      "origPrice": null,
+      "img": "https://images.airspaceonline.com/photo/2630723015/b705ff67-437a-47bc-886f-957a8e48a217.webp",
+      "sold": null,
+      "firstSeen": "2026-10-22",
+      "thumb": "img/airspace/TW2630723015.webp"
+    },
+    "TW2630722011": {
+      "id": "TW2630722011",
+      "name": "腰抽繩壓褶口袋側開衩細絨短裙",
+      "url": "https://www.airspaceonline.com/tw/zh-hant/product/TW2630722011/015",
+      "price": 790,
+      "origPrice": null,
+      "img": "https://images.airspaceonline.com/photo/2630722011/13348ac8-b858-433c-9550-c9c5af233782.webp",
+      "sold": null,
+      "firstSeen": "2026-10-22",
+      "thumb": "img/airspace/TW2630722011.webp"
+    },
+    "TW2630721048": {
+      "id": "TW2630721048",
+      "name": "WARM↑UP薄感好身材 桃心領弧形下擺長袖發熱BRA TOP",
+      "url": "https://www.airspaceonline.com/tw/zh-hant/product/TW2630721048/210",
+      "price": 790,
+      "origPrice": null,
+      "img": "https://images.airspaceonline.com/photo/2630721048/89678d23-3f16-4454-bc86-5034249b2031.webp",
+      "sold": null,
+      "firstSeen": "2026-10-22",
+      "thumb": "img/airspace/TW2630721048.webp"
+    },
+    "TW2630721047": {
+      "id": "TW2630721047",
+      "name": "WARM↑UP薄感好身材 細肩帶露肩長袖發熱BRA TOP",
+      "url": "https://www.airspaceonline.com/tw/zh-hant/product/TW2630721047/210",
+      "price": 690,
+      "origPrice": null,
+      "img": "https://images.airspaceonline.com/photo/2630721047/f7b90da0-89cd-4d59-aad0-ad82473b54b9.webp",
+      "sold": null,
+      "firstSeen": "2026-10-22",
+      "thumb": "img/airspace/TW2630721047.webp"
+    },
+    "TW2630721046": {
+      "id": "TW2630721046",
+      "name": "下擺抽繩綁帶長袖短版襯衫",
+      "url": "https://www.airspaceonline.com/tw/zh-hant/product/TW2630721046/002",
+      "price": 790,
+      "origPrice": null,
+      "img": "https://images.airspaceonline.com/photo/2630721046/3fad3873-46be-4600-94c5-89bc213b902e.webp",
+      "sold": null,
+      "firstSeen": "2026-10-22",
+      "thumb": "img/airspace/TW2630721046.webp"
+    },
+    "TW2630134006": {
+      "id": "TW2630134006",
+      "name": "高腰蕾絲拼接層次開衩西裝短褲裙",
+      "url": "https://www.airspaceonline.com/tw/zh-hant/product/TW2630134006/017",
+      "price": 690,
+      "origPrice": null,
+      "img": "https://images.airspaceonline.com/photo/2630134006/d3815195-9735-4ff0-8145-ac29b4d9d9e2.webp",
+      "sold": null,
+      "firstSeen": "2026-10-22",
+      "thumb": "img/airspace/TW2630134006.webp"
     }
   },
-  "updatedAt": "2026-10-19"
+  "updatedAt": "2026-10-22"
 }

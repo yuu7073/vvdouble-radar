@@ -81,12 +81,13 @@
       "id": "13135",
       "name": "柔軟雪花勾織抽繩上衣",
       "url": "https://www.meierq.com/zh-tw/market/n/13135?c=35606",
-      "price": 445,
+      "price": 490,
       "origPrice": 490,
       "img": "https://pics.meierq.com/meierq/ProductCovers/64a77a7c-7277-4c7e-8934-3ec2a1ca161a_w886_h1128.jpg",
       "sold": null,
       "firstSeen": "2026-10-13",
-      "thumb": "img/meierq/13135.jpg"
+      "thumb": "img/meierq/13135.jpg",
+      "priceChanged": "2026-10-22"
     },
     "13136": {
       "id": "13136",
@@ -741,12 +742,13 @@
       "id": "14369",
       "name": "羅紋削肩美背工字BRA TOP",
       "url": "https://www.meierq.com/zh-tw/market/n/14369?c=37751",
-      "price": 545,
+      "price": 590,
       "origPrice": 590,
       "img": "https://pics.meierq.com/meierq/ProductCovers/99c8e98b-b1fd-45fa-a615-cae25b4867a8_w886_h1128.jpg",
       "sold": null,
       "firstSeen": "2026-10-13",
-      "thumb": "img/meierq/14369.jpg"
+      "thumb": "img/meierq/14369.jpg",
+      "priceChanged": "2026-10-22"
     },
     "14371": {
       "id": "14371",
@@ -782,5 +784,5 @@
       "thumb": "img/meierq/14398.jpg"
     }
   },
-  "updatedAt": "2026-10-21"
+  "updatedAt": "2026-10-22"
 }
