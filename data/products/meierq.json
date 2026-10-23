@@ -214,12 +214,13 @@
       "id": "14239",
       "name": "滿額贈｜單筆消費滿$2,200贈【短絨地毯(價值$1,490)】乙個",
       "url": "https://www.meierq.com/zh-tw/market/n/14239?c=37396",
-      "price": 1490,
+      "price": 590,
       "origPrice": 9999,
       "img": "https://pics.meierq.com/meierq/ProductCovers/674626fd-7316-4494-8fd5-d1fbf3881438_w886_h1128.jpg",
       "sold": null,
       "firstSeen": "2026-10-16",
-      "thumb": "img/meierq/14239.jpg"
+      "thumb": "img/meierq/14239.jpg",
+      "priceChanged": "2026-10-23"
     },
     "14243": {
       "id": "14243",
@@ -784,5 +785,5 @@
       "thumb": "img/meierq/14398.jpg"
     }
   },
-  "updatedAt": "2026-10-22"
+  "updatedAt": "2026-10-23"
 }

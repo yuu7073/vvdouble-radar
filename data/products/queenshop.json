@@ -1172,7 +1172,18 @@
       "sold": null,
       "firstSeen": "2026-10-22",
       "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_SaleID_01025890.jpg"
+    },
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=03021793&Page=1": {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=03021793&Page=1",
+      "name": "荷葉網紗剪接側綁帶長裙 兩色售",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=03021793&Page=1",
+      "price": 660,
+      "origPrice": 750,
+      "img": "https://photo.queenshop.com.tw/03021793/03021793.jpg",
+      "sold": "402",
+      "firstSeen": "2026-10-23",
+      "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_item1_11_item2_00_item3_QS_SaleID_03021793_Page_1.jpg"
     }
   },
-  "updatedAt": "2026-10-22"
+  "updatedAt": "2026-10-23"
 }

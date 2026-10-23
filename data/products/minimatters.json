@@ -542,7 +542,18 @@
       "sold": null,
       "firstSeen": "2026-10-21",
       "thumb": "img/minimatters/2610140016.jpg"
+    },
+    "2610140017": {
+      "id": "2610140017",
+      "name": "銀珠小花項鍊組",
+      "url": "https://www.minimatters.com.tw/Product?SaleID=2610140017&ColorID=102",
+      "price": 780,
+      "origPrice": null,
+      "img": "https://photo.minimatters.com.tw/Photo/15030051/15030051-102-01-1.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-23",
+      "thumb": "img/minimatters/2610140017.jpg"
     }
   },
-  "updatedAt": "2026-10-21"
+  "updatedAt": "2026-10-23"
 }

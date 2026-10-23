@@ -1,0 +1,32 @@
+[
+  {
+    "n": 1,
+    "pc": "banners/01-pc.jpg",
+    "mobile": "banners/01-m.jpg",
+    "pcUrl": "https://pics.mercci22.tw/img/mainpage/2026SS/index/102026/a-01.jpg",
+    "mobileUrl": "https://pics.mercci22.tw/img/mainpage/2026SS/index/102026/a-01s.jpg",
+    "link": "https://www.mercci22.com/zh-tw/recent?index_bn_tracking=WEB&102026_a-01_c",
+    "text": "",
+    "alt": ""
+  },
+  {
+    "n": 2,
+    "pc": "banners/02-pc.gif",
+    "mobile": "banners/02-m.gif",
+    "pcUrl": "https://pics.mercci22.tw/img/mainpage/2026SS/index/102026/102326.gif",
+    "mobileUrl": "https://pics.mercci22.tw/img/mainpage/2026SS/index/102026/102326s.gif",
+    "link": "https://www.mercci22.com/zh-tw/tag/2Q50R1023?index_bn_tracking=WEB&102326_c",
+    "text": "",
+    "alt": ""
+  },
+  {
+    "n": 3,
+    "pc": "banners/03-pc.jpg",
+    "mobile": "banners/03-m.jpg",
+    "pcUrl": "https://pics.mercci22.tw/img/mainpage/2026SS/index/102026/a-0.jpg",
+    "mobileUrl": "https://pics.mercci22.tw/img/mainpage/2026SS/index/102026/a-0s.jpg",
+    "link": "https://www.mercci22.com/zh-tw/recent?index_bn_tracking=WEB&102026_a-02c",
+    "text": "",
+    "alt": ""
+  }
+]
