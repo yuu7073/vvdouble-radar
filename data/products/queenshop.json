@@ -1183,7 +1183,73 @@
       "sold": "402",
       "firstSeen": "2026-10-23",
       "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_item1_11_item2_00_item3_QS_SaleID_03021793_Page_1.jpg"
+    },
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01025890&Page=1": {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01025890&Page=1",
+      "name": "格紋拼接雙層網紗短版長袖襯衫 三色售",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01025890&Page=1",
+      "price": 695,
+      "origPrice": 790,
+      "img": "https://photo.queenshop.com.tw/01025890/01025890.jpg",
+      "sold": "418",
+      "firstSeen": "2026-10-24",
+      "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_item1_11_item2_00_item3_QS_SaleID_01025890_Page_1.jpg"
+    },
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01087364": {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01087364",
+      "name": "柏心聯名 荷葉領片袖透膚緹花短洋裝-白",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01087364",
+      "price": 1380,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/01087364/01087364-h.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-24",
+      "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_SaleID_01087364.jpg"
+    },
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=02011218": {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=02011218",
+      "name": "柏心聯名 手工縫線設計花花排釦針織外套-藍",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=02011218",
+      "price": 2280,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/02011218/02011218-h.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-24",
+      "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_SaleID_02011218.jpg"
+    },
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=03021808": {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=03021808",
+      "name": "柏心聯名 多層次荷葉羽毛蛋糕長裙-白",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=03021808",
+      "price": 1780,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/03021808/03021808-h.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-24",
+      "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_SaleID_03021808.jpg"
+    },
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01087386": {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01087386",
+      "name": "柏心聯名 蕾絲領片毛球綁帶磨毛長洋裝",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01087386",
+      "price": 1380,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/01087386/01087386-h.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-24",
+      "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_SaleID_01087386.jpg"
+    },
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=02011217": {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=02011217",
+      "name": "柏心聯名 手工縫線設計花花排釦針織外套-灰",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=02011217",
+      "price": 2280,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/02011217/02011217-h.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-24",
+      "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_SaleID_02011217.jpg"
     }
   },
-  "updatedAt": "2026-10-23"
+  "updatedAt": "2026-10-24"
 }

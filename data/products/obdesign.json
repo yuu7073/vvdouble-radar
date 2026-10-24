@@ -598,12 +598,13 @@
       "id": "11255110",
       "name": "率性打褶後腰鬆緊抽繩束口工裝褲",
       "url": "https://www.obdesign.com.tw/SalePage/Index/11255110",
-      "price": 639,
+      "price": 799,
       "origPrice": 799,
       "img": "https://img.91app.com/webapi/imagesV3/Cropped/SalePage/11255110/0/639208179336930000?v=1",
       "sold": null,
       "firstSeen": "2026-10-22",
-      "thumb": "img/obdesign/11255110.jpg"
+      "thumb": "img/obdesign/11255110.jpg",
+      "priceChanged": "2026-10-24"
     },
     "11255323": {
       "id": "11255323",
@@ -3347,5 +3348,5 @@
       "thumb": "img/obdesign/12257038.jpg"
     }
   },
-  "updatedAt": "2026-10-23"
+  "updatedAt": "2026-10-24"
 }
