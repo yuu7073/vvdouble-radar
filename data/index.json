@@ -347,6 +347,17 @@
           "title": "PAZZO 生活好感衣著",
           "newPageUrl": "https://www.pazzo.com.tw/recent",
           "qPc": 0
+        },
+        {
+          "date": "2026-10-25",
+          "changed": false,
+          "qM": 0,
+          "fingerprint": "68a991e73e70f98d",
+          "newProducts": 0,
+          "bannerCount": 3,
+          "title": "PAZZO 生活好感衣著",
+          "newPageUrl": "https://www.pazzo.com.tw/recent",
+          "qPc": 0
         }
       ]
     },
@@ -713,6 +724,17 @@
         },
         {
           "date": "2026-10-24",
+          "changed": false,
+          "qM": 0,
+          "fingerprint": "9768fe4bc763d039",
+          "newProducts": 0,
+          "bannerCount": 6,
+          "title": "MEIER.Q 打造簡約永恆感",
+          "newPageUrl": "https://www.meierq.com/zh-tw/tag/newin",
+          "qPc": 0
+        },
+        {
+          "date": "2026-10-25",
           "changed": false,
           "qM": 0,
           "fingerprint": "9768fe4bc763d039",
@@ -1130,6 +1152,17 @@
           "title": "Mercci22 打造多元質感穿搭",
           "newPageUrl": "https://www.mercci22.com/recent",
           "qPc": 0
+        },
+        {
+          "date": "2026-10-25",
+          "changed": false,
+          "qM": 0,
+          "fingerprint": "0da7bff9d6d8c1a1",
+          "newProducts": 0,
+          "bannerCount": 3,
+          "title": "Mercci22 打造多元質感穿搭",
+          "newPageUrl": "https://www.mercci22.com/recent",
+          "qPc": 0
         }
       ]
     },
@@ -1433,6 +1466,17 @@
         },
         {
           "date": "2026-10-24",
+          "changed": false,
+          "qM": 0,
+          "fingerprint": "a9a78ecd8fd554d6",
+          "newProducts": 0,
+          "bannerCount": 4,
+          "title": "AIR SPACE",
+          "newPageUrl": "https://www.airspaceonline.com/tw/zh-hant/productlist/air-space?isnewarrival=true",
+          "qPc": 0
+        },
+        {
+          "date": "2026-10-25",
           "changed": false,
           "qM": 0,
           "fingerprint": "a9a78ecd8fd554d6",
@@ -1782,6 +1826,17 @@
           "date": "2026-10-24",
           "changed": false,
           "qM": 1,
+          "fingerprint": "d901cdb23f57efe5",
+          "newProducts": 0,
+          "bannerCount": 5,
+          "title": "Poly Lulu丨BEAUTY HAS NO SIZE 中大尺碼女裝",
+          "newPageUrl": "https://www.polylulu.com.tw/productlist?KeyWord=pim:2610160001&actno=26101601",
+          "qPc": 0
+        },
+        {
+          "date": "2026-10-25",
+          "changed": false,
+          "qM": 0,
           "fingerprint": "d901cdb23f57efe5",
           "newProducts": 0,
           "bannerCount": 5,
@@ -2143,6 +2198,17 @@
         },
         {
           "date": "2026-10-24",
+          "changed": false,
+          "qM": 0,
+          "fingerprint": "ec80f8c458f83b48",
+          "newProducts": 0,
+          "bannerCount": 3,
+          "title": "mini matters | 即便微小也很重要",
+          "newPageUrl": "https://www.minimatters.com.tw/productlist?other=newarrival",
+          "qPc": 0
+        },
+        {
+          "date": "2026-10-25",
           "changed": false,
           "qM": 0,
           "fingerprint": "ec80f8c458f83b48",
@@ -2605,6 +2671,26 @@
           "dir": "obdesign/2026-10-24",
           "ai": {
             "campaign": "Hello Kitty Rodeo Club 聯名季",
+            "tags": [
+              "新品上市",
+              "聯名",
+              "限時"
+            ]
+          }
+        },
+        {
+          "date": "2026-10-25",
+          "changed": true,
+          "qM": 0,
+          "fingerprint": "471d5579a4969c76",
+          "newProducts": 0,
+          "bannerCount": 8,
+          "title": "OB嚴選｜高CP值人氣熱銷服飾，流行服飾品牌",
+          "newPageUrl": "https://www.obdesign.com.tw/v2/official/SalePageCategory/487940",
+          "qPc": 0,
+          "dir": "obdesign/2026-10-25",
+          "ai": {
+            "campaign": "Hello Kitty Rodeo Club × 舒眠睡衣 × PS Pants新牛仔",
             "tags": [
               "新品上市",
               "聯名",
@@ -3155,6 +3241,27 @@
               "免運"
             ]
           }
+        },
+        {
+          "date": "2026-10-25",
+          "changed": true,
+          "qM": 0,
+          "fingerprint": "e3d7ba0f799d9a5b",
+          "newProducts": 1,
+          "bannerCount": 5,
+          "title": "QUEEN SHOP",
+          "newPageUrl": "https://www.queenshop.com.tw/zh-TW/QueenShop/ProductList?item1=00",
+          "qPc": 0,
+          "dir": "queenshop/2026-10-25",
+          "ai": {
+            "campaign": "20週年慶優惠四重奏",
+            "tags": [
+              "週年慶",
+              "滿額折扣",
+              "件數折扣",
+              "免運"
+            ]
+          }
         }
       ]
     },
@@ -3436,6 +3543,16 @@
           "title": "UNIQLO網路旗艦店 首頁 - UNIQLO台灣",
           "newPageUrl": "",
           "qPc": 0
+        },
+        {
+          "date": "2026-10-25",
+          "changed": false,
+          "fingerprint": "6af5bab66ff7a21c",
+          "newProducts": 0,
+          "bannerCount": 0,
+          "title": "UNIQLO網路旗艦店 首頁 - UNIQLO台灣",
+          "newPageUrl": "",
+          "qPc": 0
         }
       ]
     },
@@ -3577,9 +3694,14 @@
           "date": "2026-10-24",
           "changed": false,
           "error": "page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.gu-global.com/tw/zh_TW/\", waiting until \"domcontentloaded\"\n"
+        },
+        {
+          "date": "2026-10-25",
+          "changed": false,
+          "error": "page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.gu-global.com/tw/zh_TW/\", waiting until \"domcontentloaded\"\n"
         }
       ]
     }
   },
-  "updatedAt": "2026-10-24T06:04:47.648Z"
+  "updatedAt": "2026-10-25T06:19:59.332Z"
 }

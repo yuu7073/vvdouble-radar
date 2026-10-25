@@ -1249,7 +1249,18 @@
       "sold": null,
       "firstSeen": "2026-10-24",
       "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_SaleID_02011217.jpg"
+    },
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01200147&Page=1": {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01200147&Page=1",
+      "name": "荷葉綁帶排釦澎袖設計長袖上衣-咖",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01200147&Page=1",
+      "price": 484,
+      "origPrice": 550,
+      "img": "https://photo.queenshop.com.tw/01200147/01200147.jpg",
+      "sold": "404",
+      "firstSeen": "2026-10-25",
+      "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_item1_11_item2_00_item3_QS_SaleID_01200147_Page_1.jpg"
     }
   },
-  "updatedAt": "2026-10-24"
+  "updatedAt": "2026-10-25"
 }
