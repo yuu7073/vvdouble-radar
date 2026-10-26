@@ -553,7 +553,17 @@
       "sold": null,
       "firstSeen": "2026-10-23",
       "thumb": "img/minimatters/2610140017.jpg"
+    },
+    "2610140018": {
+      "id": "2610140018",
+      "name": "小波浪雙層項鍊",
+      "url": "https://www.minimatters.com.tw/Product?SaleID=2610140018&ColorID=102",
+      "price": 680,
+      "origPrice": null,
+      "img": "https://photo.minimatters.com.tw/Photo/15030052/15030052-102-01-1.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-26"
     }
   },
-  "updatedAt": "2026-10-23"
+  "updatedAt": "2026-10-26"
 }
