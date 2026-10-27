@@ -75,7 +75,7 @@
       "img": "",
       "sold": null,
       "firstSeen": "2026-09-28",
-      "priceChanged": "2026-10-23"
+      "priceChanged": "2026-10-27"
     },
     "9158": {
       "id": "9158",
@@ -638,6 +638,17 @@
       "firstSeen": "2026-10-13",
       "thumb": "img/mercci22/9422.jpg"
     },
+    "9423": {
+      "id": "9423",
+      "name": "混紡羊毛針織外套",
+      "url": "https://www.mercci22.com/en-us/market/n/9423?c=18010",
+      "price": 1380,
+      "origPrice": null,
+      "img": "https://pics.mercci22.tw/mercci22/ProductCovers/cdbc2692-f1a9-415a-9686-a7fceccbb775_w800_h1000.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-27",
+      "thumb": "img/mercci22/9423.jpg"
+    },
     "9424": {
       "id": "9424",
       "name": "針織拼接網紗短袖上衣",
@@ -770,6 +781,17 @@
       "firstSeen": "2026-10-20",
       "thumb": "img/mercci22/9443.jpg"
     },
+    "9444": {
+      "id": "9444",
+      "name": "毛毛皮草立領背心",
+      "url": "https://www.mercci22.com/en-us/market/n/9444?c=18044",
+      "price": 1080,
+      "origPrice": null,
+      "img": "https://pics.mercci22.tw/mercci22/ProductCovers/a0a1c9df-65ab-4f2e-bf54-7d3cf99cb6ed_w800_h1000.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-27",
+      "thumb": "img/mercci22/9444.jpg"
+    },
     "9445": {
       "id": "9445",
       "name": "修身皮革直筒長裙",
@@ -824,6 +846,28 @@
       "sold": null,
       "firstSeen": "2026-10-20",
       "thumb": "img/mercci22/9451.jpg"
+    },
+    "9452": {
+      "id": "9452",
+      "name": "MIT方領BraTop(石墨烯發熱)",
+      "url": "https://www.mercci22.com/en-us/market/n/9452?c=18061",
+      "price": 580,
+      "origPrice": null,
+      "img": "https://pics.mercci22.tw/mercci22/ProductCovers/74a6a1f7-10a4-48f6-b568-8be79ecc5b81_w800_h1000.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-27",
+      "thumb": "img/mercci22/9452.jpg"
+    },
+    "9453": {
+      "id": "9453",
+      "name": "MIT圓領長袖上衣(石墨烯發熱)",
+      "url": "https://www.mercci22.com/en-us/market/n/9453?c=18063",
+      "price": 580,
+      "origPrice": null,
+      "img": "https://pics.mercci22.tw/mercci22/ProductCovers/15f1c608-062b-4736-9d87-07d89c4047cf_w800_h1000.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-27",
+      "thumb": "img/mercci22/9453.jpg"
     },
     "9456": {
       "id": "9456",
@@ -902,6 +946,17 @@
       "firstSeen": "2026-10-13",
       "thumb": "img/mercci22/9468.jpg"
     },
+    "9469": {
+      "id": "9469",
+      "name": "MIT細肩帶BraTop(石墨烯發熱)",
+      "url": "https://www.mercci22.com/en-us/market/n/9469?c=18101",
+      "price": 580,
+      "origPrice": null,
+      "img": "https://pics.mercci22.tw/mercci22/ProductCovers/a2f6a444-8e9d-431d-b7c3-cd7355f1a23b_w800_h1000.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-27",
+      "thumb": "img/mercci22/9469.jpg"
+    },
     "9471": {
       "id": "9471",
       "name": "立領雙拉鍊針織上衣(The Elaru label 聯名款-Ruby)",
@@ -924,6 +979,50 @@
       "firstSeen": "2026-10-20",
       "thumb": "img/mercci22/9475.jpg"
     },
+    "9477": {
+      "id": "9477",
+      "name": "蕾絲長袖Bratop(磨毛保暖)",
+      "url": "https://www.mercci22.com/en-us/market/n/9477?c=18116",
+      "price": 880,
+      "origPrice": null,
+      "img": "https://pics.mercci22.tw/mercci22/ProductCovers/d597ad9b-d071-4070-b267-1adf8596addd_w800_h1000.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-27",
+      "thumb": "img/mercci22/9477.jpg"
+    },
+    "9478": {
+      "id": "9478",
+      "name": "蕾絲細肩帶BraTop(磨毛保暖)",
+      "url": "https://www.mercci22.com/en-us/market/n/9478?c=18121",
+      "price": 680,
+      "origPrice": null,
+      "img": "https://pics.mercci22.tw/mercci22/ProductCovers/f47194de-61cf-467a-bcce-bdec84aa70c3_w800_h1000.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-27",
+      "thumb": "img/mercci22/9478.jpg"
+    },
+    "9479": {
+      "id": "9479",
+      "name": "修身長裙(磨毛保暖)",
+      "url": "https://www.mercci22.com/en-us/market/n/9479?c=18124",
+      "price": 880,
+      "origPrice": null,
+      "img": "https://pics.mercci22.tw/mercci22/ProductCovers/e037ccd1-89c9-4892-883e-de732d627f44_w800_h1000.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-27",
+      "thumb": "img/mercci22/9479.jpg"
+    },
+    "9480": {
+      "id": "9480",
+      "name": "修身Bra長洋裝(磨毛保暖)",
+      "url": "https://www.mercci22.com/en-us/market/n/9480?c=18127",
+      "price": 1080,
+      "origPrice": null,
+      "img": "https://pics.mercci22.tw/mercci22/ProductCovers/8ca21ec8-97de-4f64-bb6c-8e8d2dc9336e_w800_h1000.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-27",
+      "thumb": "img/mercci22/9480.jpg"
+    },
     "9483": {
       "id": "9483",
       "name": "哈靈頓皮革外套",
@@ -934,6 +1033,28 @@
       "sold": null,
       "firstSeen": "2026-10-06",
       "thumb": "img/mercci22/9483.jpg"
+    },
+    "9487": {
+      "id": "9487",
+      "name": "MIT長袖V領Bratop(石墨烯發熱)",
+      "url": "https://www.mercci22.com/en-us/market/n/9487?c=18139",
+      "price": 780,
+      "origPrice": null,
+      "img": "https://pics.mercci22.tw/mercci22/ProductCovers/e1c16296-ada8-444a-b2ce-cbbc9d27e263_w800_h1000.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-27",
+      "thumb": "img/mercci22/9487.jpg"
+    },
+    "9488": {
+      "id": "9488",
+      "name": "小高領背心(磨毛保暖)",
+      "url": "https://www.mercci22.com/en-us/market/n/9488?c=18141",
+      "price": 580,
+      "origPrice": null,
+      "img": "https://pics.mercci22.tw/mercci22/ProductCovers/9025fe2b-9ba3-4266-ab54-21b222ea76ce_w800_h1000.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-27",
+      "thumb": "img/mercci22/9488.jpg"
     },
     "9491": {
       "id": "9491",
@@ -978,7 +1099,18 @@
       "sold": null,
       "firstSeen": "2026-09-28",
       "thumb": "img/mercci22/9502.jpg"
+    },
+    "9507": {
+      "id": "9507",
+      "name": "修身喇叭褲(磨毛保暖)",
+      "url": "https://www.mercci22.com/en-us/market/n/9507?c=18175",
+      "price": 980,
+      "origPrice": null,
+      "img": "https://pics.mercci22.tw/mercci22/ProductCovers/9e0f987f-65e4-460f-8f46-6144c2d7b3b7_w800_h1000.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-27",
+      "thumb": "img/mercci22/9507.jpg"
     }
   },
-  "updatedAt": "2026-10-23"
+  "updatedAt": "2026-10-27"
 }
