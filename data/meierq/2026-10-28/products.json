@@ -1,0 +1,127 @@
+{
+  "url": "https://www.meierq.com/zh-tw/tag/newin",
+  "count": 12,
+  "fresh": [
+    "14355",
+    "14295",
+    "14340",
+    "14256",
+    "14298",
+    "14347",
+    "14349",
+    "14344",
+    "14320",
+    "14210",
+    "13070"
+  ],
+  "items": [
+    {
+      "id": "14355",
+      "name": "PROJECT.M 羅紋繞脖配色捲邊背心",
+      "url": "https://www.meierq.com/zh-tw/market/n/14355?c=37717",
+      "price": 390,
+      "origPrice": 490,
+      "img": "https://pics.meierq.com/meierq/ProductCovers/75104000-2129-4cfc-bfa0-bdff6a686364_w886_h1128.jpg",
+      "sold": null
+    },
+    {
+      "id": "14295",
+      "name": "天絲羊毛19%捲邊長袖上衣",
+      "url": "https://www.meierq.com/zh-tw/market/n/14295?c=37551",
+      "price": 590,
+      "origPrice": null,
+      "img": "https://pics.meierq.com/meierq/ProductCovers/25874620-71f4-4b85-82d4-519320cbb674_w886_h1128.jpg",
+      "sold": null
+    },
+    {
+      "id": "14340",
+      "name": "微透直紋小高領短袖上衣",
+      "url": "https://www.meierq.com/zh-tw/market/n/14340?c=37658",
+      "price": 390,
+      "origPrice": 490,
+      "img": "https://pics.meierq.com/meierq/ProductCovers/04fc4586-8c5e-424e-bab1-f5f421f43a21_w886_h1128.jpg",
+      "sold": null
+    },
+    {
+      "id": "14256",
+      "name": "復古格紋小高領捲邊上衣",
+      "url": "https://www.meierq.com/zh-tw/market/n/14256?c=37438",
+      "price": 390,
+      "origPrice": 490,
+      "img": "https://pics.meierq.com/meierq/ProductCovers/b05399c1-f36f-49d0-a003-4389a8afbb0d_w886_h1128.jpg",
+      "sold": null
+    },
+    {
+      "id": "14298",
+      "name": "柔彈暈染削肩兩件式背心",
+      "url": "https://www.meierq.com/zh-tw/market/n/14298?c=37562",
+      "price": 590,
+      "origPrice": null,
+      "img": "https://pics.meierq.com/meierq/ProductCovers/be370c2c-a74e-4688-b5a8-01124c89083b_w886_h1128.jpg",
+      "sold": null
+    },
+    {
+      "id": "14347",
+      "name": "PROJECT.M 華夫格壓釦細肩背心",
+      "url": "https://www.meierq.com/zh-tw/market/n/14347?c=37690",
+      "price": 390,
+      "origPrice": null,
+      "img": "https://pics.meierq.com/meierq/ProductCovers/b077a947-9505-4e29-9553-d23aee212090_w886_h1128.jpg",
+      "sold": null
+    },
+    {
+      "id": "14349",
+      "name": "柔膚坑條削肩背心",
+      "url": "https://www.meierq.com/zh-tw/market/n/14349?c=37692",
+      "price": 390,
+      "origPrice": null,
+      "img": "https://pics.meierq.com/meierq/ProductCovers/118f1547-42ec-4718-9a70-86ac276c5a7d_w886_h1128.jpg",
+      "sold": null
+    },
+    {
+      "id": "14344",
+      "name": "輕透澎袖抽繩外套",
+      "url": "https://www.meierq.com/zh-tw/market/n/14344?c=37676",
+      "price": 690,
+      "origPrice": null,
+      "img": "https://pics.meierq.com/meierq/ProductCovers/a10b8987-e7b6-4d2f-8777-c426edd04398_w886_h1128.jpg",
+      "sold": null
+    },
+    {
+      "id": "14320",
+      "name": "前挖空抽繩上衣",
+      "url": "https://www.meierq.com/zh-tw/market/n/14320?c=37611",
+      "price": 390,
+      "origPrice": 490,
+      "img": "https://pics.meierq.com/meierq/ProductCovers/e312bdf2-0be9-440d-9fe9-eb302539017d_w886_h1128.jpg",
+      "sold": null
+    },
+    {
+      "id": "14210",
+      "name": "配色車線彎刀牛仔褲",
+      "url": "https://www.meierq.com/zh-tw/market/n/14210?c=37325",
+      "price": 1090,
+      "origPrice": null,
+      "img": "https://pics.meierq.com/meierq/ProductCovers/67140512-ed63-4135-916e-9a2026fa9d42_w886_h1128.jpg",
+      "sold": null
+    },
+    {
+      "id": "13070",
+      "name": "簡約西裝雙摺中長裙",
+      "url": "https://www.meierq.com/zh-tw/market/n/13070?c=35432",
+      "price": 790,
+      "origPrice": null,
+      "img": "https://pics.meierq.com/meierq/ProductCovers/f3a4dfde-a6ab-4057-9b0e-37230cba9c2e_w886_h1128.jpg",
+      "sold": null
+    },
+    {
+      "id": "14274",
+      "name": "輕柔小花刺繡中長裙",
+      "url": "https://www.meierq.com/zh-tw/market/n/14274?c=37481",
+      "price": 690,
+      "origPrice": null,
+      "img": "https://pics.meierq.com/meierq/ProductCovers/8d0c813d-c06a-43bf-9865-d2587a8c401a_w886_h1128.jpg",
+      "sold": null
+    }
+  ]
+}

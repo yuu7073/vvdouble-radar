@@ -854,12 +854,13 @@
       "id": "11381791",
       "name": "純棉刷色拼接布鬚邊牛仔長裙",
       "url": "https://www.obdesign.com.tw/SalePage/Index/11381791",
-      "price": 899,
+      "price": 719,
       "origPrice": null,
       "img": "https://img.91app.com/webapi/imagesV3/Cropped/SalePage/11381791/0/639279876162300000?v=1",
       "sold": null,
       "firstSeen": "2026-10-27",
-      "thumb": "img/obdesign/11381791.jpg"
+      "thumb": "img/obdesign/11381791.jpg",
+      "priceChanged": "2026-10-28"
     },
     "11401079": {
       "id": "11401079",
@@ -3769,23 +3770,25 @@
       "id": "12261749",
       "name": "productBadgeImage_//img.91app.com/webapi/imagesV3/Cropped/Pr",
       "url": "https://www.obdesign.com.tw/SalePage/Index/12261749",
-      "price": 899,
+      "price": 699,
       "origPrice": null,
       "img": "https://img.91app.com/webapi/imagesV3/Cropped/ProductBadge/100195/ratioOneToOne/639286952484990980?v=1",
       "sold": null,
       "firstSeen": "2026-10-27",
-      "thumb": "img/obdesign/12261749.jpg"
+      "thumb": "img/obdesign/12261749.jpg",
+      "priceChanged": "2026-10-28"
     },
     "12261751": {
       "id": "12261751",
       "name": "productBadgeImage_//img.91app.com/webapi/imagesV3/Cropped/Pr",
       "url": "https://www.obdesign.com.tw/SalePage/Index/12261751",
-      "price": 999,
+      "price": 799,
       "origPrice": null,
       "img": "https://img.91app.com/webapi/imagesV3/Cropped/ProductBadge/100196/ratioOneToOne/639286953217991360?v=1",
       "sold": null,
       "firstSeen": "2026-10-27",
-      "thumb": "img/obdesign/12261751.jpg"
+      "thumb": "img/obdesign/12261751.jpg",
+      "priceChanged": "2026-10-28"
     },
     "12261753": {
       "id": "12261753",
@@ -3802,12 +3805,13 @@
       "id": "12261755",
       "name": "productBadgeImage_//img.91app.com/webapi/imagesV3/Cropped/Pr",
       "url": "https://www.obdesign.com.tw/SalePage/Index/12261755",
-      "price": 999,
+      "price": 799,
       "origPrice": null,
       "img": "https://img.91app.com/webapi/imagesV3/Cropped/ProductBadge/100197/ratioOneToOne/639286953507643090?v=1",
       "sold": null,
       "firstSeen": "2026-10-27",
-      "thumb": "img/obdesign/12261755.jpg"
+      "thumb": "img/obdesign/12261755.jpg",
+      "priceChanged": "2026-10-28"
     },
     "12261756": {
       "id": "12261756",
@@ -3953,5 +3957,5 @@
       "thumb": "img/obdesign/12262047.jpg"
     }
   },
-  "updatedAt": "2026-10-27"
+  "updatedAt": "2026-10-28"
 }

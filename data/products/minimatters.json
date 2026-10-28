@@ -503,12 +503,13 @@
       "id": "2610140012",
       "name": "最佳夥伴旅行收納袋",
       "url": "https://www.minimatters.com.tw/Product?SaleID=2610140012&ColorID=FFF",
-      "price": 780,
+      "price": 880,
       "origPrice": 880,
       "img": "https://photo.minimatters.com.tw/Photo/07050017/07050017-FFF-01-1.jpg",
       "sold": null,
       "firstSeen": "2026-10-21",
-      "thumb": "img/minimatters/2610140012.jpg"
+      "thumb": "img/minimatters/2610140012.jpg",
+      "priceChanged": "2026-10-28"
     },
     "2610140013": {
       "id": "2610140013",
@@ -576,5 +577,5 @@
       "firstSeen": "2026-10-26"
     }
   },
-  "updatedAt": "2026-10-27"
+  "updatedAt": "2026-10-28"
 }

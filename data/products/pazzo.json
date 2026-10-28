@@ -695,6 +695,17 @@
       "firstSeen": "2026-10-27",
       "thumb": "img/pazzo/25866.jpg"
     },
+    "25867": {
+      "id": "25867",
+      "name": "品牌LOGO美麗諾羊毛斜肩開衩上衣",
+      "url": "https://www.pazzo.com.tw/en-us/market/n/25867?c=58178",
+      "price": 499,
+      "origPrice": 690,
+      "img": "https://pics.pzcdn.tw/pazzo/ProductCovers/6cbf9c28-04df-49d2-a715-0a3e4f778331_w886_h1128.jpg",
+      "sold": null,
+      "firstSeen": "2026-10-28",
+      "thumb": "img/pazzo/25867.jpg"
+    },
     "25868": {
       "id": "25868",
       "name": "品牌LOGO美麗諾羊毛開釦抓褶上衣",
@@ -883,5 +894,5 @@
       "thumb": "img/pazzo/25927.jpg"
     }
   },
-  "updatedAt": "2026-10-27"
+  "updatedAt": "2026-10-28"
 }

@@ -1,0 +1,82 @@
+[
+  {
+    "n": 1,
+    "pc": "banners/01-pc.jpg",
+    "mobile": "banners/01-m.jpg",
+    "pcUrl": "https://cms-static.cdn.91app.com/images/original/41602/92f19e4d-89b7-4330-9570-02cf1dff9742-1793070308-6drun5zyc4_d_1920x820_1280x547_1124x480_800x342_600x256_400x171.jpg",
+    "mobileUrl": "https://cms-static.cdn.91app.com/images/original/41602/92f19e4d-89b7-4330-9570-02cf1dff9742-1793070303-6drun5zyc4_m_1920x2500_1280x1667_1124x1464_800x1042_600x781_400x521.jpg",
+    "link": "https://www.obdesign.com.tw/page/1762",
+    "text": "",
+    "alt": "261027-雙11 衣起買個痛快-1920x2500-hsinpei"
+  },
+  {
+    "n": 2,
+    "pc": "banners/02-pc.jpg",
+    "mobile": "banners/02-m.jpg",
+    "pcUrl": "https://cms-static.cdn.91app.com/images/original/41602/92f19e4d-89b7-4330-9570-02cf1dff9742-1793152651-wz3vkxolfi_d_1920x820_1280x547_1124x480_800x342_600x256_400x171.jpg",
+    "mobileUrl": "https://cms-static.cdn.91app.com/images/original/41602/92f19e4d-89b7-4330-9570-02cf1dff9742-1793152645-wz3vkxolfi_m_1920x2500_1280x1667_1124x1464_800x1042_600x781_400x521.jpg",
+    "link": "https://www.obdesign.com.tw/SalePage/Index/12209010",
+    "text": "",
+    "alt": "261027-黃金-EA3994-1920X2500-tingzhen"
+  },
+  {
+    "n": 3,
+    "pc": "banners/03-pc.jpg",
+    "mobile": "banners/03-m.jpg",
+    "pcUrl": "https://cms-static.cdn.91app.com/images/original/41602/92f19e4d-89b7-4330-9570-02cf1dff9742-1793094107-wtfzxkcvms_d_1920x820_1280x547_1124x480_800x342_600x256_400x171.jpg",
+    "mobileUrl": "https://cms-static.cdn.91app.com/images/original/41602/92f19e4d-89b7-4330-9570-02cf1dff9742-1793094101-wtfzxkcvms_m_1920x2500_1280x1667_1124x1464_800x1042_600x781_400x521.jpg",
+    "link": "https://www.obdesign.com.tw/SalePage/Index/12261734",
+    "text": "",
+    "alt": "261022-黃金-AB21623-1920X2500-tingzhen"
+  },
+  {
+    "n": 4,
+    "pc": "banners/04-pc.jpg",
+    "mobile": "banners/04-m.jpg",
+    "pcUrl": "https://cms-static.cdn.91app.com/images/original/41602/92f19e4d-89b7-4330-9570-02cf1dff9742-1793082307-p7ileh8xvh_d_1920x820_1280x547_1124x480_800x342_600x256_400x171.jpg",
+    "mobileUrl": "https://cms-static.cdn.91app.com/images/original/41602/92f19e4d-89b7-4330-9570-02cf1dff9742-1793082303-p7ileh8xvh_m_1920x2500_1280x1667_1124x1464_800x1042_600x781_400x521.jpg",
+    "link": "https://www.obdesign.com.tw/page/bratop",
+    "text": "",
+    "alt": "261022-黃金-GA587+GA590-1920X2500-tingzhen"
+  },
+  {
+    "n": 5,
+    "pc": "banners/05-pc.jpg",
+    "mobile": "banners/05-m.jpg",
+    "pcUrl": "https://cms-static.cdn.91app.com/images/original/41602/92f19e4d-89b7-4330-9570-02cf1dff9742-1793070522-a0d3jhklbp_d_1920x820_1280x547_1124x480_800x342_600x256_400x171.jpg",
+    "mobileUrl": "https://cms-static.cdn.91app.com/images/original/41602/92f19e4d-89b7-4330-9570-02cf1dff9742-1793070514-a0d3jhklbp_m_1920x2500_1280x1667_1124x1464_800x1042_600x781_400x521.jpg",
+    "link": "https://www.obdesign.com.tw/v2/PromotionEngine/Detail/618951",
+    "text": "",
+    "alt": "261020-APP獨家 ｜雙11僅此強檔-1920x2500-hsinpei"
+  },
+  {
+    "n": 6,
+    "pc": "banners/06-pc.jpg",
+    "mobile": "banners/06-m.jpg",
+    "pcUrl": "https://cms-static.cdn.91app.com/images/original/41602/92f19e4d-89b7-4330-9570-02cf1dff9742-1793070570-3rum8nrsiv_d_1920x820_1280x547_1124x480_800x342_600x256_400x171.jpg",
+    "mobileUrl": "https://cms-static.cdn.91app.com/images/original/41602/92f19e4d-89b7-4330-9570-02cf1dff9742-1793070565-3rum8nrsiv_m_1920x2500_1280x1667_1124x1464_800x1042_600x781_400x521.jpg",
+    "link": "https://www.obdesign.com.tw/page/114821",
+    "text": "",
+    "alt": "261005-KV1-1920x2500-fangtzu"
+  },
+  {
+    "n": 7,
+    "pc": "banners/07-pc.jpg",
+    "mobile": "banners/07-m.jpg",
+    "pcUrl": "https://cms-static.cdn.91app.com/images/original/41602/92f19e4d-89b7-4330-9570-02cf1dff9742-1793082688-p0bld9fkof_d_1920x820_1280x547_1124x480_800x342_600x256_400x171.jpg",
+    "mobileUrl": "https://cms-static.cdn.91app.com/images/original/41602/92f19e4d-89b7-4330-9570-02cf1dff9742-1793082688-p0bld9fkof_m_1920x2500_1280x1667_1124x1464_800x1042_600x781_400x521.jpg",
+    "link": "https://www.obdesign.com.tw/page/198601",
+    "text": "",
+    "alt": "HeaderA-carousel-7"
+  },
+  {
+    "n": 8,
+    "pc": "banners/08-pc.jpg",
+    "mobile": "banners/08-m.jpg",
+    "pcUrl": "https://cms-static.cdn.91app.com/images/original/41602/92f19e4d-89b7-4330-9570-02cf1dff9742-1793070638-w0s0fz0ca4_d_1920x820_1280x547_1124x480_800x342_600x256_400x171.jpg",
+    "mobileUrl": "https://cms-static.cdn.91app.com/images/original/41602/92f19e4d-89b7-4330-9570-02cf1dff9742-1793070630-w0s0fz0ca4_m_1920x2500_1280x1667_1124x1464_800x1042_600x781_400x521.jpg",
+    "link": "https://www.obdesign.com.tw/page/pspants",
+    "text": "",
+    "alt": "MB_1920_2500__BP"
+  }
+]
