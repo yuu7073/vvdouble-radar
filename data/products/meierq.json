@@ -48,12 +48,13 @@
       "id": "13070",
       "name": "簡約西裝雙摺中長裙",
       "url": "https://www.meierq.com/zh-tw/market/n/13070?c=35432",
-      "price": 790,
+      "price": 474,
       "origPrice": null,
       "img": "https://pics.meierq.com/meierq/ProductCovers/f3a4dfde-a6ab-4057-9b0e-37230cba9c2e_w886_h1128.jpg",
       "sold": null,
       "firstSeen": "2026-10-28",
-      "thumb": "img/meierq/13070.jpg"
+      "thumb": "img/meierq/13070.jpg",
+      "priceChanged": "2026-10-30"
     },
     "13074": {
       "id": "13074",
@@ -236,13 +237,13 @@
       "id": "14239",
       "name": "滿額贈｜單筆消費滿$2,200贈【短絨地毯(價值$1,490)】乙個",
       "url": "https://www.meierq.com/zh-tw/market/n/14239?c=37396",
-      "price": 590,
+      "price": 990,
       "origPrice": 9999,
       "img": "https://pics.meierq.com/meierq/ProductCovers/674626fd-7316-4494-8fd5-d1fbf3881438_w886_h1128.jpg",
       "sold": null,
       "firstSeen": "2026-10-16",
       "thumb": "img/meierq/14239.jpg",
-      "priceChanged": "2026-10-23"
+      "priceChanged": "2026-10-30"
     },
     "14243": {
       "id": "14243",
@@ -906,5 +907,5 @@
       "thumb": "img/meierq/14398.jpg"
     }
   },
-  "updatedAt": "2026-10-28"
+  "updatedAt": "2026-10-30"
 }

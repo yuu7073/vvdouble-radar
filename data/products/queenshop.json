@@ -1281,7 +1281,18 @@
       "sold": "401",
       "firstSeen": "2026-10-29",
       "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_item1_11_item2_00_item3_QS_SaleID_03021791_Page_1.jpg"
+    },
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=CH&SaleID=01099991&Page=1": {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=CH&SaleID=01099991&Page=1",
+      "name": "棉花糖 滿版蝴蝶結透膚木耳上衣 三色售 S-L",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=CH&SaleID=01099991&Page=1",
+      "price": 343,
+      "origPrice": 390,
+      "img": "https://photo.queenshop.com.tw/01099991/01099991.jpg",
+      "sold": "412",
+      "firstSeen": "2026-10-30",
+      "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_item1_11_item2_00_item3_CH_SaleID_01099991_Page_1.jpg"
     }
   },
-  "updatedAt": "2026-10-29"
+  "updatedAt": "2026-10-30"
 }
