@@ -1292,7 +1292,18 @@
       "sold": "412",
       "firstSeen": "2026-10-30",
       "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_item1_11_item2_00_item3_CH_SaleID_01099991_Page_1.jpg"
+    },
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01087388": {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01087388",
+      "name": "柏心聯名 格紋半門襟澎袖磨毛短洋裝",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01087388",
+      "price": 1380,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/01087388/01087388-h.jpg",
+      "sold": null,
+      "firstSeen": "2026-11-01",
+      "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_SaleID_01087388.jpg"
     }
   },
-  "updatedAt": "2026-10-30"
+  "updatedAt": "2026-11-01"
 }
