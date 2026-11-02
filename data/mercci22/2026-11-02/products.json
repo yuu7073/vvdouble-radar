@@ -1,0 +1,180 @@
+{
+  "url": "https://www.mercci22.com/recent",
+  "count": 18,
+  "fresh": [
+    "9447",
+    "9449",
+    "9505",
+    "9517",
+    "9462",
+    "9466",
+    "9470",
+    "9474",
+    "9486",
+    "9442"
+  ],
+  "items": [
+    {
+      "id": "9072",
+      "name": "SHOP ALL",
+      "url": "https://www.mercci22.com/zh-tw/market/n/9072?c=17320",
+      "price": null,
+      "origPrice": null,
+      "img": "",
+      "sold": null
+    },
+    {
+      "id": "9447",
+      "name": "細羅紋蕾絲Bratop外套組",
+      "url": "https://www.mercci22.com/en-us/market/n/9447?c=18049",
+      "price": 880,
+      "origPrice": null,
+      "img": "https://pics.mercci22.tw/mercci22/ProductCovers/c1f0b036-592e-492b-ad79-b3c4c2bac3fd_w800_h1000.jpg",
+      "sold": null
+    },
+    {
+      "id": "9449",
+      "name": "天絲羊毛長袖上衣",
+      "url": "https://www.mercci22.com/en-us/market/n/9449?c=18054",
+      "price": 580,
+      "origPrice": null,
+      "img": "https://pics.mercci22.tw/mercci22/ProductCovers/3dac7825-cc58-432e-b9f5-e839e83a8d82_w800_h1000.jpg",
+      "sold": null
+    },
+    {
+      "id": "9505",
+      "name": "羊毛混紡針織斜肩上衣",
+      "url": "https://www.mercci22.com/en-us/market/n/9505?c=18170",
+      "price": 880,
+      "origPrice": null,
+      "img": "https://pics.mercci22.tw/mercci22/ProductCovers/df520057-946c-4232-8a59-2aa8af610413_w800_h1000.jpg",
+      "sold": null
+    },
+    {
+      "id": "9517",
+      "name": "混紡羊毛直筒針織長褲",
+      "url": "https://www.mercci22.com/en-us/market/n/9517?c=18196",
+      "price": 880,
+      "origPrice": null,
+      "img": "https://pics.mercci22.tw/mercci22/ProductCovers/90939e78-8d3b-45c2-9803-1485c591a90f_w800_h1000.jpg",
+      "sold": null
+    },
+    {
+      "id": "9462",
+      "name": "中腰垂墜直筒西裝褲",
+      "url": "https://www.mercci22.com/en-us/market/n/9462?c=18083",
+      "price": 880,
+      "origPrice": null,
+      "img": "https://pics.mercci22.tw/mercci22/ProductCovers/084b9108-93ff-441f-a85e-e15d67ac0105_w800_h1000.jpg",
+      "sold": null
+    },
+    {
+      "id": "9466",
+      "name": "落肩皮革西裝外套",
+      "url": "https://www.mercci22.com/en-us/market/n/9466?c=18092",
+      "price": 1380,
+      "origPrice": null,
+      "img": "https://pics.mercci22.tw/mercci22/ProductCovers/c00fe9ed-3e5d-4bae-b6ec-af58f10fd0ef_w800_h1000.jpg",
+      "sold": null
+    },
+    {
+      "id": "9470",
+      "name": "仿兔絨V領排釦針織外套",
+      "url": "https://www.mercci22.com/en-us/market/n/9470?c=18105",
+      "price": 980,
+      "origPrice": null,
+      "img": "https://pics.mercci22.tw/mercci22/ProductCovers/4ae8f26f-ce78-405e-b4e6-d56b0278106d_w800_h1000.jpg",
+      "sold": null
+    },
+    {
+      "id": "9474",
+      "name": "混紡羊毛翻領拉鍊針織上衣",
+      "url": "https://www.mercci22.com/en-us/market/n/9474?c=18112",
+      "price": 980,
+      "origPrice": null,
+      "img": "https://pics.mercci22.tw/mercci22/ProductCovers/b396e637-8796-47e1-b9ce-291371adffb6_w800_h1000.jpg",
+      "sold": null
+    },
+    {
+      "id": "9486",
+      "name": "羊絨感圓領針織上衣",
+      "url": "https://www.mercci22.com/en-us/market/n/9486?c=18137",
+      "price": 780,
+      "origPrice": null,
+      "img": "https://pics.mercci22.tw/mercci22/ProductCovers/2db0ff93-7870-44f3-9f55-77e957bc2048_w800_h1000.jpg",
+      "sold": null
+    },
+    {
+      "id": "9442",
+      "name": "霧緞光澤蕾絲短褲",
+      "url": "https://www.mercci22.com/en-us/market/n/9442?c=18040",
+      "price": 480,
+      "origPrice": null,
+      "img": "https://pics.mercci22.tw/mercci22/ProductCovers/b27105d8-4a83-4d23-80f9-b9a78f4c89a8_w800_h1000.jpg",
+      "sold": null
+    },
+    {
+      "id": "9488",
+      "name": "小高領背心(磨毛保暖)",
+      "url": "https://www.mercci22.com/en-us/market/n/9488?c=18141",
+      "price": 580,
+      "origPrice": null,
+      "img": "https://pics.mercci22.tw/mercci22/ProductCovers/6f95d6f4-6d34-4937-934c-74900dac69e5_w800_h1000.jpg",
+      "sold": null
+    },
+    {
+      "id": "9444",
+      "name": "毛毛皮草立領背心",
+      "url": "https://www.mercci22.com/en-us/market/n/9444?c=18044",
+      "price": 1080,
+      "origPrice": null,
+      "img": "https://pics.mercci22.tw/mercci22/ProductCovers/a0a1c9df-65ab-4f2e-bf54-7d3cf99cb6ed_w800_h1000.jpg",
+      "sold": null
+    },
+    {
+      "id": "9478",
+      "name": "蕾絲細肩帶BraTop(磨毛保暖)",
+      "url": "https://www.mercci22.com/en-us/market/n/9478?c=18121",
+      "price": 680,
+      "origPrice": null,
+      "img": "https://pics.mercci22.tw/mercci22/ProductCovers/c05230f7-e64d-46c2-80f7-659871bcd14e_w800_h1000.jpg",
+      "sold": null
+    },
+    {
+      "id": "9452",
+      "name": "MIT方領BraTop(石墨烯發熱)",
+      "url": "https://www.mercci22.com/en-us/market/n/9452?c=18061",
+      "price": 580,
+      "origPrice": null,
+      "img": "https://pics.mercci22.tw/mercci22/ProductCovers/5a14a2c1-6879-4108-91f7-8c28f2c1c0cd_w800_h1000.jpg",
+      "sold": null
+    },
+    {
+      "id": "9469",
+      "name": "MIT細肩帶BraTop(石墨烯發熱)",
+      "url": "https://www.mercci22.com/en-us/market/n/9469?c=18101",
+      "price": 580,
+      "origPrice": null,
+      "img": "https://pics.mercci22.tw/mercci22/ProductCovers/372fe005-9151-4cfe-bef8-87706a794ea9_w800_h1000.jpg",
+      "sold": null
+    },
+    {
+      "id": "9487",
+      "name": "MIT長袖V領Bratop(石墨烯發熱)",
+      "url": "https://www.mercci22.com/en-us/market/n/9487?c=18139",
+      "price": 780,
+      "origPrice": null,
+      "img": "https://pics.mercci22.tw/mercci22/ProductCovers/08a4315b-ce22-4835-8abb-15c3456a557f_w800_h1000.jpg",
+      "sold": null
+    },
+    {
+      "id": "9453",
+      "name": "MIT圓領長袖上衣(石墨烯發熱)",
+      "url": "https://www.mercci22.com/en-us/market/n/9453?c=18063",
+      "price": 580,
+      "origPrice": null,
+      "img": "https://pics.mercci22.tw/mercci22/ProductCovers/09a66fe7-b47a-4acb-9779-cb5460e48424_w800_h1000.jpg",
+      "sold": null
+    }
+  ]
+}

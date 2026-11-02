@@ -575,7 +575,17 @@
       "img": "https://photo.minimatters.com.tw/Photo/15030052/15030052-102-01-1.jpg",
       "sold": null,
       "firstSeen": "2026-10-26"
+    },
+    "2610140019": {
+      "id": "2610140019",
+      "name": "小海星墜飾項鍊",
+      "url": "https://www.minimatters.com.tw/Product?SaleID=2610140019&ColorID=102",
+      "price": 680,
+      "origPrice": null,
+      "img": "https://photo.minimatters.com.tw/Photo/15030053/15030053-102-01-1.jpg",
+      "sold": null,
+      "firstSeen": "2026-11-02"
     }
   },
-  "updatedAt": "2026-10-29"
+  "updatedAt": "2026-11-02"
 }

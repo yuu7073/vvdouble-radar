@@ -1,0 +1,22 @@
+[
+  {
+    "n": 1,
+    "pc": "banners/01-pc.gif",
+    "mobile": "banners/01-m.gif",
+    "pcUrl": "https://pics.mercci22.tw/img/mainpage/2026SS/index/102726/103026.gif",
+    "mobileUrl": "https://pics.mercci22.tw/img/mainpage/2026SS/index/102726/103026s.gif",
+    "link": "https://www.mercci22.com/hot?index_bn_tracking=WEB&103026_c",
+    "text": "",
+    "alt": ""
+  },
+  {
+    "n": 2,
+    "pc": "banners/02-pc.jpg",
+    "mobile": "banners/02-m.jpg",
+    "pcUrl": "https://pics.mercci22.tw/img/mainpage/2026SS/index/102726/a-0.jpg",
+    "mobileUrl": "https://pics.mercci22.tw/img/mainpage/2026SS/index/102726/a-0s.jpg",
+    "link": "https://www.mercci22.com/hot?index_bn_tracking=WEB&102726_a-0_c",
+    "text": "",
+    "alt": ""
+  }
+]
