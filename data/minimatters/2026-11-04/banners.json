@@ -1,0 +1,42 @@
+[
+  {
+    "n": 1,
+    "pc": "banners/01-pc.jpg",
+    "mobile": "banners/01-m.jpg",
+    "pcUrl": "https://photo.minimatters.com.tw/Photo/H/0f490044-217c-48cd-b9ab-8a72badd63e3.jpg",
+    "mobileUrl": "https://photo.minimatters.com.tw/Photo/H/b95e52f0-01b2-4df8-912d-fc7468dbd320.jpg",
+    "link": "",
+    "text": "",
+    "alt": ""
+  },
+  {
+    "n": 2,
+    "pc": "banners/02-pc.gif",
+    "mobile": "banners/02-m.gif",
+    "pcUrl": "https://photo.minimatters.com.tw/Photo/H/027e3ab5-eb7b-456e-84ad-0acbc3812def.gif",
+    "mobileUrl": "https://photo.minimatters.com.tw/Photo/H/39a1a87f-ab5a-460d-a0d8-7d537a3ce1da.gif",
+    "link": "",
+    "text": "",
+    "alt": ""
+  },
+  {
+    "n": 3,
+    "pc": "banners/03-pc.gif",
+    "mobile": "banners/03-m.gif",
+    "pcUrl": "https://photo.minimatters.com.tw/Photo/H/5f879d27-a29b-4811-b3cf-0883284c37d1.gif",
+    "mobileUrl": "https://photo.minimatters.com.tw/Photo/H/9186a62b-30fc-4c57-94bb-6e95b26f94d9.gif",
+    "link": "",
+    "text": "",
+    "alt": ""
+  },
+  {
+    "n": 4,
+    "pc": "",
+    "mobile": "banners/04-m.jpg",
+    "pcUrl": "https://photo.minimatters.com.tw/Photo/H/26af1e6c-dc6d-46c2-bbd5-e985e227de55.jpg",
+    "mobileUrl": "https://photo.minimatters.com.tw/Photo/H/033e5f01-4813-4cb0-afc2-1188d61ce720.jpg",
+    "link": "",
+    "text": "",
+    "alt": ""
+  }
+]
