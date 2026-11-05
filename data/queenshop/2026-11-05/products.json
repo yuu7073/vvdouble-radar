@@ -1,0 +1,389 @@
+{
+  "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/ProductList?item1=00",
+  "count": 42,
+  "fresh": [
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=03010976",
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01087365",
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01200138"
+  ],
+  "items": [
+    {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01013555&Page=1",
+      "name": "花紗開襟綁帶設計針織上衣 三色售",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01013555&Page=1",
+      "price": 695,
+      "origPrice": 790,
+      "img": "https://photo.queenshop.com.tw/01013555/01013555.jpg",
+      "sold": "170"
+    },
+    {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01025926&Page=1",
+      "name": "皺皺紋理配色格紋襯衫 兩色售",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01025926&Page=1",
+      "price": 519,
+      "origPrice": 590,
+      "img": "https://photo.queenshop.com.tw/01025926/01025926.jpg",
+      "sold": "96"
+    },
+    {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01087370&Page=1",
+      "name": "條紋剪接百褶襯衫洋裝附綁帶 兩色售",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01087370&Page=1",
+      "price": 783,
+      "origPrice": 890,
+      "img": "https://photo.queenshop.com.tw/01087370/01087370.jpg",
+      "sold": "181"
+    },
+    {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01099962&Page=1",
+      "name": "皺皺紋理點點透膚高領上衣-白",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01099962&Page=1",
+      "price": 343,
+      "origPrice": 390,
+      "img": "https://photo.queenshop.com.tw/01099962/01099962.jpg",
+      "sold": "203"
+    },
+    {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01099963&Page=1",
+      "name": "皺皺紋裡點點透膚高領上衣-杏",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01099963&Page=1",
+      "price": 343,
+      "origPrice": 390,
+      "img": "https://photo.queenshop.com.tw/01099963/01099963.jpg",
+      "sold": "202"
+    },
+    {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01099964&Page=1",
+      "name": "皺皺紋裡點點透膚高領上衣-藍",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01099964&Page=1",
+      "price": 343,
+      "origPrice": 390,
+      "img": "https://photo.queenshop.com.tw/01099964/01099964.jpg",
+      "sold": "176"
+    },
+    {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01099965&Page=1",
+      "name": "皺皺紋裡點點透膚高領上衣-粉",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01099965&Page=1",
+      "price": 343,
+      "origPrice": 390,
+      "img": "https://photo.queenshop.com.tw/01099965/01099965.jpg",
+      "sold": "153"
+    },
+    {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01099966&Page=1",
+      "name": "皺皺紋裡點點透膚高領上衣-黑",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01099966&Page=1",
+      "price": 343,
+      "origPrice": 390,
+      "img": "https://photo.queenshop.com.tw/01099966/01099966.jpg",
+      "sold": "205"
+    },
+    {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01140120&Page=1",
+      "name": "抓皺造型背心開襟兩件式上衣 兩色售",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01140120&Page=1",
+      "price": 519,
+      "origPrice": 590,
+      "img": "https://photo.queenshop.com.tw/01140120/01140120.jpg",
+      "sold": "91"
+    },
+    {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01150501&Page=1",
+      "name": "花邊剪接織紋造型針織背心 三色售",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01150501&Page=1",
+      "price": 431,
+      "origPrice": 490,
+      "img": "https://photo.queenshop.com.tw/01150501/01150501.jpg",
+      "sold": "105"
+    },
+    {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01200001&Page=1",
+      "name": "格紋抓皺透膚上衣附綁帶-咖啡",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01200001&Page=1",
+      "price": 396,
+      "origPrice": 450,
+      "img": "https://photo.queenshop.com.tw/01200001/01200001.jpg",
+      "sold": "172"
+    },
+    {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01200002&Page=1",
+      "name": "格紋抓皺透膚上衣附綁帶-粉",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01200002&Page=1",
+      "price": 396,
+      "origPrice": 450,
+      "img": "https://photo.queenshop.com.tw/01200002/01200002.jpg",
+      "sold": "124"
+    },
+    {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01200003&Page=1",
+      "name": "格紋抓皺透膚上衣附綁帶-綠",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01200003&Page=1",
+      "price": 396,
+      "origPrice": 450,
+      "img": "https://photo.queenshop.com.tw/01200003/01200003.jpg",
+      "sold": "119"
+    },
+    {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01200004&Page=1",
+      "name": "格紋抓皺透膚上衣附綁帶-紫",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01200004&Page=1",
+      "price": 396,
+      "origPrice": 450,
+      "img": "https://photo.queenshop.com.tw/01200004/01200004.jpg",
+      "sold": "139"
+    },
+    {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01200010&Page=1",
+      "name": "條紋半門襟假兩件長袖上衣 三色售",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01200010&Page=1",
+      "price": 519,
+      "origPrice": 590,
+      "img": "https://photo.queenshop.com.tw/01200010/01200010.jpg",
+      "sold": "217"
+    },
+    {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01200181&Page=1",
+      "name": "荷葉領上衣附花邊針織披肩-白",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01200181&Page=1",
+      "price": 519,
+      "origPrice": 590,
+      "img": "https://photo.queenshop.com.tw/01200181/01200181.jpg",
+      "sold": "124"
+    },
+    {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01200182&Page=1",
+      "name": "荷葉領上衣附花邊針織披肩-杏",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01200182&Page=1",
+      "price": 519,
+      "origPrice": 590,
+      "img": "https://photo.queenshop.com.tw/01200182/01200182.jpg",
+      "sold": "125"
+    },
+    {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01200183&Page=1",
+      "name": "荷葉領上衣附花邊針織披肩-藍",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01200183&Page=1",
+      "price": 519,
+      "origPrice": 590,
+      "img": "https://photo.queenshop.com.tw/01200183/01200183.jpg",
+      "sold": "104"
+    },
+    {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01200184&Page=1",
+      "name": "荷葉領上衣附花邊針織披肩-深藍",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01200184&Page=1",
+      "price": 519,
+      "origPrice": 590,
+      "img": "https://photo.queenshop.com.tw/01200184/01200184.jpg",
+      "sold": "118"
+    },
+    {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01200195&Page=1",
+      "name": "配色條紋針織上衣附披肩-灰",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01200195&Page=1",
+      "price": 572,
+      "origPrice": 650,
+      "img": "https://photo.queenshop.com.tw/01200195/01200195.jpg",
+      "sold": "185"
+    },
+    {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01200196&Page=1",
+      "name": "配色條紋針織上衣附披肩-綠",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01200196&Page=1",
+      "price": 572,
+      "origPrice": 650,
+      "img": "https://photo.queenshop.com.tw/01200196/01200196.jpg",
+      "sold": "160"
+    },
+    {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01200208&Page=1",
+      "name": "花紗木耳邊造型透膚針織上衣 三色售",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01200208&Page=1",
+      "price": 396,
+      "origPrice": 450,
+      "img": "https://photo.queenshop.com.tw/01200208/01200208.jpg",
+      "sold": "201"
+    },
+    {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01200211&Page=1",
+      "name": "蕾絲蝴蝶結剪接設計假兩件上衣 三色售",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01200211&Page=1",
+      "price": 519,
+      "origPrice": 590,
+      "img": "https://photo.queenshop.com.tw/01200211/01200211.jpg",
+      "sold": "138"
+    },
+    {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01200228&Page=1",
+      "name": "點點綁帶透膚網紗上衣 兩色售",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01200228&Page=1",
+      "price": 343,
+      "origPrice": 390,
+      "img": "https://photo.queenshop.com.tw/01200228/01200228.jpg",
+      "sold": "158"
+    },
+    {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01200236&Page=1",
+      "name": "暈染造型繞脖一字領上衣 三色售",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01200236&Page=1",
+      "price": 431,
+      "origPrice": 490,
+      "img": "https://photo.queenshop.com.tw/01200236/01200236.jpg",
+      "sold": "122"
+    },
+    {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=02071741&Page=1",
+      "name": "澎袖傘擺造型風衣外套 三色售",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=02071741&Page=1",
+      "price": 862,
+      "origPrice": 980,
+      "img": "https://photo.queenshop.com.tw/02071741/02071741.jpg",
+      "sold": "225"
+    },
+    {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=02071750&Page=1",
+      "name": "休閒條紋抽繩連帽外套 三色售",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=02071750&Page=1",
+      "price": 607,
+      "origPrice": 690,
+      "img": "https://photo.queenshop.com.tw/02071750/02071750.jpg",
+      "sold": "100"
+    },
+    {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=03010978&Page=1",
+      "name": "荷葉剪接緹花氣球短裙 兩色售 S/M",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=03010978&Page=1",
+      "price": 519,
+      "origPrice": 590,
+      "img": "https://photo.queenshop.com.tw/03010978/03010978.jpg",
+      "sold": "200"
+    },
+    {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=03030283&Page=1",
+      "name": "荷葉剪接西裝百褶五分裙 三色售",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=03030283&Page=1",
+      "price": 519,
+      "origPrice": 590,
+      "img": "https://photo.queenshop.com.tw/03030283/03030283.jpg",
+      "sold": "204"
+    },
+    {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=04011905&Page=1",
+      "name": "復古洗水剪接牛仔長褲 XS/S/M/L",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=04011905&Page=1",
+      "price": 748,
+      "origPrice": 850,
+      "img": "https://photo.queenshop.com.tw/04011905/04011905.jpg",
+      "sold": "166"
+    },
+    {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=04020590&Page=1",
+      "name": "花花鉚釘裝飾太空棉長褲 兩色售 S/M",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=04020590&Page=1",
+      "price": 783,
+      "origPrice": 890,
+      "img": "https://photo.queenshop.com.tw/04020590/04020590.jpg",
+      "sold": "106"
+    },
+    {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=07021013&Page=1",
+      "name": "滿版配色豹紋造型貝蕾帽 兩色售",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=07021013&Page=1",
+      "price": 431,
+      "origPrice": 490,
+      "img": "https://photo.queenshop.com.tw/07021013/07021013.jpg",
+      "sold": "80"
+    },
+    {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=03021808",
+      "name": "柏心聯名 多層次荷葉羽毛蛋糕長裙-白",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=03021808",
+      "price": 1780,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/03021808/03021808-h.jpg",
+      "sold": null
+    },
+    {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01099997",
+      "name": "柏心聯名 素面側抓皺絨感酒瓶領上衣-白 S/M",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01099997",
+      "price": 590,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/01099997/01099997-h.jpg",
+      "sold": null
+    },
+    {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01087388",
+      "name": "柏心聯名 格紋半門襟澎袖磨毛短洋裝",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01087388",
+      "price": 1380,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/01087388/01087388-h.jpg",
+      "sold": null
+    },
+    {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=03010976",
+      "name": "柏心聯名 麂皮剪接抓皺氣球短裙-咖啡 S/M/L",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=03010976",
+      "price": 780,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/03010976/03010976-h.jpg",
+      "sold": null
+    },
+    {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01087365",
+      "name": "柏心聯名 荷葉領片袖透膚緹花短洋裝-黑",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01087365",
+      "price": 1380,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/01087365/01087365-h.jpg",
+      "sold": null
+    },
+    {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01200138",
+      "name": "柏心聯名 一字領星星排釦針織上衣-米白",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01200138",
+      "price": 1180,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/01200138/01200138-h.jpg",
+      "sold": null
+    },
+    {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01087386",
+      "name": "柏心聯名 蕾絲領片毛球綁帶磨毛長洋裝",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01087386",
+      "price": 1380,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/01087386/01087386-h.jpg",
+      "sold": null
+    },
+    {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01087364",
+      "name": "柏心聯名 荷葉領片袖透膚緹花短洋裝-白",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01087364",
+      "price": 1380,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/01087364/01087364-h.jpg",
+      "sold": null
+    },
+    {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=02011217",
+      "name": "柏心聯名 手工縫線設計花花排釦針織外套-灰",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=02011217",
+      "price": 2280,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/02011217/02011217-h.jpg",
+      "sold": null
+    },
+    {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=02011218",
+      "name": "柏心聯名 手工縫線設計花花排釦針織外套-藍",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=02011218",
+      "price": 2280,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/02011218/02011218-h.jpg",
+      "sold": null
+    }
+  ]
+}

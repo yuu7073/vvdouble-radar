@@ -1666,7 +1666,40 @@
       "sold": "50",
       "firstSeen": "2026-11-04",
       "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_item1_11_item2_00_item3_QS_SaleID_07021013_Page_1.jpg"
+    },
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=03010976": {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=03010976",
+      "name": "柏心聯名 麂皮剪接抓皺氣球短裙-咖啡 S/M/L",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=03010976",
+      "price": 780,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/03010976/03010976-h.jpg",
+      "sold": null,
+      "firstSeen": "2026-11-05",
+      "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_SaleID_03010976.jpg"
+    },
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01087365": {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01087365",
+      "name": "柏心聯名 荷葉領片袖透膚緹花短洋裝-黑",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01087365",
+      "price": 1380,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/01087365/01087365-h.jpg",
+      "sold": null,
+      "firstSeen": "2026-11-05",
+      "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_SaleID_01087365.jpg"
+    },
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01200138": {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01200138",
+      "name": "柏心聯名 一字領星星排釦針織上衣-米白",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01200138",
+      "price": 1180,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/01200138/01200138-h.jpg",
+      "sold": null,
+      "firstSeen": "2026-11-05",
+      "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_SaleID_01200138.jpg"
     }
   },
-  "updatedAt": "2026-11-04"
+  "updatedAt": "2026-11-05"
 }
