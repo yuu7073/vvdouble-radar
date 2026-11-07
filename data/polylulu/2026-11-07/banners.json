@@ -1,0 +1,52 @@
+[
+  {
+    "n": 1,
+    "pc": "banners/01-pc.jpg",
+    "mobile": "banners/01-m.jpg",
+    "pcUrl": "https://photo.polylulu.com.tw/photo/act/20261104/indexbn-20261104-pc-01.jpg?v=20261104",
+    "mobileUrl": "https://photo.polylulu.com.tw/photo/act/20261104/indexbn-20261104-m-01.jpg?v=20261104",
+    "link": "https://www.polylulu.com.tw/productstylePage?KeyWord=26110201",
+    "text": "",
+    "alt": "1111狂歡購物節"
+  },
+  {
+    "n": 2,
+    "pc": "",
+    "mobile": "banners/02-m.jpg",
+    "pcUrl": "https://photo.polylulu.com.tw/photo/act/20261104/indexbn-20261104-pc-02a.jpg?v=20261104",
+    "mobileUrl": "https://photo.polylulu.com.tw/photo/act/20261104/indexbn-20261104-m-02a.jpg?v=20261104",
+    "link": "https://www.polylulu.com.tw/productlist?KeyWord=pi:6599398401&actno=26102905&onsale=1",
+    "text": "",
+    "alt": "兩件990"
+  },
+  {
+    "n": 3,
+    "pc": "banners/03-pc.jpg",
+    "mobile": "",
+    "pcUrl": "https://photo.polylulu.com.tw/photo/act/20261104/indexbn-20261104-pc-03.jpg?v=20261104",
+    "mobileUrl": "https://photo.polylulu.com.tw/photo/act/20261104/indexbn-20261104-m-03.jpg?v=20261104",
+    "link": "https://www.polylulu.com.tw/productlist?KeyWord=pim:2611030001&actno=26102901",
+    "text": "",
+    "alt": "新品上市"
+  },
+  {
+    "n": 4,
+    "pc": "banners/04-pc.jpg",
+    "mobile": "banners/04-m.jpg",
+    "pcUrl": "https://photo.polylulu.com.tw/photo/act/20261104/indexbn-20261104-pc-04.jpg?v=20261104",
+    "mobileUrl": "https://photo.polylulu.com.tw/photo/act/20261104/indexbn-20261104-m-04.jpg?v=20261104",
+    "link": "https://www.polylulu.com.tw/ponyo",
+    "text": "",
+    "alt": "PONYO"
+  },
+  {
+    "n": 5,
+    "pc": "banners/05-pc.jpg",
+    "mobile": "banners/05-m.jpg",
+    "pcUrl": "https://photo.polylulu.com.tw/photo/act/20261104/indexbn-20261104-pc-05.jpg?v=20261104",
+    "mobileUrl": "https://photo.polylulu.com.tw/photo/act/20261104/indexbn-20261104-m-05.jpg?v=20261104",
+    "link": "https://www.polylulu.com.tw/productlist?KeyWord=pim:2611030001&actno=26102901",
+    "text": "",
+    "alt": "新品上市"
+  }
+]
