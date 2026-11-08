@@ -1805,7 +1805,18 @@
       "sold": null,
       "firstSeen": "2026-11-02",
       "thumb": "img/airspace/TW2640126001.webp"
+    },
+    "TW2640124015": {
+      "id": "TW2640124015",
+      "name": "【HEYMAN聯名】V型一字領蕾絲肩帶喇叭袖麻花針織短洋裝",
+      "url": "https://www.airspaceonline.com/tw/zh-hant/product/TW2640124015/002",
+      "price": 990,
+      "origPrice": null,
+      "img": "https://images.airspaceonline.com/photo/2640124015/3d19a95c-7153-42ed-8390-5d8443f70cb2.webp",
+      "sold": null,
+      "firstSeen": "2026-11-08",
+      "thumb": "img/airspace/TW2640124015.webp"
     }
   },
-  "updatedAt": "2026-11-02"
+  "updatedAt": "2026-11-08"
 }

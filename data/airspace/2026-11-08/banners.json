@@ -1,0 +1,22 @@
+[
+  {
+    "n": 1,
+    "pc": "banners/01-pc.webp",
+    "mobile": "banners/01-m.webp",
+    "pcUrl": "https://images.airspaceonline.com/photo/H/5230eb60-c01e-42a2-9e09-8b27815799c7.webp",
+    "mobileUrl": "https://images.airspaceonline.com/photo/H/5230eb60-c01e-42a2-9e09-8b27815799c7.webp",
+    "link": "https://www.airspaceonline.com/tw/zh-hant/productlist?promotionid=2611SALE",
+    "text": "",
+    "alt": ""
+  },
+  {
+    "n": 2,
+    "pc": "banners/02-pc.webp",
+    "mobile": "banners/02-m.webp",
+    "pcUrl": "https://images.airspaceonline.com/photo/H/d5d18525-5dd0-4222-acf7-b7dde6ee6966.webp",
+    "mobileUrl": "https://images.airspaceonline.com/photo/H/d5d18525-5dd0-4222-acf7-b7dde6ee6966.webp",
+    "link": "https://www.airspaceonline.com/tw/zh-hant/productlist/air-space/collab/coedit/heyman",
+    "text": "",
+    "alt": ""
+  }
+]
