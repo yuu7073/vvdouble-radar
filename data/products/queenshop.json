@@ -1820,7 +1820,18 @@
       "sold": null,
       "firstSeen": "2026-11-08",
       "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_SaleID_01140118.jpg"
+    },
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=02071750": {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=02071750",
+      "name": "休閒條紋抽繩連帽外套 三色售",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=02071750",
+      "price": 607,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/02071750/02071750-h.jpg",
+      "sold": null,
+      "firstSeen": "2026-11-09",
+      "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_SaleID_02071750.jpg"
     }
   },
-  "updatedAt": "2026-11-08"
+  "updatedAt": "2026-11-09"
 }

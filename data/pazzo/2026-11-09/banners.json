@@ -1,0 +1,42 @@
+[
+  {
+    "n": 1,
+    "pc": "banners/01-pc.jpg",
+    "mobile": "banners/01-m.jpg",
+    "pcUrl": "https://pics.pzcdn.tw/pazzo/IndexWidget/e2e30744-35eb-4ac2-b4b0-65737f38899e.jpg",
+    "mobileUrl": "https://pics.pzcdn.tw/pazzo/IndexWidget/56cbaa3a-c976-4946-bf57-cbf8528a84c6.jpg",
+    "link": "https://www.pazzo.com.tw/tag/20261109new",
+    "text": "",
+    "alt": ""
+  },
+  {
+    "n": 2,
+    "pc": "banners/02-pc.jpg",
+    "mobile": "banners/02-m.jpg",
+    "pcUrl": "https://pics.pzcdn.tw/pazzo/IndexWidget/a5b749ed-0458-4329-a396-e1abb58c2900.jpg",
+    "mobileUrl": "https://pics.pzcdn.tw/pazzo/IndexWidget/0f3f429e-39f3-4002-8a13-10f7eba411d6.jpg",
+    "link": "https://www.pazzo.com.tw/zh-tw/category/shop/bkpants",
+    "text": "",
+    "alt": ""
+  },
+  {
+    "n": 3,
+    "pc": "banners/03-pc.jpg",
+    "mobile": "banners/03-m.jpg",
+    "pcUrl": "https://pics.pzcdn.tw/pazzo/IndexWidget/a2ed320b-37ca-405e-afb4-f456ef5f0946.jpg",
+    "mobileUrl": "https://pics.pzcdn.tw/pazzo/IndexWidget/63b8a65b-8241-41fa-836d-5e6d7983ce4a.jpg",
+    "link": "https://www.pazzo.com.tw/tag/2026lace",
+    "text": "",
+    "alt": ""
+  },
+  {
+    "n": 4,
+    "pc": "banners/04-pc.gif",
+    "mobile": "banners/04-m.gif",
+    "pcUrl": "https://pics.pzcdn.tw/pazzo/IndexWidget/755799dc-a057-4ee6-9c15-342c73a2021a.gif",
+    "mobileUrl": "https://pics.pzcdn.tw/pazzo/IndexWidget/de0681e6-5d1c-4826-8529-9e1f851e0cd3.gif",
+    "link": "https://www.pazzo.com.tw/tag/20261109new",
+    "text": "",
+    "alt": ""
+  }
+]
