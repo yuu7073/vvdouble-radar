@@ -1,0 +1,118 @@
+{
+  "url": "https://www.pazzo.com.tw/recent",
+  "count": 12,
+  "fresh": [
+    "24425",
+    "25918"
+  ],
+  "items": [
+    {
+      "id": "25866",
+      "name": "品牌LOGO美麗諾羊毛修身圓領上衣",
+      "url": "https://www.pazzo.com.tw/en-us/market/n/25866?c=58179",
+      "price": 399,
+      "origPrice": 690,
+      "img": "https://pics.pzcdn.tw/pazzo/ProductCovers/18c81e57-6af6-4595-9274-e37f45692fc1_w886_h1128.jpg",
+      "sold": null
+    },
+    {
+      "id": "25908",
+      "name": "MIT 萊賽爾直角肩長袖上衣",
+      "url": "https://www.pazzo.com.tw/en-us/market/n/25908?c=58277",
+      "price": 499,
+      "origPrice": 690,
+      "img": "https://pics.pzcdn.tw/pazzo/ProductCovers/6fd3c36b-5d30-432c-b8db-c1892e2d2d60_w886_h1128.jpg",
+      "sold": null
+    },
+    {
+      "id": "22892",
+      "name": "& IN THING 簍空刺繡毛衣",
+      "url": "https://www.pazzo.com.tw/en-us/market/n/22892?c=58258",
+      "price": 690,
+      "origPrice": 890,
+      "img": "https://pics.pzcdn.tw/pazzo/ProductCovers/56771f42-2771-4988-a4a3-68839e469792_w886_h1128.jpg",
+      "sold": null
+    },
+    {
+      "id": "25930",
+      "name": "磨毛高領雙拉鍊針織上衣外套",
+      "url": "https://www.pazzo.com.tw/en-us/market/n/25930?c=58341",
+      "price": 1090,
+      "origPrice": null,
+      "img": "https://pics.pzcdn.tw/pazzo/ProductCovers/e160a90d-6a51-46b5-a202-d2c8c04c2d67_w886_h1128.jpg",
+      "sold": null
+    },
+    {
+      "id": "25945",
+      "name": "無腰結中線西裝長褲",
+      "url": "https://www.pazzo.com.tw/en-us/market/n/25945?c=58381",
+      "price": 890,
+      "origPrice": null,
+      "img": "https://pics.pzcdn.tw/pazzo/ProductCovers/a17a9d85-ff08-4671-adc6-f602dd6996f0_w886_h1128.jpg",
+      "sold": null
+    },
+    {
+      "id": "25926",
+      "name": "半開襟抓皺蕾絲長袖上衣",
+      "url": "https://www.pazzo.com.tw/en-us/market/n/25926?c=58325",
+      "price": 499,
+      "origPrice": 690,
+      "img": "https://pics.pzcdn.tw/pazzo/ProductCovers/bf5d5e13-f264-42dc-86ba-07a9ad527ad9_w886_h1128.jpg",
+      "sold": null
+    },
+    {
+      "id": "25903",
+      "name": "圓領條紋排釦長袖上衣",
+      "url": "https://www.pazzo.com.tw/en-us/market/n/25903?c=58265",
+      "price": 690,
+      "origPrice": null,
+      "img": "https://pics.pzcdn.tw/pazzo/ProductCovers/62729c2c-fe16-4b94-a4b3-03b87c8d3669_w886_h1128.jpg",
+      "sold": null
+    },
+    {
+      "id": "25963",
+      "name": "刷色後調節扣牛仔褲",
+      "url": "https://www.pazzo.com.tw/en-us/market/n/25963?c=58415",
+      "price": 1290,
+      "origPrice": null,
+      "img": "https://pics.pzcdn.tw/pazzo/ProductCovers/cf73bd9e-2246-4eb4-addc-028f9b2d46eb_w886_h1128.jpg",
+      "sold": null
+    },
+    {
+      "id": "25887",
+      "name": "天絲大U領兩穿式長袖上衣",
+      "url": "https://www.pazzo.com.tw/en-us/market/n/25887?c=58235",
+      "price": 499,
+      "origPrice": 690,
+      "img": "https://pics.pzcdn.tw/pazzo/ProductCovers/26adc1cb-bae3-42ce-befb-9d2864fe8d6c_w886_h1128.jpg",
+      "sold": null
+    },
+    {
+      "id": "25894",
+      "name": "立領美背針織背心",
+      "url": "https://www.pazzo.com.tw/en-us/market/n/25894?c=58247",
+      "price": 590,
+      "origPrice": null,
+      "img": "https://pics.pzcdn.tw/pazzo/ProductCovers/4d033de9-7ba6-4465-ac21-85e81aefe232_w886_h1128.jpg",
+      "sold": null
+    },
+    {
+      "id": "24425",
+      "name": "MIT 萊賽爾直角肩短袖上衣",
+      "url": "https://www.pazzo.com.tw/en-us/market/n/24425?c=55504",
+      "price": 399,
+      "origPrice": 590,
+      "img": "https://pics.pzcdn.tw/pazzo/ProductCovers/ade95c8e-a6a2-4518-b669-8b3d75736980_w886_h1128.jpg",
+      "sold": null
+    },
+    {
+      "id": "25918",
+      "name": "& IN THING蕾絲繡花LOGO大學TEE",
+      "url": "https://www.pazzo.com.tw/en-us/market/n/25918?c=58305",
+      "price": 790,
+      "origPrice": 890,
+      "img": "https://pics.pzcdn.tw/pazzo/ProductCovers/fea9e0db-ce31-4e92-9124-fe4f342482ba_w886_h1128.jpg",
+      "sold": null
+    }
+  ]
+}

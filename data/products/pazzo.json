@@ -90,6 +90,17 @@
       "firstSeen": "2026-11-02",
       "thumb": "img/pazzo/24018.jpg"
     },
+    "24425": {
+      "id": "24425",
+      "name": "MIT 萊賽爾直角肩短袖上衣",
+      "url": "https://www.pazzo.com.tw/en-us/market/n/24425?c=55504",
+      "price": 399,
+      "origPrice": 590,
+      "img": "https://pics.pzcdn.tw/pazzo/ProductCovers/ade95c8e-a6a2-4518-b669-8b3d75736980_w886_h1128.jpg",
+      "sold": null,
+      "firstSeen": "2026-11-10",
+      "thumb": "img/pazzo/24425.jpg"
+    },
     "24543": {
       "id": "24543",
       "name": "UCLA小熊刺繡棒球帽",
@@ -1047,6 +1058,17 @@
       "firstSeen": "2026-11-09",
       "thumb": "img/pazzo/25917.jpg"
     },
+    "25918": {
+      "id": "25918",
+      "name": "& IN THING蕾絲繡花LOGO大學TEE",
+      "url": "https://www.pazzo.com.tw/en-us/market/n/25918?c=58305",
+      "price": 790,
+      "origPrice": 890,
+      "img": "https://pics.pzcdn.tw/pazzo/ProductCovers/fea9e0db-ce31-4e92-9124-fe4f342482ba_w886_h1128.jpg",
+      "sold": null,
+      "firstSeen": "2026-11-10",
+      "thumb": "img/pazzo/25918.jpg"
+    },
     "25925": {
       "id": "25925",
       "name": "MIT雲朵蕾絲花邊假兩件BRA TOP",
@@ -1180,5 +1202,5 @@
       "thumb": "img/pazzo/25963.jpg"
     }
   },
-  "updatedAt": "2026-11-09"
+  "updatedAt": "2026-11-10"
 }

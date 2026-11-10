@@ -1348,6 +1348,17 @@
       "firstSeen": "2026-10-05",
       "thumb": "img/obdesign/11402897.jpg"
     },
+    "11422126": {
+      "id": "11422126",
+      "name": "productBadgeImage_//img.91app.com/webapi/imagesV3/Cropped/Pr",
+      "url": "https://www.obdesign.com.tw/SalePage/Index/11422126",
+      "price": 1180,
+      "origPrice": null,
+      "img": "https://img.91app.com/webapi/imagesV3/Cropped/ProductBadge/102287/ratioOneToOne/639298187413202890?v=1",
+      "sold": null,
+      "firstSeen": "2026-11-10",
+      "thumb": "img/obdesign/11422126.jpg"
+    },
     "11422132": {
       "id": "11422132",
       "name": "保暖毛呢雙色格紋襯衫外套",
@@ -1391,6 +1402,17 @@
       "sold": null,
       "firstSeen": "2026-11-02",
       "thumb": "img/obdesign/11453175.jpg"
+    },
+    "11472004": {
+      "id": "11472004",
+      "name": "productBadgeImage_//img.91app.com/webapi/imagesV3/Cropped/Pr",
+      "url": "https://www.obdesign.com.tw/SalePage/Index/11472004",
+      "price": 799,
+      "origPrice": null,
+      "img": "https://img.91app.com/webapi/imagesV3/Cropped/ProductBadge/102287/ratioOneToOne/639298187413202890?v=1",
+      "sold": null,
+      "firstSeen": "2026-11-10",
+      "thumb": "img/obdesign/11472004.jpg"
     },
     "11581324": {
       "id": "11581324",
@@ -5058,6 +5080,17 @@
       "firstSeen": "2026-11-09",
       "thumb": "img/obdesign/12291531.jpg"
     },
+    "12291532": {
+      "id": "12291532",
+      "name": "立翻領兩穿式袖袢調節長版外套",
+      "url": "https://www.obdesign.com.tw/SalePage/Index/12291532",
+      "price": 3980,
+      "origPrice": null,
+      "img": "https://img.91app.com/webapi/imagesV3/Cropped/SalePage/12291532/0/639298767089800000?v=1",
+      "sold": null,
+      "firstSeen": "2026-11-10",
+      "thumb": "img/obdesign/12291532.jpg"
+    },
     "12291533": {
       "id": "12291533",
       "name": "羊毛質感抽鬚滾邊排釦外套",
@@ -5442,7 +5475,62 @@
       "sold": null,
       "firstSeen": "2026-11-09",
       "thumb": "img/obdesign/12291567.jpg"
+    },
+    "12295015": {
+      "id": "12295015",
+      "name": "productBadgeImage_//img.91app.com/webapi/imagesV3/Cropped/Pr",
+      "url": "https://www.obdesign.com.tw/SalePage/Index/12295015",
+      "price": 599,
+      "origPrice": null,
+      "img": "https://img.91app.com/webapi/imagesV3/Cropped/ProductBadge/102287/ratioOneToOne/639298187413202890?v=1",
+      "sold": null,
+      "firstSeen": "2026-11-10",
+      "thumb": "img/obdesign/12295015.jpg"
+    },
+    "12295016": {
+      "id": "12295016",
+      "name": "productBadgeImage_//img.91app.com/webapi/imagesV3/Cropped/Pr",
+      "url": "https://www.obdesign.com.tw/SalePage/Index/12295016",
+      "price": 299,
+      "origPrice": null,
+      "img": "https://img.91app.com/webapi/imagesV3/Cropped/ProductBadge/102287/ratioOneToOne/639298187413202890?v=1",
+      "sold": null,
+      "firstSeen": "2026-11-10",
+      "thumb": "img/obdesign/12295016.jpg"
+    },
+    "12295018": {
+      "id": "12295018",
+      "name": "productBadgeImage_//img.91app.com/webapi/imagesV3/Cropped/Pr",
+      "url": "https://www.obdesign.com.tw/SalePage/Index/12295018",
+      "price": 599,
+      "origPrice": null,
+      "img": "https://img.91app.com/webapi/imagesV3/Cropped/ProductBadge/102287/ratioOneToOne/639298187413202890?v=1",
+      "sold": null,
+      "firstSeen": "2026-11-10",
+      "thumb": "img/obdesign/12295018.jpg"
+    },
+    "12295022": {
+      "id": "12295022",
+      "name": "productBadgeImage_//img.91app.com/webapi/imagesV3/Cropped/Pr",
+      "url": "https://www.obdesign.com.tw/SalePage/Index/12295022",
+      "price": 1080,
+      "origPrice": null,
+      "img": "https://img.91app.com/webapi/imagesV3/Cropped/ProductBadge/102287/ratioOneToOne/639298187413202890?v=1",
+      "sold": null,
+      "firstSeen": "2026-11-10",
+      "thumb": "img/obdesign/12295022.jpg"
+    },
+    "12295024": {
+      "id": "12295024",
+      "name": "productBadgeImage_//img.91app.com/webapi/imagesV3/Cropped/Pr",
+      "url": "https://www.obdesign.com.tw/SalePage/Index/12295024",
+      "price": 999,
+      "origPrice": null,
+      "img": "https://img.91app.com/webapi/imagesV3/Cropped/ProductBadge/102287/ratioOneToOne/639298187413202890?v=1",
+      "sold": null,
+      "firstSeen": "2026-11-10",
+      "thumb": "img/obdesign/12295024.jpg"
     }
   },
-  "updatedAt": "2026-11-09"
+  "updatedAt": "2026-11-10"
 }
