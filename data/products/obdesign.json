@@ -1248,6 +1248,50 @@
       "firstSeen": "2026-11-09",
       "thumb": "img/obdesign/11381738.jpg"
     },
+    "11381750": {
+      "id": "11381750",
+      "name": "productBadgeImage_//img.91app.com/webapi/imagesV3/Cropped/Pr",
+      "url": "https://www.obdesign.com.tw/SalePage/Index/11381750",
+      "price": 699,
+      "origPrice": null,
+      "img": "https://img.91app.com/webapi/imagesV3/Cropped/ProductBadge/102287/ratioOneToOne/639298187413202890?v=1",
+      "sold": null,
+      "firstSeen": "2026-11-11",
+      "thumb": "img/obdesign/11381750.jpg"
+    },
+    "11381751": {
+      "id": "11381751",
+      "name": "productBadgeImage_//img.91app.com/webapi/imagesV3/Cropped/Pr",
+      "url": "https://www.obdesign.com.tw/SalePage/Index/11381751",
+      "price": 599,
+      "origPrice": 799,
+      "img": "https://img.91app.com/webapi/imagesV3/Cropped/ProductBadge/99961/ratioOneToOne/639282631782523070?v=1",
+      "sold": null,
+      "firstSeen": "2026-11-11",
+      "thumb": "img/obdesign/11381751.jpg"
+    },
+    "11381755": {
+      "id": "11381755",
+      "name": "日系保暖針織立體撞色織紋毛衣",
+      "url": "https://www.obdesign.com.tw/SalePage/Index/11381755",
+      "price": 499,
+      "origPrice": 699,
+      "img": "https://img.91app.com/webapi/imagesV3/Cropped/SalePage/11381755/0/639289248049800000?v=1",
+      "sold": null,
+      "firstSeen": "2026-11-11",
+      "thumb": "img/obdesign/11381755.jpg"
+    },
+    "11381758": {
+      "id": "11381758",
+      "name": "productBadgeImage_//img.91app.com/webapi/imagesV3/Cropped/Pr",
+      "url": "https://www.obdesign.com.tw/SalePage/Index/11381758",
+      "price": 599,
+      "origPrice": null,
+      "img": "https://img.91app.com/webapi/imagesV3/Cropped/ProductBadge/99962/ratioOneToOne/639282632661294540?v=1",
+      "sold": null,
+      "firstSeen": "2026-11-11",
+      "thumb": "img/obdesign/11381758.jpg"
+    },
     "11381781": {
       "id": "11381781",
       "name": "productBadgeImage_//img.91app.com/webapi/imagesV3/Cropped/Pr",
@@ -5532,5 +5576,5 @@
       "thumb": "img/obdesign/12295024.jpg"
     }
   },
-  "updatedAt": "2026-11-10"
+  "updatedAt": "2026-11-11"
 }
