@@ -1,0 +1,32 @@
+[
+  {
+    "n": 1,
+    "pc": "banners/01-pc.gif",
+    "mobile": "banners/01-m.gif",
+    "pcUrl": "https://images.airspaceonline.com/photo/H/2d8a8405-0b16-4169-81a9-09151382c95e.gif",
+    "mobileUrl": "https://images.airspaceonline.com/photo/H/2d8a8405-0b16-4169-81a9-09151382c95e.gif",
+    "link": "https://www.airspaceonline.com/tw/zh-hant/productlist/air-space/collab/coedit/bless",
+    "text": "",
+    "alt": ""
+  },
+  {
+    "n": 2,
+    "pc": "banners/02-pc.webp",
+    "mobile": "banners/02-m.webp",
+    "pcUrl": "https://images.airspaceonline.com/photo/H/b0b7e392-28d2-429b-b4ef-f352246af9ca.webp",
+    "mobileUrl": "https://images.airspaceonline.com/photo/H/b0b7e392-28d2-429b-b4ef-f352246af9ca.webp",
+    "link": "https://www.airspaceonline.com/tw/zh-hant/static?key=2026110500001",
+    "text": "",
+    "alt": ""
+  },
+  {
+    "n": 3,
+    "pc": "banners/03-pc.webp",
+    "mobile": "banners/03-m.webp",
+    "pcUrl": "https://images.airspaceonline.com/photo/H/0e2e5fd7-c079-4d4b-bda1-0a8fb36bcd50.webp",
+    "mobileUrl": "https://images.airspaceonline.com/photo/H/0e2e5fd7-c079-4d4b-bda1-0a8fb36bcd50.webp",
+    "link": "https://www.airspaceonline.com/tw/zh-hant/productlist/air-space",
+    "text": "",
+    "alt": ""
+  }
+]

@@ -61,12 +61,13 @@
       "id": "22892",
       "name": "& IN THING 簍空刺繡毛衣",
       "url": "https://www.pazzo.com.tw/en-us/market/n/22892?c=58258",
-      "price": 690,
+      "price": 890,
       "origPrice": 890,
       "img": "https://pics.pzcdn.tw/pazzo/ProductCovers/56771f42-2771-4988-a4a3-68839e469792_w886_h1128.jpg",
       "sold": null,
       "firstSeen": "2026-11-09",
-      "thumb": "img/pazzo/22892.jpg"
+      "thumb": "img/pazzo/22892.jpg",
+      "priceChanged": "2026-11-12"
     },
     "23986": {
       "id": "23986",
@@ -1202,5 +1203,5 @@
       "thumb": "img/pazzo/25963.jpg"
     }
   },
-  "updatedAt": "2026-11-10"
+  "updatedAt": "2026-11-12"
 }

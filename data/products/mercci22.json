@@ -75,7 +75,7 @@
       "img": "",
       "sold": null,
       "firstSeen": "2026-09-28",
-      "priceChanged": "2026-11-11"
+      "priceChanged": "2026-11-12"
     },
     "9158": {
       "id": "9158",
@@ -87,6 +87,17 @@
       "sold": null,
       "firstSeen": "2026-09-28",
       "thumb": "img/mercci22/9158.jpg"
+    },
+    "9232": {
+      "id": "9232",
+      "name": "MIT 激瘦喇叭褲(脫單褲4.0)",
+      "url": "https://www.mercci22.com/en-us/market/n/9232?c=17644",
+      "price": 799,
+      "origPrice": null,
+      "img": "https://pics.mercci22.tw/mercci22/ProductCovers/a8fe759c-7977-4052-8b91-c1e6345a627a_w800_h1000.jpg",
+      "sold": null,
+      "firstSeen": "2026-11-12",
+      "thumb": "img/mercci22/9232.jpg"
     },
     "9234": {
       "id": "9234",
@@ -1354,5 +1365,5 @@
       "thumb": "img/mercci22/9517.jpg"
     }
   },
-  "updatedAt": "2026-11-11"
+  "updatedAt": "2026-11-12"
 }

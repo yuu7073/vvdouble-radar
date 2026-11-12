@@ -1,0 +1,14 @@
+{
+  "brand": "queenshop",
+  "name": "Queen Shop",
+  "date": "2026-11-12",
+  "home": "https://www.queenshop.com.tw/",
+  "newPageUrl": "https://www.queenshop.com.tw/zh-TW/QueenShop/ProductList?item1=00",
+  "title": "QUEEN SHOP",
+  "scale": 2,
+  "pendingImages": {
+    "pc": 2,
+    "m": 2
+  },
+  "capturedAt": "2026-11-12T08:33:26.175Z"
+}

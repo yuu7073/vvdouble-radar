@@ -2194,7 +2194,62 @@
       "sold": null,
       "firstSeen": "2026-11-11",
       "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_SaleID_01200195.jpg"
+    },
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=12040226": {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=12040226",
+      "name": "20週年 古錐壓克力鑰匙圈",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=12040226",
+      "price": 150,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/12040226/12040226-h.jpg",
+      "sold": null,
+      "firstSeen": "2026-11-12",
+      "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_SaleID_12040226.jpg"
+    },
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=07130080": {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=07130080",
+      "name": "MIT 20週年 無敵好用毛巾",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=07130080",
+      "price": 590,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/07130080/07130080-h.jpg",
+      "sold": null,
+      "firstSeen": "2026-11-12",
+      "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_SaleID_07130080.jpg"
+    },
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=06070458": {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=06070458",
+      "name": "20週年 用不壞印花購物袋",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=06070458",
+      "price": 490,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/06070458/06070458-h.jpg",
+      "sold": null,
+      "firstSeen": "2026-11-12",
+      "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_SaleID_06070458.jpg"
+    },
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=12100239": {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=12100239",
+      "name": "20週年 好涼的扇子",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=12100239",
+      "price": 100,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/12100239/12100239-h.jpg",
+      "sold": null,
+      "firstSeen": "2026-11-12",
+      "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_SaleID_12100239.jpg"
+    },
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=12040224": {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=12040224",
+      "name": "20 週年 超可愛徽章",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=12040224",
+      "price": 150,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/12040224/12040224-h.jpg",
+      "sold": null,
+      "firstSeen": "2026-11-12",
+      "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_SaleID_12040224.jpg"
     }
   },
-  "updatedAt": "2026-11-11"
+  "updatedAt": "2026-11-12"
 }
