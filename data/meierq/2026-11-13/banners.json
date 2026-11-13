@@ -1,0 +1,52 @@
+[
+  {
+    "n": 1,
+    "pc": "banners/01-pc.jpg",
+    "mobile": "banners/01-m.jpg",
+    "pcUrl": "https://pics.meierq.com/meierq/System/8640988f-90e1-4751-82b3-6045377dc02e.jpg",
+    "mobileUrl": "https://pics.meierq.com/meierq/System/ad7b9386-1c64-4b0d-b22e-e30f62ee4467.jpg",
+    "link": "https://www.meierq.com/zh-tw/story/14th?category=crossover",
+    "text": "",
+    "alt": ""
+  },
+  {
+    "n": 2,
+    "pc": "banners/02-pc.jpg",
+    "mobile": "banners/02-m.jpg",
+    "pcUrl": "https://pics.meierq.com/meierq/System/e072c140-040f-4a20-b0e0-112bdb17342f.jpg",
+    "mobileUrl": "https://pics.meierq.com/meierq/System/e072c140-040f-4a20-b0e0-112bdb17342f.jpg",
+    "link": "https://www.meierq.com/zh-tw/category/shop/project/FAIRY",
+    "text": "",
+    "alt": ""
+  },
+  {
+    "n": 3,
+    "pc": "banners/03-pc.jpg",
+    "mobile": "banners/03-m.jpg",
+    "pcUrl": "https://pics.meierq.com/meierq/System/e2ebefc0-1f18-4bfd-807f-5a6a64bbfce2.jpg",
+    "mobileUrl": "https://pics.meierq.com/meierq/System/e2ebefc0-1f18-4bfd-807f-5a6a64bbfce2.jpg",
+    "link": "https://www.meierq.com/zh-tw/category/shop/project/SOULMEIER",
+    "text": "",
+    "alt": ""
+  },
+  {
+    "n": 4,
+    "pc": "banners/04-pc.jpg",
+    "mobile": "banners/04-m.jpg",
+    "pcUrl": "https://pics.meierq.com/meierq/System/8bd4e30b-6400-47dd-b3c0-86fe02ccde7f.jpg",
+    "mobileUrl": "https://pics.meierq.com/meierq/System/8bd4e30b-6400-47dd-b3c0-86fe02ccde7f.jpg",
+    "link": "https://www.meierq.com/zh-tw/category/shop/styleessentials/suzyszoo",
+    "text": "",
+    "alt": ""
+  },
+  {
+    "n": 5,
+    "pc": "banners/05-pc.jpg",
+    "mobile": "banners/05-m.jpg",
+    "pcUrl": "https://pics.meierq.com/meierq/System/c6fbf491-00f4-4a72-a65e-bc24245ee59b.jpg",
+    "mobileUrl": "https://pics.meierq.com/meierq/System/c6fbf491-00f4-4a72-a65e-bc24245ee59b.jpg",
+    "link": "https://www.meierq.com/zh-tw/category/shop/project/MMM",
+    "text": "",
+    "alt": ""
+  }
+]

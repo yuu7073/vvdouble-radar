@@ -1050,6 +1050,17 @@
       "firstSeen": "2026-10-22",
       "thumb": "img/obdesign/11326947.jpg"
     },
+    "11326951": {
+      "id": "11326951",
+      "name": "productBadgeImage_//img.91app.com/webapi/imagesV3/Cropped/Pr",
+      "url": "https://www.obdesign.com.tw/SalePage/Index/11326951",
+      "price": 699,
+      "origPrice": null,
+      "img": "https://img.91app.com/webapi/imagesV3/Cropped/ProductBadge/100196/ratioOneToOne/639286953217991360?v=1",
+      "sold": null,
+      "firstSeen": "2026-11-13",
+      "thumb": "img/obdesign/11326951.jpg"
+    },
     "11326965": {
       "id": "11326965",
       "name": "productBadgeImage_//img.91app.com/webapi/imagesV3/Cropped/Pr",
@@ -1263,12 +1274,13 @@
       "id": "11381751",
       "name": "productBadgeImage_//img.91app.com/webapi/imagesV3/Cropped/Pr",
       "url": "https://www.obdesign.com.tw/SalePage/Index/11381751",
-      "price": 599,
+      "price": 799,
       "origPrice": 799,
       "img": "https://img.91app.com/webapi/imagesV3/Cropped/ProductBadge/99961/ratioOneToOne/639282631782523070?v=1",
       "sold": null,
       "firstSeen": "2026-11-11",
-      "thumb": "img/obdesign/11381751.jpg"
+      "thumb": "img/obdesign/11381751.jpg",
+      "priceChanged": "2026-11-13"
     },
     "11381755": {
       "id": "11381755",
@@ -1396,12 +1408,13 @@
       "id": "11422126",
       "name": "productBadgeImage_//img.91app.com/webapi/imagesV3/Cropped/Pr",
       "url": "https://www.obdesign.com.tw/SalePage/Index/11422126",
-      "price": 1180,
+      "price": 699,
       "origPrice": null,
       "img": "https://img.91app.com/webapi/imagesV3/Cropped/ProductBadge/102287/ratioOneToOne/639298187413202890?v=1",
       "sold": null,
       "firstSeen": "2026-11-10",
-      "thumb": "img/obdesign/11422126.jpg"
+      "thumb": "img/obdesign/11422126.jpg",
+      "priceChanged": "2026-11-13"
     },
     "11422132": {
       "id": "11422132",
@@ -5576,5 +5589,5 @@
       "thumb": "img/obdesign/12295024.jpg"
     }
   },
-  "updatedAt": "2026-11-12"
+  "updatedAt": "2026-11-13"
 }
