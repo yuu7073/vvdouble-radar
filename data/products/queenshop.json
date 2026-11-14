@@ -181,13 +181,13 @@
       "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01099292&Page=1",
       "name": "手繪櫻桃木耳邊透膚上衣 三色售",
       "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01099292&Page=1",
-      "price": 331,
+      "price": 343,
       "origPrice": null,
       "img": "https://photo.queenshop.com.tw/01099292/01099292.jpg",
       "sold": "645",
       "firstSeen": "2026-09-28",
       "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_item1_11_item2_00_item3_QS_SaleID_01099292_Page_1.jpg",
-      "priceChanged": "2026-10-12"
+      "priceChanged": "2026-11-14"
     },
     "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01099570&Page=1": {
       "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01099570&Page=1",
@@ -352,13 +352,13 @@
       "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01099100&Page=1",
       "name": "飽和色系木耳邊透膚上衣 七色售",
       "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01099100&Page=1",
-      "price": 331,
+      "price": 343,
       "origPrice": null,
       "img": "https://photo.queenshop.com.tw/01099100/01099100.jpg",
       "sold": "518",
       "firstSeen": "2026-09-28",
       "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_item1_11_item2_00_item3_QS_SaleID_01099100_Page_1.jpg",
-      "priceChanged": "2026-10-12"
+      "priceChanged": "2026-11-14"
     },
     "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01099470&Page=1": {
       "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01099470&Page=1",
@@ -642,13 +642,13 @@
       "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01099156&Page=1",
       "name": "滿版蝴蝶結造型高領透膚上衣 三色售",
       "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01099156&Page=1",
-      "price": 331,
+      "price": 343,
       "origPrice": 390,
       "img": "https://photo.queenshop.com.tw/01099156/01099156.jpg",
       "sold": "438",
       "firstSeen": "2026-10-03",
       "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_item1_11_item2_00_item3_QS_SaleID_01099156_Page_1.jpg",
-      "priceChanged": "2026-10-12"
+      "priceChanged": "2026-11-14"
     },
     "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=03010952&Page=1": {
       "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=03010952&Page=1",
@@ -1045,12 +1045,13 @@
       "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=03021639&Page=1",
       "name": "多層荷葉雪紡蛋糕長裙 三色售",
       "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=03021639&Page=1",
-      "price": 586,
+      "price": 607,
       "origPrice": 690,
       "img": "https://photo.queenshop.com.tw/03021639/03021639.jpg",
       "sold": "402",
       "firstSeen": "2026-10-17",
-      "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_item1_11_item2_00_item3_QS_SaleID_03021639_Page_1.jpg"
+      "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_item1_11_item2_00_item3_QS_SaleID_03021639_Page_1.jpg",
+      "priceChanged": "2026-11-14"
     },
     "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=02071754": {
       "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=02071754",
@@ -2249,7 +2250,18 @@
       "sold": null,
       "firstSeen": "2026-11-12",
       "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_SaleID_12040224.jpg"
+    },
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01099468&Page=1": {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01099468&Page=1",
+      "name": "發熱磨毛酒瓶領合身上衣 五色售 S/M/L",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01099468&Page=1",
+      "price": 416,
+      "origPrice": 490,
+      "img": "https://photo.queenshop.com.tw/01099468/01099468.jpg",
+      "sold": "394",
+      "firstSeen": "2026-11-14",
+      "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_item1_11_item2_00_item3_QS_SaleID_01099468_Page_1.jpg"
     }
   },
-  "updatedAt": "2026-11-13"
+  "updatedAt": "2026-11-14"
 }
