@@ -75,7 +75,7 @@
       "img": "",
       "sold": null,
       "firstSeen": "2026-09-28",
-      "priceChanged": "2026-11-12"
+      "priceChanged": "2026-11-16"
     },
     "9158": {
       "id": "9158",
@@ -1309,6 +1309,61 @@
       "firstSeen": "2026-10-20",
       "thumb": "img/mercci22/9493.jpg"
     },
+    "9494": {
+      "id": "9494",
+      "name": "絨感翻領拉鍊外套套裝(Maison Wanderlust-CC聯名款)",
+      "url": "https://www.mercci22.com/en-us/market/n/9494?c=18154",
+      "price": 1680,
+      "origPrice": null,
+      "img": "https://pics.mercci22.tw/mercci22/ProductCovers/5e2e971e-cfda-4ad8-ba54-9b617c5edbb8_w800_h1000.jpg",
+      "sold": null,
+      "firstSeen": "2026-11-16",
+      "thumb": "img/mercci22/9494.jpg"
+    },
+    "9495": {
+      "id": "9495",
+      "name": "MINI絨感翻領拉鍊外套套裝(小童)(Maison Wanderlust-CC聯名款)",
+      "url": "https://www.mercci22.com/en-us/market/n/9495?c=18156",
+      "price": 1080,
+      "origPrice": null,
+      "img": "https://pics.mercci22.tw/mercci22/ProductCovers/581cdf63-8707-484c-9a0d-c7469be5ca44_w800_h1000.jpg",
+      "sold": null,
+      "firstSeen": "2026-11-16",
+      "thumb": "img/mercci22/9495.jpg"
+    },
+    "9496": {
+      "id": "9496",
+      "name": "蕾絲荷葉邊長版罩衫(Maison Wanderlust-CC聯名款)",
+      "url": "https://www.mercci22.com/en-us/market/n/9496?c=18159",
+      "price": 980,
+      "origPrice": null,
+      "img": "https://pics.mercci22.tw/mercci22/ProductCovers/e07e6e8e-0698-436b-957c-9e1056d0b220_w800_h1000.jpg",
+      "sold": null,
+      "firstSeen": "2026-11-16",
+      "thumb": "img/mercci22/9496.jpg"
+    },
+    "9498": {
+      "id": "9498",
+      "name": "蕾絲花邊針織長裙(Maison Wanderlust-CC聯名款)",
+      "url": "https://www.mercci22.com/en-us/market/n/9498?c=18164",
+      "price": 980,
+      "origPrice": null,
+      "img": "https://pics.mercci22.tw/mercci22/ProductCovers/2e0ccd67-3a9b-468f-8fb6-a1bb71f1ecbb_w800_h1000.jpg",
+      "sold": null,
+      "firstSeen": "2026-11-16",
+      "thumb": "img/mercci22/9498.jpg"
+    },
+    "9500": {
+      "id": "9500",
+      "name": "蕾絲花邊針織長袖上衣(Maison Wanderlust-CC聯名款)",
+      "url": "https://www.mercci22.com/en-us/market/n/9500?c=18166",
+      "price": 980,
+      "origPrice": null,
+      "img": "https://pics.mercci22.tw/mercci22/ProductCovers/b268857f-bf0b-4096-aff4-84f3957b409f_w800_h1000.jpg",
+      "sold": null,
+      "firstSeen": "2026-11-16",
+      "thumb": "img/mercci22/9500.jpg"
+    },
     "9502": {
       "id": "9502",
       "name": "舒芙蕾合肩長袖",
@@ -1330,6 +1385,17 @@
       "sold": null,
       "firstSeen": "2026-11-02",
       "thumb": "img/mercci22/9505.jpg"
+    },
+    "9506": {
+      "id": "9506",
+      "name": "雙釦拉鍊皮革外套(Maison Wanderlust-CC聯名款)",
+      "url": "https://www.mercci22.com/en-us/market/n/9506?c=18171",
+      "price": 1680,
+      "origPrice": null,
+      "img": "https://pics.mercci22.tw/mercci22/ProductCovers/02fd7579-75e0-4a66-9de0-577cf5ac956f_w800_h1000.jpg",
+      "sold": null,
+      "firstSeen": "2026-11-16",
+      "thumb": "img/mercci22/9506.jpg"
     },
     "9507": {
       "id": "9507",
@@ -1363,7 +1429,139 @@
       "sold": null,
       "firstSeen": "2026-11-02",
       "thumb": "img/mercci22/9517.jpg"
+    },
+    "9520": {
+      "id": "9520",
+      "name": "蕾絲滾邊腰抽繩上衣(Maison Wanderlust-CC聯名款)",
+      "url": "https://www.mercci22.com/en-us/market/n/9520?c=18202",
+      "price": 780,
+      "origPrice": null,
+      "img": "https://pics.mercci22.tw/mercci22/ProductCovers/7fc569e9-1e6e-4dbb-b989-a18b664a9cbd_w800_h1000.jpg",
+      "sold": null,
+      "firstSeen": "2026-11-16",
+      "thumb": "img/mercci22/9520.jpg"
+    },
+    "9521": {
+      "id": "9521",
+      "name": "V領細肩帶Bratop(Maison Wanderlust-CC聯名款)",
+      "url": "https://www.mercci22.com/en-us/market/n/9521?c=18204",
+      "price": 580,
+      "origPrice": null,
+      "img": "https://pics.mercci22.tw/mercci22/ProductCovers/40453546-6e92-4c0c-af7c-a4670b8d6d1a_w800_h1000.jpg",
+      "sold": null,
+      "firstSeen": "2026-11-16",
+      "thumb": "img/mercci22/9521.jpg"
+    },
+    "9529": {
+      "id": "9529",
+      "name": "層次荷葉針織短褲(Maison Wanderlust-CC聯名款)",
+      "url": "https://www.mercci22.com/en-us/market/n/9529?c=18225",
+      "price": 780,
+      "origPrice": null,
+      "img": "https://pics.mercci22.tw/mercci22/ProductCovers/a050666a-9d8c-45b6-8787-021ef41fa73a_w800_h1000.jpg",
+      "sold": null,
+      "firstSeen": "2026-11-16",
+      "thumb": "img/mercci22/9529.jpg"
+    },
+    "9531": {
+      "id": "9531",
+      "name": "翻領排釦荷葉針織上衣(Maison Wanderlust-CC聯名款)",
+      "url": "https://www.mercci22.com/en-us/market/n/9531?c=18230",
+      "price": 1080,
+      "origPrice": null,
+      "img": "https://pics.mercci22.tw/mercci22/ProductCovers/4539fe58-2b76-44a1-b01b-489b0a71a0df_w800_h1000.jpg",
+      "sold": null,
+      "firstSeen": "2026-11-16",
+      "thumb": "img/mercci22/9531.jpg"
+    },
+    "9533": {
+      "id": "9533",
+      "name": "針織拼接澎澎長洋裝(Maison Wanderlust-CC聯名款)",
+      "url": "https://www.mercci22.com/en-us/market/n/9533?c=18236",
+      "price": 1480,
+      "origPrice": null,
+      "img": "https://pics.mercci22.tw/mercci22/ProductCovers/2c14560f-53c7-44c6-9132-646d68e31b7b_w800_h1000.jpg",
+      "sold": null,
+      "firstSeen": "2026-11-16",
+      "thumb": "img/mercci22/9533.jpg"
+    },
+    "9538": {
+      "id": "9538",
+      "name": "微繭型愛心口袋牛仔褲(Maison Wanderlust-CC聯名款)",
+      "url": "https://www.mercci22.com/en-us/market/n/9538?c=18244",
+      "price": 1480,
+      "origPrice": null,
+      "img": "https://pics.mercci22.tw/mercci22/ProductCovers/8474a55c-57d6-4933-8e9f-807ae03b55cf_w800_h1000.jpg",
+      "sold": null,
+      "firstSeen": "2026-11-16",
+      "thumb": "img/mercci22/9538.jpg"
+    },
+    "9547": {
+      "id": "9547",
+      "name": "V領蕾絲拼接針織長洋裝(Maison Wanderlust-CC聯名款)",
+      "url": "https://www.mercci22.com/en-us/market/n/9547?c=18264",
+      "price": 1480,
+      "origPrice": null,
+      "img": "https://pics.mercci22.tw/mercci22/ProductCovers/39e86044-7d0e-41cc-b875-66a932ee12c2_w800_h1000.jpg",
+      "sold": null,
+      "firstSeen": "2026-11-16",
+      "thumb": "img/mercci22/9547.jpg"
+    },
+    "9548": {
+      "id": "9548",
+      "name": "立領乳牛斑紋毛毛外套(Maison Wanderlust-CC聯名款)",
+      "url": "https://www.mercci22.com/en-us/market/n/9548?c=18266",
+      "price": 1680,
+      "origPrice": null,
+      "img": "https://pics.mercci22.tw/mercci22/ProductCovers/72504b9e-447d-4fd2-91d1-ce626c94d113_w800_h1000.jpg",
+      "sold": null,
+      "firstSeen": "2026-11-16",
+      "thumb": "img/mercci22/9548.jpg"
+    },
+    "9552": {
+      "id": "9552",
+      "name": "質感羽毛拼接針織上衣(Maison Wanderlust-CC聯名款)",
+      "url": "https://www.mercci22.com/en-us/market/n/9552?c=18273",
+      "price": 1780,
+      "origPrice": null,
+      "img": "https://pics.mercci22.tw/mercci22/ProductCovers/153439fa-e8cc-49be-b3d8-fe51ba0914cf_w800_h1000.jpg",
+      "sold": null,
+      "firstSeen": "2026-11-16",
+      "thumb": "img/mercci22/9552.jpg"
+    },
+    "9561": {
+      "id": "9561",
+      "name": "乳牛斑紋毛毛圍巾(Maison Wanderlust-CC聯名款)",
+      "url": "https://www.mercci22.com/en-us/market/n/9561?c=18292",
+      "price": 780,
+      "origPrice": null,
+      "img": "https://pics.mercci22.tw/mercci22/ProductCovers/3ea23df9-455b-45cb-8f06-c4d3ece6c978_w800_h1000.jpg",
+      "sold": null,
+      "firstSeen": "2026-11-16",
+      "thumb": "img/mercci22/9561.jpg"
+    },
+    "9564": {
+      "id": "9564",
+      "name": "大荷葉捲邊針織長洋裝(Maison Wanderlust-CC聯名款)",
+      "url": "https://www.mercci22.com/en-us/market/n/9564?c=18299",
+      "price": 1280,
+      "origPrice": null,
+      "img": "https://pics.mercci22.tw/mercci22/ProductCovers/e1e13cf0-d4b1-4f73-abb1-650314fbdcba_w800_h1000.jpg",
+      "sold": null,
+      "firstSeen": "2026-11-16",
+      "thumb": "img/mercci22/9564.jpg"
+    },
+    "9574": {
+      "id": "9574",
+      "name": "蕾絲領片排釦針織外套(Maison Wanderlust-CC聯名款)",
+      "url": "https://www.mercci22.com/en-us/market/n/9574?c=18317",
+      "price": 980,
+      "origPrice": null,
+      "img": "https://pics.mercci22.tw/mercci22/ProductCovers/a146ae8e-9307-4b34-8bee-e896d4bfd072_w800_h1000.jpg",
+      "sold": null,
+      "firstSeen": "2026-11-16",
+      "thumb": "img/mercci22/9574.jpg"
     }
   },
-  "updatedAt": "2026-11-12"
+  "updatedAt": "2026-11-16"
 }
