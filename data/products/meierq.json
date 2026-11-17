@@ -641,6 +641,17 @@
       "firstSeen": "2026-10-28",
       "thumb": "img/meierq/14320.jpg"
     },
+    "14321": {
+      "id": "14321",
+      "name": "柔彈小立領修身上衣",
+      "url": "https://www.meierq.com/zh-tw/market/n/14321?c=37608",
+      "price": 390,
+      "origPrice": null,
+      "img": "https://pics.meierq.com/meierq/ProductCovers/008b2dc1-5a98-44b9-8fdb-eacd68f0f33a_w886_h1128.jpg",
+      "sold": null,
+      "firstSeen": "2026-11-17",
+      "thumb": "img/meierq/14321.jpg"
+    },
     "14326": {
       "id": "14326",
       "name": "微透感澎澎五分袖襯衫洋裝",
@@ -707,16 +718,28 @@
       "firstSeen": "2026-10-20",
       "thumb": "img/meierq/14332.jpg"
     },
+    "14333": {
+      "id": "14333",
+      "name": "鏤空織紋雙拉鍊針織外套",
+      "url": "https://www.meierq.com/zh-tw/market/n/14333?c=37634",
+      "price": 790,
+      "origPrice": null,
+      "img": "https://pics.meierq.com/meierq/ProductCovers/a4cdddf6-b661-450a-94ce-fe0a421648ed_w886_h1128.jpg",
+      "sold": null,
+      "firstSeen": "2026-11-17",
+      "thumb": "img/meierq/14333.jpg"
+    },
     "14334": {
       "id": "14334",
       "name": "柔軟8%羊毛澎澎開襟針織外套",
       "url": "https://www.meierq.com/zh-tw/market/n/14334?c=37637",
-      "price": 990,
+      "price": 1290,
       "origPrice": 1290,
       "img": "https://pics.meierq.com/meierq/ProductCovers/50d72676-1abc-4a84-bb3e-0e81ce998939_w886_h1128.jpg",
       "sold": null,
       "firstSeen": "2026-11-10",
-      "thumb": "img/meierq/14334.jpg"
+      "thumb": "img/meierq/14334.jpg",
+      "priceChanged": "2026-11-17"
     },
     "14339": {
       "id": "14339",
@@ -1060,6 +1083,17 @@
       "firstSeen": "2026-10-13",
       "thumb": "img/meierq/14380.jpg"
     },
+    "14381": {
+      "id": "14381",
+      "name": "混色感清透針織襯衫",
+      "url": "https://www.meierq.com/zh-tw/market/n/14381?c=37779",
+      "price": 690,
+      "origPrice": null,
+      "img": "https://pics.meierq.com/meierq/ProductCovers/8575f231-376c-4d2d-abb0-34fd545f67fc_w886_h1128.jpg",
+      "sold": null,
+      "firstSeen": "2026-11-17",
+      "thumb": "img/meierq/14381.jpg"
+    },
     "14384": {
       "id": "14384",
       "name": "鏤空蕾絲抽繩排扣上衣",
@@ -1081,6 +1115,17 @@
       "sold": null,
       "firstSeen": "2026-11-03",
       "thumb": "img/meierq/14385.jpg"
+    },
+    "14386": {
+      "id": "14386",
+      "name": "簡約打摺花苞西裝長裙",
+      "url": "https://www.meierq.com/zh-tw/market/n/14386?c=37790",
+      "price": 890,
+      "origPrice": null,
+      "img": "https://pics.meierq.com/meierq/ProductCovers/c9c16555-f3d0-4acd-bb51-874e96df0189_w886_h1128.jpg",
+      "sold": null,
+      "firstSeen": "2026-11-17",
+      "thumb": "img/meierq/14386.jpg"
     },
     "14387": {
       "id": "14387",
@@ -1126,6 +1171,39 @@
       "firstSeen": "2026-11-10",
       "thumb": "img/meierq/14390.jpg"
     },
+    "14394": {
+      "id": "14394",
+      "name": "抽繩澎澎袖外套",
+      "url": "https://www.meierq.com/zh-tw/market/n/14394?c=37814",
+      "price": 1090,
+      "origPrice": null,
+      "img": "https://pics.meierq.com/meierq/ProductCovers/d3c9e395-dc3c-4d02-8937-9a1e63bf7fd7_w886_h1128.jpg",
+      "sold": null,
+      "firstSeen": "2026-11-17",
+      "thumb": "img/meierq/14394.jpg"
+    },
+    "14396": {
+      "id": "14396",
+      "name": "簡約立領風衣外套",
+      "url": "https://www.meierq.com/zh-tw/market/n/14396?c=37817",
+      "price": 1290,
+      "origPrice": 1590,
+      "img": "https://pics.meierq.com/meierq/ProductCovers/3271e01a-175b-494c-831e-b4ebb0b0eb69_w886_h1128.jpg",
+      "sold": null,
+      "firstSeen": "2026-11-17",
+      "thumb": "img/meierq/14396.jpg"
+    },
+    "14397": {
+      "id": "14397",
+      "name": "鏤空花朵蕾絲開襟上衣外套",
+      "url": "https://www.meierq.com/zh-tw/market/n/14397?c=37819",
+      "price": 690,
+      "origPrice": null,
+      "img": "https://pics.meierq.com/meierq/ProductCovers/a1eb648a-32cd-4d18-b585-cc7aa755ade2_w886_h1128.jpg",
+      "sold": null,
+      "firstSeen": "2026-11-17",
+      "thumb": "img/meierq/14397.jpg"
+    },
     "14398": {
       "id": "14398",
       "name": "MQ花影印花長襪 (預購 預計10/20到貨)",
@@ -1159,6 +1237,50 @@
       "firstSeen": "2026-11-03",
       "thumb": "img/meierq/14403.jpg"
     },
+    "14404": {
+      "id": "14404",
+      "name": "斜肩雪花長袖上衣",
+      "url": "https://www.meierq.com/zh-tw/market/n/14404?c=37838",
+      "price": 490,
+      "origPrice": 590,
+      "img": "https://pics.meierq.com/meierq/ProductCovers/3663cc37-f26f-4bc5-97f3-8bb8819b35ad_w886_h1128.jpg",
+      "sold": null,
+      "firstSeen": "2026-11-17",
+      "thumb": "img/meierq/14404.jpg"
+    },
+    "14405": {
+      "id": "14405",
+      "name": "休閒寬鬆繭型氣球長褲",
+      "url": "https://www.meierq.com/zh-tw/market/n/14405?c=37840",
+      "price": 990,
+      "origPrice": 1090,
+      "img": "https://pics.meierq.com/meierq/ProductCovers/5c02c4a6-0f17-43ab-b14c-2dfe7dbebf69_w886_h1128.jpg",
+      "sold": null,
+      "firstSeen": "2026-11-17",
+      "thumb": "img/meierq/14405.jpg"
+    },
+    "14406": {
+      "id": "14406",
+      "name": "美背後綁帶西裝洋裝",
+      "url": "https://www.meierq.com/zh-tw/market/n/14406?c=37844",
+      "price": 990,
+      "origPrice": null,
+      "img": "https://pics.meierq.com/meierq/ProductCovers/412007ef-3c5d-494f-9412-352ef593eaf8_w886_h1128.jpg",
+      "sold": null,
+      "firstSeen": "2026-11-17",
+      "thumb": "img/meierq/14406.jpg"
+    },
+    "14411": {
+      "id": "14411",
+      "name": "立體針織條紋長裙",
+      "url": "https://www.meierq.com/zh-tw/market/n/14411?c=37857",
+      "price": 790,
+      "origPrice": null,
+      "img": "https://pics.meierq.com/meierq/ProductCovers/0d69e6ac-9e0f-4f6d-968e-207c09ebff26_w886_h1128.jpg",
+      "sold": null,
+      "firstSeen": "2026-11-17",
+      "thumb": "img/meierq/14411.jpg"
+    },
     "14424": {
       "id": "14424",
       "name": "KR 珍珠花瓣立體花型耳環",
@@ -1171,5 +1293,5 @@
       "thumb": "img/meierq/14424.jpg"
     }
   },
-  "updatedAt": "2026-11-13"
+  "updatedAt": "2026-11-17"
 }
