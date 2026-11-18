@@ -1,0 +1,52 @@
+[
+  {
+    "n": 1,
+    "pc": "banners/01-pc.jpg",
+    "mobile": "banners/01-m.jpg",
+    "pcUrl": "https://photo.polylulu.com.tw/photo/act/20261118/indexbn-20261118-pc-01.jpg?v=20261118",
+    "mobileUrl": "https://photo.polylulu.com.tw/photo/act/20261118/indexbn-20261118-m-01.jpg?v=20261118",
+    "link": "https://www.polylulu.com.tw/productlist?KeyWord=pi:609926102901&actno=26111303&onsale=1",
+    "text": "",
+    "alt": "買一送一"
+  },
+  {
+    "n": 2,
+    "pc": "banners/02-pc.jpg",
+    "mobile": "banners/02-m.jpg",
+    "pcUrl": "https://photo.polylulu.com.tw/photo/act/20261118/indexbn-20261118-pc-02.jpg?v=20261118",
+    "mobileUrl": "https://photo.polylulu.com.tw/photo/act/20261118/indexbn-20261118-m-02.jpg?v=20261118",
+    "link": "https://www.polylulu.com.tw/productlist?KeyWord=pi:609926111301&actno=26111304&onsale=1",
+    "text": "",
+    "alt": "單件折200"
+  },
+  {
+    "n": 3,
+    "pc": "banners/03-pc.jpg",
+    "mobile": "banners/03-m.jpg",
+    "pcUrl": "https://photo.polylulu.com.tw/photo/act/20261118/indexbn-20261118-pc-03.jpg?v=20261118",
+    "mobileUrl": "https://photo.polylulu.com.tw/photo/act/20261118/indexbn-20261118-m-03.jpg?v=20261118",
+    "link": "https://www.polylulu.com.tw/productlist?KeyWord=pi:6599399001&actno=26111302&onsale=1",
+    "text": "",
+    "alt": "3件88折"
+  },
+  {
+    "n": 4,
+    "pc": "banners/04-pc.jpg",
+    "mobile": "banners/04-m.jpg",
+    "pcUrl": "https://photo.polylulu.com.tw/photo/act/20261118/indexbn-20261118-pc-04.jpg?v=20261118",
+    "mobileUrl": "https://photo.polylulu.com.tw/photo/act/20261118/indexbn-20261118-m-04.jpg?v=20261118",
+    "link": "https://www.polylulu.com.tw/ponyo",
+    "text": "",
+    "alt": "PONYO"
+  },
+  {
+    "n": 5,
+    "pc": "banners/05-pc.jpg",
+    "mobile": "banners/05-m.jpg",
+    "pcUrl": "https://photo.polylulu.com.tw/photo/act/20261118/indexbn-20261118-pc-05.jpg?v=20261118",
+    "mobileUrl": "https://photo.polylulu.com.tw/photo/act/20261118/indexbn-20261118-m-05.jpg?v=20261118",
+    "link": "https://www.polylulu.com.tw/mua",
+    "text": "",
+    "alt": "MUA"
+  }
+]
