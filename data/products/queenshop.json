@@ -2656,7 +2656,40 @@
       "sold": null,
       "firstSeen": "2026-11-18",
       "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_SaleID_07130082.jpg"
+    },
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=02090090&Page=1": {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=02090090&Page=1",
+      "name": "滿版碎花造型鋪棉長袖外套 兩色售",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=02090090&Page=1",
+      "price": 1080,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/02090090/02090090.jpg",
+      "sold": "81",
+      "firstSeen": "2026-11-19",
+      "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_item1_11_item2_00_item3_QS_SaleID_02090090_Page_1.jpg"
+    },
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=03021807": {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=03021807",
+      "name": "立體荷葉緹花設計長裙 兩色售",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=03021807",
+      "price": 790,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/03021807/03021807-h.jpg",
+      "sold": null,
+      "firstSeen": "2026-11-19",
+      "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_SaleID_03021807.jpg"
+    },
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01200204": {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01200204",
+      "name": "配色格紋蕾絲拼接娃娃領長袖襯衫 三色售",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01200204",
+      "price": 650,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/01200204/01200204-h.jpg",
+      "sold": null,
+      "firstSeen": "2026-11-19",
+      "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_SaleID_01200204.jpg"
     }
   },
-  "updatedAt": "2026-11-18"
+  "updatedAt": "2026-11-19"
 }

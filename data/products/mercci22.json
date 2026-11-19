@@ -75,7 +75,7 @@
       "img": "",
       "sold": null,
       "firstSeen": "2026-09-28",
-      "priceChanged": "2026-11-17"
+      "priceChanged": "2026-11-19"
     },
     "9158": {
       "id": "9158",
@@ -1563,5 +1563,5 @@
       "thumb": "img/mercci22/9574.jpg"
     }
   },
-  "updatedAt": "2026-11-18"
+  "updatedAt": "2026-11-19"
 }

@@ -33,6 +33,17 @@
       "firstSeen": "2026-10-16",
       "thumb": "img/airspace/2231823005.webp"
     },
+    "2240124021": {
+      "id": "2240124021",
+      "name": "V領排扣傘襬針織短洋裝",
+      "url": "https://www.airspaceonline.com/tw/zh-hant/product/2240124021/180",
+      "price": 790,
+      "origPrice": null,
+      "img": "https://images.airspaceonline.com/photo/2240124021/2240124021-180-01.webp",
+      "sold": null,
+      "firstSeen": "2026-11-19",
+      "thumb": "img/airspace/2240124021.webp"
+    },
     "2311821006": {
       "id": "2311821006",
       "name": "不對稱斜肩領短袖短版上衣(附胸墊)",
@@ -2413,5 +2424,5 @@
       "thumb": "img/airspace/TW2640723005.webp"
     }
   },
-  "updatedAt": "2026-11-16"
+  "updatedAt": "2026-11-19"
 }
