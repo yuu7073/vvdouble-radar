@@ -1,0 +1,404 @@
+{
+  "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/ProductList?item1=00",
+  "count": 42,
+  "fresh": [
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=CB&SaleID=01013662&Page=1",
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=CB&SaleID=01025954&Page=1",
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=CB&SaleID=01025955&Page=1",
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=CB&SaleID=01025957&Page=1",
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=CB&SaleID=01111061&Page=1",
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=CB&SaleID=01111062&Page=1",
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=CB&SaleID=01111070&Page=1",
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=CB&SaleID=01111071&Page=1",
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=CB&SaleID=01111072&Page=1",
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=CB&SaleID=01200322&Page=1",
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=CB&SaleID=01200323&Page=1",
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=CB&SaleID=01200340&Page=1",
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=CB&SaleID=01200341&Page=1",
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=CB&SaleID=02071777&Page=1",
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=CB&SaleID=02071788&Page=1",
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=CB&SaleID=02071789&Page=1",
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=CB&SaleID=06010520&Page=1",
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=CB&SaleID=06070461&Page=1"
+  ],
+  "items": [
+    {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=CB&SaleID=01013662&Page=1",
+      "name": "CLUB BABO 角色貼布繡針織寬版上衣 三色售",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=CB&SaleID=01013662&Page=1",
+      "price": 1080,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/01013662/01013662.jpg",
+      "sold": "11"
+    },
+    {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=CB&SaleID=01025954&Page=1",
+      "name": "CLUB BABO 單領刺繡口袋設計長袖襯衫兩色售",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=CB&SaleID=01025954&Page=1",
+      "price": 890,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/01025954/01025954.jpg",
+      "sold": "13"
+    },
+    {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=CB&SaleID=01025955&Page=1",
+      "name": "CLUB BABO 冥想貓貓刺繡復古格紋襯衫",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=CB&SaleID=01025955&Page=1",
+      "price": 980,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/01025955/01025955.jpg",
+      "sold": "9"
+    },
+    {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=CB&SaleID=01025957&Page=1",
+      "name": "CLUB BABO悠閒插圖刺繡配色格紋襯衫",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=CB&SaleID=01025957&Page=1",
+      "price": 890,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/01025957/01025957.jpg",
+      "sold": "2"
+    },
+    {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=CB&SaleID=01111061&Page=1",
+      "name": "CLUB BABO 格紋貼布繡連帽衛衣",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=CB&SaleID=01111061&Page=1",
+      "price": 980,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/01111061/01111061.jpg",
+      "sold": "17"
+    },
+    {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=CB&SaleID=01111062&Page=1",
+      "name": "CLUB BABO 冥想小夥伴寬版衛衣 三色售",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=CB&SaleID=01111062&Page=1",
+      "price": 890,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/01111062/01111062.jpg",
+      "sold": "13"
+    },
+    {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=CB&SaleID=01111070&Page=1",
+      "name": "CLUB BABO 好友日常星星鉚釘連帽衛衣",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=CB&SaleID=01111070&Page=1",
+      "price": 1080,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/01111070/01111070.jpg",
+      "sold": "7"
+    },
+    {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=CB&SaleID=01111071&Page=1",
+      "name": "CLUB BABO 自由小夥伴印圖寬版衛衣 兩色售",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=CB&SaleID=01111071&Page=1",
+      "price": 890,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/01111071/01111071.jpg",
+      "sold": "0"
+    },
+    {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=CB&SaleID=01111072&Page=1",
+      "name": "CLUB BABO 冥想貓貓印圖洗水連帽衛衣",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=CB&SaleID=01111072&Page=1",
+      "price": 1280,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/01111072/01111072.jpg",
+      "sold": "28"
+    },
+    {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=CB&SaleID=01200322&Page=1",
+      "name": "CLUB BABO 跟著感覺走刺繡條紋上衣",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=CB&SaleID=01200322&Page=1",
+      "price": 890,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/01200322/01200322.jpg",
+      "sold": "15"
+    },
+    {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=CB&SaleID=01200323&Page=1",
+      "name": "CLUB BABO 角色刺繡條紋寬版上衣 兩色售",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=CB&SaleID=01200323&Page=1",
+      "price": 890,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/01200323/01200323.jpg",
+      "sold": "14"
+    },
+    {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=CB&SaleID=01200340&Page=1",
+      "name": "CLUB BABO 自由飛翔刷破造型針織毛衣-藍",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=CB&SaleID=01200340&Page=1",
+      "price": 1280,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/01200340/01200340.jpg",
+      "sold": "25"
+    },
+    {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=CB&SaleID=01200341&Page=1",
+      "name": "CLUB BABO 自由飛翔刷破造型針織毛衣-黑",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=CB&SaleID=01200341&Page=1",
+      "price": 1280,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/01200341/01200341.jpg",
+      "sold": "7"
+    },
+    {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=CB&SaleID=02071777&Page=1",
+      "name": "CLUB BABO 慵懶俱樂部刺繡毛呢棒球外套",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=CB&SaleID=02071777&Page=1",
+      "price": 1380,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/02071777/02071777.jpg",
+      "sold": "8"
+    },
+    {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=CB&SaleID=02071788&Page=1",
+      "name": "CLUB BABO 燈芯絨翻領貼布刺繡夾克外套-灰",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=CB&SaleID=02071788&Page=1",
+      "price": 1450,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/02071788/02071788.jpg",
+      "sold": "7"
+    },
+    {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=CB&SaleID=02071789&Page=1",
+      "name": "CLUB BABO燈芯絨翻領貼布刺繡夾克外套-卡其",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=CB&SaleID=02071789&Page=1",
+      "price": 1450,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/02071789/02071789.jpg",
+      "sold": "6"
+    },
+    {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=CB&SaleID=06010520&Page=1",
+      "name": "CLUB BABO 配色條紋刺繡角色肩背包",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=CB&SaleID=06010520&Page=1",
+      "price": 590,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/06010520/06010520.jpg",
+      "sold": "12"
+    },
+    {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=CB&SaleID=06070461&Page=1",
+      "name": "CLUB BABO 金屬光澤印圖收納包 兩色售",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=CB&SaleID=06070461&Page=1",
+      "price": 590,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/06070461/06070461.jpg",
+      "sold": "12"
+    },
+    {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01013574&Page=1",
+      "name": "Q毛排釦造型寬版針織毛衣-白",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01013574&Page=1",
+      "price": 790,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/01013574/01013574.jpg",
+      "sold": "131"
+    },
+    {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01013575&Page=1",
+      "name": "Q毛排釦造型寬版針織毛衣-咖啡",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01013575&Page=1",
+      "price": 790,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/01013575/01013575.jpg",
+      "sold": "102"
+    },
+    {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01013576&Page=1",
+      "name": "Q毛排釦造型寬版針織毛衣-藍",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01013576&Page=1",
+      "price": 790,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/01013576/01013576.jpg",
+      "sold": "112"
+    },
+    {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01013577&Page=1",
+      "name": "Q毛排釦造型寬版針織毛衣-灰",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01013577&Page=1",
+      "price": 790,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/01013577/01013577.jpg",
+      "sold": "102"
+    },
+    {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01013578&Page=1",
+      "name": "Q毛排釦造型寬版針織毛衣-綠",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01013578&Page=1",
+      "price": 790,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/01013578/01013578.jpg",
+      "sold": "153"
+    },
+    {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01013579&Page=1",
+      "name": "Q毛排釦造型寬版針織毛衣-粉",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01013579&Page=1",
+      "price": 790,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/01013579/01013579.jpg",
+      "sold": "152"
+    },
+    {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01013580&Page=1",
+      "name": "Q毛排釦造型寬版針織毛衣-黃",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01013580&Page=1",
+      "price": 790,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/01013580/01013580.jpg",
+      "sold": "188"
+    },
+    {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01013581&Page=1",
+      "name": "Q毛排釦造型寬版針織毛衣-紅",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01013581&Page=1",
+      "price": 790,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/01013581/01013581.jpg",
+      "sold": "119"
+    },
+    {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01025870&Page=1",
+      "name": "格紋荷葉下擺剪接長袖襯衫 兩色售",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01025870&Page=1",
+      "price": 695,
+      "origPrice": 790,
+      "img": "https://photo.queenshop.com.tw/01025870/01025870.jpg",
+      "sold": "293"
+    },
+    {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01025923&Page=1",
+      "name": "復古格紋附披肩設計長袖襯衫-軍綠",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01025923&Page=1",
+      "price": 572,
+      "origPrice": 650,
+      "img": "https://photo.queenshop.com.tw/01025923/01025923.jpg",
+      "sold": "100"
+    },
+    {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01025924&Page=1",
+      "name": "復古格紋附披肩設計長袖襯衫-咖啡",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01025924&Page=1",
+      "price": 572,
+      "origPrice": 650,
+      "img": "https://photo.queenshop.com.tw/01025924/01025924.jpg",
+      "sold": "89"
+    },
+    {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01025952&Page=1",
+      "name": "復古碎花磨毛長袖襯衫 兩色售",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01025952&Page=1",
+      "price": 550,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/01025952/01025952.jpg",
+      "sold": "222"
+    },
+    {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01060105&Page=1",
+      "name": "配色條紋POLO領長袖上衣 兩色售",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01060105&Page=1",
+      "price": 550,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/01060105/01060105.jpg",
+      "sold": "89"
+    },
+    {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01071239&Page=1",
+      "name": "復古圖騰緹花針織長袖毛衣",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01071239&Page=1",
+      "price": 650,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/01071239/01071239.jpg",
+      "sold": "192"
+    },
+    {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=12040226",
+      "name": "20週年 古錐壓克力鑰匙圈",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=12040226",
+      "price": 150,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/12040226/12040226-h.jpg",
+      "sold": null
+    },
+    {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=07130082",
+      "name": "配色毛絨針織綁帶耳罩 四色售",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=07130082",
+      "price": 390,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/07130082/07130082-h.jpg",
+      "sold": null
+    },
+    {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=02011226",
+      "name": "配色木耳邊設計排釦針織毛衣 兩色售",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=02011226",
+      "price": 890,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/02011226/02011226-h.jpg",
+      "sold": null
+    },
+    {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01200121",
+      "name": "荷葉車邊設計綁帶傘襬背心 三色售",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01200121",
+      "price": 590,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/01200121/01200121-h.jpg",
+      "sold": null
+    },
+    {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=03021807",
+      "name": "立體荷葉緹花設計長裙 兩色售",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=03021807",
+      "price": 790,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/03021807/03021807-h.jpg",
+      "sold": null
+    },
+    {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01200204",
+      "name": "配色格紋蕾絲拼接娃娃領長袖襯衫 三色售",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01200204",
+      "price": 650,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/01200204/01200204-h.jpg",
+      "sold": null
+    },
+    {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=07130080",
+      "name": "MIT 20週年 無敵好用毛巾",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=07130080",
+      "price": 590,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/07130080/07130080-h.jpg",
+      "sold": null
+    },
+    {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=06070458",
+      "name": "20週年 用不壞印花購物袋",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=06070458",
+      "price": 490,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/06070458/06070458-h.jpg",
+      "sold": null
+    },
+    {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=12100239",
+      "name": "20週年 好涼的扇子",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=12100239",
+      "price": 100,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/12100239/12100239-h.jpg",
+      "sold": null
+    },
+    {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=12040224",
+      "name": "20 週年 超可愛徽章",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=12040224",
+      "price": 150,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/12040224/12040224-h.jpg",
+      "sold": null
+    }
+  ]
+}
