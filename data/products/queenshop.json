@@ -2265,12 +2265,13 @@
       "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01099468&Page=1",
       "name": "發熱磨毛酒瓶領合身上衣 五色售 S/M/L",
       "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=01099468&Page=1",
-      "price": 416,
+      "price": 490,
       "origPrice": 490,
       "img": "https://photo.queenshop.com.tw/01099468/01099468.jpg",
       "sold": "394",
       "firstSeen": "2026-11-14",
-      "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_item1_11_item2_00_item3_QS_SaleID_01099468_Page_1.jpg"
+      "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_item1_11_item2_00_item3_QS_SaleID_01099468_Page_1.jpg",
+      "priceChanged": "2026-11-23"
     },
     "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01200121": {
       "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01200121",
@@ -2888,5 +2889,5 @@
       "firstSeen": "2026-11-20"
     }
   },
-  "updatedAt": "2026-11-21"
+  "updatedAt": "2026-11-23"
 }

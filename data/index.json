@@ -754,6 +754,25 @@
           "title": "PAZZO 生活好感衣著",
           "newPageUrl": "https://www.pazzo.com.tw/recent",
           "qPc": 0
+        },
+        {
+          "date": "2026-11-23",
+          "changed": true,
+          "qM": 0,
+          "fingerprint": "71506fdad4a543e6",
+          "newProducts": 12,
+          "bannerCount": 4,
+          "title": "PAZZO 生活好感衣著",
+          "newPageUrl": "https://www.pazzo.com.tw/recent",
+          "qPc": 0,
+          "dir": "pazzo/2026-11-23",
+          "ai": {
+            "campaign": "新品上市",
+            "tags": [
+              "新品上市",
+              "主題專區"
+            ]
+          }
         }
       ]
     },
@@ -1556,6 +1575,26 @@
           "title": "MEIER.Q 打造簡約永恆感",
           "newPageUrl": "https://www.meierq.com/zh-tw/tag/newin",
           "qPc": 0
+        },
+        {
+          "date": "2026-11-23",
+          "changed": true,
+          "qM": 0,
+          "fingerprint": "6756e952f13a40a2",
+          "newProducts": 15,
+          "bannerCount": 5,
+          "title": "MEIER.Q 打造簡約永恆感",
+          "newPageUrl": "https://www.meierq.com/zh-tw/tag/newin",
+          "qPc": 0,
+          "dir": "meierq/2026-11-23",
+          "ai": {
+            "campaign": "MEIER.Q 14週年慶",
+            "tags": [
+              "週年慶",
+              "新品上市",
+              "主題專區"
+            ]
+          }
         }
       ]
     },
@@ -2378,6 +2417,26 @@
           "title": "Mercci22 打造多元質感穿搭",
           "newPageUrl": "https://www.mercci22.com/recent",
           "qPc": 0
+        },
+        {
+          "date": "2026-11-23",
+          "changed": true,
+          "qM": 0,
+          "fingerprint": "f9551af338aa5f68",
+          "newProducts": 14,
+          "bannerCount": 4,
+          "title": "Mercci22 打造多元質感穿搭",
+          "newPageUrl": "https://www.mercci22.com/recent",
+          "qPc": 0,
+          "dir": "mercci22/2026-11-23",
+          "ai": {
+            "campaign": "Maison Wanderlust 秋冬聯名企劃",
+            "tags": [
+              "聯名",
+              "新品上市",
+              "限時"
+            ]
+          }
         }
       ]
     },
@@ -3019,6 +3078,18 @@
           "title": "AIR SPACE",
           "newPageUrl": "https://www.airspaceonline.com/tw/zh-hant/productlist/air-space?isnewarrival=true",
           "qPc": 0
+        },
+        {
+          "date": "2026-11-23",
+          "changed": true,
+          "qM": 0,
+          "fingerprint": "7187cbdc1cd844b8",
+          "newProducts": 23,
+          "bannerCount": 5,
+          "title": "AIR SPACE",
+          "newPageUrl": "https://www.airspaceonline.com/tw/zh-hant/productlist/air-space?isnewarrival=true",
+          "qPc": 0,
+          "dir": "airspace/2026-11-23"
         }
       ]
     },
@@ -3738,6 +3809,17 @@
         },
         {
           "date": "2026-11-22",
+          "changed": false,
+          "qM": 0,
+          "fingerprint": "411221b30ff5d4af",
+          "newProducts": 0,
+          "bannerCount": 5,
+          "title": "Poly Lulu丨BEAUTY HAS NO SIZE 中大尺碼女裝",
+          "newPageUrl": "https://www.polylulu.com.tw/productlist?KeyWord=pim:2611130001&actno=26111301",
+          "qPc": 0
+        },
+        {
+          "date": "2026-11-23",
           "changed": false,
           "qM": 0,
           "fingerprint": "411221b30ff5d4af",
@@ -4504,6 +4586,24 @@
           "title": "mini matters | 即便微小也很重要",
           "newPageUrl": "https://www.minimatters.com.tw/productlist?other=newarrival",
           "qPc": 0
+        },
+        {
+          "date": "2026-11-23",
+          "changed": true,
+          "qM": 0,
+          "fingerprint": "42c23a67cb70e282",
+          "newProducts": 0,
+          "bannerCount": 1,
+          "title": "mini matters | 即便微小也很重要",
+          "newPageUrl": "https://www.minimatters.com.tw/productlist?other=newarrival",
+          "qPc": 0,
+          "dir": "minimatters/2026-11-23",
+          "ai": {
+            "campaign": "新品上市",
+            "tags": [
+              "新品上市"
+            ]
+          }
         }
       ]
     },
@@ -5461,6 +5561,26 @@
           "title": "OB嚴選｜高CP值人氣熱銷服飾，流行服飾品牌",
           "newPageUrl": "https://www.obdesign.com.tw/v2/official/SalePageCategory/502294",
           "qPc": 0
+        },
+        {
+          "date": "2026-11-23",
+          "changed": true,
+          "qM": 0,
+          "fingerprint": "11ed4af6ff4110e3",
+          "newProducts": 57,
+          "bannerCount": 8,
+          "title": "OB嚴選｜高CP值人氣熱銷服飾，流行服飾品牌",
+          "newPageUrl": "https://www.obdesign.com.tw/v2/official/SalePageCategory/488093",
+          "qPc": 0,
+          "dir": "obdesign/2026-11-23",
+          "ai": {
+            "campaign": "秋冬針織毛衣特集",
+            "tags": [
+              "新品上市",
+              "換季出清",
+              "主題專區"
+            ]
+          }
         }
       ]
     },
@@ -6595,6 +6715,27 @@
           "title": "QUEEN SHOP",
           "newPageUrl": "https://www.queenshop.com.tw/zh-TW/QueenShop/ProductList?item1=00",
           "qPc": 21
+        },
+        {
+          "date": "2026-11-23",
+          "changed": true,
+          "qM": 20,
+          "incomplete": true,
+          "fingerprint": "91dc73c83e9d6643",
+          "newProducts": 0,
+          "bannerCount": 5,
+          "title": "QUEEN SHOP",
+          "newPageUrl": "https://www.queenshop.com.tw/zh-TW/QueenShop/ProductList?item1=00",
+          "qPc": 20,
+          "dir": "queenshop/2026-11-23",
+          "ai": {
+            "campaign": "冬·旅",
+            "tags": [
+              "限時",
+              "滿額贈",
+              "新品上市"
+            ]
+          }
         }
       ]
     },
@@ -7166,6 +7307,16 @@
           "title": "UNIQLO網路旗艦店 首頁 - UNIQLO台灣",
           "newPageUrl": "",
           "qPc": 0
+        },
+        {
+          "date": "2026-11-23",
+          "changed": false,
+          "fingerprint": "6af5bab66ff7a21c",
+          "newProducts": 0,
+          "bannerCount": 0,
+          "title": "UNIQLO網路旗艦店 首頁 - UNIQLO台灣",
+          "newPageUrl": "",
+          "qPc": 0
         }
       ]
     },
@@ -7452,9 +7603,14 @@
           "date": "2026-11-22",
           "changed": false,
           "error": "page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.gu-global.com/tw/zh_TW/\", waiting until \"domcontentloaded\"\n"
+        },
+        {
+          "date": "2026-11-23",
+          "changed": false,
+          "error": "page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.gu-global.com/tw/zh_TW/\", waiting until \"domcontentloaded\"\n"
         }
       ]
     }
   },
-  "updatedAt": "2026-11-22T08:26:19.090Z"
+  "updatedAt": "2026-11-23T09:28:50.119Z"
 }
