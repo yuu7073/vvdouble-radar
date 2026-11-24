@@ -6402,6 +6402,17 @@
       "firstSeen": "2026-11-23",
       "thumb": "img/obdesign/12327133.jpg"
     },
+    "12327134": {
+      "id": "12327134",
+      "name": "雙拉鍊牛仔拼接翻領針織上衣",
+      "url": "https://www.obdesign.com.tw/SalePage/Index/12327134",
+      "price": 1580,
+      "origPrice": null,
+      "img": "https://img.91app.com/webapi/imagesV3/Cropped/SalePage/12327134/0/639311115076430000?v=1",
+      "sold": null,
+      "firstSeen": "2026-11-24",
+      "thumb": "img/obdesign/12327134.jpg"
+    },
     "12327135": {
       "id": "12327135",
       "name": "productBadgeImage_//img.91app.com/webapi/imagesV3/Cropped/Pr",
@@ -6876,5 +6887,5 @@
       "thumb": "img/obdesign/12327626.jpg"
     }
   },
-  "updatedAt": "2026-11-23"
+  "updatedAt": "2026-11-24"
 }
