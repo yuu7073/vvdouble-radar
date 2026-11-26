@@ -3239,7 +3239,62 @@
       "sold": "0",
       "firstSeen": "2026-11-24",
       "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_item1_11_item2_00_item3_QS_SaleID_04110589_Page_1.jpg"
+    },
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=02011219": {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=02011219",
+      "name": "蝴蝶結刺繡假兩件針織毛衣外套 三色售",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=02011219",
+      "price": 1080,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/02011219/02011219-h.jpg",
+      "sold": null,
+      "firstSeen": "2026-11-26",
+      "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_SaleID_02011219.jpg"
+    },
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01111072": {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01111072",
+      "name": "CLUB BABO 冥想貓貓印圖洗水連帽衛衣",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01111072",
+      "price": 1280,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/01111072/01111072-h.jpg",
+      "sold": null,
+      "firstSeen": "2026-11-26",
+      "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_SaleID_01111072.jpg"
+    },
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01025870": {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01025870",
+      "name": "格紋荷葉下擺剪接長袖襯衫 兩色售",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01025870",
+      "price": 790,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/01025870/01025870-h.jpg",
+      "sold": null,
+      "firstSeen": "2026-11-26",
+      "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_SaleID_01025870.jpg"
+    },
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01200248": {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01200248",
+      "name": "微光澤絨面刺繡蝴蝶結綁帶罩衫背心 兩色售",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01200248",
+      "price": 550,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/01200248/01200248-h.jpg",
+      "sold": null,
+      "firstSeen": "2026-11-26",
+      "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_SaleID_01200248.jpg"
+    },
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=03030287": {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=03030287",
+      "name": "磨毛剪接設計附皮帶腰包五分裙 兩色售",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=03030287",
+      "price": 550,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/03030287/03030287-h.jpg",
+      "sold": null,
+      "firstSeen": "2026-11-26",
+      "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_SaleID_03030287.jpg"
     }
   },
-  "updatedAt": "2026-11-24"
+  "updatedAt": "2026-11-26"
 }
