@@ -2596,12 +2596,13 @@
       "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=02011219&Page=1",
       "name": "蝴蝶結刺繡假兩件針織毛衣外套 三色售",
       "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=02011219&Page=1",
-      "price": 950,
+      "price": 1080,
       "origPrice": 1080,
       "img": "https://photo.queenshop.com.tw/02011219/02011219.jpg",
       "sold": "207",
       "firstSeen": "2026-11-18",
-      "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_item1_11_item2_00_item3_QS_SaleID_02011219_Page_1.jpg"
+      "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_item1_11_item2_00_item3_QS_SaleID_02011219_Page_1.jpg",
+      "priceChanged": "2026-11-27"
     },
     "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=02071738&Page=1": {
       "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?item1=11&item2=00&item3=QS&SaleID=02071738&Page=1",
@@ -3294,7 +3295,62 @@
       "sold": null,
       "firstSeen": "2026-11-26",
       "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_SaleID_03030287.jpg"
+    },
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01200340": {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01200340",
+      "name": "CLUB BABO 自由飛翔刷破造型針織毛衣-藍",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01200340",
+      "price": 1280,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/01200340/01200340-h.jpg",
+      "sold": null,
+      "firstSeen": "2026-11-27",
+      "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_SaleID_01200340.jpg"
+    },
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01200323": {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01200323",
+      "name": "CLUB BABO 角色刺繡條紋寬版上衣 兩色售",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01200323",
+      "price": 890,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/01200323/01200323-h.jpg",
+      "sold": null,
+      "firstSeen": "2026-11-27",
+      "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_SaleID_01200323.jpg"
+    },
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01200015": {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01200015",
+      "name": "毛感菱格紋理高領長袖上衣-深灰S/M",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=01200015",
+      "price": 490,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/01200015/01200015-h.jpg",
+      "sold": null,
+      "firstSeen": "2026-11-27",
+      "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_SaleID_01200015.jpg"
+    },
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=04102082": {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=04102082",
+      "name": "配色格紋繭型設計長褲 兩色售",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=04102082",
+      "price": 790,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/04102082/04102082-h.jpg",
+      "sold": null,
+      "firstSeen": "2026-11-27",
+      "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_SaleID_04102082.jpg"
+    },
+    "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=06010520": {
+      "id": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=06010520",
+      "name": "CLUB BABO 配色條紋刺繡角色肩背包",
+      "url": "https://www.queenshop.com.tw/zh-TW/QueenShop/Product?SaleID=06010520",
+      "price": 590,
+      "origPrice": null,
+      "img": "https://photo.queenshop.com.tw/06010520/06010520-h.jpg",
+      "sold": null,
+      "firstSeen": "2026-11-27",
+      "thumb": "img/queenshop/https___www_queenshop_com_tw_zh-TW_QueenShop_Product_SaleID_06010520.jpg"
     }
   },
-  "updatedAt": "2026-11-26"
+  "updatedAt": "2026-11-27"
 }

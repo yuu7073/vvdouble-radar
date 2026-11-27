@@ -1,0 +1,62 @@
+[
+  {
+    "n": 1,
+    "pc": "banners/01-pc.webp",
+    "mobile": "banners/01-m.webp",
+    "pcUrl": "https://images.airspaceonline.com/photo/H/1cc00736-ffea-41fe-b408-4b8458beebee.webp",
+    "mobileUrl": "https://images.airspaceonline.com/photo/H/1cc00736-ffea-41fe-b408-4b8458beebee.webp",
+    "link": "https://www.airspaceonline.com/tw/zh-hant/productlist/air-space",
+    "text": "",
+    "alt": ""
+  },
+  {
+    "n": 2,
+    "pc": "banners/02-pc.webp",
+    "mobile": "banners/02-m.webp",
+    "pcUrl": "https://images.airspaceonline.com/photo/H/297ec3b8-765e-4a62-8ff7-d4ce8db47b15.webp",
+    "mobileUrl": "https://images.airspaceonline.com/photo/H/297ec3b8-765e-4a62-8ff7-d4ce8db47b15.webp",
+    "link": "https://www.airspaceonline.com/tw/zh-hant/productlist/air-space",
+    "text": "",
+    "alt": ""
+  },
+  {
+    "n": 3,
+    "pc": "banners/03-pc.webp",
+    "mobile": "banners/03-m.webp",
+    "pcUrl": "https://images.airspaceonline.com/photo/H/652897bb-46a2-4318-a51c-f7beaf88a52e.webp",
+    "mobileUrl": "https://images.airspaceonline.com/photo/H/652897bb-46a2-4318-a51c-f7beaf88a52e.webp",
+    "link": "https://www.airspaceonline.com/tw/zh-hant/productlist/air-space/collab/occasion/warm",
+    "text": "",
+    "alt": ""
+  },
+  {
+    "n": 4,
+    "pc": "banners/04-pc.webp",
+    "mobile": "banners/04-m.webp",
+    "pcUrl": "https://images.airspaceonline.com/photo/H/7097c13b-155e-4a9d-b474-e4d979b09581.webp",
+    "mobileUrl": "https://images.airspaceonline.com/photo/H/7097c13b-155e-4a9d-b474-e4d979b09581.webp",
+    "link": "https://www.airspaceonline.com/tw/zh-hant/productlist/r-fav",
+    "text": "",
+    "alt": ""
+  },
+  {
+    "n": 5,
+    "pc": "banners/05-pc.webp",
+    "mobile": "banners/05-m.webp",
+    "pcUrl": "https://images.airspaceonline.com/photo/H/05e89e28-e906-4e8d-901c-d8b08cdcb0b4.webp",
+    "mobileUrl": "https://images.airspaceonline.com/photo/H/cec506ce-4f53-4884-b23c-fb039bc44f13.webp",
+    "link": "https://www.airspaceonline.com/tw/zh-hant/static?key=2026111300002",
+    "text": "",
+    "alt": ""
+  },
+  {
+    "n": 6,
+    "pc": "banners/06-pc.gif",
+    "mobile": "banners/06-m.gif",
+    "pcUrl": "https://images.airspaceonline.com/photo/H/2d8a8405-0b16-4169-81a9-09151382c95e.gif",
+    "mobileUrl": "https://images.airspaceonline.com/photo/H/2d8a8405-0b16-4169-81a9-09151382c95e.gif",
+    "link": "https://www.airspaceonline.com/tw/zh-hant/static?key=2026110500001",
+    "text": "",
+    "alt": ""
+  }
+]
